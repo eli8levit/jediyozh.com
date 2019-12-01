@@ -1,0 +1,32 @@
+@keyframes fadeZoom {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -15px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes commetsFadeIn {
+  0% {
+    transform: translate(-380px, -220px);
+    opacity: 0;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

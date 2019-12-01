@@ -1,0 +1,281 @@
+@import "./font.css";
+@import "./properies.css";
+@import "./keyframes.css";
+
+html {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  font-family: Inter, Helvetica, Arial sans-serif;
+  background: var(--bg-color-primary) url("../assets/bg.svg") no-repeat center /
+    120%;
+  transition: background-color 0.7s ease-in-out;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  height: 70px;
+}
+
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 100%;
+  width: max-content;
+  margin-inline-start: 4%;
+}
+
+nav ul {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin: 0;
+}
+
+nav ul li {
+  color: var(--color-text-primary);
+  list-style: none;
+  font-size: 2vmin;
+  font-weight: 900;
+  transition: color 0.7s ease-in-out;
+  margin-inline-end: 0.15em;
+}
+
+nav ul li:first-child a {
+  padding-left: 0;
+}
+
+.text {
+  position: absolute;
+  left: 4vw;
+  bottom: 12vh;
+  transform: perspective(1000px) rotate3d(0, 1, 0, 26deg);
+}
+
+h1 {
+  margin-block-end: 0.5em;
+  color: var(--color-text-primary);
+  font-size: 7.1vmin;
+  transition: color 0.7s ease-in-out;
+  animation-duration: 1.5s;
+  transition-timing-function: ease-out;
+  animation-fill-mode: both;
+  animation-delay: 0.3s;
+  animation-name: fadeZoom;
+  font-family: "Contrail One", cursive;
+}
+
+p {
+  color: var(--color-text-primary);
+  font-size: 2.55vmin;
+  font-weight: 500;
+  transition: color 0.7s ease-in-out;
+  animation-duration: 1.5s;
+  transition-timing-function: ease-out;
+  animation-fill-mode: both;
+  animation-delay: 0.3s;
+  animation-name: fadeZoom;
+  line-height: 1.4;
+}
+
+.nav-button {
+  border-radius: 4px;
+  padding: 5px 15px;
+  color: var(--color-nav-text);
+  background-color: var(--bg-color-btn);
+  transition: color 0.2s ease;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-button:hover {
+  color: var(--color-active-tab);
+}
+
+.nav-button:focus {
+  box-shadow: 0 0 0 4px var(--color-active-tab);
+  outline: none;
+  color: var(--color-active-tab);
+}
+
+.nav-theme {
+  display: flex;
+}
+
+.toggle-theme {
+  margin-inline-start: 1em;
+  padding: 0;
+  height: 25px;
+  width: 25px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.toggle-theme .sun,
+.toggle-theme .crescent {
+  transition: all 0.2s ease-in-out;
+  fill: var(--color-nav-text);
+}
+
+.toggle-theme:focus .sun,
+.toggle-theme:hover .sun,
+.toggle-theme:focus .crescent,
+.toggle-theme:hover .crescent {
+  fill: var(--color-active-tab);
+}
+
+.toggle-theme:focus .sun,
+.toggle-theme:hover .sun,
+.toggle-theme:focus .crescent,
+.toggle-theme:hover .crescent {
+  transform: rotate(135deg);
+}
+
+.toggle-theme .crescent {
+  display: none;
+}
+
+.active {
+  color: var(--color-active-tab);
+}
+
+.active:hover,
+.active:focus {
+  box-shadow: none;
+}
+
+.inline-link {
+  box-shadow: 0 4px 0 0 var(--color-active-tab);
+  color: var(--color-active-tab);
+  text-decoration: none;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-delay: 0.3s;
+  animation-name: fadeZoom;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+  transition-property: color, box-shadow;
+}
+
+.inline-link:focus {
+  box-shadow: 0 0 0 4px var(--color-active-tab);
+  border-radius: 4px;
+  outline: none;
+}
+
+.logo {
+  margin-right: 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 0;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.social__link {
+  margin-right: 12px;
+  padding: 4px;
+}
+
+.social__link path {
+  fill: var(--color-nav-text);
+  transition: all 0.2s ease-in-out;
+}
+
+.social__link .point {
+  fill: var(--bg-color-primary);
+  transition: all 0.2s ease-in-out;
+}
+
+.social__link .circle {
+  fill: var(--color-nav-text);
+  stroke: var(--bg-color-primary);
+  transition: all 0.2s ease-in-out;
+}
+
+.social__link:hover path,
+.social__link:focus path,
+.social__link:hover .circle,
+.social__link:focus .circle {
+  fill: var(--color-active-tab);
+}
+
+.social__link:focus {
+  box-shadow: 0 0 0 4px var(--color-active-tab);
+  outline: none;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  body {
+    background: var(--bg-color-primary) url("../assets/bg-mobile.png") no-repeat
+      center bottom / 140%;
+  }
+
+  .light {
+    background: url("../assets/bg-light-mobile.png") no-repeat center bottom /
+      140%;
+  }
+
+  nav {
+    margin-inline-start: 5vw;
+  }
+
+  nav ul li {
+    font-size: 4vmin;
+    margin-inline-end: 0;
+  }
+
+  .nav-button {
+    padding: 5px 12px;
+  }
+
+  .text {
+    text-align: left;
+    padding: 5vw;
+    white-space: normal;
+    bottom: 30vh;
+    max-width: 100%;
+    transform: perspective(1000px) rotate3d(0, 1, 0, 30deg);
+  }
+
+  h1 {
+    font-size: 8.2vmin;
+    margin-block-end: 1em;
+  }
+
+  p {
+    font-size: 4.9vmin;
+    line-height: 1.3em;
+  }
+}

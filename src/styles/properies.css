@@ -1,0 +1,54 @@
+:root {
+  /* colors */
+  --color-text-primary: white;
+  --color-red: #ed005b;
+  --color-nav-text: #b5bbbb;
+  --color-fir: #0e3b3f;
+  --color-deep-fir: #061a1b;
+  --color-active-tab: white;
+
+  /* background colors */
+  --bg-color-primary: black;
+  --bg-color-btn: transparent;
+  --bg-color-nav-hover: rgba(0, 0, 0, 0.2);
+
+  /*backgrounds */
+  --bg-index-size: cover;
+
+  /* box-shadows */
+  --shadow-header: 0 0 15px 0 rgba(0, 0, 0, 0.7);
+}
+
+.light {
+  /* colors */
+  --color-text-primary: rgba(0, 0, 0, 0.85);
+  --color-red: #b30045;
+  --color-nav-text: #5e5e5e;
+  --color-fir: #00c0a2;
+  --color-active-tab: black;
+
+  /* background colors */
+  --bg-color-primary: white;
+  --bg-color-nav-hover: #f0efef;
+
+  /*backgrounds */
+  --bg-index-size: 49%;
+
+  /* box-shadows */
+  --shadow-header: 0 2px 25px -3px rgba(0, 0, 0, 0.4);
+  background-image: url("../assets/bg-light.svg");
+  background-color: white;
+}
+
+.light .toggle-theme {
+  mask: url("../assets/crescent.svg") no-repeat center / contain;
+  -webkit-mask: url("../assets/crescent.svg") no-repeat center / contain;
+}
+
+.light .toggle-theme .sun {
+  display: none;
+}
+
+.light .toggle-theme .crescent {
+  display: initial;
+}

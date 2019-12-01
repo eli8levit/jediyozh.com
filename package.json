@@ -1,0 +1,23 @@
+{
+  "name": "jediyozh.com",
+  "version": "1.0.0",
+  "description": "Personal site of Eli Levit",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/jediyozh/jediyozh.com.git"
+  },
+  "license": "ISC",
+  "author": "Eli Levit",
+  "scripts": {
+    "start": "eleventy --serve --quiet",
+    "build:eleventy": "eleventy --quiet",
+    "build:parcel": "rm -rf dist && parcel build  _site/index.html",
+    "build": " npm run build:eleventy && npm run build:parcel",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0",
+    "parcel-bundler": "^1.12.4"
+  }
+}

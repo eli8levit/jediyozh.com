@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Eli Levit</title>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="eli levit, front-end developer blog." />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="jediyozh" />
+  <meta property="og:site_name" content="blog of eli levit" />
+  <meta property="og:url" content="https://dev.jediyozh.com" />
+  <meta property="og:image" content="assets/social.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="jediyozh" />
+  <meta name="twitter:description" content="blog of eli levit" />
+  <meta name="twitter:site" content="https://dev.jediyozh.com" />
+  <meta name="twitter:image" content="assets/social.png" />
+  <meta name="msapplication-tilecolor" content="#ffffff" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  <link rel="preload" href="fonts/inter-semibold.woff2" crossorigin="" as="font" type="font/woff2" />
+  <link rel="preload" href="fonts/inter-extrabold.woff2" crossorigin="" as="font" type="font/woff2" />
+  <link rel="prefetch" href="assets/bg-light.svg" />
+  <link href="https://fonts.googleapis.com/css?family=Contrail+One&display=swap" rel="stylesheet">
+
+  <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" /> -->
+  <!-- <link rel="manifest" href="/site.webmanifest" /> -->
+  <!-- <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d20000" /> -->
+</head>
+
+<body>
+  {% include 'header.njk' %}
+  {{ content | safe }}
+  {% include 'footer.njk' %}
+  <script src="index.js"></script>
+</body>
+
+</html>
