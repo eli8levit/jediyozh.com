@@ -3,6 +3,8 @@ module.exports = function (config) {
   config.addPassthroughCopy('src/assets');
   config.addPassthroughCopy('src/fonts');
   config.addPassthroughCopy('src/index.js');
+  config.addPassthroughCopy('src/scripts');
+  config.addPassthroughCopy({ "src/other": "/" });
 
   return {
     dir: {
