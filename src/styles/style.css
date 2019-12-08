@@ -1,28 +1,24 @@
-@import "./font.css";
-@import "./properies.css";
-@import "./keyframes.css";
-
-html {
+html,
+body {
   height: 100%;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 body {
-  position: relative;
-  height: 100%;
-  margin: 0;
-  width: 100%;
   font-family: Inter, Helvetica, Arial sans-serif;
-  background: var(--bg-color-primary) url("../assets/bg.svg") no-repeat center /
-    120%;
+  background-color: var(--bg-color-primary);
+  background-image: url('../assets/bg.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 70px auto 50px;
   transition: background-color 0.7s ease-in-out;
 }
 
 header {
   width: 100%;
-  margin: 0 auto;
-  height: 70px;
+  grid-column: 1 / -1;
 }
 
 ul,
@@ -40,52 +36,68 @@ h6 {
 nav {
   height: 100%;
   width: max-content;
-  margin-inline-start: 4%;
+  margin-left: 4vw;
 }
 
 nav ul {
-  display: flex;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: min-content;
   height: 100%;
   align-items: center;
   margin: 0;
 }
 
 nav ul li {
-  color: var(--color-text-primary);
   list-style: none;
+  margin: 0 0.8em;
+}
+
+nav ul li a {
+  color: var(--color-text-primary);
   font-size: 2vmin;
   font-weight: 900;
-  transition: color 0.7s ease-in-out;
-  margin-inline-end: 0.15em;
+  color: var(--color-nav-text);
+  background-color: var(--bg-color-btn);
+  transition: color 0.2s ease;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
 }
 
 nav ul li:first-child a {
-  padding-left: 0;
+  vertical-align: middle;
+  display: inline-block;
+  width: max-content;
 }
 
 .text {
-  position: absolute;
-  left: 4vw;
-  bottom: 12vh;
-  transform: perspective(1000px) rotate3d(0, 1, 0, 26deg);
+  margin-left: 4vw;
+  margin-bottom: 4em;
+  align-self: end;
+  grid-column: 1 / -1;
 }
 
 h1 {
   margin-block-end: 0.5em;
   color: var(--color-text-primary);
-  font-size: 7.1vmin;
+  font-size: calc(16px + 2.4vw);
   transition: color 0.7s ease-in-out;
   animation-duration: 1.5s;
   transition-timing-function: ease-out;
   animation-fill-mode: both;
   animation-delay: 0.3s;
   animation-name: fadeZoom;
-  font-family: "Contrail One", cursive;
+  font-family: 'Contrail One', cursive;
 }
 
 p {
   color: var(--color-text-primary);
-  font-size: 2.55vmin;
+  font-size: calc(10px + 1vw);
   font-weight: 500;
   transition: color 0.7s ease-in-out;
   animation-duration: 1.5s;
@@ -94,17 +106,6 @@ p {
   animation-delay: 0.3s;
   animation-name: fadeZoom;
   line-height: 1.4;
-}
-
-.nav-button {
-  border-radius: 4px;
-  padding: 5px 15px;
-  color: var(--color-nav-text);
-  background-color: var(--bg-color-btn);
-  transition: color 0.2s ease;
-  text-decoration: none;
-  cursor: pointer;
-  transition: color 0.2s ease-in-out;
 }
 
 .nav-button:hover {
@@ -122,14 +123,13 @@ p {
 }
 
 .toggle-theme {
-  margin-inline-start: 1em;
+  margin-inline-start: 0.5em;
   padding: 0;
   height: 25px;
   width: 25px;
   border: none;
   background-color: transparent;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
 }
 
 .toggle-theme .sun,
@@ -143,13 +143,6 @@ p {
 .toggle-theme:focus .crescent,
 .toggle-theme:hover .crescent {
   fill: var(--color-active-tab);
-}
-
-.toggle-theme:focus .sun,
-.toggle-theme:hover .sun,
-.toggle-theme:focus .crescent,
-.toggle-theme:hover .crescent {
-  transform: rotate(135deg);
 }
 
 .toggle-theme .crescent {
@@ -238,44 +231,52 @@ p {
 
 @media (max-width: 768px) {
   body {
-    background: var(--bg-color-primary) url("../assets/bg-mobile.png") no-repeat
-      center bottom / 140%;
+    background-image: url('../assets/bg-mobile.svg');
+    grid-template-rows: 60px 3fr 0.4fr;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-size: cover;
+    background-position: 60%;
   }
 
   .light {
-    background: url("../assets/bg-light-mobile.png") no-repeat center bottom /
-      140%;
+    background-image: url('../assets/bg-light-mobile.png');
   }
 
   nav {
     margin-inline-start: 5vw;
   }
 
-  nav ul li {
-    font-size: 4vmin;
+  nav ul li a {
+    font-size: calc(12px + 1vw);
     margin-inline-end: 0;
   }
 
-  .nav-button {
-    padding: 5px 12px;
+  nav ul li:first-child {
+    grid-column: 1 / -1;
   }
 
   .text {
     text-align: left;
-    padding: 5vw;
+    align-self: end;
     white-space: normal;
-    bottom: 30vh;
-    max-width: 100%;
-    transform: perspective(1000px) rotate3d(0, 1, 0, 30deg);
+    margin: 0;
+    padding: 7vw;
+    position: relative;
+    transform: none;
   }
 
   h1 {
-    font-size: 8.2vmin;
+    font-size: calc(16px + 3vw);
     margin-block-end: 1em;
   }
 
   p {
-    font-size: 4.9vmin;
+    font-size: calc(14px + 0.5vw);
     line-height: 1.3em;
+  }
+
+  .logo {
+    width: 30px;
   }
 }
