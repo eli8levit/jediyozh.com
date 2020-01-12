@@ -8,7 +8,7 @@
   --color-active-tab: white;
 
   /* background colors */
-  --bg-color-primary: black;
+  --bg-color-primary: #121212;
   --bg-color-btn: transparent;
   --bg-color-nav-hover: rgba(0, 0, 0, 0.2);
 
@@ -23,12 +23,12 @@
   /* colors */
   --color-text-primary: rgba(0, 0, 0, 0.85);
   --color-red: #b30045;
-  --color-nav-text: #5e5e5e;
+  --color-nav-text: #323232;
   --color-fir: #00c0a2;
   --color-active-tab: black;
 
   /* background colors */
-  --bg-color-primary: white;
+  --bg-color-primary: #fff8ee;
   --bg-color-nav-hover: #f0efef;
 
   /*backgrounds */
@@ -36,13 +36,7 @@
 
   /* box-shadows */
   --shadow-header: 0 2px 25px -3px rgba(0, 0, 0, 0.4);
-  background-image: url("../assets/bg-light.svg");
-  background-color: white;
-}
-
-.light .toggle-theme {
-  mask: url("../assets/crescent.svg") no-repeat center / contain;
-  -webkit-mask: url("../assets/crescent.svg") no-repeat center / contain;
+  background-image: url('../assets/yozh-dark.svg');
 }
 
 .light .toggle-theme .sun {

@@ -6,14 +6,16 @@ body {
 body {
   font-family: Inter, Helvetica, Arial sans-serif;
   background-color: var(--bg-color-primary);
-  background-image: url('../assets/bg.svg');
+  background-image: url('../assets/yozh-dark.svg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 120%;
+  /* background-size: 90%; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 70px auto 50px;
   transition: background-color 0.7s ease-in-out;
+  background-position: center bottom 15%;
+  background-size: 30%;
 }
 
 header {
@@ -78,8 +80,17 @@ nav ul li:first-child a {
 .text {
   margin-left: 4vw;
   margin-bottom: 4em;
-  align-self: end;
+  align-self: start;
   grid-column: 1 / -1;
+  margin-left: 15vw;
+  margin-top: 180px;
+  margin-bottom: 4em;
+}
+
+.inline-link {
+  text-decoration: none;
+  color: var(--color-text-primary);
+  transition: color 0.7s ease-in-out;
 }
 
 h1 {
@@ -92,20 +103,22 @@ h1 {
   animation-fill-mode: both;
   animation-delay: 0.3s;
   animation-name: fadeZoom;
-  font-family: 'Contrail One', cursive;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: Gilam;
 }
 
 p {
   color: var(--color-text-primary);
-  font-size: calc(10px + 1vw);
-  font-weight: 500;
+  font-size: calc(12px + 1vw);
+  font-weight: 600;
   transition: color 0.7s ease-in-out;
   animation-duration: 1.5s;
-  transition-timing-function: ease-out;
   animation-fill-mode: both;
   animation-delay: 0.3s;
   animation-name: fadeZoom;
   line-height: 1.4;
+  font-family: Gilam;
 }
 
 .nav-button:hover {
@@ -158,29 +171,17 @@ p {
   box-shadow: none;
 }
 
-.inline-link {
-  box-shadow: 0 4px 0 0 var(--color-active-tab);
-  color: var(--color-active-tab);
-  text-decoration: none;
-  animation-duration: 1.5s;
-  animation-fill-mode: both;
-  animation-delay: 0.3s;
-  animation-name: fadeZoom;
-  transition-duration: 0.7s;
-  transition-timing-function: ease-in-out;
-  transition-property: color, box-shadow;
-}
-
-.inline-link:focus {
-  box-shadow: 0 0 0 4px var(--color-active-tab);
-  border-radius: 4px;
-  outline: none;
-}
-
 .logo {
   margin-right: 15px;
   text-align: center;
   vertical-align: middle;
+  fill: var(--color-nav-text);
+  transition: fill 0.2s ease-in-out;
+}
+
+.logo:focus,
+.logo:hover {
+  fill: var(--color-active-tab);
 }
 
 .footer {
@@ -229,18 +230,19 @@ p {
   border-radius: 4px;
 }
 
+.special-word {
+  color: #d20000;
+}
+
 @media (max-width: 768px) {
   body {
-    background-image: url('../assets/bg-mobile.svg');
-    grid-template-rows: 60px 3fr 0.4fr;
+    grid-template-rows: 60px 1fr 0.4fr;
     display: grid;
     grid-template-columns: 1fr;
-    background-size: cover;
-    background-position: 60%;
-  }
-
-  .light {
-    background-image: url('../assets/bg-light-mobile.png');
+    background-size: 70%;
+    /* background-position: right 8% top 30%; */
+    /* background-position: right 8% bottom -50%; */
+    /* background-image: none; */
   }
 
   nav {
@@ -248,7 +250,7 @@ p {
   }
 
   nav ul li a {
-    font-size: calc(12px + 1vw);
+    font-size: calc(11px + 1vw);
     margin-inline-end: 0;
   }
 
@@ -258,25 +260,31 @@ p {
 
   .text {
     text-align: left;
-    align-self: end;
+    align-self: center;
     white-space: normal;
     margin: 0;
-    padding: 7vw;
+    padding: 5vw;
     position: relative;
     transform: none;
   }
 
   h1 {
     font-size: calc(16px + 3vw);
-    margin-block-end: 1em;
+    margin-block-end: 0.7em;
+    /* font-family: Inter; */
   }
 
   p {
-    font-size: calc(14px + 0.5vw);
+    font-size: calc(15px + 0.6vw);
     line-height: 1.3em;
+    font-weight: 600;
   }
 
   .logo {
-    width: 30px;
+    width: 40px;
+  }
+
+  .footer {
+    display: none;
   }
 }

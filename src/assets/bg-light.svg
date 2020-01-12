@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="2632px" height="1525px" viewBox="0 0 2632 1525" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="948px" height="549px" viewBox="0 0 948 549" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
     <title>background-dark</title>
     <desc>Created with Sketch.</desc>
@@ -24,17 +24,17 @@
             <stop stop-color="#E4E4E4" offset="61.2598052%"></stop>
             <stop stop-color="#E8E8E8" offset="71.5662132%"></stop>
             <stop stop-color="#EBEBEB" offset="71.6238218%"></stop>
-            <stop stop-color="#EFEFEF" offset="80.6667478%"></stop>
-            <stop stop-color="#F2F2F2" offset="80.7512509%"></stop>
-            <stop stop-color="#F9F9F9" offset="95.7048422%"></stop>
-            <stop stop-color="#FCFCFC" offset="95.8691699%"></stop>
+            <stop stop-color="#EFEFEF" offset="83.6578899%"></stop>
+            <stop stop-color="#F2F2F2" offset="83.6810632%"></stop>
+            <stop stop-color="#F9F9F9" offset="92.0851138%"></stop>
+            <stop stop-color="#FCFCFC" offset="92.1585326%"></stop>
             <stop stop-color="#FFFFFF" offset="100%"></stop>
         </radialGradient>
         <linearGradient x1="97.5697935%" y1="-10.2997134%" x2="68.1284607%" y2="185.10988%" id="linearGradient-2">
             <stop stop-color="#FFE493" offset="0%"></stop>
             <stop stop-color="#BC9949" offset="100%"></stop>
         </linearGradient>
-        <circle id="path-3" cx="12.9685496" cy="12.2523386" r="12"></circle>
+        <circle id="path-3" cx="6.53614899" cy="6.17517865" r="6.048"></circle>
         <linearGradient x1="18.0858199%" y1="50%" x2="36.0038256%" y2="103.631505%" id="linearGradient-5">
             <stop stop-color="#1998FF" offset="0%"></stop>
             <stop stop-color="#C7EFFE" offset="100%"></stop>
@@ -43,7 +43,7 @@
             <stop stop-color="#BCEBFF" offset="0%"></stop>
             <stop stop-color="#0072E7" offset="100%"></stop>
         </linearGradient>
-        <ellipse id="path-7" cx="15.5020892" cy="15.2573354" rx="15.309" ry="15.10488"></ellipse>
+        <ellipse id="path-7" cx="7.81305296" cy="7.68969702" rx="7.715736" ry="7.61285952"></ellipse>
         <linearGradient x1="62.4148031%" y1="-40.3040748%" x2="75.0194967%" y2="50%" id="linearGradient-9">
             <stop stop-color="#E6F8FF" offset="0%"></stop>
             <stop stop-color="#1998FF" offset="100%"></stop>
@@ -52,10 +52,10 @@
             <stop stop-color="#C9EAF9" offset="0%"></stop>
             <stop stop-color="#4EACF9" offset="100%"></stop>
         </linearGradient>
-        <path d="M7.22645379,32.5457607 C14.441325,32.5457607 20.7387682,25.6230081 20.7387682,14.3054941 C20.7387682,2.98798022 14.0060246,-6.0623123 6.79115335,-6.0623123 C-0.423717885,-6.0623123 -5.79683176,3.19497185 -5.79683176,14.5124858 C-5.79683176,25.8299997 0.0115825484,32.5457607 7.22645379,32.5457607 Z" id="path-11"></path>
-        <filter x="-32.0%" y="-22.0%" width="164.1%" height="144.0%" filterUnits="objectBoundingBox" id="filter-12">
-            <feGaussianBlur stdDeviation="2.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
-            <feOffset dx="12" dy="5" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+        <path d="M3.64213271,16.4030634 C7.27842781,16.4030634 10.4523392,12.9139961 10.4523392,7.20996905 C10.4523392,1.50594203 7.0590364,-3.0554054 3.42274129,-3.0554054 C-0.213553814,-3.0554054 -2.9216032,1.61026581 -2.9216032,7.31429283 C-2.9216032,13.0183198 0.0058376044,16.4030634 3.64213271,16.4030634 Z" id="path-11"></path>
+        <filter x="-33.6%" y="-23.1%" width="167.3%" height="146.3%" filterUnits="objectBoundingBox" id="filter-12">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="6" dy="3" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
             <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0542777535 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
         </filter>
@@ -79,14 +79,14 @@
             <stop stop-color="#06B2F3" offset="0%"></stop>
             <stop stop-color="#0680E3" offset="100%"></stop>
         </linearGradient>
-        <ellipse id="path-18" cx="13.6523196" cy="27.1512936" rx="1.63296" ry="2.0412"></ellipse>
-        <filter x="-30.6%" y="-24.5%" width="161.2%" height="149.0%" filterUnits="objectBoundingBox" id="filter-19">
+        <ellipse id="path-18" cx="6.88076908" cy="13.684252" rx="1" ry="1.0287648"></ellipse>
+        <filter x="-60.8%" y="-48.6%" width="221.5%" height="197.2%" filterUnits="objectBoundingBox" id="filter-19">
             <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
             <feOffset dx="1" dy="-1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
             <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.133932474 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
         </filter>
-        <ellipse id="path-20" cx="13.034804" cy="13.0358247" rx="13.0143098" ry="13.0325437"></ellipse>
+        <ellipse id="path-20" cx="6.56954121" cy="6.57005567" rx="6.55921212" ry="6.56840203"></ellipse>
         <linearGradient x1="94.6553752%" y1="55.1114299%" x2="-23.9606663%" y2="52.6706149%" id="linearGradient-22">
             <stop stop-color="#EF828C" offset="0%"></stop>
             <stop stop-color="#EF2933" offset="42.3042524%"></stop>
@@ -98,10 +98,10 @@
             <stop stop-color="#B52229" offset="47.3566703%"></stop>
             <stop stop-color="#420B0E" offset="100%"></stop>
         </linearGradient>
-        <path d="M-0.602625176,14.252093 C2.49588674,15.8807261 4.98290928,17.1131595 7.98805632,19.2761949 C12.2937852,22.3753589 19.1566548,20.0745503 28.5766652,12.3737692 L25.9546412,-0.398270238 L0.679261687,-1.47306727 C-3.02028373,7.48110192 -3.44757935,12.722822 -0.602625176,14.252093 Z" id="path-24"></path>
-        <filter x="-16.1%" y="-22.6%" width="132.2%" height="145.3%" filterUnits="objectBoundingBox" id="filter-25">
-            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
-            <feOffset dx="6" dy="4" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+        <path d="M-0.303723089,7.18305489 C1.25792692,8.00388594 2.51138628,8.62503241 4.02598039,9.71520222 C6.19606772,11.2771809 9.65495401,10.1175734 14.4026392,6.23637966 L13.0811392,-0.2007282 L0.34234789,-0.742425902 C-1.522223,3.77047537 -1.73757999,6.4123023 -0.303723089,7.18305489 Z" id="path-24"></path>
+        <filter x="-16.0%" y="-22.5%" width="132.0%" height="144.9%" filterUnits="objectBoundingBox" id="filter-25">
+            <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="3" dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
             <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.13013549 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
         </filter>
@@ -136,10 +136,10 @@
             <stop stop-color="#9B62F5" offset="0%"></stop>
             <stop stop-color="#E8E8E8" offset="100%"></stop>
         </linearGradient>
-        <path d="M24.7000723,-1.59161573e-12 C11.0585991,-1.59161573e-12 -1.8189894e-12,11.0828944 -1.8189894e-12,24.7543374 C-1.8189894e-12,38.4257805 11.0585991,49.5086748 24.7000723,49.5086748 L24.7000723,49.5086748" id="path-33"></path>
-        <filter x="-22.3%" y="-11.1%" width="144.5%" height="122.2%" filterUnits="objectBoundingBox" id="filter-35">
-            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
-            <feOffset dx="7" dy="-2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+        <path d="M12.4488365,-8.02174327e-13 C5.57353393,-8.02174327e-13 -9.16770659e-13,5.58577876 -9.16770659e-13,12.4761861 C-9.16770659e-13,19.3665933 5.57353393,24.9523721 12.4488365,24.9523721 L12.4488365,24.9523721" id="path-33"></path>
+        <filter x="-24.1%" y="-12.0%" width="148.2%" height="124.0%" filterUnits="objectBoundingBox" id="filter-35">
+            <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="4" dy="-1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
             <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0277534965 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
         </filter>
@@ -163,38 +163,45 @@
             <stop stop-color="#9960F3" offset="0%"></stop>
             <stop stop-color="#5115A7" offset="100%"></stop>
         </linearGradient>
-        <radialGradient cx="59.2768353%" cy="45.8565197%" fx="59.2768353%" fy="45.8565197%" r="60.0241066%" gradientTransform="translate(0.592768,0.458565),rotate(156.874066),scale(1.000000,1.205766),translate(-0.592768,-0.458565)" id="radialGradient-41">
+        <path d="M12.4488365,-8.02174327e-13 C5.57353393,-8.02174327e-13 -9.16770659e-13,5.58577876 -9.16770659e-13,12.4761861 C-9.16770659e-13,19.3665933 5.57353393,24.9523721 12.4488365,24.9523721 L12.4488365,24.9523721" id="path-41"></path>
+        <filter x="-24.1%" y="-12.0%" width="148.2%" height="124.0%" filterUnits="objectBoundingBox" id="filter-43">
+            <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="4" dy="-1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0277534965 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <radialGradient cx="59.2768353%" cy="45.8565197%" fx="59.2768353%" fy="45.8565197%" r="60.0241066%" gradientTransform="translate(0.592768,0.458565),rotate(156.874066),scale(1.000000,1.205766),translate(-0.592768,-0.458565)" id="radialGradient-44">
             <stop stop-color="#EFA207" offset="0.0131967905%"></stop>
             <stop stop-color="#FFC201" offset="72.5981841%"></stop>
             <stop stop-color="#FFD758" offset="100%"></stop>
         </radialGradient>
-        <circle id="path-42" cx="37.8568714" cy="38.5966153" r="30"></circle>
-        <filter x="-14.2%" y="-14.2%" width="128.3%" height="128.3%" filterUnits="objectBoundingBox" id="filter-44">
-            <feGaussianBlur stdDeviation="5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
-            <feOffset dx="-7" dy="4" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+        <circle id="path-45" cx="19.0798632" cy="19.4526941" r="15.12"></circle>
+        <filter x="-14.9%" y="-14.9%" width="129.8%" height="129.8%" filterUnits="objectBoundingBox" id="filter-47">
+            <feGaussianBlur stdDeviation="2.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="-4" dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
             <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0974104021 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
         </filter>
-        <linearGradient x1="90.4424368%" y1="69.7099378%" x2="-6.64326078%" y2="50.5883284%" id="linearGradient-45">
+        <linearGradient x1="90.4424368%" y1="69.7099378%" x2="-6.64326078%" y2="50.5883284%" id="linearGradient-48">
             <stop stop-color="#A74E00" stop-opacity="0" offset="0%"></stop>
             <stop stop-color="#CE4B02" stop-opacity="0.458530136" offset="44.2126721%"></stop>
             <stop stop-color="#E74803" stop-opacity="0.747046338" offset="62.4098323%"></stop>
             <stop stop-color="#D17D02" stop-opacity="0.498947163" offset="84.5929939%"></stop>
             <stop stop-color="#FCAD04" offset="99.9656883%"></stop>
         </linearGradient>
-        <linearGradient x1="86.5790513%" y1="68.6785707%" x2="-4.2615726%" y2="48.7754074%" id="linearGradient-46">
+        <linearGradient x1="86.5790513%" y1="68.6785707%" x2="-4.2615726%" y2="48.7754074%" id="linearGradient-49">
             <stop stop-color="#A74E00" stop-opacity="0" offset="0%"></stop>
             <stop stop-color="#D17D02" stop-opacity="0.498947163" offset="53.607063%"></stop>
             <stop stop-color="#E74803" stop-opacity="0.747046338" offset="74.6790014%"></stop>
             <stop stop-color="#FCAD04" offset="99.9656883%"></stop>
         </linearGradient>
-        <linearGradient x1="73.2002107%" y1="62.6332886%" x2="-3.86250184%" y2="47.3114658%" id="linearGradient-47">
+        <linearGradient x1="73.2002107%" y1="62.6332886%" x2="-3.86250184%" y2="47.3114658%" id="linearGradient-50">
             <stop stop-color="#A74E00" stop-opacity="0" offset="0%"></stop>
             <stop stop-color="#E74803" stop-opacity="0.747046338" offset="67.0266948%"></stop>
             <stop stop-color="#D17D02" stop-opacity="0.498947163" offset="84.2925221%"></stop>
             <stop stop-color="#FCAD04" offset="99.9656883%"></stop>
         </linearGradient>
-        <linearGradient x1="80.9715552%" y1="77.7416038%" x2="0.0833194482%" y2="52.7245651%" id="linearGradient-48">
+        <linearGradient x1="80.9715552%" y1="77.7416038%" x2="0.0833194482%" y2="52.7245651%" id="linearGradient-51">
             <stop stop-color="#A74E00" stop-opacity="0" offset="0%"></stop>
             <stop stop-color="#E74803" stop-opacity="0.747046338" offset="71.9872543%"></stop>
             <stop stop-color="#D17D02" stop-opacity="0.498947163" offset="87.0011336%"></stop>
@@ -202,97 +209,121 @@
         </linearGradient>
     </defs>
     <g id="final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="background-dark" transform="translate(-200.000000, -308.000000)">
-            <ellipse id="onlybg-light" fill="#FFFFFF" transform="translate(1516.000000, 1070.500000) rotate(-20.000000) translate(-1516.000000, -1070.500000) " cx="1516" cy="1070.5" rx="1381" ry="636.5"></ellipse>
-            <ellipse id="bg-light" fill="url(#radialGradient-1)" transform="translate(1515.951206, 1070.896342) rotate(-20.000000) translate(-1515.951206, -1070.896342) " cx="1515.95121" cy="1070.89634" rx="986.5" ry="454.5"></ellipse>
-            <g id="galaxy" transform="translate(1759.000000, 933.500000) rotate(3.000000) translate(-1759.000000, -933.500000) translate(1483.000000, 774.000000)">
-                <g id="saturn" transform="translate(156.803618, 213.815113) rotate(-17.000000) translate(-156.803618, -213.815113) translate(144.303618, 201.315113)">
+        <g id="background-dark" transform="translate(-290.000000, -265.000000)">
+            <ellipse id="bg-light" fill="url(#radialGradient-1)" transform="translate(764.039408, 539.731756) rotate(-20.000000) translate(-764.039408, -539.731756) " cx="764.039408" cy="539.731756" rx="497.196" ry="229.068"></ellipse>
+            <g id="galaxy" transform="translate(887.000000, 470.500000) rotate(3.000000) translate(-887.000000, -470.500000) translate(747.000000, 390.000000)">
+                <g id="saturn" transform="translate(80.078759, 107.895604) rotate(-17.000000) translate(-80.078759, -107.895604) translate(73.578759, 101.395604)">
                     <mask id="mask-4" fill="white">
                         <use xlink:href="#path-3"></use>
                     </mask>
                     <use id="Mask" fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
-                    <ellipse id="Oval" stroke="#CC9A3A" stroke-width="5" mask="url(#mask-4)" cx="12.255038" cy="2.69821843" rx="21.5" ry="9"></ellipse>
-                    <ellipse id="Oval" stroke="#CC9A3A" stroke-width="5.5" mask="url(#mask-4)" cx="13.255038" cy="7.69821843" rx="25.5" ry="14"></ellipse>
-                    <ellipse id="Oval" stroke="#B29343" stroke-width="5.5" mask="url(#mask-4)" transform="translate(13.928955, 0.828748) rotate(-2.000000) translate(-13.928955, -0.828748) " cx="13.9289546" cy="0.828747544" rx="12.5" ry="3.5"></ellipse>
-                    <ellipse id="Oval" stroke="#F7DB8A" stroke-width="0.2" mask="url(#mask-4)" cx="12.559256" cy="-0.901249009" rx="12.5" ry="3.5"></ellipse>
-                    <ellipse id="Oval" stroke="#F7DB8A" stroke-width="0.4" mask="url(#mask-4)" transform="translate(13.019679, 0.435916) rotate(-2.000000) translate(-13.019679, -0.435916) " cx="13.0196789" cy="0.435916184" rx="12.5" ry="3.5"></ellipse>
-                    <ellipse id="Oval" stroke="#F7DB8A" stroke-width="0.8" mask="url(#mask-4)" transform="translate(12.980406, 1.790531) rotate(-2.000000) translate(-12.980406, -1.790531) " cx="12.9804064" cy="1.79053113" rx="13" ry="3.5"></ellipse>
-                    <ellipse id="Oval" stroke="#D2BD82" stroke-width="0.4" mask="url(#mask-4)" transform="translate(13.755038, 4.198218) rotate(-2.000000) translate(-13.755038, -4.198218) " cx="13.755038" cy="4.19821843" rx="18" ry="6.5"></ellipse>
-                    <ellipse id="Oval" stroke="#F1D179" mask="url(#mask-4)" transform="translate(13.755038, 9.198218) rotate(-1.000000) translate(-13.755038, -9.198218) " cx="13.755038" cy="9.19821843" rx="20" ry="11.5"></ellipse>
-                    <ellipse id="Oval" stroke="#D2BD82" stroke-width="0.4" mask="url(#mask-4)" transform="translate(13.755038, 11.198218) rotate(-1.000000) translate(-13.755038, -11.198218) " cx="13.755038" cy="11.1982184" rx="18" ry="11.5"></ellipse>
-                    <ellipse id="Oval" stroke="#877544" stroke-width="0.7" mask="url(#mask-4)" transform="translate(13.755038, 6.198218) rotate(-2.000000) translate(-13.755038, -6.198218) " cx="13.755038" cy="6.19821843" rx="18" ry="6.5"></ellipse>
+                    <ellipse id="Oval" stroke="#CC9A3A" stroke-width="2.52" mask="url(#mask-4)" cx="6.17653914" cy="1.35990209" rx="10.836" ry="4.536"></ellipse>
+                    <ellipse id="Oval" stroke="#CC9A3A" stroke-width="2.772" mask="url(#mask-4)" cx="6.68053914" cy="3.87990209" rx="12.852" ry="7.056"></ellipse>
+                    <ellipse id="Oval" stroke="#B29343" stroke-width="2.772" mask="url(#mask-4)" transform="translate(7.020193, 0.417689) rotate(-2.000000) translate(-7.020193, -0.417689) " cx="7.02019311" cy="0.417688762" rx="6.3" ry="1.764"></ellipse>
+                    <ellipse id="Oval" stroke="#F7DB8A" stroke-width="0.5" mask="url(#mask-4)" cx="6.32986504" cy="-0.454229501" rx="6.3" ry="1.764"></ellipse>
+                    <ellipse id="Oval" stroke="#F7DB8A" stroke-width="0.5" mask="url(#mask-4)" transform="translate(6.561918, 0.219702) rotate(-2.000000) translate(-6.561918, -0.219702) " cx="6.56191818" cy="0.219701757" rx="6.3" ry="1.764"></ellipse>
+                    <ellipse id="Oval" stroke="#F7DB8A" stroke-width="0.5" mask="url(#mask-4)" transform="translate(6.542125, 0.902428) rotate(-2.000000) translate(-6.542125, -0.902428) " cx="6.54212483" cy="0.902427687" rx="6.552" ry="1.764"></ellipse>
+                    <ellipse id="Oval" stroke="#D2BD82" stroke-width="0.5" mask="url(#mask-4)" transform="translate(6.932539, 2.115902) rotate(-2.000000) translate(-6.932539, -2.115902) " cx="6.93253914" cy="2.11590209" rx="9.072" ry="3.276"></ellipse>
+                    <ellipse id="Oval" stroke="#F1D179" stroke-width="0.504" mask="url(#mask-4)" transform="translate(6.932539, 4.635902) rotate(-1.000000) translate(-6.932539, -4.635902) " cx="6.93253914" cy="4.63590209" rx="10.08" ry="5.796"></ellipse>
+                    <ellipse id="Oval" stroke="#D2BD82" stroke-width="0.5" mask="url(#mask-4)" transform="translate(6.932539, 5.643902) rotate(-1.000000) translate(-6.932539, -5.643902) " cx="6.93253914" cy="5.64390209" rx="9.072" ry="5.796"></ellipse>
+                    <ellipse id="Oval" stroke="#877544" stroke-width="0.5" mask="url(#mask-4)" transform="translate(6.932539, 3.123902) rotate(-2.000000) translate(-6.932539, -3.123902) " cx="6.93253914" cy="3.12390209" rx="9.072" ry="3.276"></ellipse>
                 </g>
-                <path d="M141.389192,210.895328 C138.618609,211.537353 136.988462,212.417733 136.997259,213.458157 C137.016734,215.734352 146.856275,217.815725 157.30572,217.891572 C161.945978,217.925254 167.835193,217.731757 171.715637,217.336781 C176.573604,216.842306 178.007926,215.68055 177.997259,214.415139 C177.990062,213.584925 176.352509,212.749487 173.767783,212.019401" id="orbit" stroke="#786F56" stroke-width="1.8" stroke-linecap="round" transform="translate(157.497259, 214.395328) rotate(-19.000000) translate(-157.497259, -214.395328) "></path>
-                <g id="blue-planet" transform="translate(358.500000, 107.500000) scale(1, -1) rotate(-43.000000) translate(-358.500000, -107.500000) translate(343.000000, 92.000000)">
+                <path d="M72.0601528,106.291245 C70.6637787,106.614826 69.8421847,107.058538 69.8466186,107.582911 C69.856434,108.730114 74.8155624,109.779126 80.0820827,109.817352 C82.4207729,109.834328 85.3889374,109.736805 87.3446809,109.537737 C89.7930962,109.288522 90.5159948,108.702997 90.5106186,108.06523 C90.5069913,107.646802 89.6816647,107.225741 88.3789625,106.857778" id="orbit" stroke="#786F56" stroke-width="0.9072" stroke-linecap="round" transform="translate(80.178619, 108.055245) rotate(-19.000000) translate(-80.178619, -108.055245) "></path>
+                <g id="blue-planet" transform="translate(181.749710, 54.170721) scale(1, -1) rotate(-43.000000) translate(-181.749710, -54.170721) translate(173.749710, 46.170721)">
                     <mask id="mask-8" fill="white">
                         <use xlink:href="#path-7"></use>
                     </mask>
                     <use id="Oval" fill="url(#linearGradient-6)" xlink:href="#path-7"></use>
-                    <ellipse id="Oval" fill="url(#linearGradient-9)" mask="url(#mask-8)" cx="12.0320492" cy="15.2573354" rx="14.2884" ry="15.92136"></ellipse>
+                    <ellipse id="Oval" fill="url(#linearGradient-9)" mask="url(#mask-8)" cx="6.0641528" cy="7.68969702" rx="7.2013536" ry="8.02436544"></ellipse>
                     <g id="Oval" mask="url(#mask-8)">
                         <use fill="url(#linearGradient-10)" fill-rule="evenodd" xlink:href="#path-11"></use>
                         <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
                     </g>
-                    <ellipse id="Oval" fill="url(#linearGradient-13)" mask="url(#mask-8)" transform="translate(15.104880, 15.513120) rotate(-2.000000) translate(-15.104880, -15.513120) " cx="15.10488" cy="15.51312" rx="2.44944" ry="2.85768"></ellipse>
-                    <ellipse id="Oval" fill="url(#linearGradient-14)" mask="url(#mask-8)" transform="translate(6.168087, 20.758075) rotate(174.000000) translate(-6.168087, -20.758075) " cx="6.16808706" cy="20.7580746" rx="1.42884" ry="2.0412"></ellipse>
-                    <ellipse id="Oval" fill="url(#linearGradient-15)" mask="url(#mask-8)" transform="translate(6.142150, 9.811565) rotate(27.000000) translate(-6.142150, -9.811565) " cx="6.1421497" cy="9.81156531" rx="2.24532" ry="3.87828"></ellipse>
-                    <ellipse id="Oval" fill="url(#linearGradient-16)" mask="url(#mask-8)" transform="translate(14.342280, 4.407869) rotate(275.000000) translate(-14.342280, -4.407869) " cx="14.3422796" cy="4.40786944" rx="1.63296" ry="2.65356"></ellipse>
-                    <g id="Oval" mask="url(#mask-8)" transform="translate(13.652320, 27.151294) rotate(-93.000000) translate(-13.652320, -27.151294) ">
+                    <ellipse id="Oval" fill="url(#linearGradient-13)" mask="url(#mask-8)" transform="translate(7.612860, 7.818612) rotate(-2.000000) translate(-7.612860, -7.818612) " cx="7.61285952" cy="7.81861248" rx="1.23451776" ry="1.44027072"></ellipse>
+                    <ellipse id="Oval" fill="url(#linearGradient-14)" mask="url(#mask-8)" transform="translate(3.108716, 10.462070) rotate(174.000000) translate(-3.108716, -10.462070) " cx="3.10871588" cy="10.4620696" rx="1" ry="1.0287648"></ellipse>
+                    <ellipse id="Oval" fill="url(#linearGradient-15)" mask="url(#mask-8)" transform="translate(3.095643, 4.945029) rotate(27.000000) translate(-3.095643, -4.945029) " cx="3.09564345" cy="4.94502892" rx="1.13164128" ry="1.95465312"></ellipse>
+                    <ellipse id="Oval" fill="url(#linearGradient-16)" mask="url(#mask-8)" transform="translate(7.228509, 2.221566) rotate(275.000000) translate(-7.228509, -2.221566) " cx="7.2285089" cy="2.2215662" rx="1" ry="1.33739424"></ellipse>
+                    <g id="Oval" mask="url(#mask-8)" transform="translate(6.880769, 13.684252) rotate(-93.000000) translate(-6.880769, -13.684252) ">
                         <use fill="url(#linearGradient-17)" fill-rule="evenodd" xlink:href="#path-18"></use>
                         <use fill="black" fill-opacity="1" filter="url(#filter-19)" xlink:href="#path-18"></use>
                     </g>
                 </g>
-                <g id="red-planet" transform="translate(264.279692, 153.086794) scale(-1, 1) rotate(19.000000) translate(-264.279692, -153.086794) translate(250.779692, 139.586794)">
+                <g id="red-planet" transform="translate(133.875455, 77.404877) scale(-1, 1) rotate(19.000000) translate(-133.875455, -77.404877) translate(126.875455, 70.404877)">
                     <mask id="mask-21" fill="white">
                         <use xlink:href="#path-20"></use>
                     </mask>
                     <use id="Mask" fill-opacity="0" fill="#FFFFFF" xlink:href="#path-20"></use>
-                    <path d="M-1.25059154,13.7539568 C6.71735272,16.3114854 11.4879913,17.5902497 13.0613243,17.5902497 C17.1993604,17.5902497 21.9499584,16.069336 27.3131184,13.0275084 L26.3654224,24.1113916 L13.9082148,27.2480049 L0.458946734,24.5698227 L-1.25059154,13.7539568 Z" id="Path-13" fill="url(#linearGradient-22)" mask="url(#mask-21)"></path>
+                    <path d="M-0.630298135,6.93199421 C3.38554577,8.22098865 5.78994764,8.86548586 6.58290746,8.86548586 C8.66847766,8.86548586 11.0627791,8.09894533 13.7658116,6.56586426 L13.2881729,12.1521414 L7.00974025,13.7329944 L0.231309154,12.3831906 L-0.630298135,6.93199421 Z" id="Path-13" fill="url(#linearGradient-22)" mask="url(#mask-21)"></path>
                     <g id="Path-14" mask="url(#mask-21)">
                         <use fill="url(#linearGradient-23)" fill-rule="evenodd" xlink:href="#path-24"></use>
                         <use fill="black" fill-opacity="1" filter="url(#filter-25)" xlink:href="#path-24"></use>
                     </g>
-                    <path d="M-4.5688521,1.94131001 L28.4311479,1.94131001 L30.1472572,14.2924999 C21.6332614,19.3661466 15.1117706,21.7522778 10.5827848,21.4508935 C6.05379895,21.1495093 1.91333338,18.3034052 -1.8386119,12.9125815 L-4.5688521,1.94131001 Z" id="Rectangle" fill="url(#linearGradient-26)" mask="url(#mask-21)" transform="translate(12.789203, 11.708776) rotate(-4.000000) translate(-12.789203, -11.708776) "></path>
-                    <path d="M3.15305979,-0.101818585 L24.7177422,-1.08389458 L27.8841027,6.33056163 C24.7954753,6.30865868 21.9405847,6.90039722 19.3194311,8.10577723 C15.3877007,9.91384726 15.663338,10.875109 12.2842042,11.5978863 C10.0314483,12.0797378 5.52460566,10.3332137 -1.23632361,6.35831403 L3.15305979,-0.101818585 Z" id="Path-12" fill="url(#linearGradient-27)" mask="url(#mask-21)"></path>
-                    <path d="M5.26453949,0.477161143 C7.24662401,2.4271704 9.91091559,3.40243806 13.2574142,3.40296411 C16.3439969,3.40243806 18.8957173,2.51422439 20.9125752,0.738323098 L13.2450377,-1.66436688 L5.26453949,0.477161143 Z" id="Path-10" fill="url(#linearGradient-28)" mask="url(#mask-21)"></path>
+                    <path d="M-2.30270146,0.978420245 L14.3292985,0.978420245 L15.1942177,7.20341994 C10.9031638,9.76053786 7.61633239,10.963148 5.33372353,10.8112503 C3.05111467,10.6593527 0.964320026,9.22491624 -0.926660399,6.50794107 L-2.30270146,0.978420245 Z" id="Rectangle" fill="url(#linearGradient-26)" mask="url(#mask-21)" transform="translate(6.445758, 5.901223) rotate(-4.000000) translate(-6.445758, -5.901223) "></path>
+                    <path d="M1.58914213,-0.051316567 L12.4577421,-0.546282867 L14.0535878,3.19060306 C12.4969195,3.17956398 11.0580547,3.4778002 9.73699328,4.08531173 C7.75540114,4.99657902 7.89432237,5.48105491 6.1912389,5.84533468 C5.05584992,6.08818786 2.78440125,5.20793972 -0.623107098,3.20459027 L1.58914213,-0.051316567 Z" id="Path-12" fill="url(#linearGradient-27)" mask="url(#mask-21)"></path>
+                    <path d="M2.6533279,0.240489216 C3.6522985,1.22329388 4.99510146,1.71482878 6.68173677,1.71509391 C8.23737445,1.71482878 9.5234415,1.26716909 10.5399379,0.372114841 L6.675499,-0.838840909 L2.6533279,0.240489216 Z" id="Path-10" fill="url(#linearGradient-28)" mask="url(#mask-21)"></path>
                 </g>
-                <g id="purple-planet" transform="translate(466.500000, 61.500000) scale(1, -1) rotate(139.000000) translate(-466.500000, -61.500000) translate(441.000000, 36.000000)">
-                    <ellipse id="Oval" fill="url(#linearGradient-29)" cx="25.010754" cy="24.9786675" rx="24.7000723" ry="24.7543374"></ellipse>
-                    <ellipse id="Oval" fill="url(#linearGradient-30)" cx="26.1257256" cy="24.8162786" rx="19.9112828" ry="24.7543374"></ellipse>
-                    <path d="M25.881896,49.7420622 C30.9462904,49.7420622 35.4444496,38.6484695 35.4444496,24.9638294 C35.4444496,11.2791894 30.9462904,0.18559674 25.881896,0.18559674 C20.8175017,0.18559674 17.1046553,11.2791894 17.1046553,24.9638294 C17.1046553,38.6484695 20.8175017,49.7420622 25.881896,49.7420622 Z" id="Oval" fill="url(#linearGradient-31)"></path>
-                    <g id="Path-9" transform="translate(25.317980, 0.283437)">
+                <g id="purple-planet" transform="translate(235.707206, 31.010600) scale(1, -1) rotate(139.000000) translate(-235.707206, -31.010600) translate(222.707206, 18.010600)">
+                    <ellipse id="Oval" fill="url(#linearGradient-29)" cx="12.60542" cy="12.5892484" rx="12.4488365" ry="12.4761861"></ellipse>
+                    <ellipse id="Oval" fill="url(#linearGradient-30)" cx="13.1673657" cy="12.5074044" rx="10.0352865" ry="12.4761861"></ellipse>
+                    <path d="M13.0444756,25.0699993 C15.5969303,25.0699993 17.8640026,19.4788286 17.8640026,12.58177 C17.8640026,5.68471146 15.5969303,0.0935407571 13.0444756,0.0935407571 C10.4920208,0.0935407571 8.62074628,5.68471146 8.62074628,12.58177 C8.62074628,19.4788286 10.4920208,25.0699993 13.0444756,25.0699993 Z" id="Oval" fill="url(#linearGradient-31)"></path>
+                    <g id="Path-9" transform="translate(12.760262, 0.142852)">
                         <mask id="mask-34" fill="white">
                             <use xlink:href="#path-33"></use>
                         </mask>
-                        <g id="Mask" transform="translate(12.350036, 24.754337) rotate(180.000000) translate(-12.350036, -24.754337) ">
+                        <g id="Mask" transform="translate(6.224418, 12.476186) rotate(180.000000) translate(-6.224418, -12.476186) ">
                             <use fill="url(#linearGradient-32)" fill-rule="evenodd" xlink:href="#path-33"></use>
                             <use fill="black" fill-opacity="1" filter="url(#filter-35)" xlink:href="#path-33"></use>
                         </g>
                     </g>
-                    <ellipse id="Oval" fill="url(#linearGradient-36)" cx="44.638465" cy="21.1734966" rx="3.31677131" ry="4.75283278"></ellipse>
-                    <ellipse id="Oval" fill="url(#linearGradient-37)" cx="29.3298675" cy="42.593269" rx="6.63354262" ry="4.68250067"></ellipse>
-                    <circle id="Oval" fill="#400F84" cx="18.2664759" cy="22.711263" r="3.90208389"></circle>
-                    <ellipse id="Oval" fill="url(#linearGradient-38)" cx="25.434764" cy="4.95922319" rx="3.51457945" ry="2.73145872"></ellipse>
-                    <ellipse id="Oval" fill="#5115A7" cx="33.1341517" cy="16.1910156" rx="2.53635453" ry="2.64046266"></ellipse>
-                    <ellipse id="Oval" fill="#5115A7" cx="27.6591051" cy="27.3875974" rx="1.56083356" ry="1.90113311"></ellipse>
-                    <ellipse id="Oval" fill="url(#linearGradient-39)" cx="18.1422147" cy="37.7552511" rx="1.58156075" ry="1.36572936"></ellipse>
-                    <ellipse id="Oval" fill="url(#linearGradient-40)" cx="39.7753888" cy="9.33874982" rx="1.17062517" ry="1.58427759"></ellipse>
-                    <ellipse id="Oval" fill="#5115A7" cx="23.256569" cy="15.8289704" rx="1.58156075" ry="1.58427759"></ellipse>
-                    <ellipse id="Oval" fill="#5115A7" cx="42.4415383" cy="37.7866743" rx="2.14614614" ry="2.64046266"></ellipse>
-                    <ellipse id="Oval" fill="#461093" cx="38.0387436" cy="29.2675695" rx="2.14614614" ry="2.64046266"></ellipse>
+                    <ellipse id="Oval" fill="url(#linearGradient-36)" cx="22.4977864" cy="10.6714423" rx="1.67165274" ry="2.39542772"></ellipse>
+                    <ellipse id="Oval" fill="url(#linearGradient-37)" cx="14.7822532" cy="21.4670076" rx="3.34330548" ry="2.35998034"></ellipse>
+                    <circle id="Oval" fill="#400F84" cx="9.20630385" cy="11.4464766" r="1.96665028"></circle>
+                    <ellipse id="Oval" fill="url(#linearGradient-38)" cx="12.819121" cy="2.49944849" rx="1.77134804" ry="1.3766552"></ellipse>
+                    <ellipse id="Oval" fill="#5115A7" cx="16.6996125" cy="8.16027187" rx="1.27832268" ry="1.33079318"></ellipse>
+                    <ellipse id="Oval" fill="#5115A7" cx="13.940189" cy="13.8033491" rx="1" ry="1"></ellipse>
+                    <ellipse id="Oval" fill="url(#linearGradient-39)" cx="9.1436762" cy="19.0286465" rx="1" ry="1"></ellipse>
+                    <ellipse id="Oval" fill="url(#linearGradient-40)" cx="20.046796" cy="4.70672991" rx="1" ry="1"></ellipse>
+                    <ellipse id="Oval" fill="#5115A7" cx="11.7213108" cy="7.97780106" rx="1" ry="1"></ellipse>
+                    <ellipse id="Oval" fill="#5115A7" cx="21.3905353" cy="19.0444838" rx="1.08165765" ry="1.33079318"></ellipse>
+                    <ellipse id="Oval" fill="#461093" cx="19.1715268" cy="14.750855" rx="1.08165765" ry="1.33079318"></ellipse>
                 </g>
-                <g id="yellow-planet" transform="translate(38.000000, 280.500000) scale(-1, 1) translate(-38.000000, -280.500000) translate(0.000000, 242.000000)">
-                    <mask id="mask-43" fill="white">
-                        <use xlink:href="#path-42"></use>
-                    </mask>
-                    <g id="Oval" transform="translate(37.856871, 38.596615) rotate(72.000000) translate(-37.856871, -38.596615) ">
-                        <use fill="url(#radialGradient-41)" fill-rule="evenodd" xlink:href="#path-42"></use>
-                        <use fill="black" fill-opacity="1" filter="url(#filter-44)" xlink:href="#path-42"></use>
+                <g id="purple-planet" transform="translate(235.707206, 31.010600) scale(1, -1) rotate(139.000000) translate(-235.707206, -31.010600) translate(222.707206, 18.010600)">
+                    <ellipse id="Oval" fill="url(#linearGradient-29)" cx="12.60542" cy="12.5892484" rx="12.4488365" ry="12.4761861"></ellipse>
+                    <ellipse id="Oval" fill="url(#linearGradient-30)" cx="13.1673657" cy="12.5074044" rx="10.0352865" ry="12.4761861"></ellipse>
+                    <path d="M13.0444756,25.0699993 C15.5969303,25.0699993 17.8640026,19.4788286 17.8640026,12.58177 C17.8640026,5.68471146 15.5969303,0.0935407571 13.0444756,0.0935407571 C10.4920208,0.0935407571 8.62074628,5.68471146 8.62074628,12.58177 C8.62074628,19.4788286 10.4920208,25.0699993 13.0444756,25.0699993 Z" id="Oval" fill="url(#linearGradient-31)"></path>
+                    <g id="Path-9" transform="translate(12.760262, 0.142852)">
+                        <mask id="mask-42" fill="white">
+                            <use xlink:href="#path-41"></use>
+                        </mask>
+                        <g id="Mask" transform="translate(6.224418, 12.476186) rotate(180.000000) translate(-6.224418, -12.476186) ">
+                            <use fill="url(#linearGradient-32)" fill-rule="evenodd" xlink:href="#path-41"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-43)" xlink:href="#path-41"></use>
+                        </g>
                     </g>
-                    <path d="M48.8375499,20.1460137 C57.8252158,20.6170373 63.341723,16.967554 63.341723,10.8924217 C63.341723,4.8172895 56.3048783,-2.94221263 47.4683224,-2.94221263 C38.6317664,-2.94221263 27.7050755,3.01655011 28.3896893,9.06066328 C29.0743031,15.1047764 39.8498841,19.6749901 48.8375499,20.1460137 Z" id="Oval" stroke="url(#linearGradient-45)" stroke-width="4" mask="url(#mask-43)"></path>
-                    <path d="M50.6297116,43.2715009 C64.715197,42.0069452 73.5939445,36.7707681 73.5939445,25.4489307 C73.5939445,14.1270934 58.6662941,0.751438334 41.2693245,0.751438334 C23.8723549,0.751438334 16.3537989,-1.89057604 16.3537989,9.43126133 C16.3537989,12.198948 13.0438946,15.2660307 15.6210955,23.4120748 C18.1982965,31.558119 24.2947456,29.8748756 26.9766185,36.0236607 C29.6584913,42.1724458 42.5318395,43.9985053 50.6297116,43.2715009 Z" id="Oval" stroke="url(#linearGradient-46)" stroke-width="3" mask="url(#mask-43)"></path>
-                    <path d="M49.3128199,30.184645 C64.3445989,29.9710548 79.2286992,21.8213265 79.2286992,12.7086281 C79.2286992,3.59592978 66.2449569,-3.79137185 50.2286992,-3.79137185 C34.2124414,-3.79137185 19.7160392,2.59786246 21.2422747,11.6902002 C22.7685101,20.7825379 34.2810409,30.3982352 49.3128199,30.184645 Z" id="Oval" stroke="url(#linearGradient-47)" stroke-width="2" mask="url(#mask-43)"></path>
-                    <path d="M40.8046704,58.7785498 C56.835079,58.6172956 72.2332096,51.4132987 74.1215504,34.4889325 C76.0098912,17.5645664 55.8108276,3.59224563 38.6900004,3.59224563 C21.5691731,3.59224563 6.41983952,7.90927224 5.42545635,26.8832334 C4.43107318,45.8571946 24.7742619,58.9398041 40.8046704,58.7785498 Z" id="Oval" stroke="url(#linearGradient-48)" stroke-width="5" mask="url(#mask-43)"></path>
+                    <ellipse id="Oval" fill="url(#linearGradient-36)" cx="22.4977864" cy="10.6714423" rx="1.67165274" ry="2.39542772"></ellipse>
+                    <ellipse id="Oval" fill="url(#linearGradient-37)" cx="14.7822532" cy="21.4670076" rx="3.34330548" ry="2.35998034"></ellipse>
+                    <circle id="Oval" fill="#400F84" cx="9.20630385" cy="11.4464766" r="1.96665028"></circle>
+                    <ellipse id="Oval" fill="url(#linearGradient-38)" cx="12.819121" cy="2.49944849" rx="1.77134804" ry="1.3766552"></ellipse>
+                    <ellipse id="Oval" fill="#5115A7" cx="16.6996125" cy="8.16027187" rx="1.27832268" ry="1.33079318"></ellipse>
+                    <ellipse id="Oval" fill="#5115A7" cx="13.940189" cy="13.8033491" rx="1" ry="1"></ellipse>
+                    <ellipse id="Oval" fill="url(#linearGradient-39)" cx="9.1436762" cy="19.0286465" rx="1" ry="1"></ellipse>
+                    <ellipse id="Oval" fill="url(#linearGradient-40)" cx="20.046796" cy="4.70672991" rx="1" ry="1"></ellipse>
+                    <ellipse id="Oval" fill="#5115A7" cx="11.7213108" cy="7.97780106" rx="1" ry="1"></ellipse>
+                    <ellipse id="Oval" fill="#5115A7" cx="21.3905353" cy="19.0444838" rx="1.08165765" ry="1.33079318"></ellipse>
+                    <ellipse id="Oval" fill="#461093" cx="19.1715268" cy="14.750855" rx="1.08165765" ry="1.33079318"></ellipse>
+                </g>
+                <g id="yellow-planet" transform="translate(19.604000, 141.468000) scale(-1, 1) translate(-19.604000, -141.468000) translate(0.104000, 121.968000)">
+                    <mask id="mask-46" fill="white">
+                        <use xlink:href="#path-45"></use>
+                    </mask>
+                    <g id="Oval" transform="translate(19.079863, 19.452694) rotate(72.000000) translate(-19.079863, -19.452694) ">
+                        <use fill="url(#radialGradient-44)" fill-rule="evenodd" xlink:href="#path-45"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-47)" xlink:href="#path-45"></use>
+                    </g>
+                    <path d="M24.6141252,10.1535909 C29.1439087,10.3909868 31.9242284,8.55164721 31.9242284,5.48978056 C31.9242284,2.42791391 28.3776587,-1.48287516 23.9240345,-1.48287516 C19.4704102,-1.48287516 13.963358,1.52034126 14.3084034,4.56657429 C14.6534488,7.61280733 20.0843416,9.91619501 24.6141252,10.1535909 Z" id="Oval" stroke="url(#linearGradient-48)" stroke-width="2.016" mask="url(#mask-46)"></path>
+                    <path d="M25.5173746,21.8088364 C32.6164593,21.1715004 37.091348,18.5324671 37.091348,12.8262611 C37.091348,7.12005506 29.5678122,0.37872492 20.7997395,0.37872492 C12.0316669,0.37872492 8.24231465,-0.952850322 8.24231465,4.75335571 C8.24231465,6.14826979 6.57412286,7.69407946 7.87303214,11.7996857 C9.17194142,15.905292 12.2445518,15.0569373 13.5962157,18.155925 C14.9478796,21.2549127 21.4360471,22.1752467 25.5173746,21.8088364 Z" id="Oval" stroke="url(#linearGradient-49)" stroke-width="1.512" mask="url(#mask-46)"></path>
+                    <path d="M24.8536612,15.2130611 C32.4296778,15.1054116 39.9312644,10.9979486 39.9312644,6.40514859 C39.9312644,1.81234861 33.3874583,-1.91085141 25.3152644,-1.91085141 C17.2430705,-1.91085141 9.93688376,1.30932268 10.7061064,5.89186089 C11.4753291,10.4743991 17.2776446,15.3207105 24.8536612,15.2130611 Z" id="Oval" stroke="url(#linearGradient-50)" stroke-width="1.008" mask="url(#mask-46)"></path>
+                    <path d="M20.5655539,29.6243891 C28.6448798,29.543117 36.4055377,25.9123025 37.3572614,17.382422 C38.3089852,8.85254146 28.1286571,1.8104918 19.4997602,1.8104918 C10.8708633,1.8104918 3.23559912,3.98627321 2.73443,13.5491496 C2.23326088,23.1120261 12.486228,29.7056612 20.5655539,29.6243891 Z" id="Oval" stroke="url(#linearGradient-51)" stroke-width="2.52" mask="url(#mask-46)"></path>
                 </g>
             </g>
         </g>

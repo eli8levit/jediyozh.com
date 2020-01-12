@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="948px" height="549px" viewBox="0 0 948 549" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50.1845644%" cy="50%" fx="50.1845644%" fy="50%" r="50%" gradientTransform="translate(0.501846,0.500000),scale(0.460720,1.000000),rotate(90.000000),scale(1.000000,2.180813),translate(-0.501846,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#004F52" offset="0%"></stop>
+            <stop stop-color="#004F52" offset="2.59727389%"></stop>
+            <stop stop-color="#004C4F" offset="2.60952909%"></stop>
+            <stop stop-color="#004C4F" offset="5.67498461%"></stop>
+            <stop stop-color="#024A4D" offset="5.74567498%"></stop>
+            <stop stop-color="#00494C" offset="8.85772253%"></stop>
+            <stop stop-color="#00484C" offset="8.97526975%"></stop>
+            <stop stop-color="#00474A" offset="12.2857267%"></stop>
+            <stop stop-color="#004648" offset="12.3776859%"></stop>
+            <stop stop-color="#004446" offset="15.7496174%"></stop>
+            <stop stop-color="#004446" offset="16.0033285%"></stop>
+            <stop stop-color="#004144" offset="20.3098669%"></stop>
+            <stop stop-color="#004041" offset="20.4599483%"></stop>
+            <stop stop-color="#003F41" offset="25.1700148%"></stop>
+            <stop stop-color="#003D3E" offset="25.2303615%"></stop>
+            <stop stop-color="#003B3D" offset="29.4275673%"></stop>
+            <stop stop-color="#003A3B" offset="29.5251624%"></stop>
+            <stop stop-color="#003737" offset="36.4771628%"></stop>
+            <stop stop-color="#003537" offset="36.5761805%"></stop>
+            <stop stop-color="#003436" offset="39.8126194%"></stop>
+            <stop stop-color="#003233" offset="39.9412115%"></stop>
+            <stop stop-color="#003130" offset="45.8675966%"></stop>
+            <stop stop-color="#002F31" offset="45.9150271%"></stop>
+            <stop stop-color="#002E30" offset="49.5761702%"></stop>
+            <stop stop-color="#002D2D" offset="49.6359712%"></stop>
+            <stop stop-color="#00292A" offset="59.7738896%"></stop>
+            <stop stop-color="#002727" offset="59.8445695%"></stop>
+            <stop stop-color="#022323" offset="70.9889858%"></stop>
+            <stop stop-color="#042121" offset="71.0062866%"></stop>
+            <stop stop-color="#051E1D" offset="76.6290274%"></stop>
+            <stop stop-color="#051B1C" offset="76.745984%"></stop>
+            <stop stop-color="#051818" offset="83.8724627%"></stop>
+            <stop stop-color="#081617" offset="83.9225066%"></stop>
+            <stop stop-color="#060F10" offset="91.2113032%"></stop>
+            <stop stop-color="#050D0E" offset="91.3511075%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="background-dark" transform="translate(-290.000000, -265.000000)" fill="url(#radialGradient-1)">
+            <ellipse id="bg" transform="translate(764.129688, 539.583828) rotate(-20.000000) translate(-764.129688, -539.583828) " cx="764.129688" cy="539.583828" rx="497.196" ry="229.068"></ellipse>
+        </g>
+    </g>
+</svg>
