@@ -4,9 +4,9 @@ body {
 }
 
 body {
-  font-family: Inter, Helvetica, Arial sans-serif;
+  font-family: Gilam, Helvetica, Arial sans-serif;
   background-color: var(--bg-color-primary);
-  background-image: url('../assets/yozh-dark.svg');
+  background-image: url('../assets/yozh.svg');
   background-repeat: no-repeat;
   background-position: center;
   /* background-size: 90%; */
@@ -57,12 +57,13 @@ nav ul li {
 
 nav ul li a {
   color: var(--color-text-primary);
-  font-size: 2vmin;
-  font-weight: 900;
+  font-size: 20px;
+  font-weight: 800;
   color: var(--color-nav-text);
   background-color: var(--bg-color-btn);
   transition: color 0.2s ease;
   text-decoration: none;
+  text-transform: uppercase;
   cursor: pointer;
   transition: color 0.2s ease-in-out;
 }
@@ -105,7 +106,6 @@ h1 {
   animation-name: fadeZoom;
   text-transform: uppercase;
   font-weight: 900;
-  font-family: Gilam;
 }
 
 p {
@@ -118,7 +118,6 @@ p {
   animation-delay: 0.3s;
   animation-name: fadeZoom;
   line-height: 1.4;
-  font-family: Gilam;
 }
 
 .nav-button:hover {

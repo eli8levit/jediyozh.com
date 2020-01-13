@@ -36,7 +36,6 @@
 
   /* box-shadows */
   --shadow-header: 0 2px 25px -3px rgba(0, 0, 0, 0.4);
-  background-image: url('../assets/yozh-dark.svg');
 }
 
 .light .toggle-theme .sun {
