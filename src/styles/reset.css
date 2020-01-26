@@ -66,6 +66,11 @@ select {
   font: inherit;
 }
 
+/* Personal changes */
+button {
+  padding: 0;
+}
+
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   * {

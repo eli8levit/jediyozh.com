@@ -1,4 +1,4 @@
-let toggle = document.querySelector('.toggle-theme');
+let toggle = document.querySelector('.theme-toggler');
 
 if (localStorage.getItem('theme') === 'light') {
   document.body.classList.add('light');
