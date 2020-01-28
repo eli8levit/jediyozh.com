@@ -58,7 +58,7 @@
   padding: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: var(--mobile-width)) {
   .page-header__nav {
     padding-inline-start: 5vw;
   }
