@@ -17,7 +17,6 @@
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: min-content;
-  /* grid-column-gap: 0.5em; */
   height: 100%;
   align-items: center;
   margin: 0;
@@ -41,14 +40,19 @@
   border-radius: 3px;
 }
 
-.page-header__link:not(.page-header__link--active):hover {
-  color: var(--color-red);
-}
-
 .page-header__link:not(.page-header__link--active):focus {
   box-shadow: 0 0 0 3px var(--color-active-link);
   outline: none;
   color: var(--color-active-link);
+}
+
+.page-header__link:not(.page-header__link--active):hover {
+  color: var(--color-red);
+}
+
+.page-header__link:not(.page-header__link--active):active {
+  transform: translateY(1px);
+  box-shadow: none;
 }
 
 .page-header__link--active {

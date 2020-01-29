@@ -3,4 +3,8 @@
 @import './keyframes.css';
 @import './reset.css';
 @import './style.css';
-@import './blocks/index.css';
+
+@import './blocks/footer.css';
+@import './blocks/header.css';
+@import './blocks/main-intro.css';
+@import './blocks/theme-toogler.css';
