@@ -1,10 +1,10 @@
-module.exports = function (config) {
+module.exports = function(config) {
   config.addPassthroughCopy('src/styles');
   config.addPassthroughCopy('src/assets');
   config.addPassthroughCopy('src/fonts');
   config.addPassthroughCopy('src/index.js');
   config.addPassthroughCopy('src/scripts');
-  config.addPassthroughCopy({ "src/other": "/" });
+  config.addPassthroughCopy({ 'src/other': '/' });
 
   return {
     dir: {
@@ -12,6 +12,7 @@ module.exports = function (config) {
       output: '_site',
       includes: 'includes',
       layouts: 'layouts',
+      data: 'global',
     },
     dataTemplateEngine: 'njk',
     markdownTemplateEngine: false,

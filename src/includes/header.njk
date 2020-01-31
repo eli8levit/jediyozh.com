@@ -1,8 +1,14 @@
+{% set aboutUrl = '/about/' %}
+
 <header class="page-header">
   <nav class="page-header__nav">
     <ul class="page-header__list">
       <li class="page-header__list-item">
-        <a href="#" tabindex="-1" class="page-header__link page-header__link--active">Home</a>
+        <a
+          href="/"
+          class="page-header__link {% if page.url === paths.home %}page-header__link--active{% endif %}"
+          >Home</a
+        >
       </li>
       <li class="page-header__list-item">
         <a href="#" class="page-header__link">Blog</a>
@@ -11,7 +17,12 @@
         <a href="#" class="page-header__link">Work</a>
       </li>
       <li class="page-header__list-item">
-        <a href="#" class="page-header__link">About</a>
+        <a
+          href="/about/"
+          class="page-header__link {% if page.url === paths.about %}page-header__link--active{% endif %}"
+          tabindex="{% if page.url === paths.about %}-1{% elif 0 %}{% endif %}"
+          >About</a
+        >
       </li>
     </ul>
   </nav>

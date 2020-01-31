@@ -10,7 +10,6 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 70px 1fr 1fr max-content;
   grid-row-gap: 3em;
-  transition: background-color 0.7s ease-in-out;
 }
 
 /* linear-gradient(to bottom, #12181c, black) */
