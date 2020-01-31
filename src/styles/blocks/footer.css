@@ -18,14 +18,13 @@
   font-size: 12px;
   font-weight: 500;
   color: var(--color-footer-text);
-  margin-right: 10px;
   animation: none;
   white-space: normal;
   text-align: center;
 }
 
 .page-footer__link {
-  padding: 2px;
+  padding: 1px;
   color: var(--color-footer-link);
   text-decoration: none;
 }

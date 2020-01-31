@@ -36,7 +36,7 @@
   border-radius: 3px;
 }
 
-.page-header__link:not(.page-header__link--active):focus {
+.page-header__link:focus {
   box-shadow: 0 0 0 3px var(--color-active-link);
   outline: none;
   color: var(--color-active-link);
@@ -61,7 +61,7 @@
 
 @media (max-width: 768px) {
   .page-header__nav {
-    padding-inline-start: 5vw;
+    padding-inline-start: 1vw;
   }
 
   .page-header__link {

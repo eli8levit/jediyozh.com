@@ -7,6 +7,7 @@
         <a
           href="/"
           class="page-header__link {% if page.url === paths.home %}page-header__link--active{% endif %}"
+          tabindex="{% if page.url === paths.home %}-1{% elif 0 %}{% endif %}"
           >Home</a
         >
       </li>
