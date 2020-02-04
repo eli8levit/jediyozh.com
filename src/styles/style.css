@@ -8,13 +8,10 @@ body {
   background-color: var(--bg-color-primary);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 70px 1fr max-content;
+  grid-template-rows: max-content 1fr max-content;
   row-gap: 3em;
+  overflow-x: hidden;
 }
-
-/* linear-gradient(to bottom, #12181c, black) */
-/* linear-gradient(to bottom, #ffe6e6, #fff8ee) */
-/* linear-gradient(to bottom, #f9f9e4, #fff8ee) */
 
 ul,
 ol,

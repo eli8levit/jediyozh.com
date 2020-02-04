@@ -1,31 +1,37 @@
-.main-intro {
+.home-page {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 0.9fr 1.1fr;
   grid-template-columns: 100%;
   grid-column: 1 / -1;
   grid-row-gap: 3em;
 }
 
-.main-intro__introduction {
+.home-page__introduction {
   align-self: end;
   grid-column: 1 / -1;
   margin-left: 15vw;
 }
 
-.main-intro__heading {
-  margin-block-end: 0.5em;
+.home-page__heading {
+  margin-block-end: 1em;
   color: var(--color-text-primary);
-  font-size: calc(15px + 2.2vw);
+  font-size: calc(15px + 1.2vw);
   transition: color 0.7s ease-in-out;
   animation-duration: 1.5s;
   animation-fill-mode: both;
   animation-delay: 0.3s;
   animation-name: fadeZoom;
-  text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 700;
 }
 
-.main-intro__text {
+.home-page__name {
+  font-size: calc(25px + 2.2vw);
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+}
+
+.home-page__text {
   color: var(--color-text-primary);
   font-size: calc(11px + 0.8vw);
   font-weight: 600;
@@ -37,11 +43,11 @@
   line-height: 1.4;
 }
 
-.main-intro__text span {
+.home-page__text span {
   display: table;
 }
 
-.main-intro__link {
+.home-page__link {
   margin-left: -5px;
   padding: 3px 5px;
   text-decoration: none;
@@ -51,40 +57,41 @@
   white-space: nowrap;
 }
 
-.main-intro__link::after {
+.home-page__link::after {
   content: '→';
   margin-left: 9px;
   vertical-align: middle;
   transition: all 0.2s ease-in;
 }
 
-.main-intro__link:hover::after {
+.home-page__link:hover::after {
   margin-left: 18px;
 }
 
-.main-intro__link:focus {
+.home-page__link:focus {
   box-shadow: 0 0 0 3px var(--color-inline-link);
 }
 
-.main-intro__logo {
+.home-page__logo {
   grid-column: 1 / -1;
   align-self: center;
   margin: 0 auto;
+  margin-bottom: 2em;
   min-width: 290px;
   animation-duration: 1.5s;
   animation: lineIn 0.5s ease-in-out 0.3s both;
 }
 
-.main-intro__special-word {
+.home-page__special-word {
   color: var(--color-red);
 }
 
 @media (max-width: 768px) {
-  .main-intro {
-    grid-template-rows: 1.1fr 0.9fr;
+  .home-page {
+    grid-template-rows: 1fr 1fr;
   }
 
-  .main-intro__introduction {
+  .home-page__introduction {
     text-align: left;
     white-space: normal;
     margin: 0;
@@ -93,22 +100,25 @@
     padding-bottom: 0;
   }
 
-  .main-intro__heading {
-    font-size: 27px;
-    margin-block-end: 0.7em;
+  .home-page__heading {
+    font-size: 25px;
   }
 
-  .main-intro__text {
+  .home-page__name {
+    font-size: 38px;
+  }
+
+  .home-page__text {
     font-size: 18px;
     line-height: 1.3em;
     white-space: normal;
   }
 
-  .main-intro__text span {
+  .home-page__text span {
     display: initial;
   }
 
-  .main-intro__logo {
+  .home-page__logo {
     width: 40%;
     min-width: 220px;
     max-width: 265px;

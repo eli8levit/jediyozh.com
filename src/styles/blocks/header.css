@@ -4,6 +4,7 @@
   display: grid;
   grid-template-columns: 0.92fr 0.08fr;
   grid-column-gap: 10px;
+  height: 70px;
   align-items: center;
 }
 
@@ -60,11 +61,21 @@
 }
 
 @media (max-width: 768px) {
+  .page-header {
+    height: 50px;
+  }
+
   .page-header__nav {
     padding-inline-start: 1vw;
   }
 
   .page-header__link {
-    font-size: 16px;
+    font-size: 15px;
+    padding: 4px 8px;
+  }
+
+  .page-header__link--active {
+    padding: 0;
+    margin: 4px 8px;
   }
 }

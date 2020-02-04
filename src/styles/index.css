@@ -6,5 +6,6 @@
 
 @import './blocks/footer.css';
 @import './blocks/header.css';
-@import './blocks/main-intro.css';
+@import './blocks/home.css';
 @import './blocks/theme-toogler.css';
+@import './blocks/about.css';

@@ -1,0 +1,54 @@
+.about-page {
+  grid-column: 1 / -1;
+}
+
+.about-page__photo {
+  width: 30vw;
+  min-width: 150px;
+  max-height: 68vh;
+  object-fit: cover;
+  margin-right: 3vw;
+  clip-path: polygon(
+    58.03% 0%,
+    90.49% 8.3%,
+    99.79% 69.28%,
+    84.76% 100%,
+    18.1% 100%,
+    6.64% 33.16%,
+    24.42% 8.3%
+  );
+  -webkit-clip-path: polygon(
+    58.03% 0%,
+    90.49% 8.3%,
+    99.79% 69.28%,
+    84.76% 100%,
+    18.1% 100%,
+    6.64% 33.16%,
+    24.42% 8.3%
+  );
+  float: left;
+  shape-outside: polygon(
+    58.03% 0%,
+    90.49% 8.3%,
+    99.79% 69.28%,
+    84.76% 100%,
+    18.1% 100%,
+    6.64% 33.16%,
+    24.42% 8.3%
+  );
+}
+
+.about-page__heading {
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 0.5em;
+  color: var(--color-text-primary);
+}
+
+.about-page__text {
+  padding: 0 3vw;
+  font-size: 20px;
+  line-height: 1.6;
+  color: var(--color-text-primary);
+}
