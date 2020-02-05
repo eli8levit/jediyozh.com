@@ -3,7 +3,7 @@
   grid-template-rows: 0.9fr 1.1fr;
   grid-template-columns: 100%;
   grid-column: 1 / -1;
-  grid-row-gap: 3em;
+  grid-row-gap: 1em;
 }
 
 .home-page__introduction {
@@ -25,7 +25,7 @@
 }
 
 .home-page__name {
-  font-size: calc(25px + 2.2vw);
+  font-size: calc(23px + 2.2vw);
   text-transform: uppercase;
   font-weight: 900;
 }
@@ -79,6 +79,7 @@
   min-width: 290px;
   animation-duration: 1.5s;
   animation: lineIn 0.5s ease-in-out 0.3s both;
+  filter: drop-shadow(12px -3px 10px #0000003b);
 }
 
 .home-page__special-word {
@@ -100,11 +101,11 @@
   }
 
   .home-page__heading {
-    font-size: 25px;
+    font-size: 23px;
   }
 
   .home-page__name {
-    font-size: 38px;
+    font-size: 33px;
   }
 
   .home-page__text {
