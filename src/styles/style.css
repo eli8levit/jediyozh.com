@@ -11,7 +11,6 @@ body {
   grid-template-rows: max-content 1fr max-content;
   row-gap: 3em;
   overflow-x: hidden;
-  /* background-image: linear-gradient(-225deg, #fffefc 0%, rgb(255, 250, 234) 100%); */
 }
 
 ul,

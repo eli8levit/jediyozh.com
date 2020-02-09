@@ -8,34 +8,10 @@
   max-height: 68vh;
   object-fit: cover;
   margin-right: 3vw;
-  clip-path: polygon(
-    58.03% 0%,
-    90.49% 8.3%,
-    99.79% 69.28%,
-    84.76% 100%,
-    18.1% 100%,
-    6.64% 33.16%,
-    24.42% 8.3%
-  );
-  -webkit-clip-path: polygon(
-    58.03% 0%,
-    90.49% 8.3%,
-    99.79% 69.28%,
-    84.76% 100%,
-    18.1% 100%,
-    6.64% 33.16%,
-    24.42% 8.3%
-  );
+  clip-path: polygon(77% 8%, 94% 100%, 19% 100%, 4% 8%);
+  -webkit-clip-path: polygon(77% 8%, 94% 100%, 19% 100%, 4% 8%);
   float: left;
-  shape-outside: polygon(
-    58.03% 0%,
-    90.49% 8.3%,
-    99.79% 69.28%,
-    84.76% 100%,
-    18.1% 100%,
-    6.64% 33.16%,
-    24.42% 8.3%
-  );
+  shape-outside: polygon(77% 8%, 94% 100%, 19% 100%, 4% 8%);
 }
 
 .about-page__heading {
@@ -51,4 +27,17 @@
   font-size: 20px;
   line-height: 1.6;
   color: var(--color-text-primary);
+}
+
+@media (max-width: 768px) {
+  .about-page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-page__photo {
+    margin-bottom: 1em;
+    width: 50vw;
+    align-self: center;
+  }
 }
