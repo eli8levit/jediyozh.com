@@ -7,7 +7,7 @@
   grid-row: 3;
   min-height: 35px;
   box-sizing: border-box;
-  background-color: var(--color-footer-bg);
+  background-color: var(--bg-footer);
   transition: background-color 0.7s ease-in-out;
   line-height: 1.25;
   overflow: auto;

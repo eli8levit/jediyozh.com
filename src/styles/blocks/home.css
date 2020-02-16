@@ -32,7 +32,7 @@
 
 .home-page__text {
   color: var(--color-text-primary);
-  font-size: calc(12px + 0.8vw);
+  font-size: calc(13px + 0.8vw);
   font-weight: 600;
   transition: color 0.7s ease-in-out;
   animation-duration: 1.5s;
@@ -79,11 +79,15 @@
   min-width: 290px;
   animation-duration: 1.5s;
   animation: lineIn 0.5s ease-in-out 0.3s both;
-  filter: drop-shadow(12px -3px 10px #0000003b);
+  filter: drop-shadow(0 20px 10px #dd0b0b33) drop-shadow(20px -7px 14px #e84c001a);
 }
 
 .home-page__special-word {
   color: var(--color-red);
+  background: linear-gradient(25deg, #ff8448, #c80000);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media (max-width: 768px) {

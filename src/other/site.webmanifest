@@ -1,6 +1,6 @@
 {
-    "name": "jediyozh",
-    "short_name": "jediyozh",
+    "name": "Eli Levit",
+    "short_name": "Eli Levit",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#fff8ee",
-    "background_color": "#fff8ee",
+    "theme_color": "#fffefc",
+    "background_color": "#fffefc",
     "display": "standalone"
 }

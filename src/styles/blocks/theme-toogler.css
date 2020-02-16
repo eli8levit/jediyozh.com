@@ -15,17 +15,16 @@
   outline: none;
 }
 
-.theme-toggler__sun,
-.theme-toggler__crescent {
+.theme-toggler__icon {
   transition: all 0.2s ease-in-out;
   fill: var(--color-nav-text);
 }
 
-.theme-toggler:focus svg,
-.theme-toggler:hover svg {
-  fill: var(--color-active-link);
+.theme-toggler:focus .theme-toggler__icon,
+.theme-toggler:hover .theme-toggler__icon {
+  fill: url('#sun-gradient');
 }
 
-.theme-toggler__crescent {
+.theme-toggler__icon--crescent {
   display: none;
 }

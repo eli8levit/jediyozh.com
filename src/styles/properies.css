@@ -7,7 +7,6 @@
   --color-deep-fir: #061a1b;
   --color-active-link: white;
   --color-inline-link: #c3ccff;
-  --color-footer-bg: rgb(30, 30, 30);
   --color-footer-text: #a8a8a8;
   --color-footer-link: var(--color-inline-link);
 
@@ -16,6 +15,7 @@
   --bg-color-btn: transparent;
   --bg-color-nav-hover: rgba(0, 0, 0, 0.2);
   --bg-color-nav-link: white;
+  --bg-footer: #262626;
 
   /*backgrounds */
   --bg-index-size: cover;
@@ -32,13 +32,13 @@
   --color-fir: #00c0a2;
   --color-active-link: black;
   --color-inline-link: #2f3975;
-  --color-footer-bg: var(--color-text-primary);
   --color-footer-text: #b0b0b0;
 
   /* background colors */
   --bg-color-primary: #fffefc;
   --bg-color-nav-hover: #f0efef;
   --bg-color-nav-link: #0000000d;
+  --bg-footer: var(--color-text-primary);
 
   /*backgrounds */
   --bg-index-size: 49%;
@@ -47,10 +47,15 @@
   --shadow-header: 0 2px 25px -3px rgba(0, 0, 0, 0.4);
 }
 
-.light .theme-toggler__sun {
+.light .theme-toggler__icon--sun {
   display: none;
 }
 
-.light .theme-toggler__crescent {
+.light .theme-toggler__icon--crescent {
   display: initial;
+}
+
+.light .theme-toggler:focus .theme-toggler__icon,
+.light .theme-toggler:hover .theme-toggler__icon {
+  fill: url('#crescent-gradient');
 }
