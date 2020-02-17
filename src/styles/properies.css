@@ -3,8 +3,6 @@
   --color-text-primary: white;
   --color-red: #fa0000;
   --color-nav-text: #b5bbbb;
-  --color-fir: #0e3b3f;
-  --color-deep-fir: #061a1b;
   --color-active-link: white;
   --color-inline-link: #c3ccff;
   --color-footer-text: #a8a8a8;
@@ -13,15 +11,10 @@
   /* background colors */
   --bg-color-primary: #121212;
   --bg-color-btn: transparent;
-  --bg-color-nav-hover: rgba(0, 0, 0, 0.2);
-  --bg-color-nav-link: white;
-  --bg-footer: #262626;
-
-  /*backgrounds */
-  --bg-index-size: cover;
+  --bg-footer: #1b1b1b;
 
   /* box-shadows */
-  --shadow-header: 0 0 15px 0 rgba(0, 0, 0, 0.7);
+  --shadow-footer: 0 -5px 4px 0 #00000029;
 }
 
 .light {
@@ -29,22 +22,16 @@
   --color-text-primary: rgba(0, 0, 0, 0.85);
   --color-red: #d20000;
   --color-nav-text: #323232;
-  --color-fir: #00c0a2;
   --color-active-link: black;
   --color-inline-link: #2f3975;
   --color-footer-text: #b0b0b0;
 
   /* background colors */
   --bg-color-primary: #fffefc;
-  --bg-color-nav-hover: #f0efef;
-  --bg-color-nav-link: #0000000d;
   --bg-footer: var(--color-text-primary);
 
-  /*backgrounds */
-  --bg-index-size: 49%;
-
   /* box-shadows */
-  --shadow-header: 0 2px 25px -3px rgba(0, 0, 0, 0.4);
+  --shadow-footer: 0 -5px 4px 0 #0000001f;
 }
 
 .light .theme-toggler__icon--sun {
@@ -55,7 +42,6 @@
   display: initial;
 }
 
-.light .theme-toggler:focus .theme-toggler__icon,
 .light .theme-toggler:hover .theme-toggler__icon {
   fill: url('#crescent-gradient');
 }

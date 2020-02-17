@@ -7,6 +7,7 @@
   grid-row: 3;
   min-height: 35px;
   box-sizing: border-box;
+  box-shadow: var(--shadow-footer);
   background-color: var(--bg-footer);
   transition: background-color 0.7s ease-in-out;
   line-height: 1.25;
@@ -19,7 +20,6 @@
   color: var(--color-footer-text);
   animation: none;
   padding: 8px 20px;
-  /* white-space: normal; */
   white-space: nowrap;
   text-align: center;
 }

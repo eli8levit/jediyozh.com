@@ -20,9 +20,16 @@
   fill: var(--color-nav-text);
 }
 
-.theme-toggler:focus .theme-toggler__icon,
-.theme-toggler:hover .theme-toggler__icon {
+.theme-toggler:hover .theme-toggler__icon--sun .main-circle {
   fill: url('#sun-gradient');
+}
+
+.theme-toggler:hover .theme-toggler__icon--sun .bottom-circle {
+  fill: #f46939;
+}
+
+.theme-toggler:hover .theme-toggler__icon--sun .top-circle {
+  fill: #c80000;
 }
 
 .theme-toggler__icon--crescent {
