@@ -1,6 +1,6 @@
 .home-page {
   display: grid;
-  grid-template-rows: 0.9fr 1.1fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-columns: 100%;
   grid-column: 1 / -1;
   grid-row-gap: 1em;
@@ -10,6 +10,7 @@
   align-self: end;
   grid-column: 1 / -1;
   margin-left: 15vw;
+  margin-right: 20vw;
 }
 
 .home-page__heading {
@@ -21,54 +22,46 @@
   animation-fill-mode: both;
   animation-delay: 0.3s;
   animation-name: fadeZoom;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .home-page__name {
-  font-size: calc(23px + 2.2vw);
+  font-size: calc(25px + 2.2vw);
   text-transform: uppercase;
   font-weight: 900;
 }
 
 .home-page__text {
+  max-width: 800px;
   color: var(--color-text-primary);
-  font-size: calc(13px + 0.8vw);
-  font-weight: 600;
+  font-size: calc(14px + 0.8vw);
+  font-weight: 500;
   transition: color 0.7s ease-in-out;
   animation-duration: 1.5s;
   animation-fill-mode: both;
   animation-delay: 0.3s;
   animation-name: fadeZoom;
-  line-height: 1.4;
-}
-
-.home-page__text span {
-  display: table;
+  line-height: 1.35;
 }
 
 .home-page__link {
   margin-left: -5px;
-  padding: 3px 5px;
+  padding: 0 5px;
   text-decoration: none;
   color: var(--color-inline-link);
   transition: color 0.7s ease-in-out;
   border-radius: 3px;
   white-space: nowrap;
-}
-
-.home-page__link::after {
-  content: '→';
-  margin-left: 9px;
-  vertical-align: middle;
-  transition: all 0.2s ease-in;
-}
-
-.home-page__link:hover::after {
-  margin-left: 18px;
+  display: inline-block;
+  font-weight: 600;
 }
 
 .home-page__link:focus {
   box-shadow: 0 0 0 3px var(--color-inline-link);
+}
+
+.home-page__link:active {
+  transform: translateY(1px);
 }
 
 .home-page__logo {
@@ -79,11 +72,12 @@
   min-width: 290px;
   animation-duration: 1.5s;
   animation: lineIn 0.5s ease-in-out 0.3s both;
-  filter: drop-shadow(0 20px 10px #dd0b0b33) drop-shadow(20px -7px 14px #e84c001a);
+  filter: drop-shadow(0 20px 10px var(--shadow-logo-bottom))
+    drop-shadow(20px -7px 14px var(--shadow-logo-eagles)) brightness(var(--filter-brightness));
+  transition: filter 0.7s ease-in-out;
 }
 
 .home-page__special-word {
-  color: var(--color-red);
   background: linear-gradient(25deg, #ff8448, #c80000);
   background-clip: border-box;
   -webkit-background-clip: text;
@@ -92,14 +86,14 @@
 
 @media (max-width: 768px) {
   .home-page {
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1.1fr 0.9fr;
   }
 
   .home-page__introduction {
     text-align: left;
     white-space: normal;
     margin: 0;
-    padding: 3vw;
+    padding: 0 3vw;
     transform: none;
     padding-bottom: 0;
   }
@@ -126,5 +120,7 @@
     width: 40%;
     min-width: 220px;
     max-width: 265px;
+    align-self: end;
+    padding-bottom: 1em;
   }
 }

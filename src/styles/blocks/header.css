@@ -2,7 +2,7 @@
   width: 100%;
   grid-column: 1 / -1;
   display: grid;
-  grid-template-columns: 0.92fr 0.08fr;
+  grid-template-columns: 1.9fr 0.1fr;
   grid-column-gap: 10px;
   height: 70px;
   align-items: center;
@@ -29,7 +29,6 @@
   font-size: 20px;
   font-weight: 800;
   color: var(--color-nav-text);
-  background-color: var(--bg-color-btn);
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer;
@@ -45,13 +44,10 @@
 
 .page-header__link:not(.page-header__link--active):active {
   transform: translateY(1px);
-  margin-top: 2px;
 }
 
 .page-header__link:not(.page-header__link--active):hover {
-  color: var(--color-red);
   background: linear-gradient(25deg, #ff8448, #c80000);
-  background-clip: border-box;
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -1,20 +1,23 @@
 :root {
   /* colors */
-  --color-text-primary: white;
+  --color-text-primary: #e7e7e7;
   --color-red: #fa0000;
   --color-nav-text: #b5bbbb;
-  --color-active-link: white;
+  --color-active-link: #e7e7e7;
   --color-inline-link: #c3ccff;
   --color-footer-text: #a8a8a8;
   --color-footer-link: var(--color-inline-link);
 
   /* background colors */
   --bg-color-primary: #121212;
-  --bg-color-btn: transparent;
   --bg-footer: #1b1b1b;
 
   /* box-shadows */
   --shadow-footer: 0 -5px 4px 0 #00000029;
+  --shadow-logo-bottom: #00000057;
+  --shadow-logo-eagles: #00000057;
+
+  --filter-brightness: 0.9;
 }
 
 .light {
@@ -32,6 +35,10 @@
 
   /* box-shadows */
   --shadow-footer: 0 -5px 4px 0 #0000001f;
+  --shadow-logo-bottom: #dd0b0b2b;
+  --shadow-logo-eagles: #e84c001a;
+
+  --filter-brightness: 1;
 }
 
 .light .theme-toggler__icon--sun {

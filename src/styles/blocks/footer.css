@@ -30,10 +30,6 @@
   text-decoration: none;
 }
 
-.page-footer__link:hover {
-  box-shadow: 0 1px 0 0 var(--color-footer-link);
-}
-
 .page-footer__link:focus {
   border-radius: 2px;
   box-shadow: 0 0 0 1px var(--color-footer-link);
@@ -44,5 +40,9 @@
   .page-footer {
     -webkit-text-size-adjust: none;
     justify-content: flex-start;
+  }
+
+  .page-footer__text:first-of-type {
+    padding-left: 3vw;
   }
 }
