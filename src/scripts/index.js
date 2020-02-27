@@ -16,10 +16,6 @@ toggle.addEventListener('click', function(e) {
     document.body.classList.add('light');
     localStorage.setItem('theme', 'light');
   }
-
-  setTimeout(() => {
-    document.body.style.transition = '';
-  }, 1000);
 });
 
 let lastDown, lastDownAt;

@@ -47,7 +47,11 @@
 }
 
 .page-header__link:not(.page-header__link--active):hover {
-  background: linear-gradient(25deg, #ff8448, #c80000);
+  background: linear-gradient(
+    25deg,
+    var(--color-text-gradient-start),
+    var(--color-text-gradient-end)
+  );
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

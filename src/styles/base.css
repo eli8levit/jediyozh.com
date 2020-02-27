@@ -12,6 +12,7 @@ body {
   grid-template-rows: max-content 1fr max-content;
   row-gap: 3em;
   overflow-x: hidden;
+  will-change: background-color;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 

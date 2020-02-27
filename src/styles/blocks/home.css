@@ -1,6 +1,6 @@
 .home-page {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 0.9fr 1.1fr;
   grid-template-columns: 100%;
   grid-column: 1 / -1;
   grid-row-gap: 1em;
@@ -23,6 +23,7 @@
   animation-delay: 0.3s;
   animation-name: fadeZoom;
   font-weight: 600;
+  will-change: color;
 }
 
 .home-page__name {
@@ -32,7 +33,6 @@
 }
 
 .home-page__text {
-  max-width: 800px;
   color: var(--color-text-primary);
   font-size: calc(14px + 0.8vw);
   font-weight: 500;
@@ -42,6 +42,7 @@
   animation-delay: 0.3s;
   animation-name: fadeZoom;
   line-height: 1.35;
+  will-change: color;
 }
 
 .home-page__link {
@@ -71,14 +72,18 @@
   margin-bottom: 2em;
   min-width: 290px;
   animation-duration: 1.5s;
-  animation: lineIn 0.5s ease-in-out 0.3s both;
+  animation: lineIn 0.5s ease-in-out 0.5s both;
   filter: drop-shadow(0 20px 10px var(--shadow-logo-bottom))
-    drop-shadow(20px -7px 14px var(--shadow-logo-eagles)) brightness(var(--filter-brightness));
-  transition: filter 0.7s ease-in-out;
+    drop-shadow(20px -7px 14px var(--shadow-logo-eagles));
+  will-change: filter;
 }
 
 .home-page__special-word {
-  background: linear-gradient(25deg, #ff8448, #c80000);
+  background: linear-gradient(
+    25deg,
+    var(--color-text-gradient-start),
+    var(--color-text-gradient-end)
+  );
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -12,14 +12,15 @@
   transition: background-color 0.7s ease-in-out;
   line-height: 1.25;
   overflow: auto;
+  will-change: background-color;
+  font-weight: 300;
 }
 
 .page-footer__text {
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 13px;
   color: var(--color-footer-text);
   animation: none;
-  padding: 8px 20px;
+  padding: 9px 20px;
   white-space: nowrap;
   text-align: center;
 }
@@ -44,5 +45,9 @@
 
   .page-footer__text:first-of-type {
     padding-left: 3vw;
+  }
+
+  .page-footer__text {
+    font-size: 12px;
   }
 }

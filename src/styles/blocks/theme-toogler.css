@@ -19,6 +19,7 @@
 .theme-toggler__icon {
   transition: all 0.2s ease-in-out;
   fill: var(--color-nav-text);
+  will-change: fill;
 }
 
 .theme-toggler:hover .theme-toggler__icon--sun .main-circle {
