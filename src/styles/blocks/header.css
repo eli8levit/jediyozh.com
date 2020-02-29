@@ -25,7 +25,6 @@
 
 .page-header__link {
   display: inline-block;
-  color: var(--color-text-primary);
   font-size: 20px;
   font-weight: 800;
   color: var(--color-nav-text);

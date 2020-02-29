@@ -34,7 +34,7 @@
 
 .home-page__text {
   color: var(--color-text-primary);
-  font-size: calc(14px + 0.8vw);
+  font-size: calc(17px + 0.8vw);
   font-weight: 500;
   transition: color 0.7s ease-in-out;
   animation-duration: 1.5s;
@@ -69,7 +69,6 @@
   grid-column: 1 / -1;
   align-self: center;
   margin: 0 auto;
-  margin-bottom: 2em;
   min-width: 290px;
   animation-duration: 1.5s;
   animation: lineIn 0.5s ease-in-out 0.5s both;

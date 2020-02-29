@@ -8,6 +8,7 @@
   margin-left: auto;
   margin-right: 20px;
   margin-bottom: 5px;
+  transition: all 0.06s ease-in;
 }
 
 .theme-toggler:focus {
@@ -17,21 +18,16 @@
 }
 
 .theme-toggler__icon {
-  transition: all 0.2s ease-in-out;
-  fill: var(--color-nav-text);
+  transition: all 0.06s ease-in;
   will-change: fill;
 }
 
-.theme-toggler:hover .theme-toggler__icon--sun .main-circle {
-  fill: url('#sun-gradient');
+.theme-toggler:hover {
+  transform: scale(1.2);
 }
 
-.theme-toggler:hover .theme-toggler__icon--sun .bottom-circle {
-  fill: #f46939;
-}
-
-.theme-toggler:hover .theme-toggler__icon--sun .top-circle {
-  fill: #c80000;
+.theme-toggler:hover .theme-toggler__icon {
+  fill: var(--color-active-link);
 }
 
 .theme-toggler__icon--crescent {

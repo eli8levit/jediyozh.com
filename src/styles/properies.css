@@ -3,7 +3,7 @@
   --color-text-primary: #f3f3f3;
   --color-red: #fa0000;
   --color-nav-text: #b5bbbb;
-  --color-active-link: #e7e7e7;
+  --color-active-link: white;
   --color-inline-link: #c3ccff;
   --color-footer-text: #a8a8a8;
   --color-footer-link: var(--color-inline-link);
@@ -24,9 +24,9 @@
 
 .light {
   /* colors */
-  --color-text-primary: #363636;
+  --color-text-primary: #3a3a3a;
   --color-red: #d20000;
-  --color-nav-text: #323232;
+  --color-nav-text: #3c3c3c;
   --color-active-link: black;
   --color-inline-link: #2f3975;
   --color-footer-text: #d0d0d0;
@@ -51,8 +51,4 @@
 
 .light .theme-toggler__icon--crescent {
   display: initial;
-}
-
-.light .theme-toggler:hover .theme-toggler__icon {
-  fill: url('#crescent-gradient');
 }
