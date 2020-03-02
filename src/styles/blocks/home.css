@@ -4,6 +4,7 @@
   grid-template-columns: 100%;
   grid-column: 1 / -1;
   grid-row-gap: 1em;
+  padding: 1em 0;
 }
 
 .home-page__introduction {

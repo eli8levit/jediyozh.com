@@ -7,12 +7,13 @@
   width: 33.33vw;
   min-width: 150px;
   object-fit: cover;
-  margin-right: 3vw;
-  clip-path: polygon(77% 0%, 94% 100%, 19% 100%, 4% 0%);
-  -webkit-clip-path: polygon(77% 0%, 94% 100%, 19% 100%, 4% 0%);
+  margin-right: 5vw;
+  clip-path: polygon(77% 0%, 92% 100%, 19% 100%, 4% 0%);
+  -webkit-clip-path: polygon(77% 0%, 92% 100%, 19% 100%, 4% 0%);
   float: left;
-  shape-outside: polygon(77% 0%, 94% 100%, 19% 100%, 4% 0%);
+  shape-outside: polygon(77% 0%, 92% 100%, 19% 100%, 4% 0%);
   padding-top: calc(4 / 3 * 100% / 3);
+  margin-top: 0.43em;
 }
 
 .about-page__photo {
@@ -32,8 +33,8 @@
 }
 
 .about-page__text {
-  padding: 0 3vw;
-  font-size: 20px;
+  padding: 0 5vw;
+  font-size: calc(16px + 0.3vw);
   line-height: 1.6;
   color: var(--color-text-primary);
   font-weight: 400;
@@ -41,12 +42,15 @@
 
 @media (max-width: 768px) {
   .about-page__photo-container {
-    min-height: 200px;
+    height: 340px;
+    width: 250px;
     float: unset;
-    margin-bottom: 2em;
+    margin: 0 auto;
+    margin-bottom: 1em;
   }
 
   .about-page__text {
+    padding: 0 3vw;
     font-size: 18px;
     line-height: 1.5;
   }

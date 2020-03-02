@@ -33,6 +33,8 @@
   cursor: pointer;
   padding: 4px 10px;
   border-radius: 3px;
+  transition: color 0.5s ease-in-out;
+  transition-property: color, box-shadow;
 }
 
 .page-header__link:focus {
