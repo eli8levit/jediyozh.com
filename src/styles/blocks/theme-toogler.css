@@ -39,6 +39,14 @@
     margin-right: 3vw;
   }
 
+  .theme-toggler:hover {
+    transform: none;
+  }
+
+  .theme-toggler:hover .theme-toggler__icon {
+    fill: var(--color-nav-text);
+  }
+
   .theme-toggler__icon {
     width: 22px;
     height: 22px;

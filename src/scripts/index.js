@@ -7,7 +7,7 @@ if (localStorage.getItem('theme') === 'light') {
 toggle.addEventListener('click', function(e) {
   e.preventDefault();
 
-  document.body.style.transition = 'background-color 0.7s ease-in-out';
+  document.body.style.transition = 'background-color 0.5s ease-in-out';
 
   if (document.body.classList.contains('light')) {
     document.body.classList.remove('light');

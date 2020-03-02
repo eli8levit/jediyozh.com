@@ -34,8 +34,8 @@
 
 .home-page__text {
   color: var(--color-text-primary);
-  font-size: calc(17px + 0.8vw);
-  font-weight: 500;
+  font-size: calc(16px + 0.8vw);
+  font-weight: 400;
   transition: color 0.7s ease-in-out;
   animation-duration: 1.5s;
   animation-fill-mode: both;
@@ -111,7 +111,7 @@
   }
 
   .home-page__text {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.3em;
     white-space: normal;
   }
@@ -124,7 +124,5 @@
     width: 40%;
     min-width: 220px;
     max-width: 265px;
-    align-self: end;
-    padding-bottom: 1em;
   }
 }
