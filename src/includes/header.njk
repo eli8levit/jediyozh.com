@@ -10,7 +10,11 @@
         >
       </li>
       <li class="page-header__list-item">
-        <a href="#" class="page-header__link">Blog</a>
+        <a
+          href="/blog/"
+          class="page-header__link {% if page.url === paths.blog %}page-header__link--active{% endif %}"
+          >Blog</a
+        >
       </li>
       <li class="page-header__list-item">
         <a href="#" class="page-header__link">Work</a>
