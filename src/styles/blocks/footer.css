@@ -23,6 +23,7 @@
   padding: 9px 20px;
   white-space: nowrap;
   text-align: center;
+  transition: color 0.5s ease-in-out;
 }
 
 .page-footer__link {

@@ -12,7 +12,7 @@
 
   /* background colors */
   --bg-color-primary: #171717;
-  --bg-footer: #202020;
+  --bg-footer: #1d1d1d;
 
   /* box-shadows */
   --shadow-footer: 0 -5px 6px 0 #0000000d;
@@ -24,7 +24,7 @@
 
 .light {
   /* colors */
-  --color-text-primary: #363636;
+  --color-text-primary: #303030;
   --color-red: #d20000;
   --color-nav-text: #3c3c3c;
   --color-active-link: black;
@@ -39,7 +39,7 @@
 
   /* box-shadows */
   --shadow-footer: 0 -5px 6px 0 #0000001f;
-  --shadow-logo-bottom: rgba(221, 11, 11, 0.169);
+  --shadow-logo-bottom: rgba(221, 11, 11, 0.15);
   --shadow-logo-eagles: rgba(232, 76, 0, 0.102);
 
   --filter-brightness: 1;

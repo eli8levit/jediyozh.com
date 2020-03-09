@@ -11,7 +11,7 @@
   align-self: end;
   grid-column: 1 / -1;
   margin-left: 15vw;
-  margin-right: 20vw;
+  margin-right: 25vw;
 }
 
 .home-page__heading {
@@ -28,14 +28,15 @@
 }
 
 .home-page__name {
-  font-size: calc(25px + 2.2vw);
+  font-size: calc(25px + 2vw);
   text-transform: uppercase;
   font-weight: 900;
+  display: inline-block;
 }
 
 .home-page__text {
   color: var(--color-text-primary);
-  font-size: calc(16px + 0.8vw);
+  font-size: calc(14px + 0.8vw);
   font-weight: 400;
   transition: color 0.7s ease-in-out;
   animation-duration: 1.5s;
@@ -44,6 +45,7 @@
   animation-name: fadeZoom;
   line-height: 1.35;
   will-change: color;
+  min-height: 120px;
 }
 
 .home-page__link {
@@ -74,7 +76,7 @@
   animation-duration: 1.5s;
   animation: lineIn 0.5s ease-in-out 0.5s both;
   filter: drop-shadow(0 20px 10px var(--shadow-logo-bottom))
-    drop-shadow(20px -7px 14px var(--shadow-logo-eagles));
+    drop-shadow(20px -7px 14px var(--shadow-logo-eagles)) opacity(90%);
   will-change: filter;
 }
 
@@ -104,15 +106,16 @@
   }
 
   .home-page__heading {
-    font-size: 23px;
+    font-size: 22px;
   }
 
   .home-page__name {
-    font-size: 33px;
+    font-size: 34px;
+    margin-bottom: 0.1em;
   }
 
   .home-page__text {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.3em;
     white-space: normal;
   }
