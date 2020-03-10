@@ -17,7 +17,7 @@
 .home-page__heading {
   margin-block-end: 1em;
   color: var(--color-text-primary);
-  font-size: calc(15px + 1.2vw);
+  font-size: calc(14px + 1vw);
   transition: color 0.7s ease-in-out;
   animation-duration: 1.5s;
   animation-fill-mode: both;
@@ -28,7 +28,7 @@
 }
 
 .home-page__name {
-  font-size: calc(25px + 2vw);
+  font-size: calc(23px + 1.8vw);
   text-transform: uppercase;
   font-weight: 900;
   display: inline-block;
@@ -57,7 +57,7 @@
   border-radius: 3px;
   white-space: nowrap;
   display: inline-block;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .home-page__link:focus {
@@ -110,7 +110,7 @@
   }
 
   .home-page__name {
-    font-size: 28px;
+    font-size: 29px;
     margin-bottom: 0.1em;
   }
 
