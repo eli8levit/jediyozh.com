@@ -1,6 +1,6 @@
 .home-page {
   display: grid;
-  grid-template-rows: 0.9fr 1.1fr;
+  grid-template-rows: 1fr;
   grid-template-columns: 100%;
   grid-column: 1 / -1;
   grid-row-gap: 1em;
@@ -8,16 +8,17 @@
 }
 
 .home-page__introduction {
-  align-self: end;
+  align-self: center;
   grid-column: 1 / -1;
-  margin-left: 15vw;
-  margin-right: 25vw;
+  margin-left: 17vw;
+  margin-right: 30vw;
+  margin-bottom: 70px;
 }
 
 .home-page__heading {
   margin-block-end: 1em;
   color: var(--color-text-primary);
-  font-size: calc(14px + 1vw);
+  font-size: 25px;
   transition: color 0.7s ease-in-out;
   animation-duration: 1.5s;
   animation-fill-mode: both;
@@ -28,15 +29,15 @@
 }
 
 .home-page__name {
-  font-size: calc(23px + 1.8vw);
-  text-transform: uppercase;
-  font-weight: 900;
-  display: inline-block;
+  font-size: 45px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
 }
 
 .home-page__text {
   color: var(--color-text-primary);
-  font-size: calc(14px + 0.8vw);
+  font-size: 20px;
   font-weight: 400;
   transition: color 0.7s ease-in-out;
   animation-duration: 1.5s;
@@ -70,32 +71,12 @@
 
 .home-page__logo {
   grid-column: 1 / -1;
+  margin-left: 40px;
+  margin-bottom: 5px;
   align-self: center;
-  margin: 0 auto;
-  min-width: 290px;
-  animation-duration: 1.5s;
-  animation: lineIn 0.5s ease-in-out 0.5s both;
-  filter: drop-shadow(0 20px 10px var(--shadow-logo-bottom))
-    drop-shadow(20px -7px 14px var(--shadow-logo-eagles)) opacity(90%);
-  will-change: filter;
-}
-
-.home-page__special-word {
-  background: linear-gradient(
-    25deg,
-    var(--color-text-gradient-start),
-    var(--color-text-gradient-end)
-  );
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 @media (max-width: 768px) {
-  .home-page {
-    grid-template-rows: 1.1fr 0.9fr;
-  }
-
   .home-page__introduction {
     text-align: left;
     white-space: normal;
@@ -106,27 +87,22 @@
   }
 
   .home-page__heading {
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .home-page__name {
-    font-size: 29px;
+    font-size: 25px;
     margin-bottom: 0.1em;
   }
 
   .home-page__text {
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.3em;
     white-space: normal;
   }
 
-  .home-page__text span {
-    display: initial;
-  }
-
   .home-page__logo {
-    width: 40%;
-    min-width: 220px;
-    max-width: 265px;
+    width: 40px;
+    margin-left: 20px;
   }
 }

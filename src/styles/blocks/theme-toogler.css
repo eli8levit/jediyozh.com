@@ -28,7 +28,7 @@
 }
 
 .theme-toggler:hover .theme-toggler__icon {
-  fill: var(--color-active-link);
+  fill: var(--color-red);
 }
 
 .theme-toggler__icon--crescent {

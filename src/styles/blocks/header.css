@@ -25,15 +25,15 @@
 
 .page-header__link {
   display: inline-block;
-  font-size: 20px;
-  font-weight: 800;
+  font-size: 16px;
+  font-weight: 700;
   color: var(--color-nav-text);
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer;
-  padding: 4px 10px;
+  padding: 3px 7px;
   border-radius: 3px;
-  transition: color 0.5s ease-in-out;
+  transition: color 0.1s ease-in-out;
   transition-property: color, box-shadow;
 }
 
@@ -48,22 +48,15 @@
 }
 
 .page-header__link:not(.page-header__link--active):hover {
-  background: linear-gradient(
-    25deg,
-    var(--color-text-gradient-start),
-    var(--color-text-gradient-end)
-  );
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--color-red);
 }
 
 .page-header__link--active {
   color: var(--color-active-link);
-  box-shadow: 0 3px 0 var(--color-active-link);
+  box-shadow: 0 2px 0 var(--color-active-link);
   border-radius: 0;
   padding: 0;
-  margin: 4px 10px;
+  margin: 3px 7px;
 }
 
 @media (max-width: 768px) {
@@ -76,8 +69,8 @@
   }
 
   .page-header__link {
-    font-size: 15px;
-    padding: 4px 8px;
+    font-size: 14px;
+    padding: 2px 6px;
   }
 
   .page-header__link--active {

@@ -17,7 +17,7 @@
 }
 
 .page-footer__text {
-  font-size: 13px;
+  font-size: 11px;
   color: var(--color-footer-text);
   animation: none;
   padding: 9px 20px;
@@ -49,6 +49,6 @@
   }
 
   .page-footer__text {
-    font-size: 12px;
+    font-size: 10px;
   }
 }

@@ -1,7 +1,7 @@
 :root {
   /* colors */
-  --color-text-primary: #f3f3f3;
-  --color-red: #fa0000;
+  --color-text-primary: #fafafa;
+  --color-red: #ff4f4f;
   --color-nav-text: #b5bbbb;
   --color-active-link: white;
   --color-inline-link: #c3ccff;
@@ -16,33 +16,25 @@
 
   /* box-shadows */
   --shadow-footer: 0 -5px 6px 0 #0000000d;
-  --shadow-logo-bottom: #00000057;
-  --shadow-logo-eagles: #00000057;
-
-  --filter-brightness: 0.9;
 }
 
 .light {
   /* colors */
-  --color-text-primary: #303030;
+  --color-text-primary: #000000;
   --color-red: #d20000;
-  --color-nav-text: #3c3c3c;
+  --color-nav-text: #2e2e2e;
   --color-active-link: black;
   --color-inline-link: #2f3975;
   --color-footer-text: #d0d0d0;
-  --color-text-gradient-start: #ff8448;
-  --color-text-gradient-end: #c80000;
 
   /* background colors */
-  --bg-color-primary: #fffefc;
+  --bg-color-primary: #eff1fa;
   --bg-footer: #262626;
 
   /* box-shadows */
   --shadow-footer: 0 -5px 6px 0 #0000001f;
   --shadow-logo-bottom: rgba(221, 11, 11, 0.15);
   --shadow-logo-eagles: rgba(232, 76, 0, 0.102);
-
-  --filter-brightness: 1;
 }
 
 .light .theme-toggler__icon--sun {
