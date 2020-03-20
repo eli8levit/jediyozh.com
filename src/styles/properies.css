@@ -13,9 +13,6 @@
   /* background colors */
   --bg-color-primary: #171717;
   --bg-footer: #1d1d1d;
-
-  /* box-shadows */
-  --shadow-footer: 0 -5px 6px 0 #0000000d;
 }
 
 .light {
@@ -28,13 +25,8 @@
   --color-footer-text: #d0d0d0;
 
   /* background colors */
-  --bg-color-primary: #eff1fa;
+  --bg-color-primary: #f4f6fd;
   --bg-footer: #262626;
-
-  /* box-shadows */
-  --shadow-footer: 0 -5px 6px 0 #0000001f;
-  --shadow-logo-bottom: rgba(221, 11, 11, 0.15);
-  --shadow-logo-eagles: rgba(232, 76, 0, 0.102);
 }
 
 .light .theme-toggler__icon--sun {

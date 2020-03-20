@@ -28,6 +28,10 @@ h6 {
   padding: 0;
 }
 
+p {
+  line-height: 1.6;
+}
+
 img {
   color: var(--color-text-primary);
   text-align: center;
