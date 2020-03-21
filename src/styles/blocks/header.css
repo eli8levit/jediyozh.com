@@ -59,6 +59,20 @@
   margin: 3px 7px;
 }
 
+.page-header__tools {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.page-header__tools a {
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-nav-text);
+}
+
 @media (max-width: 768px) {
   .page-header {
     height: 50px;
@@ -76,5 +90,13 @@
   .page-header__link--active {
     padding: 0;
     margin: 4px 8px;
+  }
+
+  .page-header__tools {
+    margin-right: 3vw;
+  }
+
+  .page-header__tools a {
+    font-size: 14px;
   }
 }
