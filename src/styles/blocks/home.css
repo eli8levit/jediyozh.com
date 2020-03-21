@@ -10,7 +10,7 @@
 .home-page__introduction {
   align-self: center;
   grid-column: 1 / -1;
-  margin-left: 17vw;
+  margin-left: 12vw;
   margin-right: 30vw;
   margin-bottom: 70px;
 }
@@ -18,7 +18,7 @@
 .home-page__heading {
   margin-block-end: 1em;
   color: var(--color-text-primary);
-  font-size: 25px;
+  font-size: 22px;
   transition: color 0.7s ease-in-out;
   animation-duration: 1.5s;
   animation-fill-mode: both;
@@ -29,7 +29,7 @@
 }
 
 .home-page__name {
-  font-size: 45px;
+  font-size: 54px;
   font-weight: 800;
   letter-spacing: 0.025em;
   display: flex;
@@ -86,21 +86,21 @@
   }
 
   .home-page__heading {
-    font-size: 19px;
+    font-size: 17px;
   }
 
   .home-page__name {
-    font-size: 27px;
+    font-size: 32px;
     margin-bottom: 0.1em;
   }
 
   .home-page__text {
-    font-size: 17px;
+    font-size: 16px;
     white-space: normal;
   }
 
   .home-page__logo {
-    width: 36px;
+    width: 42px;
     margin-left: 20px;
   }
 }

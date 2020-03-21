@@ -39,9 +39,13 @@
 
 @media (max-width: 768px) {
   .page-footer {
-    min-height: 28px;
+    min-height: 25px;
     -webkit-text-size-adjust: none;
     justify-content: flex-start;
+  }
+
+  .page-footer__text {
+    padding: 7px 20px;
   }
 
   .page-footer__text:first-of-type {
