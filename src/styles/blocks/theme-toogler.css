@@ -5,7 +5,6 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
-  margin-left: auto;
   margin-bottom: 3px;
   transition: all 0.1s ease-out;
 }
@@ -20,10 +19,6 @@
   transition: all 0.1s ease-out;
   transition-delay: 0.05s;
   will-change: fill;
-}
-
-.theme-toggler:hover {
-  transform: scale(1.2);
 }
 
 .theme-toggler:hover .theme-toggler__icon {
