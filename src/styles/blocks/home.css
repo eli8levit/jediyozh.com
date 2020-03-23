@@ -31,7 +31,7 @@
 
 .home-page__name {
   /* font-size: 48px; */
-  font-size: calc(33px + 0.7vw);
+  font-size: calc(33px + 0.8vw);
   font-weight: 800;
   letter-spacing: 0.025em;
   display: flex;

@@ -1,17 +1,20 @@
----
-layout: page.njk
----
+{% extends "./page.njk" %}
+{% set metaTitle = site[locale].homeTitle %}
 
+{% block content %}
 <div class="home-page">
   <section class="home-page__introduction">
     <h1 class="home-page__heading">
-      <span class="home-page__name">{{ site[locale].naming }}
-        <img src="/assets/images/yozh.svg" class="home-page__logo" width="65px" alt="Red headgehok"/></span>
-      Front-end Developer
+      <span class="home-page__name"
+        >{{ site[locale].name }}
+        <img src="/assets/images/yozh.svg" class="home-page__logo" width="65px" alt="Red headgehok"
+      /></span>
+      {{ site[locale].profession }}
     </h1>
     <p class="home-page__text">
-      I’m trying to write posts. Also I love to make videos, photos and code some stuff. Also I like read books, wine and girls. A11y, React and super cool console.log debugging.
-      <a href="/about/" class="home-page__link inline-link">More about me</a>
+      {{ site[locale].info }}
+      <a href="/about/" class="home-page__link inline-link">{{ site[locale].moreAboutMe }}</a>
     </p>
   </section>
 </div>
+{% endblock %}

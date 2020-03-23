@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ locale }}">
   <head>
-    <title>{{ title }}</title>
+    <title>{{ metaTitle }}</title>
 
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -41,6 +41,7 @@
   <body>
     {% include 'header.njk' %}
     {{ content | safe }}
+    {% block content %}{% endblock %}
     {% include 'footer.njk' %}
     <script src="/scripts/index.js"></script>
   </body>
