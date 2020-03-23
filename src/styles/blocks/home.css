@@ -11,14 +11,15 @@
   align-self: center;
   grid-column: 1 / -1;
   margin-left: 12vw;
-  margin-right: 30vw;
+  margin-right: 34vw;
   margin-bottom: 70px;
 }
 
 .home-page__heading {
   margin-block-end: 1em;
   color: var(--color-text-primary);
-  font-size: 22px;
+  /* font-size: 22px; */
+  font-size: calc(17px + 0.31vw);
   transition: color 0.7s ease-in-out;
   animation-duration: 1.5s;
   animation-fill-mode: both;
@@ -29,7 +30,8 @@
 }
 
 .home-page__name {
-  font-size: 48px;
+  /* font-size: 48px; */
+  font-size: calc(33px + 0.7vw);
   font-weight: 800;
   letter-spacing: 0.025em;
   display: flex;
@@ -38,7 +40,8 @@
 
 .home-page__text {
   color: var(--color-text-primary);
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: calc(13px + 0.4vw);
   font-weight: 400;
   transition: color 0.7s ease-in-out;
   animation-duration: 1.5s;
