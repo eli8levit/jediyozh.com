@@ -30,7 +30,12 @@
     </ul>
   </nav>
   <div class="page-header__tools">
-    <a>EN</a>
+    {% if locale == 'en' %}
+      {% set langLink = 'ru' %}
+    {% else %}
+      {% set langLink = 'en' %}
+    {% endif %}
+    <a class="page-header__link" href="/{{ langLink }}">{{ langLink }}</a>
     <button class="page-header__toggle-btn theme-toggler">
       <svg
         width="20"

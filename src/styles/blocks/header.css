@@ -68,10 +68,6 @@
 
 .page-header__tools a {
   margin-right: 15px;
-  text-transform: uppercase;
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--color-nav-text);
 }
 
 @media (max-width: 768px) {
@@ -95,9 +91,5 @@
 
   .page-header__tools {
     margin-right: 3vw;
-  }
-
-  .page-header__tools a {
-    font-size: 14px;
   }
 }
