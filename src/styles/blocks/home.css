@@ -13,7 +13,7 @@
   margin-left: 17vw;
   margin-right: 30vw;
   margin-bottom: 70px;
-  max-width: 750px;
+  max-width: calc(500px + 15vw);
 }
 
 .home-page__heading {

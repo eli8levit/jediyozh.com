@@ -1,11 +1,12 @@
+{% set localeUrl = '/' + locale + '/' %}
 <header class="page-header">
   <nav class="page-header__nav">
     <ul class="page-header__list">
       <li class="page-header__list-item">
         <a
-          href="/"
-          class="page-header__link {% if page.url === paths.home %}page-header__link--active{% endif %}"
-          tabindex="{% if page.url === paths.home %}-1{% elif 0 %}{% endif %}"
+          href="/{{ locale }}"
+          class="page-header__link {% if page.url ===  localeUrl %}page-header__link--active{% endif %}"
+          tabindex="{% if page.url === localeUrl %}-1{% elif 0 %}{% endif %}"
           >Home</a
         >
       </li>
@@ -21,7 +22,7 @@
       </li>
       <li class="page-header__list-item">
         <a
-          href="/about/"
+          href="/{{ locale}}/about/"
           class="page-header__link {% if page.url === paths.about %}page-header__link--active{% endif %}"
           tabindex="{% if page.url === paths.about %}-1{% elif 0 %}{% endif %}"
           >About</a
@@ -29,13 +30,19 @@
       </li>
     </ul>
   </nav>
-  <div class="page-header__tools">
-    {% if locale == 'en' %}
-      {% set langLink = 'ru' %}
-    {% else %}
-      {% set langLink = 'en' %}
+  {% set translatedUrl, translationLabel = '' %}
+  {% for lang in site.languages %}
+    {% if locale != lang.code %}
+      {% for item in collections.all %}
+          {% if item.data.translationKey == translationKey and item.data.locale != locale  %}
+            {% set translatedUrl = item.url %}
+            {% set translationLabel = lang.label %}
+          {% endif %}
+       {% endfor %}
     {% endif %}
-    <a class="page-header__link" href="/{{ langLink }}">{{ langLink }}</a>
+  {% endfor %}
+  <div class="page-header__tools">
+    <a class="page-header__link" href={{ translatedUrl }}>{{ translationLabel }}</a>
     <button class="page-header__toggle-btn theme-toggler">
       <svg
         width="20"
