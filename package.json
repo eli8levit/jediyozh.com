@@ -12,7 +12,7 @@
   "scripts": {
     "start": "eleventy --serve --quiet",
     "build:eleventy": "eleventy --quiet",
-    "build:parcel": "cp -a _site/other dist/ && parcel build  _site/**/*.html",
+    "build:parcel": "cp -a _site/other dist/ && parcel build  _site/en/index.html _site/en/about/index.html _site/ru/index.html _site/ru/about/index.html",
     "build": "npm run remove-builds && npm run build:eleventy && npm run build:parcel",
     "test": "echo \"Error: no test specified\" && exit 1",
     "remove-builds": "rm -rf dist && rm -rf _site && rm -rf .cache",
