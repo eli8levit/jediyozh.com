@@ -1,9 +1,7 @@
 :root {
   /* colors */
-  --color-text-primary: #fafafa;
+  --color-text-primary: #f7f7f7;
   --color-red: #ff4f4f;
-  --color-nav-text: #b5bbbb;
-  --color-active-link: white;
   --color-inline-link: #c3ccff;
   --color-footer-text: #a8a8a8;
   --color-footer-link: var(--color-inline-link);
@@ -11,16 +9,14 @@
   --color-text-gradient-end: #ff1717;
 
   /* background colors */
-  --bg-color-primary: #171717;
-  --bg-footer: #1d1d1d;
+  --bg-color-primary: #141414;
+  --bg-footer: #0f0f0f;
 }
 
 .light {
   /* colors */
   --color-text-primary: #1a1a1a;
   --color-red: #d20000;
-  --color-nav-text: #2e2e2e;
-  --color-active-link: black;
   --color-inline-link: #2f3975;
   --color-footer-text: #d0d0d0;
 

@@ -10,7 +10,7 @@
 }
 
 .theme-toggler:focus {
-  box-shadow: 0 0 0 3px var(--color-active-link);
+  box-shadow: 0 0 0 3px var(--color-text-primary);
   border-radius: 4px;
   outline: none;
 }
