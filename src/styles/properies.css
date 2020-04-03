@@ -7,18 +7,20 @@
   --color-footer-link: var(--color-inline-link);
   --color-text-gradient-start: #ff9c6c;
   --color-text-gradient-end: #ff1717;
+  --color-header-shadow: rgba(0,0,0,0.9);
 
   /* background colors */
-  --bg-color-primary: #141414;
+  --bg-color-primary: #131313;
   --bg-footer: #0f0f0f;
 }
 
 .light {
   /* colors */
   --color-text-primary: #1a1a1a;
-  --color-red: #d20000;
+  --color-red: #df0000;
   --color-inline-link: #2f3975;
   --color-footer-text: #d0d0d0;
+  --color-header-shadow: rgba(0,0,0,0.12);
 
   /* background colors */
   --bg-color-primary: #f4f6fd;

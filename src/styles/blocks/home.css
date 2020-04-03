@@ -12,7 +12,7 @@
   grid-column: 1 / -1;
   margin-left: 17vw;
   margin-right: 30vw;
-  margin-bottom: 70px;
+  /* margin-bottom: 70px; */
   max-width: calc(500px + 15vw);
 }
 
@@ -32,7 +32,7 @@
 
 .home-page__name {
   /* font-size: 48px; */
-  font-size: calc(33px + 0.8vw);
+  font-size: calc(26px + 1.4vw);
   font-weight: 800;
   letter-spacing: 0.025em;
   display: flex;
@@ -84,18 +84,18 @@
     text-align: left;
     white-space: normal;
     margin: 0;
-    padding: 0 3vw;
+    padding: 0 4vw;
+    padding-right: 2vw;
     transform: none;
     padding-bottom: 0;
   }
 
   .home-page__heading {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .home-page__name {
-    font-size: 30px;
-    margin-bottom: 0.1em;
+    font-size: 32px;
   }
 
   .home-page__text {
@@ -104,7 +104,8 @@
   }
 
   .home-page__logo {
-    width: 42px;
+    width: 45px;
     margin-left: 20px;
+    text-align: left;
   }
 }
