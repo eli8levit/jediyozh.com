@@ -14,10 +14,6 @@ body {
   overflow-x: hidden;
   will-change: background-color;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  background-image: url("/assets/images/bg.png");
-  background-size: cover;
-  background-position: bottom 20%;
-  background-repeat: no-repeat;
 }
 
 ul,
