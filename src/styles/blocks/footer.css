@@ -7,7 +7,6 @@
   grid-row: 3;
   min-height: 35px;
   box-sizing: border-box;
-  /* background-color: var(--bg-footer); */
   transition: background-color 0.7s ease-in-out;
   line-height: 1.25;
   overflow: auto;
@@ -27,7 +26,7 @@
 
 .page-footer__link {
   padding: 1px;
-  color: var(--color-inline-link);
+  color: var(--color-footer-link);
   text-decoration: none;
 }
 

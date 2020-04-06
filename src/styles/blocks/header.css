@@ -6,7 +6,20 @@
   grid-column-gap: 10px;
   height: 65px;
   align-items: center;
-  box-shadow: 0px 0px 10px 0px var(--color-header-shadow);
+  position: relative;
+}
+
+.page-header::after {
+  content: '';
+  position: absolute;
+  width: 100vw;
+  height: 40px;
+  display: inline-block;
+  background-image: url('/assets/images/arrow-black.svg');
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-size: 32px;
+  bottom: -24px;
 }
 
 .page-header__nav {
@@ -73,7 +86,7 @@
 
 @media (max-width: 768px) {
   .page-header {
-    height: 50px;
+    height: 60px;
   }
 
   .page-header__nav {
@@ -83,14 +96,15 @@
   .page-header__link {
     font-size: 13px;
     padding: 2px 6px;
-  }
-
-  .page-header__link--active {
-    padding: 0;
-    margin: 4px 8px;
+    transition: none;
   }
 
   .page-header__tools {
     margin-right: 3vw;
+  }
+
+  .page-header::after {
+    background-size: 18px;
+    bottom: -13px;
   }
 }

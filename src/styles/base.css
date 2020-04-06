@@ -14,6 +14,7 @@ body {
   overflow-x: hidden;
   will-change: background-color;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  /* background-image: linear-gradient(to right, #f2f8ff, #f7f9fe); */
 }
 
 ul,

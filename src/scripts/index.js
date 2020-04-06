@@ -1,9 +1,5 @@
 const toggle = document.querySelector('.theme-toggler');
 
-if (localStorage.getItem('theme') === 'light') {
-  document.body.classList.add('light');
-}
-
 toggle.addEventListener('click', function(e) {
   e.preventDefault();
 

@@ -10,16 +10,14 @@
 .home-page__introduction {
   align-self: center;
   grid-column: 1 / -1;
-  margin-left: 17vw;
-  margin-right: 30vw;
-  /* margin-bottom: 70px; */
+  margin-left: 16vw;
+  margin-right: 28vw;
   max-width: calc(500px + 15vw);
 }
 
 .home-page__heading {
   margin-block-end: 1em;
   color: var(--color-text-primary);
-  /* font-size: 22px; */
   font-size: calc(17px + 0.31vw);
   transition: color 0.7s ease-in-out;
   animation-duration: 1.5s;
@@ -31,18 +29,16 @@
 }
 
 .home-page__name {
-  /* font-size: 48px; */
-  font-size: calc(26px + 1.4vw);
-  font-weight: 800;
-  letter-spacing: 0.025em;
+  font-size: calc(30px + 1.4vw);
+  font-weight: 900;
+  letter-spacing: 0.05em;
   display: flex;
   align-items: center;
 }
 
 .home-page__text {
   color: var(--color-text-primary);
-  /* font-size: 20px; */
-  font-size: calc(13px + 0.4vw);
+  font-size: calc(14px + 0.4vw);
   font-weight: 400;
   transition: color 0.7s ease-in-out;
   animation-duration: 1.5s;
@@ -75,7 +71,7 @@
 
 .home-page__logo {
   margin-left: 30px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   align-self: center;
 }
 
@@ -100,11 +96,10 @@
 
   .home-page__text {
     font-size: 16px;
-    white-space: normal;
   }
 
   .home-page__logo {
-    width: 45px;
+    width: 55px;
     margin-left: 20px;
     text-align: left;
   }

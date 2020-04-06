@@ -1,13 +1,9 @@
 :root {
   /* colors */
-  --color-text-primary: #f7f7f7;
-  --color-red: #ff4f4f;
-  --color-inline-link: #c3ccff;
-  --color-footer-text: #a8a8a8;
-  --color-footer-link: var(--color-inline-link);
-  --color-text-gradient-start: #ff9c6c;
-  --color-text-gradient-end: #ff1717;
-  --color-header-shadow: rgba(0,0,0,0.9);
+  --color-text-primary: #e7edff;
+  --color-red: #e5003a;
+  --color-inline-link: #fc255b;
+  --color-footer-link: #c3ccff;
 
   /* background colors */
   --bg-color-primary: #131313;
@@ -16,14 +12,13 @@
 
 .light {
   /* colors */
-  --color-text-primary: #1a1a1a;
-  --color-red: #df0000;
-  --color-inline-link: #2f3975;
-  --color-footer-text: #d0d0d0;
-  --color-header-shadow: rgba(0,0,0,0.12);
+  --color-text-primary: #10172f;
+  --color-red: #e20039;
+  --color-inline-link: #e20039;
+  --color-footer-link: #2f3975;
 
   /* background colors */
-  --bg-color-primary: #f4f6fd;
+  --bg-color-primary: #f7f9fe;
   --bg-footer: #262626;
 }
 
@@ -33,4 +28,8 @@
 
 .light .theme-toggler__icon--crescent {
   display: initial;
+}
+
+.light .page-header::after {
+  background-image: url('/assets/images/arrow.svg');
 }
