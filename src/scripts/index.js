@@ -1,6 +1,6 @@
 const toggle = document.querySelector('.theme-toggler');
 
-toggle.addEventListener('click', function(e) {
+toggle.addEventListener('click', function (e) {
   e.preventDefault();
 
   document.body.style.transition = 'background-color 0.5s ease-in-out';
@@ -16,12 +16,12 @@ toggle.addEventListener('click', function(e) {
 
 let lastDown, lastDownAt;
 
-document.addEventListener('mousedown', e => {
+document.addEventListener('mousedown', (e) => {
   lastDown = e.target;
   lastDownAt = Date.now();
 });
 
-document.addEventListener('focusin', e => {
+document.addEventListener('focusin', (e) => {
   if (e.target === lastDown && Date.now() - lastDownAt < 999) {
     e.target.blur();
   }

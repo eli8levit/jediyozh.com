@@ -8,6 +8,7 @@
   /* background colors */
   --bg-color-primary: #131313;
   --bg-footer: #0f0f0f;
+  --bg-linear-end: #131313;
 }
 
 .light {
@@ -20,6 +21,7 @@
   /* background colors */
   --bg-color-primary: #f7f9fe;
   --bg-footer: #262626;
+  --bg-linear-end: #eaf1ff;
 }
 
 .light .theme-toggler__icon--sun {

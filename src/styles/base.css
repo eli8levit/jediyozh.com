@@ -14,7 +14,12 @@ body {
   overflow-x: hidden;
   will-change: background-color;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  /* background-image: linear-gradient(to right, #f2f8ff, #f7f9fe); */
+  background-image: linear-gradient(
+    to bottom,
+    var(--bg-color-primary) 0%,
+    var(--bg-color-primary) 80%,
+    var(--bg-linear-end)
+  );
 }
 
 ul,
@@ -44,7 +49,7 @@ img {
 }
 
 ::selection {
-  background: rgba(229, 0, 0, 0.75);
+  background: var(--color-red);
   color: white;
   -webkit-text-fill-color: initial;
 }
