@@ -1,19 +1,19 @@
 {
-  "name": "Eli Levit",
-  "short_name": "Eli Levit",
-  "icons": [
-    {
-      "src": "/assets/android-chrome-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/assets/android-chrome-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ],
-  "theme_color": "#fffefc",
-  "background_color": "#fffefc",
-  "display": "standalone"
+    "name": "Eli Levit",
+    "short_name": "Eli Levit",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#f7f9fe",
+    "background_color": "#f7f9fe",
+    "display": "standalone"
 }

@@ -18,7 +18,7 @@
 .home-page__heading {
   margin-block-end: 1em;
   color: var(--color-text-primary);
-  font-size: calc(17px + 0.31vw);
+  font-size: calc(16px + 0.54vw);
   transition: color 0.7s ease-in-out;
   animation-duration: 1.5s;
   animation-fill-mode: both;
@@ -26,14 +26,18 @@
   animation-name: fadeZoom;
   font-weight: 600;
   will-change: color;
+  letter-spacing: 0.015em;
+  word-spacing: 0.2em;
 }
 
 .home-page__name {
   font-size: calc(30px + 1.4vw);
-  font-weight: 900;
-  letter-spacing: 0.05em;
+  font-weight: 800;
+  letter-spacing: 0.04em;
   display: flex;
   align-items: center;
+  line-height: 1.1;
+  word-spacing: 0.08em;
 }
 
 .home-page__text {

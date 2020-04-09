@@ -62,7 +62,7 @@
 }
 
 .page-header__link[href]:hover {
-  color: var(--color-red);
+  color: var(--color-inline-link);
 }
 
 .page-header__link:not([href]) {
