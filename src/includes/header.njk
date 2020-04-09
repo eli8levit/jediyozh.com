@@ -5,7 +5,7 @@
   <nav class="page-header__nav">
     <ul class="page-header__list">
       <li class="page-header__list-item">
-        <a {% if page.url !="homeUrl" %} href="{{ homeUrl }}" {% endif %} class="page-header__link">
+        <a {% if page.url != homeUrl %} href="{{ homeUrl }}" {% endif %} class="page-header__link">
           Home
         </a>
       </li>
@@ -17,28 +17,26 @@
       </li>
       <li class="page-header__list-item">
         <a
-          {%
-          if
-          page.url
-          !="aboutUrl"
-          %}
-          href="{{ aboutUrl }}"
-          {%
-          endif
-          %}
-          class="page-header__link"
+          {% if page.url != aboutUrl %} href="{{ aboutUrl }}" {% endif %} class="page-header__link"
         >
           About
         </a>
       </li>
     </ul>
   </nav>
-  {% set translatedUrl, translationLabel = '' %} {% for lang in site.languages %} {% if locale !=
-  lang.code %} {% for item in collections.all %} {% if item.data.translationKey == translationKey
-  and item.data.locale != locale %} {% set translatedUrl = item.url %} {% set translationLabel =
-  lang.label %} {% endif %} {% endfor %} {% endif %} {% endfor %}
+  {% set translatedUrl, translationLabel = '' %}
+  {% for lang in site.languages %}
+    {% if locale != lang.code %}
+      {% for item in collections.all %}
+        {% if item.data.translationKey == translationKey and item.data.locale != locale %}
+          {% set translatedUrl = item.url %}
+          {% set translationLabel = lang.label %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
   <div class="page-header__tools">
-    <a class="page-header__link" href="{{" translatedUrl }}>{{ translationLabel }}</a>
+    <a class="page-header__link" href={{ translatedUrl }}>{{ translationLabel }}</a>
     <button class="page-header__toggle-btn theme-toggler">
       <svg
         width="20"

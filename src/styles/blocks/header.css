@@ -104,7 +104,7 @@
   }
 
   .page-header::after {
-    background-size: 18px;
-    bottom: -13px;
+    background-size: 17px;
+    bottom: -10px;
   }
 }

@@ -1,27 +1,15 @@
 .about-page {
   grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  margin: 3em auto;
+  padding: 0 10vw;
 }
 
-.about-page__photo-container {
-  position: relative;
-  width: 33.33vw;
-  min-width: 150px;
-  object-fit: cover;
-  margin-right: 5vw;
-  clip-path: polygon(77% 0%, 92% 100%, 19% 100%, 4% 0%);
-  -webkit-clip-path: polygon(77% 0%, 92% 100%, 19% 100%, 4% 0%);
-  float: left;
-  shape-outside: polygon(77% 0%, 92% 100%, 19% 100%, 4% 0%);
-  padding-top: calc(4 / 3 * 100% / 3);
-  margin-top: 0.43em;
-}
 
 .about-page__photo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+ margin-bottom: 1em;
+ border-radius: 2px;
 }
 
 .about-page__heading {
@@ -33,23 +21,25 @@
 }
 
 .about-page__text {
-  padding: 0 12vw;
-  font-size: 20px;
+  font-size: 19px;
+  max-width: 1000px;
   color: var(--color-text-primary);
   font-weight: 400;
 }
 
 @media (max-width: 768px) {
-  .about-page__photo-container {
-    height: 340px;
-    width: 250px;
-    float: unset;
-    margin: 0 auto;
-    margin-bottom: 1em;
+
+  .about-page  {
+    padding: 0 4vw;
+    margin-top: 0;
+  }
+
+  .about-page__photo {
+    width: 100%;
+    height: unset;
   }
 
   .about-page__text {
-    padding: 0 3vw;
-    font-size: 18px;
+    font-size: 17px;
   }
 }

@@ -91,11 +91,12 @@
   }
 
   .home-page__heading {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .home-page__name {
     font-size: 32px;
+    line-height: 1.2;
   }
 
   .home-page__text {
@@ -105,6 +106,7 @@
   .home-page__logo {
     width: 55px;
     margin-left: 20px;
+    margin-bottom: 7px;
     text-align: left;
   }
 }
