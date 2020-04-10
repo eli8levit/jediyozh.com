@@ -39,7 +39,7 @@
   }
 
   .theme-toggler:hover .theme-toggler__icon {
-    fill: var(--color-nav-text);
+    fill: var(--color-text-primary);
   }
 
   .theme-toggler__icon {

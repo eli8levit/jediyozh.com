@@ -1,7 +1,0 @@
-.inline-link:hover {
-  text-decoration: underline;
-  text-decoration-style: dotted;
-  text-decoration-skip-ink: auto;
-  text-decoration-thickness: 0.1em;
-  text-underline-offset: 3px;
-}

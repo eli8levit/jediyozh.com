@@ -1,25 +1,21 @@
 :root {
   /* colors */
-  --color-text-primary: #e7edff;
-  --color-red: #fd0040;
-  --color-inline-link: #fc255b;
+  --color-text-primary: #ffffff;
+  --color-red: #ff0e4a;
   --color-footer-link: #c3ccff;
 
   /* background colors */
-  --bg-color-primary: #131313;
-  --bg-footer: #0f0f0f;
+  --bg-color-primary: #171717;
 }
 
 .light {
   /* colors */
-  --color-text-primary: #10172f;
+  --color-text-primary: #000000;
   --color-red: #e20039;
-  --color-inline-link: #e20039;
   --color-footer-link: #2f3975;
 
   /* background colors */
-  --bg-color-primary: #f7f9fe;
-  --bg-footer: #262626;
+  --bg-color-primary: #ffffff;
 }
 
 .light .theme-toggler__icon--sun {

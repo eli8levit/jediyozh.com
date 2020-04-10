@@ -10,40 +10,29 @@
 .home-page__introduction {
   align-self: center;
   grid-column: 1 / -1;
-  margin-left: 16vw;
-  margin-right: 28vw;
-  max-width: calc(500px + 15vw);
+  padding: 0 5vw;
+  margin: 0 auto;
 }
 
 .home-page__heading {
-  margin-block-end: 1em;
+  margin-block-end: 30px;
   color: var(--color-text-primary);
-  font-size: calc(16px + 0.54vw);
+  font-size: 60px;
   transition: color 0.7s ease-in-out;
   animation-duration: 1.5s;
   animation-fill-mode: both;
   animation-delay: 0.3s;
   animation-name: fadeZoom;
-  font-weight: 600;
+  font-weight: 700;
   will-change: color;
-  letter-spacing: 0.015em;
-  word-spacing: 0.2em;
-}
-
-.home-page__name {
-  font-size: calc(30px + 1.4vw);
-  font-weight: 800;
-  letter-spacing: 0.04em;
-  display: flex;
-  align-items: center;
-  line-height: 1.1;
-  word-spacing: 0.08em;
+  letter-spacing: 0.01em;
+  word-spacing: 0.04em;
 }
 
 .home-page__text {
   color: var(--color-text-primary);
-  font-size: calc(14px + 0.4vw);
-  font-weight: 400;
+  font-size: 24px;
+  font-weight: 300;
   transition: color 0.7s ease-in-out;
   animation-duration: 1.5s;
   animation-fill-mode: both;
@@ -51,62 +40,56 @@
   animation-name: fadeZoom;
   will-change: color;
   min-height: 120px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .home-page__link {
   margin-left: -5px;
   padding: 0 5px;
-  text-decoration: none;
-  color: var(--color-inline-link);
+  color: var(--color-red);
   transition: color 0.7s ease-in-out;
   border-radius: 3px;
   white-space: nowrap;
   display: inline-block;
-  font-weight: 500;
+  text-decoration: none;
+}
+
+.home-page__link:hover {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--color-red);
+  text-underline-offset: 5px;
 }
 
 .home-page__link:focus {
-  box-shadow: 0 0 0 3px var(--color-inline-link);
+  box-shadow: 0 0 0 3px var(--color-red);
 }
 
 .home-page__link:active {
   transform: translateY(1px);
 }
 
-.home-page__logo {
-  margin-left: 30px;
-  margin-bottom: 10px;
-  align-self: center;
-}
-
 @media (max-width: 768px) {
   .home-page__introduction {
-    text-align: left;
-    white-space: normal;
-    margin: 0;
-    padding: 0 4vw;
-    padding-right: 2vw;
-    transform: none;
-    padding-bottom: 0;
+    padding: 0 3vw;
   }
 
   .home-page__heading {
-    font-size: 18px;
+    font-size: 33px;
+    margin-bottom: 15px;
   }
 
-  .home-page__name {
-    font-size: 32px;
-    line-height: 1.2;
+  .home-page__heading span {
+    display: block;
   }
 
   .home-page__text {
-    font-size: 16px;
+    font-size: 17px;
   }
 
   .home-page__logo {
-    width: 55px;
-    margin-left: 20px;
-    margin-bottom: 7px;
-    text-align: left;
+    width: 45px;
   }
 }

@@ -30,6 +30,15 @@
   text-decoration: none;
 }
 
+.page-footer__link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--color-footer-link);
+  text-decoration-style: dotted;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
 .page-footer__link:focus {
   border-radius: 2px;
   box-shadow: 0 0 0 1px var(--color-inline-link);
