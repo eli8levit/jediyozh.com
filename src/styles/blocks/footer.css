@@ -9,7 +9,6 @@
   box-sizing: border-box;
   transition: background-color 0.7s ease-in-out;
   line-height: 1.25;
-  overflow: auto;
   will-change: background-color;
   font-weight: 400;
 }
@@ -47,13 +46,14 @@
 
 @media (max-width: 768px) {
   .page-footer {
+    overflow: auto;
     min-height: 25px;
     -webkit-text-size-adjust: none;
     justify-content: flex-start;
   }
 
   .page-footer__text {
-    padding: 6px 20px;
+    padding: 6px 15px;
   }
 
   .page-footer__text:first-of-type {
