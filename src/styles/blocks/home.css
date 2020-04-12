@@ -17,7 +17,7 @@
 .home-page__heading {
   margin-block-end: 30px;
   color: var(--color-text-primary);
-  font-size: 60px;
+  font-size: calc(27px + 2vw);
   transition: color 0.7s ease-in-out;
   animation-duration: 1.5s;
   animation-fill-mode: both;
@@ -31,7 +31,7 @@
 
 .home-page__text {
   color: var(--color-text-primary);
-  font-size: 24px;
+  font-size: calc(8px + 1vw);
   font-weight: 300;
   transition: color 0.7s ease-in-out;
   animation-duration: 1.5s;
@@ -40,7 +40,7 @@
   animation-name: fadeZoom;
   will-change: color;
   min-height: 120px;
-  max-width: 800px;
+  max-width: calc(400px + 23vw);
   margin: 0 auto;
 }
 
@@ -73,25 +73,28 @@
 
 @media (max-width: 768px) {
   .home-page__introduction {
-    padding: 0 2vw;
+    padding: 0 4.8vw;
   }
 
   .home-page__heading {
-    font-size: 31px;
+    font-size: 34px;
     margin-bottom: 15px;
     line-height: 1.3;
   }
 
   .home-page__heading span {
     display: block;
-    font-size: 28px;
+    font-size: 30px;
   }
 
   .home-page__text {
-    font-size: 17px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
   }
 
   .home-page__logo {
-    width: 45px;
+    width: 50px;
+    margin-left: 5px;
   }
 }

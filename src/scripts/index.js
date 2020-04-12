@@ -1,18 +1,52 @@
 const toggle = document.querySelector('.theme-toggler');
 
+const setDark = () => document.body.classList.remove('light');
+const setLight = () => document.body.classList.add('light');
+
 toggle.addEventListener('click', function (e) {
   e.preventDefault();
-
   document.body.style.transition = 'background-color 0.5s ease-in-out';
 
   if (document.body.classList.contains('light')) {
-    document.body.classList.remove('light');
-    localStorage.setItem('theme', 'dark');
+    setDark();
+    sessionStorage.setItem('theme', 'dark');
   } else {
-    document.body.classList.add('light');
-    localStorage.setItem('theme', 'light');
+    setLight();
+    sessionStorage.setItem('theme', 'light');
   }
 });
+
+function getPreferedColorScheme() {
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    return 'dark';
+  }
+  return 'light';
+}
+
+function setTheme(theme) {
+  switch (theme) {
+    case 'dark':
+      setDark();
+      break;
+    default:
+      setLight();
+  }
+}
+
+function calculateNextTheme() {
+  const theme = sessionStorage.getItem('theme');
+  if (theme !== null) {
+    setTheme(theme);
+    return;
+  }
+  setTheme(getPreferedColorScheme());
+}
+
+if (window.matchMedia) {
+  const colorSchemeQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  calculateNextTheme();
+  colorSchemeQuery.addListener(calculateNextTheme);
+}
 
 let lastDown, lastDownAt;
 

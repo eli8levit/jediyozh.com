@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: 1.9fr 0.1fr;
   grid-column-gap: 10px;
-  height: 65px;
+  height: 60px;
   align-items: center;
   position: relative;
 }
@@ -19,7 +19,7 @@
   background-repeat: repeat-x;
   background-position: bottom;
   background-size: 28px;
-  bottom: -16px;
+  bottom: -19px;
 }
 
 .page-header__nav {
@@ -39,7 +39,7 @@
 
 .page-header__link {
   display: inline-block;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   color: var(--color-text-primary);
   text-decoration: none;
@@ -49,7 +49,7 @@
   border-radius: 3px;
   transition: color 0.1s ease-in-out;
   transition-property: color, box-shadow;
-  margin: 0 5px;
+  margin: 0 3px;
 }
 
 .page-header__link:focus {
@@ -74,7 +74,7 @@
   text-underline-offset: 6px;
   border-radius: 0;
   padding: 0;
-  margin: 3px 12px;
+  margin: 3px 10px;
 }
 
 .page-header__tools {
@@ -113,7 +113,7 @@
   }
 
   .page-header::after {
-    background-size: 16px;
-    bottom: -9px;
+    background-size: 18px;
+    bottom: -10px;
   }
 }
