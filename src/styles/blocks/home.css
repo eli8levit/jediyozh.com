@@ -31,8 +31,8 @@
 
 .home-page__text {
   color: var(--color-text-primary);
-  font-size: calc(8px + 1vw);
-  font-weight: 300;
+  font-size: calc(7px + 1vw);
+  font-weight: 400;
   transition: color 0.7s ease-in-out;
   animation-duration: 1.5s;
   animation-fill-mode: both;
@@ -50,8 +50,6 @@
   color: var(--color-red);
   transition: color 0.7s ease-in-out;
   border-radius: 3px;
-  white-space: nowrap;
-  display: inline-block;
   text-decoration: none;
 }
 
@@ -89,8 +87,6 @@
 
   .home-page__text {
     font-size: 18px;
-    line-height: 1.5;
-    font-weight: 300;
   }
 
   .home-page__logo {
