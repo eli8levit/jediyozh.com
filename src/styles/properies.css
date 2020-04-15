@@ -1,7 +1,7 @@
 :root {
   /* colors */
   --color-text-primary: #ffffff;
-  --color-red: #ff0e4a;
+  --color-red: #ff2525;
   --color-footer-link: #c3ccff;
 
   /* background colors */
@@ -11,7 +11,7 @@
 .light {
   /* colors */
   --color-text-primary: #000000;
-  --color-red: #e20039;
+  --color-red: #e51212;
   --color-footer-link: #2f3975;
 
   /* background colors */
