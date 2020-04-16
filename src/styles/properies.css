@@ -3,19 +3,27 @@
   --color-text-primary: #ffffff;
   --color-red: #ff2525;
   --color-footer-link: #c3ccff;
+  --color-text-header: #e6e6e6;
+  --color-text-header-active: #ffffff;
 
   /* background colors */
-  --bg-color-primary: #131313;
+  --bg-color-primary: #070707;
+  --bg-color-header: #0e0e0e;
+  --bg-nav-link-active: #1e1e1e;
 }
 
 .light {
   /* colors */
   --color-text-primary: #000000;
-  --color-red: #e51212;
+  --color-red: #f31313;
   --color-footer-link: #2f3975;
+  --color-text-header: #e6e6e6;
+  --color-text-header-active: #ffffff;
 
   /* background colors */
   --bg-color-primary: #fdfdfd;
+  --bg-color-header: #0a0a0a;
+  --bg-nav-link-active: rgba(255, 255, 255, 0.13);
 }
 
 .light .theme-toggler__icon--sun {

@@ -1,12 +1,12 @@
 .theme-toggler {
   display: flex;
   align-items: center;
-  padding: 4px;
+  padding: 6px 14px;
   border: none;
   background-color: transparent;
   cursor: pointer;
-  margin-bottom: 3px;
   transition: all 0.1s ease-out;
+  border-radius: 3px;
 }
 
 .theme-toggler:focus {
@@ -21,8 +21,12 @@
   will-change: fill;
 }
 
+.theme-toggler:hover {
+  background-color: var(--bg-nav-link-active);
+}
+
 .theme-toggler:hover .theme-toggler__icon {
-  fill: var(--color-red);
+  fill: var(--color-text-header-active);
 }
 
 .theme-toggler__icon--crescent {
@@ -31,7 +35,7 @@
 
 @media (max-width: 768px) {
   .theme-toggler {
-    margin-bottom: 5px;
+    padding: 6px 12px;
   }
 
   .theme-toggler:hover {
@@ -39,11 +43,11 @@
   }
 
   .theme-toggler:hover .theme-toggler__icon {
-    fill: var(--color-text-primary);
+    fill: var(--color-text-header);
   }
 
   .theme-toggler__icon {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
   }
 }
