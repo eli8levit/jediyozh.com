@@ -9,6 +9,7 @@
   align-items: center;
   position: relative;
   background: var(--bg-color-header);
+  transition: var(--theme-bg-transition);
 }
 
 .page-header__nav {
@@ -29,21 +30,21 @@
   display: inline-block;
   font-size: 15px;
   font-weight: 500;
-  color: var(--color-text-primary);
   text-decoration: none;
   cursor: pointer;
   padding: 8px 0;
   margin: 0 3px;
   color: var(--color-text-header);
-  border-radius: 3px;
+  border-radius: var(--link-radius);
+  transition: var(--theme-header-transition);
+  transition-property: color, background-color;
   width: 100px;
   text-align: center;
 }
 
 .page-header__link:focus {
-  box-shadow: 0 0 0 3px var(--color-text-primary);
-  outline: none;
-  color: var(--color-text-primary);
+  box-shadow: 0 0 0 2px var(--color-text-header-active);
+  color: var(--color-text-header-active);
 }
 
 .page-header__link[href]:active {
@@ -53,6 +54,7 @@
 .page-header__link[href]:hover {
   background-color: var(--bg-nav-link-active);
   color: var(--color-text-header-active);
+  transition: none;
 }
 
 .page-header__link:not([href]) {

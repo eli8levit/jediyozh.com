@@ -6,27 +6,25 @@
   grid-column: 1 / -1;
   grid-row: 3;
   min-height: 35px;
-  box-sizing: border-box;
-  transition: background-color 0.7s ease-in-out;
   line-height: 1.25;
-  will-change: background-color;
   font-weight: 400;
 }
 
 .page-footer__text {
   font-size: 12px;
   color: var(--color-text-primary);
-  animation: none;
   padding: 9px 20px;
   white-space: nowrap;
   text-align: center;
-  transition: color 0.5s ease-in-out;
+  transition:var(--theme-color-transition);
 }
 
 .page-footer__link {
   padding: 1px;
   color: var(--color-footer-link);
   text-decoration: none;
+  border-radius: var(--link-radius);
+  transition:var(--theme-color-transition);
 }
 
 .page-footer__link:hover {
@@ -39,8 +37,7 @@
 }
 
 .page-footer__link:focus {
-  border-radius: 2px;
-  box-shadow: 0 0 0 1px var(--color-inline-link);
+  box-shadow: 0 0 0 1px var(--color-footer-link);
   outline: none;
 }
 

@@ -17,8 +17,8 @@
 .home-page__heading {
   margin-block-end: 30px;
   color: var(--color-text-primary);
-  font-size: calc(27px + 2vw);
-  transition: color 0.7s ease-in-out;
+  font-size: calc(27px + 1.9vw);
+  transition: var(--theme-color-transition);
   animation-duration: 1.5s;
   animation-fill-mode: both;
   animation-delay: 0.3s;
@@ -31,16 +31,16 @@
 
 .home-page__text {
   color: var(--color-text-primary);
-  font-size: calc(7px + 1vw);
+  font-size: calc(7px + 0.9vw);
   font-weight: 400;
-  transition: color 0.7s ease-in-out;
+  transition: var(--theme-color-transition);
   animation-duration: 1.5s;
   animation-fill-mode: both;
   animation-delay: 0.3s;
   animation-name: fadeZoom;
   will-change: color;
   min-height: 120px;
-  max-width: calc(400px + 23vw);
+  max-width: calc(400px + 22vw);
   margin: 0 auto;
 }
 
@@ -48,8 +48,8 @@
   margin-left: -5px;
   padding: 0 5px;
   color: var(--color-red);
-  transition: color 0.7s ease-in-out;
-  border-radius: 3px;
+  transition: var(--theme-color-transition);
+  border-radius: var(--link-radius);
   text-decoration: none;
 }
 
@@ -62,11 +62,16 @@
 }
 
 .home-page__link:focus {
-  box-shadow: 0 0 0 3px var(--color-red);
+  box-shadow: 0 0 0 2px var(--color-red);
 }
 
 .home-page__link:active {
   transform: translateY(1px);
+}
+
+.home-page__logo {
+  transition: var(--theme-color-transition);
+  transition-property: fill;
 }
 
 @media (max-width: 768px) {

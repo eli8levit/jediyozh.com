@@ -10,6 +10,13 @@
   --bg-color-primary: #070707;
   --bg-color-header: #0e0e0e;
   --bg-nav-link-active: rgba(255, 255, 255, 0.13);
+
+  /* transitions */
+  --theme-color-transition: color 0.5s ease-in-out;
+  --theme-header-transition: all 0.1s ease-in;
+
+  /* other */
+  --link-radius: 3px;
 }
 
 .light {
@@ -17,13 +24,11 @@
   --color-text-primary: #000000;
   --color-red: #f31313;
   --color-footer-link: #2f3975;
-  --color-text-header: #c2c2c2;
-  --color-text-header-active: #ffffff;
 
   /* background colors */
   --bg-color-primary: #fdfdfd;
   --bg-color-header: #0a0a0a;
-  --bg-nav-link-active: rgba(255, 255, 255, 0.13);
+  --bg-nav-link-active: rgba(255, 255, 255, 0.22);
 }
 
 .light .theme-toggler__icon--sun {

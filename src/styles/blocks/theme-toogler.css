@@ -5,28 +5,32 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
-  transition: all 0.1s ease-out;
-  border-radius: 3px;
-}
-
-.theme-toggler:focus {
-  box-shadow: 0 0 0 3px var(--color-text-primary);
-  border-radius: 4px;
-  outline: none;
+  border-radius: var(--link-radius);
+  transition: background-color 0.1s ease-in;
 }
 
 .theme-toggler__icon {
-  transition: all 0.1s ease-out;
-  transition-delay: 0.05s;
-  will-change: fill;
+  transition: var(--theme-header-transition);
+  transition-property: fill;
+}
+
+.theme-toggler:focus {
+  box-shadow: 0 0 0 2px var(--color-text-header-active);
+  outline: none;
+}
+
+.theme-toggler:focus .theme-toggler__icon {
+  fill: var(--color-text-header-active);
 }
 
 .theme-toggler:hover {
   background-color: var(--bg-nav-link-active);
+  transition: none;
 }
 
 .theme-toggler:hover .theme-toggler__icon {
   fill: var(--color-text-header-active);
+  transition: none;
 }
 
 .theme-toggler__icon--crescent {
