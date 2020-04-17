@@ -39,7 +39,7 @@
 
 @media (max-width: 768px) {
   .theme-toggler {
-    padding: 6px 12px;
+    padding: 6px 10px;
   }
 
   .theme-toggler:hover {

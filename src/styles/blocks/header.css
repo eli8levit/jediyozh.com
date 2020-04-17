@@ -20,7 +20,7 @@
 .page-header__list {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: min-content;
+  justify-content: start;
   height: 100%;
   align-items: center;
   margin: 0;
@@ -40,6 +40,7 @@
   transition-property: color, background-color;
   width: 100px;
   text-align: center;
+  white-space: nowrap;
 }
 
 .page-header__link:focus {
@@ -78,27 +79,19 @@
 
 @media (max-width: 768px) {
   .page-header {
-    padding: 0 1.5vw;
+    padding: 0 1vw;
   }
 
   .page-header__link {
     font-size: 14px;
-    padding: 7px 0;
+    padding: 7px 8px;
     margin: 0 1px;
-    width: 55px;
-  }
-
-  .page-header__tools {
-    margin-right: 3vw;
+    width: unset;
   }
 
   .page-header::after {
     background-size: 18px;
     bottom: -10px;
-  }
-
-  .page-header__tools {
-    margin-right: 5px;
   }
 
   .page-header__tools a {
