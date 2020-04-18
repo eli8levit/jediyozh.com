@@ -47,7 +47,7 @@
 .home-page__link {
   margin-left: -5px;
   padding: 0 5px;
-  color: var(--color-red);
+  color: var(--color-red-link);
   transition: var(--theme-color-transition);
   border-radius: var(--link-radius);
   text-decoration: none;

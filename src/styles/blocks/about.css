@@ -27,6 +27,7 @@
   font-weight: 400;
   text-align: justify;
   text-indent: 40px;
+  transition: var(--theme-color-transition);
 }
 
 @media (max-width: 768px) {
