@@ -21,7 +21,7 @@
 }
 
 .about-page__text {
-  font-size: 18px;
+  font-size: calc(15px + 0.18vw);
   max-width: 700px;
   color: var(--color-text-primary);
   font-weight: 400;
