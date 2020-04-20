@@ -2,9 +2,39 @@
 translationKey: 'blog'
 ---
 
-{% extends "./page.njk" %}
-
-
-{% block content %}
-<h1>Hi from blog</h1>
+{% extends "./page.njk" %} {% block content %}
+<div class="blog-page">
+  <ol class="blog-page__post-list">
+    <li class="blog-page__post-element">
+      <h2>
+        First blog post
+      </h2>
+      <p>
+        This blog post is about how I created this web site. It took me only year with half to do
+        it.
+      </p>
+      <span>19th April 2020</span>
+    </li>
+    <li class="blog-page__post-element">
+      <h2>
+        Second blog post
+      </h2>
+      <p>
+        This blog post is about how I created this web site. It took me only year with half to do
+        it.
+      </p>
+      <span>19th April 2020</span>
+    </li>
+    <li class="blog-page__post-element">
+      <h2>
+        Third blog post
+      </h2>
+      <p>
+        This blog post is about how I created this web site. It took me only year with half to do
+        it.
+      </p>
+      <span>19th April 2020</span>
+    </li>
+  </ol>
+</div>
 {% endblock %}
