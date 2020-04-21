@@ -11,37 +11,36 @@
   align-self: center;
   grid-column: 1 / -1;
   padding: 0 5vw;
-  margin: 0 auto;
+  margin-left: 13vw;
+  margin-right: 12vw;
+  color: var(--color-text-primary);
+  transition: var(--theme-color-transition);
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-delay: 0.3s;
+  animation-name: fadeZoom;
+  will-change: color;
 }
 
 .home-page__heading {
-  margin-block-end: 30px;
-  color: var(--color-text-primary);
-  font-size: calc(27px + 1.9vw);
-  transition: var(--theme-color-transition);
-  animation-duration: 1.5s;
-  animation-fill-mode: both;
-  animation-delay: 0.3s;
-  animation-name: fadeZoom;
-  font-weight: 700;
-  will-change: color;
-  letter-spacing: 0.01em;
+  margin-block-end: 38px;
+  font-size: calc(23px + 2.2vw);
+  font-weight: 800;
+  letter-spacing: 0.02em;
   word-spacing: 0.04em;
 }
 
+.home-page__heading span {
+  font-size: calc(21px + 2.2vw);
+}
+
 .home-page__text {
-  color: var(--color-text-primary);
-  font-size: calc(7px + 0.9vw);
+  font-size: calc(12px + 0.7vw);
   font-weight: 400;
-  transition: var(--theme-color-transition);
-  animation-duration: 1.5s;
-  animation-fill-mode: both;
-  animation-delay: 0.3s;
-  animation-name: fadeZoom;
-  will-change: color;
   min-height: 120px;
-  max-width: calc(400px + 22vw);
-  margin: 0 auto;
+  color: var(--color-text-secondary);
+  max-width: calc(480px + 24vw);
+  transition: inherit;
 }
 
 .home-page__link {
@@ -76,7 +75,8 @@
 
 @media (max-width: 768px) {
   .home-page__introduction {
-    padding: 0 4.5vw;
+    padding: 0 4vw;
+    margin: 0;
   }
 
   .home-page__heading {
@@ -87,15 +87,19 @@
 
   .home-page__heading span {
     display: block;
-    font-size: 30px;
+    font-size: 31px;
   }
 
   .home-page__text {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .home-page__logo {
-    width: 50px;
+    width: 52px;
     margin-left: 5px;
+  }
+
+  .home-page__link {
+    white-space: nowrap;
   }
 }
