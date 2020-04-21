@@ -24,18 +24,18 @@
 
 .home-page__heading {
   margin-block-end: 38px;
-  font-size: calc(23px + 2.2vw);
+  font-size: calc(23px + 2.1vw);
   font-weight: 800;
   letter-spacing: 0.02em;
   word-spacing: 0.04em;
 }
 
 .home-page__heading span {
-  font-size: calc(21px + 2.2vw);
+  font-size: calc(21px + 2.1vw);
 }
 
 .home-page__text {
-  font-size: calc(12px + 0.7vw);
+  font-size: calc(12px + 0.68vw);
   font-weight: 400;
   min-height: 120px;
   color: var(--color-text-secondary);
