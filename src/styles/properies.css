@@ -12,7 +12,7 @@
   --bg-color-primary: #0a0a0a;
   --bg-color-header: #141414;
   --bg-nav-link-active: rgba(255, 255, 255, 0.13);
-  --bg-color-blog-card: var(--bg-color-header);
+  --bg-color-blog-card: #141414;
 
   /* transitions */
   --theme-color-transition: color 0.5s ease-in-out;
@@ -36,7 +36,7 @@
   --bg-color-primary: #fdfdfd;
   --bg-color-header: #151515;
   --bg-nav-link-active: rgba(255, 255, 255, 0.22);
-  --bg-color-blog-card: var(--bg-color-primary);
+  --bg-color-blog-card: #fdfdfd;
 
   /* other */
   --box-shadow-color-blog-card: rgba(0, 0, 0, 0.15);
