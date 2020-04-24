@@ -5,7 +5,6 @@ translationKey: 'about'
 {% extends "./page.njk" %}
 {% set metaTitle = site[locale].aboutTitle %}
 
-
 {% block content %}
 <div class="about-page">
   <picture>
@@ -19,11 +18,9 @@ translationKey: 'about'
       class="about-page__photo"
       src="/assets/images/me/me_3x.jpeg"
       alt="Me smiling and looking at the sky"
-      height="380px"
+      height="500px"
     />
   </picture>
-  <p class="about-page__text">
-    {{ site[locale].aboutInfo }}
-  </p>
+  {{ content | safe }}
 </div>
 {% endblock %}

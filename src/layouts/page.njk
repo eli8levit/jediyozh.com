@@ -32,7 +32,7 @@
 
   <body>
     {% include 'header.njk' %}
-    {{ content | safe }}
-    {% block content %}{% endblock %} {% include 'footer.njk' %}
+    {% block content %}{% endblock %}
+    {% include 'footer.njk' %}
   </body>
 </html>
