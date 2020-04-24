@@ -6,7 +6,7 @@
   --color-text-header: #c2c2c2;
   --color-text-header-active: #ffffff;
   --color-text-secondary: #9b9faa;
-  --color-red-link: #ff2525;
+  --color-red-link: var(--color-red);
 
   /* background colors */
   --bg-color-primary: #0a0a0a;
