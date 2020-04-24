@@ -20,7 +20,7 @@
   border-radius: 6px;
   max-width: 630px;
   min-width: 300px;
-  box-shadow: 0 0 3px 0 var(--box-shadow-color-blog-card);
+  box-shadow: 0 0 4px -1px var(--box-shadow-color-blog-card);
   color: var(--color-text-primary);
   margin-bottom: 30px;
   text-decoration: none;
@@ -39,7 +39,7 @@
 }
 
 .blog-page__post-element:hover {
-  box-shadow: 0 0 8px 0 var(--box-shadow-color-blog-card);
+  box-shadow: 0 0 8px -1.5px var(--box-shadow-color-blog-card);
 }
 
 .blog-page__post-element header {
