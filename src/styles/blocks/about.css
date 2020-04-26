@@ -7,7 +7,7 @@
 .about-page__heading-container {
   display: grid;
   align-items: center;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: max-content auto;
   column-gap: 40px;
   grid-auto-flow: column;
   justify-content: center;
