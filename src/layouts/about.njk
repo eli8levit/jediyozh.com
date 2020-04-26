@@ -6,21 +6,26 @@ translationKey: 'about'
 {% set metaTitle = site[locale].aboutTitle %}
 
 {% block content %}
-<div class="about-page">
-  <picture>
-    <source media="(max-width: 768px)" type="image/webp" srcset="/assets/images/me/me_1x.webp" />
-    <source media="(max-width: 768px)" srcset="/assets/images/me/me_1x.jpeg" />
-    <source media="(max-width: 1200px)" type="image/webp" srcset="/assets/images/me/me_2x.webp" />
-    <source media="(max-width: 1200px)" srcset="/assets/images/me/me_2x.jpeg" />
-    <source media="(min-width: 1201px)" type="image/webp" srcset="/assets/images/me/me_3x.webp" />
-    <source media="(min-width: 1201px)" srcset="/assets/images/me/me_3x.jpeg" />
-    <img
-      class="about-page__photo"
-      src="/assets/images/me/me_3x.jpeg"
-      alt="Me smiling and looking at the sky"
-      height="500px"
-    />
-  </picture>
-  {{ content | safe }}
-</div>
+<main class="about-page">
+  <div class="about-page__heading-container">
+    <picture>
+      <source media="(max-width: 768px)" type="image/webp" srcset="/assets/images/me/me_1x.webp" />
+      <source media="(max-width: 768px)" srcset="/assets/images/me/me_1x.jpeg" />
+      <source media="(max-width: 1200px)" type="image/webp" srcset="/assets/images/me/me_2x.webp" />
+      <source media="(max-width: 1200px)" srcset="/assets/images/me/me_2x.jpeg" />
+      <source media="(min-width: 1201px)" type="image/webp" srcset="/assets/images/me/me_3x.webp" />
+      <source media="(min-width: 1201px)" srcset="/assets/images/me/me_3x.jpeg" />
+      <img
+        class="about-page__photo"
+        src="/assets/images/me/me_3x.jpeg"
+        alt="Me smiling and looking at the sky"
+        height="420px"
+      />
+    </picture>
+    <h1 class="about-page__heading">Shalom, buddy, and welcome to my website!</h1>
+  </div>
+  <div class="about-page__bio-text">
+    {{ content | safe }}
+  </div>
+</main>
 {% endblock %}
