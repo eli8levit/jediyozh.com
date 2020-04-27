@@ -1,6 +1,8 @@
 {
   "name": "Eli Levit",
   "short_name": "Eli Levit",
+  "lang": "en",
+  "start_url": "/",
   "icons": [
     {
       "src": "/assets/android-chrome-192x192.png",
