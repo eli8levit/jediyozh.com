@@ -17,7 +17,7 @@
 .about-page__heading {
   font-size: 40px;
   font-weight: 700;
-  color: var(--color-green);
+  color: var(--color-text-secondary);
   animation-duration: 1.5s;
   animation-fill-mode: both;
   animation-delay: 0.3s;
