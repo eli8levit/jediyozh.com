@@ -2,6 +2,7 @@
   grid-column: 1 / -1;
   margin: 0 auto;
   padding: 40px calc(40px + 4vw);
+  padding-top: 12vh;
 }
 
 .about-page__heading-container {
@@ -58,11 +59,13 @@
   display: block;
   text-align: center;
   margin-top: 80px;
+  color: var(--color-text-secondary);
 }
 
 @media (max-width: 768px) {
   .about-page {
-    padding: 0 3vw;
+    padding: 12vh 3vw;
+    padding-bottom: 0;
   }
 
   .about-page__heading-container {

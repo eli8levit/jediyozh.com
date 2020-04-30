@@ -16,7 +16,7 @@
   padding: 9px 20px;
   white-space: nowrap;
   text-align: center;
-  transition:var(--theme-color-transition);
+  transition: var(--theme-color-transition);
 }
 
 .page-footer__link {
@@ -24,7 +24,7 @@
   color: var(--color-footer-link);
   text-decoration: none;
   border-radius: var(--link-radius);
-  transition:var(--theme-color-transition);
+  transition: var(--theme-color-transition);
 }
 
 .page-footer__link:hover {
@@ -44,7 +44,6 @@
 @media (max-width: 768px) {
   .page-footer {
     overflow: auto;
-    min-height: 25px;
     -webkit-text-size-adjust: none;
     justify-content: flex-start;
   }
@@ -52,7 +51,7 @@
   .page-footer__text {
     font-size: 12px;
     font-weight: 500;
-    padding: 5px 7px;
+    padding: 10px 7px;
   }
 
   .page-footer__text:first-of-type {

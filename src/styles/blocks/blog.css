@@ -16,7 +16,7 @@
   grid-template-rows: 1fr auto auto;
   grid-template-columns: 100%;
   width: 55vw;
-  grid-row-gap: 12px;
+  grid-row-gap: 14px;
   border-radius: 8px;
   max-width: 630px;
   min-width: 300px;
@@ -67,7 +67,7 @@
 }
 
 .blog-page__post-element footer {
-  padding: 3px 25px 13px;
+  padding: 3px 25px 15px;
 }
 
 .blog-page span {
@@ -93,7 +93,7 @@
   .blog-page p {
     margin: 0 18px;
     margin-right: 20px;
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .blog-page__post-element header {
