@@ -13,14 +13,14 @@
 
 .blog-page__post-element {
   display: grid;
-  grid-template-rows: 1fr auto 40px;
+  grid-template-rows: 1fr auto auto;
   grid-template-columns: 100%;
   width: 55vw;
   grid-row-gap: 12px;
-  border-radius: 6px;
+  border-radius: 4px;
   max-width: 630px;
   min-width: 300px;
-  box-shadow: 0 0 4px -1px var(--box-shadow-color-blog-card);
+  box-shadow: 0 2px 10px var(--box-shadow-color-blog-card);
   color: var(--color-text-primary);
   margin-bottom: 30px;
   text-decoration: none;
@@ -34,46 +34,46 @@
   outline: none;
 }
 
+.blog-page__post-element:hover {
+  box-shadow: 0 5px 18px var(--box-shadow-color-blog-card);
+}
+
 .blog-page__post-element:active {
+  box-shadow: 0 1px 8px var(--box-shadow-color-blog-card);
   transform: translateY(1px);
 }
 
-.blog-page__post-element:hover {
-  box-shadow: 0 0 8px -1.5px var(--box-shadow-color-blog-card);
-}
-
 .blog-page__post-element header {
-  height: 57px;
   box-shadow: 0 1px 0px 0px var(--border-blog-card-header);
   transition: var(--theme-color-transition);
   transition-property: box-shadow;
-  padding-left: 25px;
+  padding: 15px 25px;
+  background-color: var(--bg-header-blog-card);
+  border-radius: 4px 4px 0 0;
 }
 
 .blog-page h2 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
-  line-height: 57px;
   letter-spacing: 0.02em;
   color: var(--color-text-primary);
 }
 
 .blog-page p {
-  padding: 0 25px;
-  padding-right: 35px;
+  margin: 0 25px;
+  margin-right: 35px;
   font-size: 16px;
   font-weight: 400;
   color: var(--color-text-secondary);
 }
 
 .blog-page__post-element footer {
-  padding-left: 25px;
+  padding: 3px 25px 15px;
 }
 
 .blog-page span {
   font-weight: 500;
   font-size: 13px;
-  padding: 6px;
   border-radius: 3px;
   color: var(--color-footer-link);
 }
@@ -81,5 +81,29 @@
 @media (max-width: 768px) {
   .blog-page__post-element {
     width: unset;
+    grid-row-gap: 6px;
+    min-width: 200px;
+    margin-bottom: 20px;
+  }
+
+  .blog-page h2 {
+    font-size: 17px;
+  }
+
+  .blog-page p {
+    margin: 0 18px;
+    margin-right: 20px;
+    font-size: 14px;
+  }
+
+  .blog-page__post-element header {
+    box-shadow: 0 1px 0px 0px var(--border-blog-card-header);
+    transition: var(--theme-color-transition);
+    transition-property: box-shadow;
+    padding-left: 18px;
+  }
+
+  .blog-page__post-element footer {
+    padding: 9px 18px 15px;
   }
 }

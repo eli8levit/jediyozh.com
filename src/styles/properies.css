@@ -13,6 +13,7 @@
   --bg-color-header: #141414;
   --bg-nav-link-active: rgba(255, 255, 255, 0.13);
   --bg-color-blog-card: #151515;
+  --bg-header-blog-card: rgba(255, 255, 255, 0.04);
 
   /* transitions */
   --theme-color-transition: color 0.5s ease-in-out;
@@ -37,9 +38,10 @@
   --bg-color-header: #151515;
   --bg-nav-link-active: rgba(255, 255, 255, 0.22);
   --bg-color-blog-card: var(--bg-color-primary);
+  --bg-header-blog-card: rgba(0, 0, 0, 0.03);
 
   /* other */
-  --box-shadow-color-blog-card: rgba(0, 0, 0, 0.25);
+  --box-shadow-color-blog-card: rgba(12, 12, 13, 0.1);
   --border-blog-card-header: #ededed;
 }
 
