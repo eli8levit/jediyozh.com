@@ -9,3 +9,15 @@
     transform: none;
   }
 }
+
+@keyframes rotatePic {
+  0% {
+    opacity: 0;
+    transform: perspective(500px) rotateY(80deg) rotateX(0deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: perspective(500px) rotateY(12deg) rotateX(2deg);
+  }
+}

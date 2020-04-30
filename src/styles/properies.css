@@ -7,6 +7,7 @@
   --color-text-header-active: #ffffff;
   --color-text-secondary: #9b9faa;
   --color-red-link: var(--color-red);
+  --color-green: #8be0ccb0;
 
   /* background colors */
   --bg-color-primary: #0a0a0a;
@@ -22,7 +23,6 @@
   /* other */
   --link-radius: 3px;
   --box-shadow-color-blog-card: rgb(2, 2, 2);
-  --border-blog-card-header: rgb(2, 2, 2);
 }
 
 .light {
@@ -32,17 +32,17 @@
   --color-red: #f31313;
   --color-footer-link: #2f3975;
   --color-red-link: #e90000;
+  --color-green: #254d3fbf;
 
   /* background colors */
   --bg-color-primary: #fdfdfd;
   --bg-color-header: #151515;
   --bg-nav-link-active: rgba(255, 255, 255, 0.22);
   --bg-color-blog-card: var(--bg-color-primary);
-  --bg-header-blog-card: rgba(0, 0, 0, 0.03);
+  --bg-header-blog-card: rgba(0, 0, 0, 0.02);
 
   /* other */
   --box-shadow-color-blog-card: rgba(12, 12, 13, 0.1);
-  --border-blog-card-header: #ededed;
 }
 
 .light .theme-toggler__icon--sun {
