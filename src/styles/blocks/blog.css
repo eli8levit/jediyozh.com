@@ -1,6 +1,7 @@
 .blog-page {
   grid-column: 1 / -1;
-  padding: 4vw;
+  padding: 0 4vw;
+  padding-top: 8vh;
 }
 
 .blog-page__post-list {

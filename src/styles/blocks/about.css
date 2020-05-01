@@ -1,8 +1,8 @@
 .about-page {
   grid-column: 1 / -1;
   margin: 0 auto;
-  padding: 40px calc(40px + 4vw);
-  padding-top: 12vh;
+  padding: 0 calc(40px + 4vw);
+  padding-top: 15vh;
 }
 
 .about-page__heading-container {
