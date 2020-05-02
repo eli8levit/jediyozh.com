@@ -1,0 +1,11 @@
+.work-page {
+  padding: 10vh 3vw 0;
+  grid-column: 1 / -1;
+}
+
+.work-page__heading {
+  text-align: center;
+  color: var(--color-text-secondary);
+  font-weight: 700;
+  font-size: calc(15px + 2vw);
+}

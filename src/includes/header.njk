@@ -1,6 +1,7 @@
 {% set homeUrl = '/' + locale + '/' %}
 {% set aboutUrl = homeUrl + paths.about + '/' %}
 {% set blogUrl = homeUrl + paths.blog + '/' %}
+{% set workUrl = homeUrl + paths.work + '/' %}
 
 <header class="page-header">
   <nav class="page-header__nav">
@@ -14,7 +15,7 @@
         <a {% if page.url != blogUrl %} href="{{ blogUrl }}" {% endif %} class="page-header__link">{{ site[locale].headerBlog }}</a>
       </li>
       <li class="page-header__list-item">
-        <a href="#" class="page-header__link">{{ site[locale].headerWork }}</a>
+        <a {% if page.url != workUrl %} href="{{ workUrl }}" {% endif %} class="page-header__link">{{ site[locale].headerWork }}</a>
       </li>
       <li class="page-header__list-item">
         <a
