@@ -1,6 +1,7 @@
 .work-page {
-  padding: 10vh 3vw 0;
+  padding: 10vh 0;
   grid-column: 1 / -1;
+  overflow: hidden;
 }
 
 .work-page__heading {
@@ -8,4 +9,31 @@
   color: var(--color-text-secondary);
   font-weight: 700;
   font-size: calc(15px + 2vw);
+}
+
+.work-page > div {
+  margin: 0 2vw;
+}
+
+.work-page ol {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  grid-column-gap: 51px;
+  overflow-x: auto;
+  padding: 50px;
+  margin: 50px;
+  scroll-behavior: smooth;
+}
+
+.work-page li {
+  width: 300px;
+  height: 500px;
+  list-style: none;
+  box-shadow: 0 2px 25px #0000001a;
+  box-shadow: 0 0 0 2px black;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

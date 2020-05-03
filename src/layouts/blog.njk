@@ -3,6 +3,8 @@ translationKey: 'blog'
 ---
 
 {% extends "./page.njk" %}
+{% set metaTitle = site[locale].headerBlog %}
+
 {% block content %}
 <div class="blog-page">
   <ol class="blog-page__post-list">

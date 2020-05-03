@@ -28,7 +28,7 @@
 .light {
   /* colors */
   --color-text-primary: #242424;
-  --color-text-secondary: #575757;
+  --color-text-secondary: #555;
   --color-red: #f31313;
   --color-footer-link: #2f3975;
   --color-red-link: #e90000;
@@ -38,7 +38,7 @@
   --bg-color-header: #151515;
   --bg-nav-link-active: rgba(255, 255, 255, 0.2);
   --bg-color-blog-card: var(--bg-color-primary);
-  --bg-header-blog-card: rgba(0, 0, 0, 0.02);
+  --bg-header-blog-card: rgba(155, 155, 155, 0.11);
 
   /* other */
   --box-shadow-color-blog-card: rgba(12, 12, 13, 0.1);
