@@ -34,7 +34,7 @@
   --color-red-link: #e90000;
 
   /* background colors */
-  --bg-color-primary: #fdfdfd;
+  --bg-color-primary: #f5f5f5;
   --bg-color-header: #151515;
   --bg-nav-link-active: rgba(255, 255, 255, 0.2);
   --bg-color-blog-card: var(--bg-color-primary);
