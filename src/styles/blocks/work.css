@@ -26,6 +26,14 @@
   scroll-behavior: smooth;
 }
 
+.work-page ol::after {
+  content: '';
+  display: block;
+  right: -2rem;
+  width: 1px;
+  height: 1px;
+}
+
 .work-page li {
   width: 300px;
   height: 500px;
