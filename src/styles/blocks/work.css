@@ -1,49 +1,78 @@
 .work-page {
-  margin-top: 50px;
+  align-self: center;
   grid-column: 1 / -1;
   overflow: hidden;
 }
 
 .work-page__heading {
-  margin-left: 35px;
-  margin-bottom: 30px;
   color: var(--color-text-secondary);
   font-weight: 700;
   font-size: calc(15px + 2vw);
 }
 
-.work-page div {
-  box-shadow: 0 5px 25px #0000001f;
-  margin: 0 35px;
-  border-radius: 5px;
-  background-color: #d9d9d9;
-}
-
-.work-page ol {
+.work-page section {
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: max-content;
-  grid-column-gap: 51px;
+  grid-column-gap: 50px;
   overflow-x: auto;
-  padding: 40px;
-  scroll-behavior: smooth;
+  padding: 80px 30px;
+  box-shadow: 0 6px 25px #0000001f;
+  margin: 0 40px;
+  border-radius: 6px;
+  background-color: var(--bg-header-blog-card);
+  background-image: radial-gradient(#b4b4b4, var(--bg-header-blog-card));
+  scroll-snap-type: x mandatory;
 }
 
-.work-page ol::after {
+.work-page section::after {
   content: '';
   display: block;
-  width: 1px;
+  width: 120px;
   height: 1px;
 }
 
-.work-page li {
-  width: 370px;
-  height: 60vh;
+.work-page article {
+  width: 350px;
+  height: 52vh;
   list-style: none;
-  box-shadow: 0 6px 29px #0000005e;
-  border-radius: 4px;
+  box-shadow: 0 3px 30px #0000003d;
+  border-radius: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: white;
+  transform: perspective(1000px) rotateY(-9deg) rotateZ(12deg) translateY(3%);
+  transform-origin: right bottom;
+  transition: all 0.6s ease-out;
+  animation-duration: 1.5s;
+  animation-fill-mode: backwards;
+  animation-delay: 0.32s;
+  animation-name: leanRight;
+  font-size: 30px;
+  opacity: 0.7;
+  scroll-snap-align: center;
+}
+
+.work-page article:hover {
+  opacity: 1;
+  transform: perspective(1000px) rotateY(-3deg) rotateZ(0) translateY(3%);
+}
+
+@media (max-width: 768px) {
+  .work-page__heading {
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+  .work-page article {
+    grid-row: 2;
+    transform: perspective(1000px) rotateY(-9deg) rotateZ(12deg) translateY(3%);
+    width: 70vw;
+    transform-origin: center;
+  }
+
+  .work-page section {
+    margin: 0 4vw;
+    padding: 20px 30px 70px;
+  }
 }

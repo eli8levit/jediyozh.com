@@ -18,7 +18,7 @@
   grid-template-columns: 100%;
   width: 55vw;
   grid-row-gap: 14px;
-  border-radius: 8px;
+  border-radius: 6px;
   max-width: 630px;
   min-width: 300px;
   box-shadow: 0 2px 10px var(--box-shadow-color-blog-card);
@@ -44,19 +44,12 @@
   transform: translateY(1px);
 }
 
-.blog-page__post-element header {
-  transition: var(--theme-color-transition);
-  transition-property: box-shadow;
-  padding: 13px 25px;
-  background-color: var(--bg-header-blog-card);
-  border-radius: 8px 8px 0 0;
-}
-
 .blog-page h2 {
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.02em;
-  color: var(--color-text-primary);
+  color: var(--color-text-secondary);
+  padding: 13px 25px;
 }
 
 .blog-page p {

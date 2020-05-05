@@ -4,58 +4,52 @@ translationKey: 'blog'
 
 {% extends "./page.njk" %}
 {% set metaTitle = site[locale].headerBlog %}
-
 {% block content %}
-<div class="blog-page">
-  <ol class="blog-page__post-list">
-    <li>
-      <a href="/{{locale}}/blog" class="blog-page__post-element">
-        <header>
-          <h2>
-            First blog post #1
-          </h2>
-        </header>
-          <p>
-            This blog post is about how I created this web site. It took me only year with half to do
-            it.
-          </p>
+
+<main class="blog-page">
+  <section class="blog-page__post-list">
+    <article>
+      <a href="/{{ locale }}/blog" class="blog-page__post-element">
+        <h2>
+          First blog post #1
+        </h2>
+        <p>
+          This blog post is about how I created this web site. It took me only year with half to do
+          it.
+        </p>
         <footer>
           <span>19th April 2020</span>
         </footer>
       </a>
-    </li>
-    <li>
-      <a href="/{{locale}}/blog" class="blog-page__post-element">
-        <header>
-          <h2>
-            Second blog post #2
-          </h2>
-        </header>
-          <p>
-            This blog post is about how I created this web site. It took me only year with half to do
-            it.
-          </p>
+    </article>
+    <article>
+      <a href="/{{ locale }}/blog" class="blog-page__post-element">
+        <h2>
+          Second blog post #2
+        </h2>
+        <p>
+          This blog post is about how I created this web site. It took me only year with half to do
+          it.
+        </p>
         <footer>
           <span>21th April 2020</span>
         </footer>
       </a>
-    </li>
-    <li>
-      <a href="/{{locale}}/blog" class="blog-page__post-element">
-        <header>
-          <h2>
-            Third blog post #3
-          </h2>
-        </header>
-          <p>
-            This blog post is about how I created this web site. It took me only year with half to do
-            it.
-          </p>
+    </article>
+    <article>
+      <a href="/{{ locale }}/blog" class="blog-page__post-element">
+        <h2>
+          Third blog post #3
+        </h2>
+        <p>
+          This blog post is about how I created this web site. It took me only year with half to do
+          it.
+        </p>
         <footer>
           <span>20th April 2020</span>
         </footer>
       </a>
-    </li>
-  </ol>
-</div>
+    </article>
+  </section>
+</main>
 {% endblock %}

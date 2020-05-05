@@ -38,7 +38,7 @@
   --bg-color-header: #151515;
   --bg-nav-link-active: rgba(255, 255, 255, 0.2);
   --bg-color-blog-card: var(--bg-color-primary);
-  --bg-header-blog-card: rgba(155, 155, 155, 0.11);
+  --bg-header-blog-card: #dcdcdcad;
 
   /* other */
   --box-shadow-color-blog-card: rgba(12, 12, 13, 0.1);

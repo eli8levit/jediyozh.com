@@ -6,7 +6,7 @@ translationKey: 'home'
 {% set metaTitle = site[locale].homeTitle %}
 
 {% block content %}
-<div class="home-page">
+<main class="home-page">
   <section class="home-page__introduction">
     <h1 class="home-page__heading">
       {{ site[locale].greeting }}
@@ -28,5 +28,5 @@ translationKey: 'home'
       <a href="/{{ locale }}/about/" class="home-page__link">{{ site[locale].moreAboutMe }}</a>
     </p>
   </section>
-</div>
+</main>
 {% endblock %}
