@@ -1,5 +1,4 @@
 .work-page {
-  align-self: center;
   grid-column: 1 / -1;
   overflow: hidden;
 }
@@ -17,9 +16,10 @@
   grid-column-gap: 50px;
   overflow-x: auto;
   padding: 80px 30px;
-  box-shadow: 0 6px 25px #0000001f;
-  margin: 0 40px;
+  box-shadow: 0 3px 13px 0px rgba(0, 0, 0, 0.1);
+  margin: 20px 40px;
   border-radius: 6px;
+  min-height: 80vh;
   background-color: var(--bg-header-blog-card);
   background-image: radial-gradient(#b4b4b4, var(--bg-header-blog-card));
 }

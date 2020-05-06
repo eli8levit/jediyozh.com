@@ -1,33 +1,64 @@
 .blog-page {
   grid-column: 1 / -1;
-  padding: 0 4vw;
-  padding-top: 8vh;
 }
 
 .blog-page__post-list {
-  display: flex;
+  display: grid;
+  padding: 30px 30px 68px;
+  margin: 20px 40px;
+  border-radius: 6px;
+  min-height: 80vh;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: max-content;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 100%;
+  grid-row-gap: 0px;
+  background-image: radial-gradient(#b4b4b4, var(--bg-header-blog-card));
+}
+
+.blog-page h1 {
+  color: var(--color-text-primary);
+  font-weight: 700;
+  font-size: calc(15px + 2vw);
+  grid-column: 1;
+  margin-left: 100px;
+}
+
+.blog-page article {
+  grid-column: 2;
+  transform: perspective(1000px) rotateX(-17deg);
+  margin-top: -39px;
+  transition: all 0.3s ease-out;
+  opacity: 0.9;
+}
+
+.blog-page article:first-of-type {
+  margin-top: 0;
+}
+
+.blog-page article:hover {
+  transform: perspective(1000px) rotateX(-2deg);
+  z-index: 10;
+  opacity: 1;
+  scale: 1.1;
 }
 
 .blog-page__post-element {
   display: grid;
   grid-template-rows: 1fr auto auto;
   grid-template-columns: 100%;
-  width: 55vw;
-  grid-row-gap: 14px;
+  width: 33vw;
+  grid-row-gap: 12px;
   border-radius: 6px;
   max-width: 630px;
-  min-width: 300px;
-  box-shadow: 0 2px 10px var(--box-shadow-color-blog-card);
+  min-width: 400px;
+  box-shadow: 0 12px 17px rgba(0, 0, 0, 0.15);
   color: var(--color-text-primary);
-  margin-bottom: 30px;
   text-decoration: none;
-  background-color: var(--bg-color-blog-card);
+  background-color: rgb(243, 243, 243);
   transition: var(--theme-color-transition);
   transition-property: background-color;
+  padding: 20px 25px;
 }
 
 .blog-page__post-element:focus {
@@ -45,23 +76,16 @@
 }
 
 .blog-page h2 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.02em;
-  color: var(--color-text-secondary);
-  padding: 13px 25px;
+  color: var(--color-text-primary);
 }
 
 .blog-page p {
-  margin: 0 25px;
-  margin-right: 35px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   color: var(--color-text-secondary);
-}
-
-.blog-page__post-element footer {
-  padding: 3px 25px 15px;
 }
 
 .blog-page span {

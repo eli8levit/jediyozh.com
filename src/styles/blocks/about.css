@@ -18,7 +18,7 @@
 .about-page__heading {
   font-size: 43px;
   font-weight: 700;
-  color: var(--color-text-secondary);
+  color: var(--color-text-primary);
   animation-duration: 1.5s;
   animation-fill-mode: both;
   animation-delay: 0.3s;
@@ -52,14 +52,6 @@
   color: var(--color-text-primary);
   font-weight: 400;
   margin-bottom: 12px;
-}
-
-.about-page__text:last-of-type::after {
-  content: '* * *';
-  display: block;
-  text-align: center;
-  margin-top: 80px;
-  color: var(--color-text-secondary);
 }
 
 @media (max-width: 768px) {
