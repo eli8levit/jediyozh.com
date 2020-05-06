@@ -17,7 +17,7 @@
 }
 
 .blog-page h1 {
-  color: var(--color-text-primary);
+  color: var(--color-text-secondary);
   font-weight: 700;
   font-size: calc(15px + 2vw);
   grid-column: 1;
