@@ -7,6 +7,7 @@
   color: var(--color-text-secondary);
   font-weight: 700;
   font-size: calc(15px + 2vw);
+  align-self: start;
 }
 
 .work-page section {
@@ -14,14 +15,14 @@
   grid-auto-flow: column;
   grid-auto-columns: max-content;
   grid-column-gap: 50px;
+  align-items: center;
   overflow-x: auto;
   padding: 80px 30px;
   box-shadow: 0 3px 13px 0px rgba(0, 0, 0, 0.1);
   margin: 20px 40px;
   border-radius: 6px;
   min-height: 80vh;
-  background-color: var(--bg-header-blog-card);
-  background-image: radial-gradient(#b4b4b4, var(--bg-header-blog-card));
+  background-image: linear-gradient(320deg, #c2c2c2, hsla(0, 0%, 86.3%, 0.66));
 }
 
 .work-page section::after {
@@ -33,7 +34,7 @@
 
 .work-page article {
   width: 350px;
-  height: 52vh;
+  height: 500px;
   list-style: none;
   box-shadow: 0 3px 30px #0000003d;
   border-radius: 6px;
@@ -43,7 +44,7 @@
   background-color: white;
   transform: perspective(1000px) rotateY(-9deg) rotateZ(12deg) translateY(3%);
   transform-origin: right bottom;
-  transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out, width 0.1ms linear;
   animation-duration: 1.5s;
   animation-fill-mode: backwards;
   animation-delay: 0.32s;
@@ -66,6 +67,7 @@
     grid-row: 2;
     transform: perspective(1000px) rotateY(-9deg) rotateZ(12deg) translateY(3%);
     width: 70vw;
+    max-width: 400px;
     transform-origin: center;
     scroll-snap-align: center;
   }
