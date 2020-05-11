@@ -6,7 +6,7 @@
 .work-page__heading {
   color: var(--color-text-secondary);
   font-weight: 700;
-  font-size: calc(15px + 2vw);
+  font-size: calc(17px + 1.5vw);
   align-self: start;
 }
 
@@ -17,10 +17,10 @@
   grid-column-gap: 50px;
   align-items: center;
   overflow-x: auto;
-  padding: 80px 30px;
+  padding: 30px;
   box-shadow: 0 3px 13px 0px rgba(0, 0, 0, 0.1);
   margin: 20px 40px;
-  border-radius: 6px;
+  border-radius: 2px;
   min-height: 80vh;
   background-image: linear-gradient(320deg, #c2c2c2, hsla(0, 0%, 86.3%, 0.66));
 }
@@ -37,14 +37,15 @@
   height: 500px;
   list-style: none;
   box-shadow: 0 3px 30px #0000003d;
-  border-radius: 6px;
+  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: white;
   transform: perspective(1000px) rotateY(-9deg) rotateZ(12deg) translateY(3%);
   transform-origin: right bottom;
-  transition: all 0.4s ease-out, width 0.1ms linear;
+  transition: all 0.4s ease-out;
+  transition-property: background-color, transform, opacity;
   animation-duration: 1.5s;
   animation-fill-mode: backwards;
   animation-delay: 0.32s;
@@ -55,26 +56,41 @@
 
 .work-page article:hover {
   opacity: 1;
-  transform: perspective(1000px) rotateY(-3deg) rotateZ(0) translateY(3%);
+  transform: perspective(1000px) rotateY(0) rotateZ(0) translateY(3%);
 }
 
 @media (max-width: 768px) {
   .work-page__heading {
-    margin-bottom: 40px;
-    font-size: 30px;
+    font-size: 25px;
+    margin-left: 17px;
   }
+
   .work-page article {
     grid-row: 2;
-    transform: perspective(1000px) rotateY(-9deg) rotateZ(12deg) translateY(3%);
+    transform: perspective(1000px) rotateY(-9deg) rotateZ(12deg) translateY(0);
     width: 70vw;
-    max-width: 400px;
+    height: 55vh;
+    max-width: 350px;
     transform-origin: center;
     scroll-snap-align: center;
   }
 
+  .work-page article:first-of-type {
+    margin-left: 9vw;
+  }
+
+  .work-page article:hover {
+    transform: perspective(1000px) rotateY(0) rotateZ(0) translateY(0);
+  }
+
   .work-page section {
-    margin: 0 4vw;
-    padding: 20px 30px 70px;
+    margin: 0 3vw;
+    padding: 15px 2vw;
     scroll-snap-type: x mandatory;
+    grid-template-rows: max-content auto;
+  }
+
+  .work-page section::after {
+    width: 5px;
   }
 }

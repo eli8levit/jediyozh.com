@@ -32,7 +32,7 @@
 }
 
 .about-page__photo {
-  border-radius: 6px;
+  border-radius: 4px;
   transform: perspective(500px) rotateY(12deg) rotateX(2deg);
   box-shadow: 0 20px 30px var(--box-shadow-color-blog-card);
   transition: transform 0.1s ease-out;
