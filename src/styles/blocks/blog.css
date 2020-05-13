@@ -6,7 +6,7 @@
 
 .blog-page__post-list {
   display: grid;
-  padding: 30px 30px 68px;
+  padding: 40px 40px 68px;
   min-height: 80vh;
   grid-auto-flow: row;
   grid-template-columns: 1fr 1fr 1fr;
@@ -26,7 +26,8 @@
 .blog-page article {
   grid-column: 2;
   transform: perspective(1000px) rotateX(-5deg);
-  margin-top: -118px;
+  margin: 0 auto;
+  margin-top: -115px;
   transition: all 0.3s ease-out;
   opacity: 1;
 }
@@ -38,8 +39,9 @@
 .blog-page article:hover {
   transform: perspective(1000px) rotateX(-2deg);
   z-index: 10;
-  scale: 1.07;
-  margin-bottom: 120px;
+  scale: 1.08;
+  margin-bottom: 125px;
+  padding: 7px 0;
 }
 
 .blog-page__post-element {
@@ -47,30 +49,27 @@
   grid-template-rows: 1fr auto auto;
   grid-template-columns: 100%;
   width: 40vw;
-  grid-row-gap: 20px;
-  border-radius: 4px;
+  grid-row-gap: 25px;
+  border-radius: 5px;
   max-width: 520px;
   min-width: 400px;
-  box-shadow: 0 -3px 15px 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 -2px 20px 0 rgba(0, 0, 0, 0.07);
   color: var(--color-text-primary);
   text-decoration: none;
   background-color: #fff;
   transition: var(--theme-color-transition);
   transition-property: background-color;
-  padding: 30px 35px;
-  padding-right: 35px;
-  padding-right: 40px;
+  padding: 30px 40px;
+  padding-right: 50px;
 }
 
 .blog-page__post-element:focus {
   box-shadow: 0 0 0 2px var(--color-text-secondary);
   outline: none;
-  opacity: 1;
 }
 
 .blog-page__post-element:hover {
-  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.09);
-  opacity: 1;
+  box-shadow: 0 0 25px 1px rgba(0, 0, 0, 0.09);
 }
 
 .blog-page__post-element:active {
@@ -79,7 +78,7 @@
 }
 
 .blog-page h2 {
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.02em;
   color: var(--color-text-primary);
@@ -95,21 +94,21 @@
   font-weight: 500;
   font-size: 13px;
   border-radius: 3px;
-  color: var(--color-footer-link);
+  color: white;
   margin-right: 2px;
-  padding: 5px 10px;
-  border-radius: 3px;
+  padding: 4px 8px;
+  border-radius: 2px;
+  background-color: var(--color-red);
 }
 
 @media (max-width: 768px) {
   .blog-page__post-element {
     width: unset;
-    grid-row-gap: 10px;
+    grid-row-gap: 20px;
     min-width: 200px;
     margin: 0 auto;
     box-shadow: 0 1px 10px var(--box-shadow-color-blog-card);
-    padding: 17px;
-    opacity: 1;
+    padding: 25px;
   }
 
   .blog-page section {
@@ -125,7 +124,7 @@
     grid-column: 1;
     transform: none;
     margin-top: unset;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
 
   .blog-page h1 {
