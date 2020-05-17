@@ -22,14 +22,14 @@
   }
 }
 
-@keyframes leanRight {
+@keyframes fadeInRotate {
   0% {
     opacity: 0;
-    transform: perspective(1000px) rotateY(-9deg) rotateZ(0) translateY(3%);
+    transform: perspective(1000px) rotateZ(12deg);
   }
 
   100% {
     opacity: 0.7;
-    transform: perspective(1000px) rotateY(-9deg) rotateZ(12deg) translateY(3%);
+    transform: perspective(0) rotateZ(0);
   }
 }
