@@ -28,7 +28,7 @@
 .blog-page article {
   grid-column: 2;
   margin: 0 auto;
-  margin-top: -115px;
+  margin-top: -113px;
   transition: scale 0.47s ease-out, padding 0.47s ease-out, margin 0.33s ease-out;
   z-index: 0;
   padding: 0;
@@ -42,7 +42,7 @@
 .blog-page article:hover {
   z-index: 10;
   scale: 1.03;
-  margin-bottom: 125px;
+  margin-bottom: 135px;
 }
 
 .blog-page__post-element {
@@ -83,7 +83,7 @@
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.02em;
-  color: #424242;
+  color: #575757;
 }
 
 .blog-page p {

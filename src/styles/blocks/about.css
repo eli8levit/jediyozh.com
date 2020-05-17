@@ -32,20 +32,20 @@
 }
 
 .about-page__photo {
-  border-radius: 4px;
-  transform: perspective(500px) rotateY(12deg) rotateX(2deg);
+  border-radius: 2px;
+  /* transform: perspective(500px) rotateY(12deg) rotateX(2deg);
   box-shadow: 0 20px 30px var(--box-shadow-color-blog-card);
-  transition: transform 0.1s ease-out;
-  animation-duration: 1.5s;
+  transition: transform 0.1s ease-out;*/
+  /* animation-duration: 1.5s;
   animation-fill-mode: backwards;
   animation-delay: 0.3s;
-  animation-name: rotatePic;
+  animation-name: rotatePic; */
 }
 
-.about-page__photo:hover {
+/* .about-page__photo:hover {
   transform: none;
   transform: perspective(500px) rotateY(-12deg) rotateX(2deg);
-}
+} */
 
 .about-page__text {
   font-size: calc(18px + 0.18vw);
