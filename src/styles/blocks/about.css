@@ -8,7 +8,8 @@
 .about-page__heading-container {
   display: grid;
   align-items: center;
-  grid-template-columns: max-content auto;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
   column-gap: 40px;
   grid-auto-flow: column;
   justify-content: center;
@@ -19,33 +20,19 @@
   font-size: 43px;
   font-weight: 700;
   color: var(--color-text-secondary);
-  animation-duration: 1.5s;
-  animation-fill-mode: both;
-  animation-delay: 0.3s;
-  animation-name: fadeZoom;
 }
 
 .about-page__bio-text {
   margin: 0 auto;
   max-width: 750px;
   padding: 80px 0;
+  grid-column: 1 / -1;
+  grid-row: 2;
 }
 
 .about-page__photo {
   border-radius: 2px;
-  /* transform: perspective(500px) rotateY(12deg) rotateX(2deg);
-  box-shadow: 0 20px 30px var(--box-shadow-color-blog-card);
-  transition: transform 0.1s ease-out;*/
-  /* animation-duration: 1.5s;
-  animation-fill-mode: backwards;
-  animation-delay: 0.3s;
-  animation-name: rotatePic; */
 }
-
-/* .about-page__photo:hover {
-  transform: none;
-  transform: perspective(500px) rotateY(-12deg) rotateX(2deg);
-} */
 
 .about-page__text {
   font-size: calc(18px + 0.18vw);
@@ -67,6 +54,7 @@
 
   .about-page__photo {
     height: 190px;
+    width: 142.5px;
   }
 
   .about-page__heading {

@@ -7,7 +7,7 @@ translationKey: 'about'
 
 {% block content %}
 <main class="about-page">
-  <div class="about-page__heading-container">
+  <section class="about-page__heading-container">
     <picture>
       <source media="(max-width: 768px)" type="image/webp" srcset="/assets/images/me/me_1x.webp" />
       <source media="(max-width: 768px)" srcset="/assets/images/me/me_1x.jpeg" />
@@ -20,12 +20,13 @@ translationKey: 'about'
         src="/assets/images/me/me_3x.jpeg"
         alt="Me smiling and looking at the sky"
         height="420px"
+        width="315px"
       />
     </picture>
     <h1 class="about-page__heading">Shalom, buddy, and welcome to my website!</h1>
-  </div>
-  <div class="about-page__bio-text">
-    {{ content | safe }}
-  </div>
-</main>
+    <div class="about-page__bio-text">
+      {{ content | safe }}
+    </div>
+  </section>
+  </main>
 {% endblock %}

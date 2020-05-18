@@ -1,7 +1,6 @@
 .work-page {
   grid-column: 1 / -1;
   overflow: hidden;
-  align-self: center;
 }
 
 .work-page__heading {
@@ -21,7 +20,7 @@
   padding: 40px 60px;
   min-height: 80vh;
   background: #eaeaea;
-  margin: 0 40px;
+  margin: 20px 40px;
   border-radius: 5px;
   min-height: 80vh;
 }
@@ -34,8 +33,10 @@
 }
 
 .work-page article {
-  width: 350px;
-  height: 500px;
+  width: 20.9vw;
+  height: 51vh;
+  min-width: 350px;
+  min-height: 500px;
   list-style: none;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
   border-radius: 5px;
