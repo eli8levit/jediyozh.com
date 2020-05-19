@@ -68,14 +68,16 @@
 
   .work-page article {
     grid-row: 2;
-    width: 70vw;
-    height: 55vh;
+    width: 82vw;
+    height: 60vh;
+    min-width: unset;
+    min-height: unset;
     max-width: 350px;
     scroll-snap-align: center;
   }
 
   .work-page article:first-of-type {
-    margin-left: 9vw;
+    margin-left: 4vw;
   }
 
   .work-page section {

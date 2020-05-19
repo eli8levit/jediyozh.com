@@ -113,17 +113,17 @@
 @media (max-width: 768px) {
   .blog-page__post-element {
     width: unset;
-    grid-row-gap: 12px;
+    grid-row-gap: 15px;
     min-width: 200px;
     margin: 0 auto;
-    box-shadow: 0 1px 10px var(--box-shadow-color-blog-card);
-    padding: 20px;
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.15);
+    padding: 25px;
   }
 
   .blog-page section {
-    padding: 15px 4vw 25px;
+    padding: 15px 2.5vw 25px;
     min-height: unset;
-    margin: 0 3vw;
+    margin: 0 2vw;
   }
 
   .blog-page__post-list {
@@ -135,6 +135,7 @@
     transform: none;
     margin-top: unset;
     margin-bottom: 25px;
+    animation: none;
   }
 
   .blog-page article:hover {
@@ -146,8 +147,8 @@
 
   .blog-page h1 {
     margin-bottom: 27px;
-    margin-left: 17px;
-    font-size: 25px;
+    margin-left: 25px;
+    font-size: 28px;
   }
 
   .blog-page h2 {
@@ -156,7 +157,7 @@
 
   .blog-page p {
     margin-right: 20px;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .blog-page__post-element header {
@@ -167,7 +168,7 @@
   }
 
   .blog-page span {
-    font-size: 11px;
+    font-size: 12px;
   }
 }
 
