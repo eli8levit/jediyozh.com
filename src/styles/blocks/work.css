@@ -14,13 +14,13 @@
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: max-content;
-  grid-column-gap: 40px;
+  grid-gap: 0 40px;
   align-items: center;
   overflow-x: auto;
   padding: 40px 60px;
   min-height: 80vh;
   background: #eaeaea;
-  margin: 20px 40px;
+  margin: 20px 0;
   border-radius: 5px;
   min-height: 80vh;
 }
@@ -33,8 +33,8 @@
 }
 
 .work-page article {
-  width: 20.9vw;
-  height: 51vh;
+  width: 20vw;
+  height: 50vh;
   min-width: 350px;
   min-height: 500px;
   list-style: none;
@@ -63,26 +63,23 @@
 @media (max-width: 768px) {
   .work-page__heading {
     font-size: 25px;
-    margin-left: 17px;
   }
 
   .work-page article {
     grid-row: 2;
     width: 82vw;
     height: 60vh;
-    min-width: unset;
-    min-height: unset;
-    max-width: 350px;
+    min-width: 250px;
+    min-height: 360px;
+    max-width: 310px;
+    max-height: 500px;
     scroll-snap-align: center;
   }
 
-  .work-page article:first-of-type {
-    margin-left: 4vw;
-  }
-
   .work-page section {
-    padding: 15px 2vw;
-    margin: 0 3vw;
+    padding: 15px 8.5vw;
+    margin: 0;
+    grid-gap: 10px 40px;
     scroll-snap-type: x mandatory;
     grid-template-rows: max-content auto;
   }

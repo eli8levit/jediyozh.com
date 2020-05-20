@@ -1,8 +1,7 @@
 .about-page {
   grid-column: 1 / -1;
   margin: 0 auto;
-  padding: 0 calc(40px + 4vw);
-  padding-top: 17vh;
+  padding: 19vh calc(40px + 4vw) 120px;
 }
 
 .about-page__heading-container {
@@ -10,8 +9,7 @@
   align-items: center;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
-  column-gap: 40px;
-  grid-auto-flow: column;
+  grid-gap: 0 40px;
   justify-content: center;
   max-width: 900px;
 }
@@ -24,7 +22,7 @@
 
 .about-page__bio-text {
   margin: 0 auto;
-  max-width: 750px;
+  max-width: 700px;
   padding: 80px 0;
   grid-column: 1 / -1;
   grid-row: 2;
@@ -35,7 +33,7 @@
 }
 
 .about-page__text {
-  font-size: calc(18px + 0.18vw);
+  font-size: calc(17px + 0.18vw);
   color: var(--color-text-primary);
   font-weight: 400;
   margin-bottom: 12px;
@@ -43,13 +41,12 @@
 
 @media (max-width: 768px) {
   .about-page {
-    padding: 12vh 3vw;
-    padding-bottom: 0;
+    padding: 9vh 7vw;
   }
 
   .about-page__heading-container {
-    column-gap: 5px;
-    grid-template-columns: 0.9fr 1.1fr;
+    grid-gap: 30px 0;
+    grid-template-columns: 1fr;
   }
 
   .about-page__photo {
@@ -58,7 +55,7 @@
   }
 
   .about-page__heading {
-    font-size: 24px;
+    font-size: 30px;
   }
 
   .about-page__text {
@@ -66,6 +63,8 @@
   }
 
   .about-page__bio-text {
-    padding: 40px 4vw;
+    padding: 0;
+    grid-column: 1;
+    grid-row: 3;
   }
 }
