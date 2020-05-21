@@ -40,9 +40,10 @@
   list-style: none;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
   border-radius: 5px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
   align-items: center;
-  justify-content: center;
   background-color: #f4f4f4;
   transition: 0.1s ease-out;
   transition-property: background-color, scale, opacity;
@@ -52,6 +53,26 @@
   animation-name: fadeInRotate;
   font-size: 30px;
   opacity: 0.7;
+  padding: 20px 30px;
+}
+
+.work-page article span {
+  font-size: 27px;
+}
+
+.work-page article h2 {
+  font-size: 25px;
+}
+
+.work-page article p {
+  font-size: 17px;
+  align-self: start;
+}
+
+.work-page article a {
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--color-footer-link);
 }
 
 .work-page article:hover {
@@ -62,7 +83,7 @@
 
 @media (max-width: 768px) {
   .work-page__heading {
-    font-size: 25px;
+    font-size: 28px;
   }
 
   .work-page article {
@@ -74,6 +95,19 @@
     max-width: 310px;
     max-height: 500px;
     scroll-snap-align: center;
+    grid-gap: 10px;
+  }
+
+  .work-page article h2 {
+    font-size: 23px;
+  }
+
+  .work-page article p {
+    font-size: 16px;
+  }
+
+  .work-page article a {
+    font-size: 15px;
   }
 
   .work-page section {

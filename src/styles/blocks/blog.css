@@ -34,7 +34,7 @@
   position: relative;
   animation-duration: 0.7s;
   animation-fill-mode: both;
-  animation-timing-function: ease-in;
+  animation-timing-function: ease-in-out;
   animation-name: foldingCard;
 }
 
@@ -58,7 +58,7 @@
   border-radius: 6px;
   max-width: 520px;
   min-width: 400px;
-  box-shadow: 0 -4px 20px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 0 -4px 25px 0 rgba(0, 0, 0, 0.06);
   color: var(--color-text-primary);
   text-decoration: none;
   background-color: #f1f1f1;

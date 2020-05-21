@@ -31,15 +31,8 @@ dd {
 
 /* Set core body defaults */
 body {
-  scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.15;
-}
-
-/* Remove list styles on ul, ol elements with a class attribute */
-ul[class],
-ol[class] {
-  list-style: none;
 }
 
 /* A elements that don't have a class get default styles */
@@ -51,19 +44,6 @@ a:not([class]) {
 img {
   max-width: 100%;
   display: block;
-}
-
-/* Natural flow and rhythm in articles by default */
-article > * + * {
-  margin-top: 1em;
-}
-
-/* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit;
 }
 
 /* Personal changes */
