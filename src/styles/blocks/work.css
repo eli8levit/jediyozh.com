@@ -19,9 +19,11 @@
   overflow-x: auto;
   padding: 40px 60px;
   min-height: 80vh;
-  background: #eaeaea;
+  background-color: var(--bg-section-color);
   margin: 20px 0;
   min-height: 80vh;
+  transition: var(--theme-color-transition);
+  transition-property: background-color;
 }
 
 .work-page section::after {
@@ -43,15 +45,13 @@
   grid-template-columns: 1fr;
   grid-gap: 20px;
   align-items: center;
-  background-color: #f4f4f4;
-  transition: 0.1s ease-out;
-  transition-property: background-color, scale, opacity;
+  background-color: var(--bg-blog-card);
+  transition: background-color 0.5s ease-in-out, scale 0.15s ease-out, opacity 0.15s ease-out;
   animation-duration: 1.5s;
-  animation-fill-mode: backwards;
+  animation-fill-mode: both;
   animation-delay: 0.32s;
   animation-name: fadeInRotate;
-  font-size: 30px;
-  opacity: 0.7;
+  opacity: 0.8;
   padding: 20px 30px;
 }
 
@@ -61,11 +61,13 @@
 
 .work-page article h2 {
   font-size: 25px;
+  color: var(--color-text-card-heading);
 }
 
 .work-page article p {
   font-size: 17px;
   align-self: start;
+  color: var(--color-text-secondary);
 }
 
 .work-page article a {
@@ -76,7 +78,7 @@
 
 .work-page article:hover {
   opacity: 1;
-  scale: 1.03;
+  scale: 1.04;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
 }
 
