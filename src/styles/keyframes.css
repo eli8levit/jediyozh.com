@@ -10,18 +10,6 @@
   }
 }
 
-@keyframes fadeInRotate {
-  0% {
-    opacity: 0;
-    transform: rotate(12deg);
-  }
-
-  100% {
-    opacity: 0.8;
-    transform: rotate(0);
-  }
-}
-
 @keyframes foldingCard {
   0% {
     margin-top: -189px;

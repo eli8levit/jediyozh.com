@@ -8,24 +8,17 @@
   padding: 40px 60px;
   min-height: 950px;
   grid-auto-flow: row;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 100%;
   grid-auto-rows: max-content;
-  margin: 20px 0;
+  justify-content: center;
+  margin: 30px 0;
   width: 100%;
   background-color: var(--bg-section-color);
   transition: var(--theme-color-transition);
   transition-property: background-color;
 }
 
-.blog-page h1 {
-  color: var(--color-text-secondary);
-  font-weight: 700;
-  font-size: calc(17px + 1.5vw);
-  grid-column: 1;
-}
-
 .blog-page article {
-  grid-column: 2;
   margin: 0 auto;
   margin-top: -113px;
   transition: transform 0.47s ease-out, padding 0.47s ease-out, margin 0.33s ease-out;
@@ -55,7 +48,7 @@
   grid-template-columns: 100%;
   width: 40vw;
   grid-row-gap: 23px;
-  border-radius: 6px;
+  border-radius: 4px;
   max-width: 520px;
   min-width: 400px;
   box-shadow: var(--box-shadow-blog-card);
@@ -114,25 +107,24 @@
 @media (max-width: 768px) {
   .blog-page__post-element {
     width: unset;
-    grid-row-gap: 18px;
+    grid-row-gap: 15px;
     min-width: 200px;
     margin: 0 auto;
-    box-shadow: 0 5px 15px -1px rgba(0, 0, 0, 0.15);
-    padding: 28px;
+    box-shadow: 0 2px 15px 0px rgba(0, 0, 0, 0.12);
+    padding: 25px;
   }
 
   .blog-page__post-list {
-    padding: 15px 5vw;
+    padding: 20px 2.5vw;
     min-height: unset;
-    margin: 0;
+    margin: 10px 0;
     grid-template-columns: 1fr;
   }
 
   .blog-page article {
-    grid-column: 1;
     transform: none;
     margin-top: unset;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     animation: none;
   }
 
@@ -143,18 +135,17 @@
     margin-bottom: 20px;
   }
 
-  .blog-page h1 {
-    margin-bottom: 27px;
-    margin-left: 25px;
-    font-size: 28px;
-  }
-
   .blog-page h2 {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   .blog-page p {
     font-size: 15px;
+  }
+
+  .blog-page__post-element:hover {
+    box-shadow: 0 1px 4px var(--box-shadow-color-blog-card);
+    transform: translateY(1px);
   }
 
   .blog-page__post-element header {

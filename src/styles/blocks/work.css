@@ -3,13 +3,6 @@
   overflow: hidden;
 }
 
-.work-page__heading {
-  color: var(--color-text-secondary);
-  font-weight: 700;
-  font-size: calc(17px + 1.5vw);
-  align-self: start;
-}
-
 .work-page section {
   display: grid;
   grid-auto-flow: column;
@@ -20,7 +13,7 @@
   padding: 40px 60px;
   min-height: 80vh;
   background-color: var(--bg-section-color);
-  margin: 20px 0;
+  margin: 30px 0;
   min-height: 80vh;
   transition: var(--theme-color-transition);
   transition-property: background-color;
@@ -46,12 +39,7 @@
   grid-gap: 20px;
   align-items: center;
   background-color: var(--bg-blog-card);
-  transition: background-color 0.5s ease-in-out, scale 0.15s ease-out, opacity 0.15s ease-out;
-  animation-duration: 1.5s;
-  animation-fill-mode: both;
-  animation-delay: 0.32s;
-  animation-name: fadeInRotate;
-  opacity: 0.8;
+  transition: background-color 0.5s ease-in-out, scale 0.15s ease-out;
   padding: 20px 30px;
 }
 
@@ -60,8 +48,8 @@
 }
 
 .work-page article h2 {
-  font-size: 25px;
-  color: var(--color-text-card-heading);
+  font-size: 27px;
+  color: var(--color-text-primary);
 }
 
 .work-page article p {
@@ -77,16 +65,11 @@
 }
 
 .work-page article:hover {
-  opacity: 1;
   scale: 1.04;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
 }
 
 @media (max-width: 768px) {
-  .work-page__heading {
-    font-size: 28px;
-  }
-
   .work-page article {
     grid-row: 2;
     width: 82vw;

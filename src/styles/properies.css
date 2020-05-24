@@ -15,7 +15,7 @@
   --bg-nav-link-active: rgba(255, 255, 255, 0.13);
   --bg-color-blog-card: #151515;
   --bg-header-blog-card: rgba(255, 255, 255, 0.04);
-  --bg-section-color: #151515;
+  --bg-section-color: var(--bg-color-header);
   --bg-blog-card: #1e1e1e;
 
   /* transitions */
@@ -26,8 +26,8 @@
   --link-radius: 3px;
   --box-shadow-color-blog-card: rgb(2, 2, 2);
   --border-footer-color: #fdfdfd24;
-  --box-shadow-blog-card: 0 -4px 15px 0 rgba(0, 0, 0, 0.25);
-  --box-shadow-blog-card-hover: 0 0 25px 0 rgba(0, 0, 0, 0.7);
+  --box-shadow-blog-card: 0 -3px 10px -2px rgba(0, 0, 0, 0.4);
+  --box-shadow-blog-card-hover: 0 0 20px 0 rgba(0, 0, 0, 0.7);
 }
 
 .light {
