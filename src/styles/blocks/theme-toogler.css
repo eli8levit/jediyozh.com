@@ -28,6 +28,10 @@
   transition: none;
 }
 
+.theme-toggler:active {
+  background-color: var(--bg-theme-toggler-active);
+}
+
 .theme-toggler:hover .theme-toggler__icon {
   fill: var(--color-text-header-active);
   transition: none;

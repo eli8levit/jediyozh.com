@@ -10,13 +10,9 @@
   grid-gap: 0 40px;
   align-items: center;
   overflow-x: auto;
-  padding: 40px 60px;
-  min-height: 80vh;
+  padding: 100px 60px;
   background-color: var(--bg-section-color);
   margin: 30px 0;
-  min-height: 80vh;
-  transition: var(--theme-color-transition);
-  transition-property: background-color;
 }
 
 .work-page section::after {
@@ -27,10 +23,8 @@
 }
 
 .work-page article {
-  width: 20vw;
-  height: 50vh;
-  min-width: 350px;
-  min-height: 500px;
+  width: 350px;
+  height: 500px;
   list-style: none;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
   border-radius: 5px;
@@ -40,9 +34,13 @@
   align-items: center;
   background-color: var(--bg-blog-card);
   transition: var(--theme-color-transition);
-  transition-property: background-color, scale;
-  transition-duration: 0.5s, 0.15s;
+  transition-property: background-color;
+  transition-duration: 0.15s;
   padding: 20px 30px;
+  animation-duration: 0.7s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-name: foldingRight;
 }
 
 .work-page article span {
@@ -51,7 +49,7 @@
 
 .work-page article h2 {
   font-size: 27px;
-  color: var(--color-text-primary);
+  color: var(--color-text-card-heading);
 }
 
 .work-page article p {
@@ -64,11 +62,6 @@
   font-size: 16px;
   text-decoration: none;
   color: var(--color-footer-link);
-}
-
-.work-page article:hover {
-  scale: 1.04;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
 }
 
 @media (max-width: 768px) {

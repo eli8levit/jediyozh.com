@@ -2,10 +2,10 @@ const toggle = document.querySelector('.theme-toggler');
 const root = document.documentElement;
 const transition = root.style.getPropertyValue('--theme-color-transition');
 
+root.style.setProperty('--theme-color-transition', 'none');
+
 const setDark = () => document.body.classList.remove('light');
 const setLight = () => document.body.classList.add('light');
-
-root.style.setProperty('--theme-color-transition', 'none');
 
 toggle.addEventListener('click', function (e) {
   e.preventDefault();
@@ -45,7 +45,7 @@ function calculateNextTheme() {
   }
   setTimeout(() => {
     root.style.setProperty('--theme-color-transition', transition);
-  }, 1000);
+  }, 100);
 }
 
 if (window.matchMedia) {
