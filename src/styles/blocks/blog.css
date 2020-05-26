@@ -104,7 +104,7 @@
 @media (max-width: 768px) {
   .blog-page__post-element {
     width: unset;
-    grid-row-gap: 15px;
+    grid-row-gap: 25px;
     min-width: 200px;
     margin: 0 auto;
     box-shadow: 0 2px 15px 0px rgba(0, 0, 0, 0.12);
@@ -112,7 +112,7 @@
   }
 
   .blog-page__post-list {
-    padding: 20px 2.5vw;
+    padding: 20px 6vw;
     min-height: unset;
     margin: 10px 0;
     grid-template-columns: 1fr;
@@ -133,11 +133,11 @@
   }
 
   .blog-page h2 {
-    font-size: 19px;
+    font-size: 21px;
   }
 
   .blog-page p {
-    font-size: 15px;
+    font-size: 17px;
   }
 
   .blog-page__post-element:hover {
@@ -153,7 +153,7 @@
   }
 
   .blog-page span {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
