@@ -27,8 +27,8 @@
   width: 350px;
   height: 500px;
   list-style: none;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
-  border-radius: 5px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  border-radius: 7px;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 20px;
@@ -79,7 +79,7 @@
   }
 
   .work-page article h2 {
-    font-size: 23px;
+    font-size: 20px;
   }
 
   .work-page article p {
@@ -91,9 +91,9 @@
   }
 
   .work-page section {
-    padding: 15px 8.5vw;
+    padding: 30px 8.5vw;
     margin: 0;
-    grid-gap: 10px 40px;
+    grid-gap: 0 40px;
     scroll-snap-type: x mandatory;
     grid-template-rows: max-content auto;
   }
