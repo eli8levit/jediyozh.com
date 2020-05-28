@@ -20,7 +20,7 @@
   --bg-theme-toggler-active: rgba(94, 94, 94, 0.3);
 
   /* transitions */
-  --theme-color-transition: color 0.5s ease-in-out;
+  --theme-color-transition: color 0.3s ease-in-out;
   --theme-header-transition: all 0.1s ease-in;
 
   /* other */
@@ -48,7 +48,7 @@
   --bg-color-blog-card: var(--bg-color-primary);
   --bg-header-blog-card: #dcdcdcad;
   --bg-section-color: #eaeaea;
-  --bg-blog-card: #f2f2f2;
+  --bg-blog-card: #f4f4f4;
 
   /* other */
   --box-shadow-color-blog-card: rgba(12, 12, 13, 0.1);

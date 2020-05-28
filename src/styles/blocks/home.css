@@ -29,6 +29,7 @@
 
 .home-page__heading span {
   font-size: calc(21px + 2.1vw);
+  transition: none;
 }
 
 .home-page__text {
