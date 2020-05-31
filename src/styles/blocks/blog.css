@@ -59,11 +59,12 @@
 }
 
 article:first-of-type .blog-page__post-element {
-  box-shadow: 0 -7px 11px -6px rgba(0, 0, 0, 0.055);
+  box-shadow: 0 -7px 11px -6px var(--box-shadow-card-color);
 }
 
 article:last-of-type .blog-page__post-element {
-  box-shadow: 0 4px 11px -6px rgba(0, 0, 0, 0.055), 0 -8px 10px -3px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 11px -6px var(--box-shadow-card-color),
+    0 -8px 10px -3px var(--box-shadow-card-color-last);
 }
 
 .blog-page__post-element:focus {
