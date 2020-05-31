@@ -27,6 +27,15 @@
 
 @font-face {
   font-family: Inter;
+  src: url('/fonts/Inter/Inter-Bold.woff2') format('woff2'),
+    url('/fonts/Inter/Inter-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
   src: url('/fonts/Inter/Inter-ExtraBold.woff2') format('woff2'),
     url('/fonts/Inter/Inter-ExtraBold.woff') format('woff');
   font-weight: 800;

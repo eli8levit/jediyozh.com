@@ -30,7 +30,7 @@
   height: 500px;
   list-style: none;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
-  border-radius: 7px;
+  border-radius: 8px;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 20px;
@@ -51,7 +51,7 @@
 
 .work-page article h2 {
   font-size: 27px;
-  color: var(--color-text-card-heading);
+  color: var(--color-text-primary);
 }
 
 .work-page article p {

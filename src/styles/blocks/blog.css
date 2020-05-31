@@ -1,6 +1,5 @@
 .blog-page {
   grid-column: 1 / -1;
-  display: flex;
 }
 
 .blog-page__post-list {
@@ -46,7 +45,7 @@
   grid-template-columns: 100%;
   width: 40vw;
   grid-row-gap: 23px;
-  border-radius: 7px;
+  border-radius: 8px;
   max-width: 520px;
   min-width: 400px;
   box-shadow: var(--box-shadow-blog-card);
@@ -59,12 +58,20 @@
   padding-right: 50px;
 }
 
+article:first-of-type .blog-page__post-element {
+  box-shadow: 0 -7px 11px -6px rgba(0, 0, 0, 0.055);
+}
+
+article:last-of-type .blog-page__post-element {
+  box-shadow: 0 4px 11px -6px rgba(0, 0, 0, 0.055), 0 -8px 10px -3px rgba(0, 0, 0, 0.05);
+}
+
 .blog-page__post-element:focus {
   box-shadow: 0 0 0 2px var(--color-text-secondary);
   outline: none;
 }
 
-.blog-page__post-element:hover {
+article .blog-page__post-element:hover {
   box-shadow: var(--box-shadow-blog-card-hover);
 }
 
@@ -76,8 +83,7 @@
 .blog-page h2 {
   font-size: 20px;
   font-weight: 700;
-  letter-spacing: 0.02em;
-  color: var(--color-text-card-heading);
+  color: var(--color-text-primary);
 }
 
 .blog-page p {
@@ -104,14 +110,15 @@
 @media (max-width: 768px) {
   .blog-page__post-element {
     width: unset;
-    grid-row-gap: 17px;
+    grid-row-gap: 16px;
     min-width: 200px;
-    box-shadow: 0 3px 15px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--box-shadow-card-mobile);
     padding: 25px;
+    border-radius: 8px;
   }
 
   .blog-page__post-list {
-    padding: 20px 5vw;
+    padding: 20px 5.5vw;
     min-height: unset;
     margin: 10px 0;
     grid-template-columns: 1fr;
@@ -122,6 +129,14 @@
     margin-top: unset;
     margin-bottom: 18px;
     animation: none;
+  }
+
+  article:first-of-type .blog-page__post-element {
+    box-shadow: var(--box-shadow-card-mobile);
+  }
+
+  article:last-of-type .blog-page__post-element {
+    box-shadow: var(--box-shadow-card-mobile);
   }
 
   .blog-page article:last-of-type {
@@ -146,13 +161,6 @@
   .blog-page__post-element:hover {
     box-shadow: 0 1px 4px var(--box-shadow-color-blog-card);
     transform: translateY(1px);
-  }
-
-  .blog-page__post-element header {
-    box-shadow: 0 1px 0px 0px var(--border-blog-card-header);
-    transition: var(--theme-color-transition);
-    transition-property: box-shadow;
-    padding-left: 18px;
   }
 
   .blog-page span {

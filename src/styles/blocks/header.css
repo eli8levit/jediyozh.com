@@ -80,6 +80,7 @@
 @media (max-width: 768px) {
   .page-header {
     padding: 0 1vw;
+    padding-right: 1.5vw;
   }
 
   .page-header__link {
