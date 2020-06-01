@@ -31,7 +31,7 @@
   --box-shadow-blog-card: 0 -3px 8px -2px var(--box-shadow-card-color);
   --box-shadow-blog-card-hover: 0 0 20px 0 rgba(0, 0, 0, 0.6);
   --box-shadow-blog-card-active: 0 1px 12px var(--box-shadow-color-blog-card);
-  --box-shadow-card-mobile: 0 3px 14px -2px rgba(0, 0, 0, 0.1);
+  --box-shadow-card-mobile: 0 10px 20px 6px rgba(0, 0, 0, 0.07);
 }
 
 .light {

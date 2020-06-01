@@ -36,7 +36,7 @@
 .blog-page article:hover {
   z-index: 10;
   transform: scale(1.03);
-  margin-bottom: 135px;
+  margin-bottom: 130px;
 }
 
 .blog-page__post-element {
@@ -44,8 +44,8 @@
   grid-template-rows: 1fr auto auto;
   grid-template-columns: 100%;
   width: 40vw;
-  grid-row-gap: 23px;
-  border-radius: 8px;
+  grid-row-gap: 21px;
+  border-radius: 9px;
   max-width: 520px;
   min-width: 400px;
   box-shadow: var(--box-shadow-blog-card);
@@ -102,8 +102,8 @@ article .blog-page__post-element:hover {
 }
 
 .blog-page .tag {
-  padding: 3px 9px;
-  border-radius: 2px;
+  padding: 3px 7px;
+  border-radius: 3px;
   color: white;
   background-color: var(--color-red);
 }
@@ -111,15 +111,14 @@ article .blog-page__post-element:hover {
 @media (max-width: 768px) {
   .blog-page__post-element {
     width: unset;
-    grid-row-gap: 16px;
+    grid-row-gap: 19px;
     min-width: 200px;
     box-shadow: var(--box-shadow-card-mobile);
-    padding: 25px;
-    border-radius: 8px;
+    padding: 24px;
   }
 
   .blog-page__post-list {
-    padding: 20px 5.5vw;
+    padding: 20px 3vw;
     min-height: unset;
     margin: 10px 0;
     grid-template-columns: 1fr;
@@ -128,7 +127,7 @@ article .blog-page__post-element:hover {
   .blog-page article {
     transform: none;
     margin-top: unset;
-    margin-bottom: 18px;
+    margin-bottom: 10px;
     animation: none;
   }
 
@@ -156,7 +155,7 @@ article .blog-page__post-element:hover {
   }
 
   .blog-page p {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .blog-page__post-element:hover {
