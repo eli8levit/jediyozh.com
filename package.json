@@ -16,7 +16,8 @@
     "build": "npm run remove-builds && npm run build:eleventy && npm run build:parcel",
     "test": "echo \"Error: no test specified\" && exit 1",
     "remove-builds": "rm -rf dist && rm -rf _site && rm -rf .cache",
-    "push-both": "git push origin && git push github"
+    "push-both": "git push origin && git push github",
+    "editorconfig": "editorconfig-checker"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.9.0",
