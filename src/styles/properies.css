@@ -48,8 +48,8 @@
   --bg-nav-link-active: rgba(255, 255, 255, 0.2);
   --bg-color-blog-card: var(--bg-color-primary);
   --bg-header-blog-card: #dcdcdcad;
-  --bg-section-color: #ebebeb;
-  --bg-blog-card: #f4f4f4;
+  --bg-section-color: #ededed;
+  --bg-blog-card: #f8f8f8;
 
   /* other */
   --box-shadow-color-blog-card: rgba(12, 12, 13, 0.1);
