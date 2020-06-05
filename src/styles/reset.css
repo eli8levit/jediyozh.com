@@ -1,17 +1,14 @@
-/* Box sizing rules */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* Remove default padding */
 ul[class],
 ol[class] {
   padding: 0;
 }
 
-/* Remove default margin */
 body,
 h1,
 h2,
@@ -29,30 +26,26 @@ dd {
   margin: 0;
 }
 
-/* Set core body defaults */
 body {
   text-rendering: optimizeSpeed;
   line-height: 1.15;
 }
 
-/* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
-/* Make images easier to work with */
 img {
   display: block;
 }
 
-/* Personal changes */
 button {
   padding: 0;
 }
 
-/* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   * {
+    /* stylelint-disable declaration-no-important */
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
