@@ -1,15 +1,23 @@
-name: LighthouseCI
+name: Lighthouse CI
 on: push
 jobs:
-  lighthouse:
+  static-dist-dir:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Audit URLs using Lighthouse
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: Build
+        run: |
+          npm install
+          npm run build
+      - uses: actions/checkout@v2
+      - name: Run Lighthouse against a static dist dir
         uses: treosh/lighthouse-ci-action@v3
         with:
-          urls: |
-            https://jediyozh.com/en/
-          budgetPath: ./budget.json # test performance budgets
-          uploadArtifacts: true # save results as an action artifacts
-          temporaryPublicStorage: true # upload lighthouse report to the temporary storage
+          configPath: ./lighthouserc.json
+          budgetPath: ./budget.json
+          uploadArtifacts: true
+          temporaryPublicStorage: true
