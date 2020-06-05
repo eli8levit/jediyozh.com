@@ -16,6 +16,7 @@ jobs:
         id: netlify
         with:
           site_name: 'brave-pasteur-1813b2'
+          max_timeout: 120
       - name: Audit URLs using Lighthouse
         uses: treosh/lighthouse-ci-action@v3
         with:
