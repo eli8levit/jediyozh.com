@@ -19,6 +19,5 @@ jobs:
         uses: treosh/lighthouse-ci-action@v3
         with:
           configPath: .github/workflows/lighthouserc.json
-          budgetPath: .github/workflows/budget.json
           uploadArtifacts: true
           temporaryPublicStorage: true
