@@ -2,7 +2,7 @@ name: Prettier
 
 on: push
 
-steps:
+jobs:
   - name: Prettier
     uses: creyD/prettier_action@v3.0
     with:
