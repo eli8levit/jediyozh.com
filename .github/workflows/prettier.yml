@@ -10,5 +10,4 @@ jobs:
         uses: creyD/prettier_action@v3.0
         with:
           prettier_options: --write "./src/**/*.{htm,css,js}"
-      - run: pwd
-      - run: ls
+          branch: '${{ github.head_ref }}'
