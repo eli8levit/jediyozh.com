@@ -7,14 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [13.x]
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node-version }}
       - name: Wait for the Netlify Preview
         uses: jakepartusch/wait-for-netlify-action@v1
         id: netlify
