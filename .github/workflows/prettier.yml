@@ -12,3 +12,4 @@ jobs:
           prettier_options: --write "src/**/*.{htm,css,js}"
       - name: Print
         run: pwd
+        run: ls
