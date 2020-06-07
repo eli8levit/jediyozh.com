@@ -1,0 +1,20 @@
+name: HTML
+
+on: push
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [13.x]
+        java: [8.x]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Prettier
+        uses: creyD/prettier_action@v3.0
+        with:
+          dry: true
