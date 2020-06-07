@@ -9,5 +9,4 @@ jobs:
       - name: Prettier
         uses: creyD/prettier_action@v3.0
         with:
-          prettier_options: --write "./src/**/*.{htm,css,js}"
-          entryPoint: src
+          prettier_options: --write src/**/*.{htm,css,js}
