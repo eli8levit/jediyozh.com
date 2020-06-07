@@ -4,8 +4,9 @@ on: push
 
 jobs:
   format:
+    runs-on: ubuntu-latest
     steps:
-      name: Prettier
-      uses: creyD/prettier_action@v3.0
-      with:
-        prettier_options: --write "src/**/*.{htm,css,js}"
+      - name: Prettier
+        uses: creyD/prettier_action@v3.0
+        with:
+          prettier_options: --write "src/**/*.{htm,css,js}"
