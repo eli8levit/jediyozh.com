@@ -11,7 +11,7 @@
     <meta property="og:title" content="jediyozh" />
     <meta property="og:site_name" content="blog of eli levit" />
     <meta property="og:url" content="https://dev.jediyozh.com" />
-    <meta property="og:image" content="assets/images/social.png" />
+    <meta property="og:image" content="/assets/images/social.png" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="jediyozh" />
@@ -31,8 +31,6 @@
   </head>
 
   <body>
-    {% include 'header.njk' %}
-    {% block content %}{% endblock %}
-    {% include 'footer.njk' %}
+    {% include 'header.njk' %} {% block content %}{% endblock %} {% include 'footer.njk' %}
   </body>
 </html>
