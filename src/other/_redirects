@@ -1,1 +1,17 @@
-/ /en/
+[[redirects]]
+  from = "/"
+  to = "/en/"
+  status = 302
+  force = false
+  query = {path = ":path"}
+  conditions = {Language = ["en"]}
+
+  [[redirects]]
+  from = "/"
+  to = "/ru/"
+  status = 302
+  force = false
+  query = {path = ":path"}
+  conditions = {Language = ["ru"]}
+
+  / /en/
