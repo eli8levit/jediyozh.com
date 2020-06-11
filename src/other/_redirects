@@ -6,12 +6,12 @@
   query = {path = ":path"}
   conditions = {Language = ["en"]}
 
-  [[redirects]]
-  from = "/"
-  to = "/ru/"
-  status = 302
-  force = false
-  query = {path = ":path"}
-  conditions = {Language = ["ru"]}
+[[redirects]]
+from = "/"
+to = "/ru/"
+status = 302
+force = false
+query = {path = ":path"}
+conditions = {Language = ["ru"]}
 
-  / /en/
+/ /en/
