@@ -12,7 +12,7 @@
   "scripts": {
     "build": "npm run remove-builds && npm run build:eleventy && npm run build:parcel",
     "build:eleventy": "eleventy --quiet",
-    "build:parcel": "cp -a _site/other dist/ && parcel build   _site/en/index.html _site/en/about/index.html _site/ru/index.html _site/ru/about/index.html _site/ru/blog/index.html _site/en/blog/index.html _site/en/work/index.html _site/ru/work/index.html && cp _site/assets/images/social2.png dist/",
+    "build:parcel": "cp -a _site/other dist/ && parcel build   _site/en/index.html _site/en/about/index.html _site/ru/index.html _site/ru/about/index.html _site/ru/blog/index.html _site/en/blog/index.html _site/en/work/index.html _site/ru/work/index.html && cp _site/assets/images/social.png dist/",
     "css": "stylelint \"src/styles/**/*.css\"",
     "html": "node-w3c-validator -i ./dist/**/*.html",
     "push-both": "git push origin && git push github",
