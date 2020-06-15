@@ -19,7 +19,7 @@
 
 .blog-page article {
   margin: 0 auto;
-  margin-top: -113px;
+  margin-top: -100px;
   transition: transform 0.47s ease-out, margin 0.38s ease-out;
   position: relative;
   animation-duration: 0.5s;
@@ -83,7 +83,7 @@ article .blog-page__post-element:active {
 
 .blog-page h2 {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--color-text-primary);
 }
 

@@ -14,8 +14,8 @@
   --bg-nav-link-active: rgba(255, 255, 255, 0.13);
   --bg-color-blog-card: #151515;
   --bg-header-blog-card: rgba(255, 255, 255, 0.04);
-  --bg-section-color: var(--bg-color-header);
-  --bg-blog-card: #1e1e1e;
+  --bg-section-color: #111111;
+  --bg-blog-card: #1b1d1e;
   --bg-theme-toggler-active: rgba(94, 94, 94, 0.3);
 
   /* transitions */
@@ -26,9 +26,9 @@
   --link-radius: 3px;
   --box-shadow-color-blog-card: rgb(2, 2, 2);
   --border-footer-color: #fdfdfd24;
-  --box-shadow-card-color: rgba(0, 0, 0, 0.3);
+  --box-shadow-card-color: rgba(0, 0, 0, 0.25);
   --box-shadow-card-color-last: rgba(0, 0, 0, 0.17);
-  --box-shadow-blog-card: 0 -3px 8px -2px var(--box-shadow-card-color);
+  --box-shadow-blog-card: 0 -4px 20px -3px var(--box-shadow-card-color);
   --box-shadow-blog-card-hover: 0 0 20px 0 rgba(0, 0, 0, 0.6);
   --box-shadow-blog-card-active: 0 1px 12px var(--box-shadow-color-blog-card);
   --box-shadow-card-mobile: 0 10px 20px 6px rgba(0, 0, 0, 0.08);
@@ -54,9 +54,9 @@
   /* other */
   --box-shadow-color-blog-card: rgba(12, 12, 13, 0.1);
   --border-footer-color: #8080801f;
-  --box-shadow-card-color: rgba(0, 0, 0, 0.04);
-  --box-shadow-card-color-last: rgba(0, 0, 0, 0.04);
-  --box-shadow-blog-card: 0 -8px 10px -2px var(--box-shadow-card-color);
+  --box-shadow-card-color: rgba(0, 0, 0, 0.075);
+  --box-shadow-card-color-last: rgba(0, 0, 0, 0.06);
+  --box-shadow-blog-card: 0 -10px 15px -5px var(--box-shadow-card-color);
   --box-shadow-blog-card-hover: 0 0 20px 0 rgba(0, 0, 0, 0.1);
   --box-shadow-blog-card-active: 0 1px 12px var(--box-shadow-color-blog-card);
 }
