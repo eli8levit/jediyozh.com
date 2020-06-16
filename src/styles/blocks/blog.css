@@ -102,7 +102,7 @@ article .blog-page__post-element:active {
 }
 
 .blog-page .tag {
-  padding: 4px 6px;
+  padding: 2px 6px;
   border-radius: 3px;
   color: white;
   background-color: var(--color-red);
@@ -111,10 +111,10 @@ article .blog-page__post-element:active {
 @media (max-width: 768px) {
   .blog-page__post-element {
     width: unset;
-    grid-row-gap: 19px;
+    grid-row-gap: 16px;
     min-width: 200px;
     box-shadow: var(--box-shadow-card-mobile);
-    padding: 24px;
+    padding: 20px;
   }
 
   .blog-page__post-list {
@@ -122,6 +122,7 @@ article .blog-page__post-element:active {
     min-height: unset;
     margin: 10px 0;
     grid-template-columns: 1fr;
+    /* background-color: transparent; */
   }
 
   .blog-page article {
@@ -151,7 +152,7 @@ article .blog-page__post-element:active {
   }
 
   .blog-page h2 {
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 700;
   }
 
