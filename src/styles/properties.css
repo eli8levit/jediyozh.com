@@ -15,7 +15,7 @@
   --bg-color-blog-card: #151515;
   --bg-header-blog-card: rgba(255, 255, 255, 0.04);
   --bg-section-color: #111111;
-  --bg-blog-card: #1b1d1e;
+  --bg-blog-card: #1f2122;
   --bg-theme-toggler-active: rgba(94, 94, 94, 0.3);
 
   /* transitions */
@@ -24,11 +24,11 @@
 
   /* other */
   --link-radius: 3px;
-  --box-shadow-color-blog-card: rgb(2, 2, 2);
+  --box-shadow-color-blog-card: #020202;
   --border-footer-color: #fdfdfd24;
-  --box-shadow-card-color: rgba(0, 0, 0, 0.25);
+  --box-shadow-card-color: rgba(0, 0, 0, 0.5);
   --box-shadow-card-color-last: rgba(0, 0, 0, 0.17);
-  --box-shadow-blog-card: 0 -4px 20px -3px var(--box-shadow-card-color);
+  --box-shadow-blog-card: 0 -4px 15px -3px var(--box-shadow-card-color);
   --box-shadow-blog-card-hover: 0 0 20px 0 rgba(0, 0, 0, 0.6);
   --box-shadow-blog-card-active: 0 1px 12px var(--box-shadow-color-blog-card);
   --box-shadow-card-mobile: 0 10px 20px 6px rgba(0, 0, 0, 0.08);

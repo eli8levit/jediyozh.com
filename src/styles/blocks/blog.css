@@ -152,6 +152,7 @@ article .blog-page__post-element:active {
 
   .blog-page h2 {
     font-size: 19px;
+    font-weight: 700;
   }
 
   .blog-page p {
