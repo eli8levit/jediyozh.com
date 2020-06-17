@@ -9,7 +9,7 @@
   --color-red-link: var(--color-red);
 
   /* background colors */
-  --bg-color-primary: #0a0a0a;
+  --bg-color-primary: #000000;
   --bg-color-header: #141414;
   --bg-nav-link-active: rgba(255, 255, 255, 0.13);
   --bg-color-blog-card: #151515;
@@ -26,7 +26,7 @@
   --link-radius: 3px;
   --box-shadow-color-blog-card: #020202;
   --border-footer-color: #fdfdfd24;
-  --box-shadow-card-color: rgba(0, 0, 0, 0.4);
+  --box-shadow-card-color: rgba(0, 0, 0, 0.55);
   --box-shadow-card-color-last: rgba(0, 0, 0, 0.17);
   --box-shadow-blog-card: 0 -1px 20px -5px var(--box-shadow-card-color);
   --box-shadow-blog-card-hover: 0 0 20px 0 rgba(0, 0, 0, 0.6);
