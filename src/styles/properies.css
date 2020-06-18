@@ -54,9 +54,9 @@
   /* other */
   --box-shadow-color-blog-card: rgba(12, 12, 13, 0.1);
   --border-footer-color: #8080801f;
-  --box-shadow-card-color: rgba(0, 0, 0, 0.04);
+  --box-shadow-card-color: rgba(0, 0, 0, 0.06);
   --box-shadow-card-color-last: rgba(0, 0, 0, 0.04);
-  --box-shadow-blog-card: 0 -8px 12px -3px var(--box-shadow-card-color);
+  --box-shadow-blog-card: 0 -7px 10px -5px var(--box-shadow-card-color);
   --box-shadow-blog-card-hover: 0 0 20px 0 rgba(0, 0, 0, 0.1);
   --box-shadow-blog-card-active: 0 1px 12px var(--box-shadow-color-blog-card);
 }
