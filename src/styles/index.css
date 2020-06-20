@@ -1,5 +1,5 @@
 @import './font.css';
-@import './properies.css';
+@import './properties.css';
 @import './keyframes.css';
 @import './reset.css';
 @import './base.css';
@@ -10,3 +10,4 @@
 @import './blocks/about.css';
 @import './blocks/blog.css';
 @import './blocks/work.css';
+@import './blocks/common.css';
