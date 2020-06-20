@@ -27,7 +27,6 @@
   --box-shadow-color-blog-card: #020202;
   --border-footer-color: #fdfdfd24;
   --box-shadow-card-color: rgba(0, 0, 0, 0.45);
-  --box-shadow-card-color-last: rgba(0, 0, 0, 0.17);
   --box-shadow-blog-card: 0 -1px 20px -5px var(--box-shadow-card-color), 0 -1px 0 0 #00000005;
   --box-shadow-blog-card-hover: 0 0 20px 0 rgba(0, 0, 0, 0.4);
   --box-shadow-blog-card-active: 0 1px 12px var(--box-shadow-color-blog-card);
@@ -55,7 +54,6 @@
   --box-shadow-color-blog-card: rgba(12, 12, 13, 0.1);
   --border-footer-color: #8080801f;
   --box-shadow-card-color: rgba(0, 0, 0, 0.06);
-  --box-shadow-card-color-last: rgba(0, 0, 0, 0.06);
   --box-shadow-blog-card: 0 -12px 15px -5px var(--box-shadow-card-color), 0 -1.2px 0 0 #00000005;
   --box-shadow-blog-card-hover: 0 0 20px 0 rgba(0, 0, 0, 0.08), 0 0 0 1px #00000005;
   --box-shadow-blog-card-active: 0 1px 12px var(--box-shadow-color-blog-card);
