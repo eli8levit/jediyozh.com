@@ -11,18 +11,21 @@
   grid-template-rows: auto auto;
   grid-gap: 0 40px;
   justify-content: center;
-  max-width: 900px;
+  max-width: 1100px;
 }
 
 .about-page__heading {
-  font-size: 43px;
-  font-weight: 700;
+  font-size: 70px;
+  font-weight: 800;
   color: var(--color-text-secondary);
+  grid-row: 1;
+  grid-column: 1 / -1;
+  max-width: 900px;
+  margin-bottom: 50px;
 }
 
 .about-page__bio-text {
-  margin: 0 auto;
-  max-width: 700px;
+  max-width: 850px;
   padding: 80px 0;
   grid-column: 1 / -1;
   grid-row: 2;
@@ -30,13 +33,15 @@
 
 .about-page__photo {
   border-radius: 2px;
+  margin: 0 auto;
 }
 
 .about-page__text {
-  font-size: calc(17px + 0.18vw);
+  font-size: calc(19px + 0.18vw);
   color: var(--color-text-primary);
   font-weight: 400;
   margin-bottom: 12px;
+  color: var(--color-paragraph);
 }
 
 @media (max-width: 768px) {
