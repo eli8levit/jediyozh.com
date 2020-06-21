@@ -8,6 +8,10 @@ translationKey: 'about'
 {% block content %}
 <main class="about-page">
   <section class="about-page__heading-container">
+    <h1 class="about-page__heading">Shalom, buddy, and welcome to my website 🖖🏻</h1>
+    <div class="about-page__bio-text">
+      {{ content | safe }}
+    </div>
     <picture>
       <source media="(max-width: 768px)" type="image/webp" srcset="/assets/images/me/me_1x.webp" />
       <source media="(max-width: 768px)" srcset="/assets/images/me/me_1x.jpeg" />
@@ -21,10 +25,6 @@ translationKey: 'about'
         width="315px"
       />
     </picture>
-    <h1 class="about-page__heading">Shalom, buddy, and welcome to my website!</h1>
-    <div class="about-page__bio-text">
-      {{ content | safe }}
-    </div>
   </section>
   </main>
 {% endblock %}

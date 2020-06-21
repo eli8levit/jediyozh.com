@@ -8,14 +8,14 @@
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: max-content;
-  grid-gap: 0 40px;
+  grid-gap: 0 30px;
   align-items: center;
   overflow-x: auto;
   padding: 12vh 60px;
   background-color: var(--bg-section-color);
   transition: var(--theme-color-transition);
   transition-property: background-color;
-  margin: 30px 0;
+  margin: 30px 2vw;
 }
 
 .work-page section::after {
