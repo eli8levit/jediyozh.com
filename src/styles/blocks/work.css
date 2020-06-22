@@ -50,18 +50,20 @@
 }
 
 .work-page article h2 {
-  font-size: 27px;
+  font-size: 33px;
+  font-weight: 800;
   color: var(--color-text-primary);
 }
 
 .work-page article p {
-  font-size: 17px;
+  font-size: 18px;
+  font-weight: 500;
   align-self: start;
   color: var(--color-text-secondary);
 }
 
 .work-page article a {
-  font-size: 16px;
+  font-size: 17px;
   text-decoration: none;
   color: var(--color-footer-link);
 }

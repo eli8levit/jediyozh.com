@@ -5,7 +5,7 @@
 .blog-page__post-list {
   display: grid;
   padding: 40px 60px;
-  min-height: 950px;
+  min-height: 1000px;
   grid-auto-flow: row;
   grid-template-columns: 100%;
   grid-auto-rows: max-content;
@@ -18,7 +18,7 @@
 
 .blog-page article {
   margin: 0 auto;
-  margin-top: -90px;
+  margin-top: -120px;
   transition: transform 0.47s ease-out, margin 0.28s ease-out;
   position: relative;
   animation-duration: 0.5s;
@@ -58,7 +58,7 @@
 }
 
 .blog-page h2 {
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 700;
   opacity: 0.8;
   color: var(--color-text-primary);
@@ -87,13 +87,13 @@ article .blog-page__post-element:active {
 }
 
 .blog-page p {
-  font-size: 17px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 500;
   color: var(--color-text-secondary);
 }
 
 .blog-page span {
-  font-weight: 200;
+  font-weight: 500;
   font-size: 13px;
   margin-right: 5px;
   color: var(--color-text-secondary);
