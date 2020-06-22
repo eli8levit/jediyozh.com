@@ -16,19 +16,19 @@
 
 .about-page__heading {
   font-size: 70px;
-  font-weight: 800;
+  font-weight: 700;
   color: var(--color-text-secondary);
   grid-row: 1;
   grid-column: 1 / -1;
   max-width: 900px;
-  margin-bottom: 50px;
+  letter-spacing: -0.6px;
 }
 
 .about-page__bio-text {
   max-width: 850px;
-  padding: 80px 0;
   grid-column: 1 / -1;
   grid-row: 2;
+  margin: 120px 0;
 }
 
 .about-page__photo {
@@ -40,8 +40,11 @@
   font-size: calc(19px + 0.18vw);
   color: var(--color-text-primary);
   font-weight: 400;
-  margin-bottom: 12px;
   color: var(--color-paragraph);
+}
+
+.about-page picture {
+  grid-column: 1 / -1;
 }
 
 @media (max-width: 768px) {
