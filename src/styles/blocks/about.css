@@ -31,6 +31,7 @@
 
 .about-page picture {
   margin: 0 auto;
+  border-radius: 3px;
 }
 
 @media (max-width: 768px) {
@@ -44,8 +45,7 @@
 
   .about-page__photo {
     height: 350px;
-    /* width: 142.5px; */
-    width: auto;
+    width: 262.5px;
   }
 
   .about-page__heading {
