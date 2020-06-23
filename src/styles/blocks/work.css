@@ -50,7 +50,7 @@
 }
 
 .work-page article h2 {
-  font-size: 33px;
+  font-size: 32px;
   font-weight: 800;
   color: var(--color-text-primary);
 }
@@ -82,11 +82,11 @@
   }
 
   .work-page article h2 {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .work-page article p {
-    font-size: 16px;
+    font-size: 17px;
   }
 
   .work-page article a {

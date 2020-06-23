@@ -11,7 +11,7 @@
   align-self: center;
   grid-column: 1 / -1;
   padding: 0 5vw;
-  margin: 0 12vw;
+  margin: 0 11vw;
   color: var(--color-text-primary);
   animation-duration: 1.5s;
   animation-fill-mode: both;
@@ -32,11 +32,11 @@
 }
 
 .home-page__text {
-  font-size: calc(14px + 0.65vw);
+  font-size: calc(15px + 0.65vw);
   font-weight: 500;
   min-height: 120px;
   color: var(--color-text-secondary);
-  max-width: calc(480px + 24vw);
+  max-width: calc(480px + 23vw);
 }
 
 .home-page__link {
@@ -70,23 +70,23 @@
 
 @media (max-width: 768px) {
   .home-page__introduction {
-    padding: 0 4vw;
+    padding: 0 3vw;
     margin: 0;
   }
 
   .home-page__heading {
-    font-size: 34px;
+    font-size: 35px;
     margin-bottom: 15px;
     line-height: 1.3;
   }
 
   .home-page__heading span {
     display: block;
-    font-size: 31px;
+    font-size: 32px;
   }
 
   .home-page__text {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .home-page__logo {
