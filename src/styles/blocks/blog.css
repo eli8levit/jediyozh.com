@@ -42,11 +42,9 @@
   display: grid;
   grid-template-rows: 1fr auto auto;
   grid-template-columns: 100%;
-  width: 42vw;
-  grid-row-gap: 21px;
+  width: clamp(400px, 29vw, 500px);
+  grid-row-gap: 20px;
   border-radius: 8px;
-  max-width: 530px;
-  min-width: 400px;
   box-shadow: var(--box-shadow-blog-card);
   color: var(--color-text-primary);
   text-decoration: none;
@@ -54,15 +52,13 @@
   transition: var(--theme-color-transition);
   transition-property: background-color;
   padding: 30px 40px;
-  padding-right: 50px;
 }
 
 .blog-page h2 {
-  font-size: 22px;
+  font-size: 19px;
   font-weight: 700;
   opacity: 0.9;
   color: var(--color-text-primary);
-  letter-spacing: 0.5px;
 }
 
 article:first-of-type .blog-page__post-element {
@@ -88,7 +84,7 @@ article .blog-page__post-element:active {
 }
 
 .blog-page p {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
   color: var(--color-text-secondary);
 }
