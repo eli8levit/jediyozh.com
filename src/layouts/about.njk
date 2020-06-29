@@ -5,26 +5,24 @@ translationKey: 'about'
 {% extends "./page.njk" %}
 {% set metaTitle = site[locale].aboutTitle %}
 
+{% block styling %}
+  {% include "../styles/blocks/about.css" %}
+{% endblock %}
+
 {% block content %}
-<main class="about-page">
-  <section class="about-page__heading-container">
-    <h1 class="about-page__heading">Shalom, buddy, and welcome to my website🖖🏻</h1>
-    <div class="about-page__bio-text">
-      {{ content | safe }}
-    </div>
-    <picture>
-      <source media="(max-width: 768px)" type="image/webp" srcset="/assets/images/me/me_1x.webp" />
-      <source media="(max-width: 768px)" srcset="/assets/images/me/me_1x.jpeg" />
-      <source media="(min-width: 769px)" type="image/webp" srcset="/assets/images/me/me_2x.webp" />
-      <source media="(min-width: 769px)" srcset="/assets/images/me/me_2x.jpeg" />
-      <img
-        class="about-page__photo"
-        src="/assets/images/me/me_2x.jpeg"
-        alt="Me smiling and looking at the sky"
-        height="550px"
-        width="412px"
-      />
-    </picture>
-  </section>
+  <main class="about-page">
+    <section class="about-page__heading-container">
+      <h1 class="about-page__heading">Shalom, buddy, and welcome to my website🖖🏻</h1>
+      <div class="about-page__bio-text">
+        {{ content | safe }}
+      </div>
+      <picture>
+        <source media="(max-width: 768px)" type="image/webp" srcset="/assets/images/me/me_1x.webp"/>
+        <source media="(max-width: 768px)" srcset="/assets/images/me/me_1x.jpeg"/>
+        <source media="(min-width: 769px)" type="image/webp" srcset="/assets/images/me/me_2x.webp"/>
+        <source media="(min-width: 769px)" srcset="/assets/images/me/me_2x.jpeg"/>
+        <img class="about-page__photo" src="/assets/images/me/me_2x.jpeg" alt="Me smiling and looking at the sky" height="550px" width="412px"/>
+      </picture>
+    </section>
   </main>
 {% endblock %}

@@ -4,21 +4,26 @@ translationKey: 'work'
 
 {% extends "./page.njk" %}
 {% set metaTitle = site[locale].headerWork %}
+
+{% block styling %}
+  {% include "../styles/blocks/work.css" %}
+{% endblock %}
+
 {% block content %}
-<main class="work-page">
-  <section>
-    <h1 class="visually-hidden">Work</h1>
-    <article>
-      <span>🦔</span>
-      <h2>Custom starter</h2>
-      <p>In each project you start you need to create and install same files and modules as were in the previous one: configs, linters, dev packages. Maybe you have some saved gists so you go and copy them each time into new projects. It’s tiring and slow…</p>
-      <a href="https://github.com/jediyozh/custom-starter">See on Github</a>
-    </article>
-    <article>🎖</article>
-    <article>🎧</article>
-    <article>🥎</article>
-    <article>🍬</article>
-    <article>🌰</article>
-  </section>
-</main>
+  <main class="work-page">
+    <section>
+      <h1 class="visually-hidden">Work</h1>
+      <article>
+        <span>🦔</span>
+        <h2>Custom starter</h2>
+        <p>In each project you start you need to create and install same files and modules as were in the previous one: configs, linters, dev packages. Maybe you have some saved gists so you go and copy them each time into new projects. It’s tiring and slow…</p>
+        <a href="https://github.com/jediyozh/custom-starter">See on Github</a>
+      </article>
+      <article>🎖</article>
+      <article>🎧</article>
+      <article>🥎</article>
+      <article>🍬</article>
+      <article>🌰</article>
+    </section>
+  </main>
 {% endblock %}
