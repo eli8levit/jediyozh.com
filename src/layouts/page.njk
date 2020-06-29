@@ -4,8 +4,15 @@
     <title>{{ metaTitle }}</title>
 
     {% set css %}
-      {% include "../styles/properties.css" %}
-      {% include "../styles/base.css" %}
+      {% include '../styles/reset.css' %}
+      {% include '../styles/keyframes.css' %}
+      {% include '../styles/font.css' %}
+      {% include '../styles/properties.css' %}
+      {% include '../styles/blocks/common.css' %}
+      {% include '../styles/base.css' %}
+      {% include '../styles/blocks/header.css' %}
+      {% include '../styles/blocks/footer.css' %}
+      {% include '../styles/blocks/theme-toogler.css' %}
     {% endset %}
 
     <style>
@@ -14,7 +21,7 @@
       {% endblock %}
     </style>
 
-    <link rel="stylesheet" type="text/css" href="/styles/index.css"/>
+    {# <link rel="stylesheet" type="text/css" href="/styles/index.css"/> #}
 
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
