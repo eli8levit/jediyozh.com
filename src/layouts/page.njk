@@ -4,15 +4,12 @@
     <title>{{ metaTitle }}</title>
 
     {% set css %}
-      {% include "../styles/reset.css" %}
       {% include "../styles/properties.css" %}
-      {% include "../styles/font.css" %}
       {% include "../styles/base.css" %}
-      {% include "../styles/keyframes.css" %}
     {% endset %}
 
     <style>
-      {{ css | safe }}
+      {{css | safe}}
       {% block styling %}
       {% endblock %}
     </style>
@@ -50,8 +47,7 @@
     </script>
 
     {% include 'header.njk' %}
-      {% block content %}
-      {% endblock %}
+    {% block content %}{% endblock %}
     {% include 'footer.njk' %}
   </body>
 </html>

@@ -1,3 +1,6 @@
+@import './reset.css';
+@import './keyframes.css';
+@import './font.css';
 @import './blocks/header.css';
 @import './blocks/footer.css';
 @import './blocks/theme-toogler.css';
