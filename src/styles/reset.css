@@ -24,10 +24,6 @@ blockquote {
   margin: 0;
 }
 
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
-
 img {
   display: block;
 }

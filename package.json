@@ -14,7 +14,7 @@
     "build:eleventy": "eleventy --quiet",
     "build:parcel": "cp -a _site/other dist/ && parcel build   _site/en/index.html _site/en/about/index.html _site/ru/index.html _site/ru/about/index.html _site/ru/blog/index.html _site/en/blog/index.html _site/en/work/index.html _site/ru/work/index.html && cp _site/assets/images/social.png dist/",
     "css": "stylelint \"src/styles/**/*.css\"",
-    "html": "node-w3c-validator -i ./dist/**/*.html",
+    "html": "node-w3c-validator -i ./dist/**/*.html --filterpattern .*CSS.* ",
     "push-both": "git push origin && git push github",
     "remove-builds": "rm -rf dist && rm -rf _site && rm -rf .cache",
     "start": "eleventy --serve --quiet",
