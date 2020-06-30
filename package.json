@@ -1,14 +1,5 @@
 {
-  "name": "jediyozh.com",
-  "version": "1.0.0",
-  "description": "Personal site of Eli Levit",
-  "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@gitlab.com/jediyozh/jediyozh.com.git"
-  },
-  "license": "ISC",
-  "author": "Eli Levit",
+  "private": true,
   "scripts": {
     "build": "npm run remove-builds && npm run build:eleventy && npm run build:parcel",
     "build:eleventy": "eleventy --quiet",
