@@ -34,6 +34,7 @@
 
 .light {
   /* colors */
+  --color-paragraph: #000000;
   --color-text-primary: #242424;
   --color-text-secondary: #555555;
   --color-red: #f31313;
