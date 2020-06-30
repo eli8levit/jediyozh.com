@@ -7,7 +7,7 @@
   grid-column-gap: 10px;
   height: 45px;
   align-items: center;
-  background: var(--bg-color-header);
+  background: var(--bg-header);
   transition: var(--theme-bg-transition);
 }
 

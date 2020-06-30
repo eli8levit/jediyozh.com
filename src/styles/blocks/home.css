@@ -19,6 +19,18 @@
   animation-name: fadeZoom;
 }
 
+@keyframes fadeZoom {
+  0% {
+    opacity: 0;
+    transform: translateY(-25px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 .home-page__heading {
   margin-block-end: 38px;
   font-size: calc(28px + 2.1vw);
