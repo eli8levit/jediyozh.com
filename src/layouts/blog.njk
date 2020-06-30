@@ -4,123 +4,127 @@ translationKey: 'blog'
 
 {% extends "./page.njk" %}
 {% set metaTitle = site[locale].headerBlog %}
-{% block content %}
 
-<main class="blog-page">
-  <section class="blog-page__post-list">
-    <h1 class="visually-hidden">Blog</h1>
-    <article>
-      <a href="/{{ locale }}/blog" class="blog-page__post-element">
-        <h2>
-          How I created this site
-        </h2>
-        <p>
-          This blog post is about how I created this web site. It took me only year
-        </p>
-        <footer>
-          <span>19th April 2020</span>
-          <span class="tag">#Life</span>
-        </footer>
-      </a>
-    </article>
-    <article>
-      <a href="/{{ locale }}/blog" class="blog-page__post-element">
-        <h2>
-          What about adaptife font
-        </h2>
-        <p>
-          This blog post is about how I created this web site. It took me only year
-        </p>
-        <footer>
-          <span>21th April 2020</span>
-          <span class="tag">#Life</span>
-        </footer>
-      </a>
-    </article>
-    <article>
-      <a href="/{{ locale }}/blog" class="blog-page__post-element">
-        <h2>
-          Do you like to drink wine
-        </h2>
-        <p>
-          This blog post is about how I created this web site. It took me only year
-        </p>
-        <footer>
-          <span>20th April 2020</span>
-          <span class="tag">#Life</span>
-        </footer>
-      </a>
-    </article>
-    <article>
-      <a href="/{{ locale }}/blog" class="blog-page__post-element">
-        <h2>
-          Let's go to walk
-        </h2>
-        <p>
-          This blog post is about how I created this web site. It took me only year
-        </p>
-        <footer>
-          <span>20th April 2020</span>
-          <span class="tag">#Life</span>
-        </footer>
-      </a>
-    </article>
-    <article>
-      <a href="/{{ locale }}/blog" class="blog-page__post-element">
-        <h2>
-          Hi how are you today it's good to see you
-        </h2>
-        <p>
-          This blog post is about how I created this web site. It took me only year
-        </p>
-        <footer>
-          <span>20th April 2020</span>
-          <span class="tag">#Life</span>
-        </footer>
-      </a>
-    </article>
-    <article>
-      <a href="/{{ locale }}/blog" class="blog-page__post-element">
-        <h2>
-          Don't give up
-        </h2>
-        <p>
-          This blog post is about how I created this web site. It took me only year
-        </p>
-        <footer>
-          <span>20th April 2020</span>
-          <span class="tag">#Life</span>
-        </footer>
-      </a>
-    </article>
-    <article>
-      <a href="/{{ locale }}/blog" class="blog-page__post-element">
-        <h2>
-          My music my soul
-        </h2>
-        <p>
-          This blog post is about how I created this web site. It took me only year
-        </p>
-        <footer>
-          <span>20th April 2020</span>
-          <span class="tag">#Life</span>
-        </footer>
-      </a>
-    </article>
-    <article>
-      <a href="/{{ locale }}/blog" class="blog-page__post-element">
-        <h2>
-          Last but not least
-        </h2>
-        <p>
-          This blog post is about how I created this web site. It took me only year
-        </p>
-        <footer>
-          <span>20th April 2020</span>
-          <span class="tag">#Life</span>
-        </footer>
-      </a>
-    </article>
-  </section>
-</main>
+{% block styling %}
+  {% include "../styles/blocks/blog.css" %}
+{% endblock %}
+
+{% block content %}
+  <main class="blog-page">
+    <section class="blog-page__post-list">
+      <h1 class="visually-hidden">Blog</h1>
+      <article>
+        <a href="/{{ locale }}/blog" class="blog-page__post-element">
+          <h2>
+            How I created this site
+          </h2>
+          <p>
+            This blog post is about how I created this web site. It took me only year
+          </p>
+          <footer>
+            <span>19th April 2020</span>
+            <span class="tag">#Life</span>
+          </footer>
+        </a>
+      </article>
+      <article>
+        <a href="/{{ locale }}/blog" class="blog-page__post-element">
+          <h2>
+            What about adaptife font
+          </h2>
+          <p>
+            This blog post is about how I created this web site. It took me only year
+          </p>
+          <footer>
+            <span>21th April 2020</span>
+            <span class="tag">#Life</span>
+          </footer>
+        </a>
+      </article>
+      <article>
+        <a href="/{{ locale }}/blog" class="blog-page__post-element">
+          <h2>
+            Do you like to drink wine
+          </h2>
+          <p>
+            This blog post is about how I created this web site. It took me only year
+          </p>
+          <footer>
+            <span>20th April 2020</span>
+            <span class="tag">#Life</span>
+          </footer>
+        </a>
+      </article>
+      <article>
+        <a href="/{{ locale }}/blog" class="blog-page__post-element">
+          <h2>
+            Let's go to walk
+          </h2>
+          <p>
+            This blog post is about how I created this web site. It took me only year
+          </p>
+          <footer>
+            <span>20th April 2020</span>
+            <span class="tag">#Life</span>
+          </footer>
+        </a>
+      </article>
+      <article>
+        <a href="/{{ locale }}/blog" class="blog-page__post-element">
+          <h2>
+            Hi how are you today it's good to see you
+          </h2>
+          <p>
+            This blog post is about how I created this web site. It took me only year
+          </p>
+          <footer>
+            <span>20th April 2020</span>
+            <span class="tag">#Life</span>
+          </footer>
+        </a>
+      </article>
+      <article>
+        <a href="/{{ locale }}/blog" class="blog-page__post-element">
+          <h2>
+            Don't give up
+          </h2>
+          <p>
+            This blog post is about how I created this web site. It took me only year
+          </p>
+          <footer>
+            <span>20th April 2020</span>
+            <span class="tag">#Life</span>
+          </footer>
+        </a>
+      </article>
+      <article>
+        <a href="/{{ locale }}/blog" class="blog-page__post-element">
+          <h2>
+            My music my soul
+          </h2>
+          <p>
+            This blog post is about how I created this web site. It took me only year
+          </p>
+          <footer>
+            <span>20th April 2020</span>
+            <span class="tag">#Life</span>
+          </footer>
+        </a>
+      </article>
+      <article>
+        <a href="/{{ locale }}/blog" class="blog-page__post-element">
+          <h2>
+            Last but not least
+          </h2>
+          <p>
+            This blog post is about how I created this web site. It took me only year
+          </p>
+          <footer>
+            <span>20th April 2020</span>
+            <span class="tag">#Life</span>
+          </footer>
+        </a>
+      </article>
+    </section>
+  </main>
 {% endblock %}

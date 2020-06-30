@@ -1,4 +1,4 @@
-module.exports = function(config) {
+module.exports = function (config) {
   config.addPassthroughCopy('src/styles');
   config.addPassthroughCopy('src/assets');
   config.addPassthroughCopy('src/fonts');
@@ -6,6 +6,7 @@ module.exports = function(config) {
   config.addPassthroughCopy('src/scripts');
   config.addPassthroughCopy({ 'src/other/.htmlnanorc': '/.htmlnanorc' });
   config.addPassthroughCopy('src/other');
+  config.addPassthroughCopy('src/site.webmanifest');
 
   return {
     dir: {

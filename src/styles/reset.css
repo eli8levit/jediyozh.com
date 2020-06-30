@@ -20,19 +20,8 @@ ol[class],
 li,
 figure,
 figcaption,
-blockquote,
-dl,
-dd {
+blockquote {
   margin: 0;
-}
-
-body {
-  text-rendering: optimizeSpeed;
-  line-height: 1.15;
-}
-
-a:not([class]) {
-  text-decoration-skip-ink: auto;
 }
 
 img {

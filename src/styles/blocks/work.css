@@ -12,7 +12,7 @@
   align-items: center;
   overflow-x: auto;
   padding: 12vh 60px;
-  background-color: var(--bg-section-color);
+  background-color: var(--bg-section);
   transition: var(--theme-color-transition);
   transition-property: background-color;
   margin: 30px 2vw;
@@ -45,6 +45,16 @@
   animation-name: foldingRight;
 }
 
+@keyframes foldingRight {
+  0% {
+    margin-left: -500px;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+
 .work-page article span {
   font-size: 27px;
 }
@@ -57,7 +67,7 @@
 
 .work-page article p {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   align-self: start;
   color: var(--color-text-secondary);
 }
