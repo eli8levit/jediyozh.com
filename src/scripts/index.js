@@ -52,7 +52,6 @@
   }
 
   if (window.matchMedia) {
-    console.log('match media');
     const colorSchemeQuery = window.matchMedia('(prefers-color-scheme: dark)');
     calculateNextTheme();
     colorSchemeQuery.addListener(calculateNextTheme);
