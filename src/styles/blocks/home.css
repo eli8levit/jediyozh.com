@@ -11,7 +11,7 @@
   align-self: center;
   grid-column: 1 / -1;
   padding: 0 5vw;
-  margin: 0 11vw;
+  margin: 0 10vw;
   color: var(--color-text-primary);
   animation-duration: 1.5s;
   animation-fill-mode: both;
@@ -82,7 +82,7 @@
 
 @media (max-width: 768px) {
   .home-page__introduction {
-    padding: 0 3vw;
+    padding: 0 4vw;
     margin: 0;
   }
 
@@ -97,8 +97,17 @@
     font-size: 33px;
   }
 
+  html[lang='ru'] .home-page__heading {
+    font-size: 31px;
+    line-height: 1.35;
+  }
+
+  html[lang='ru'] .home-page__heading span {
+    font-size: 28px;
+  }
+
   .home-page__text {
-    font-size: 18px;
+    font-size: 17.5px;
   }
 
   .home-page__logo {
