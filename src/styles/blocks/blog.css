@@ -52,7 +52,7 @@
   display: grid;
   grid-template-rows: 1fr auto auto;
   grid-template-columns: 100%;
-  width: clamp(480px, 29vw, 580px);
+  width: clamp(480px, 29vw, 520px);
   grid-row-gap: 20px;
   border-radius: 8px;
   box-shadow: var(--box-shadow-blog-card);
