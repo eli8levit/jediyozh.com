@@ -33,22 +33,24 @@
 
 .home-page__heading {
   margin-block-end: 38px;
-  font-size: calc(28px + 2.1vw);
+  font-size: calc(28px + 2vw);
   font-weight: 800;
   word-spacing: 0.04em;
+  line-height: 1.13;
 }
 
 .home-page__heading span {
-  font-size: calc(24px + 2.1vw);
+  font-size: calc(24px + 2vw);
   transition: none;
 }
 
 .home-page__text {
-  font-size: calc(14px + 0.65vw);
+  font-size: calc(14px + 0.6vw);
   font-weight: 500;
   min-height: 120px;
   color: var(--color-text-secondary);
-  max-width: calc(480px + 23vw);
+  max-width: calc(470px + 22vw);
+  line-height: 1.7;
 }
 
 .home-page__link {

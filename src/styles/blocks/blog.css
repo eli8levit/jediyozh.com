@@ -66,7 +66,7 @@
 
 .blog-page h2 {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 800;
   opacity: 0.9;
   color: var(--color-text-primary);
 }
@@ -115,15 +115,16 @@ article .blog-page__post-element:active {
 
 @media (max-width: 768px) {
   .blog-page__post-element {
-    width: clamp(200px, 90vw, 500px);
-    grid-row-gap: 17px;
+    width: clamp(200px, 93vw, 500px);
+    grid-row-gap: 14px;
     min-width: 200px;
     box-shadow: var(--box-shadow-card-mobile);
-    padding: 20px;
+    padding: 25px;
   }
 
   .blog-page__post-list {
-    padding: 20px 3.8vw;
+    padding: 20px 3vw;
+    padding-right: 4vw;
     min-height: unset;
     margin: 10px 0;
     grid-template-columns: 1fr;
@@ -158,6 +159,7 @@ article .blog-page__post-element:active {
   .blog-page h2 {
     font-size: 19px;
     opacity: 1;
+    font-weight: 800;
   }
 
   .blog-page p {
