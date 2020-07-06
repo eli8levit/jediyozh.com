@@ -11,7 +11,7 @@
   align-self: center;
   grid-column: 1 / -1;
   padding: 0 5vw;
-  margin: 0 10vw;
+  margin: 0 9vw;
   color: var(--color-text-primary);
   animation-duration: 1.5s;
   animation-fill-mode: both;
@@ -40,7 +40,7 @@
 }
 
 .home-page__heading span {
-  font-size: calc(24px + 2vw);
+  font-size: calc(20px + 2vw);
   transition: none;
 }
 

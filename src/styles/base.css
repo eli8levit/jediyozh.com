@@ -9,7 +9,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: max-content 1fr max-content;
-  row-gap: 2em;
+  row-gap: 40px;
   overflow-x: hidden;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   min-height: 100%;
