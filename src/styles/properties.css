@@ -1,22 +1,17 @@
 :root {
   /* colors */
   --color-text-primary: #ffffff;
-  --color-red: #ff3535;
+  --color-red: rgb(233, 20, 34);
   --color-text-header: #c2c2c2;
   --color-text-header-active: #ffffff;
-  --color-text-secondary: #9b9b9b;
+  --color-text-secondary: rgb(195, 195, 201);
   --color-text-secondary-light: #9b9b9b;
-  --color-text-secondary-light: #9b9b9b;
-  --color-red-link: var(--color-red);
   --color-footer-link: #c3ccff;
 
   /* background colors */
   --bg-primary: #000000;
-  --bg-header: #141414;
   --bg-section: #111111;
   --bg-blog-card: #1f2021;
-  --bg-nav-link-active: rgba(255, 255, 255, 0.05);
-  --bg-theme-toggler-active: rgba(94, 94, 94, 0.3);
 
   /* transitions */
   --theme-color-transition: color 0.3s ease-in-out;
@@ -37,25 +32,24 @@
 .light {
   /* colors */
   --color-paragraph: #000000;
-  --color-text-primary: #242424;
-  --color-text-secondary: #555555;
+  --color-text-primary: rgb(26, 26, 29);
+  --color-text-header: #424242;
+  --color-text-header-active: #000000;
+  --color-text-secondary: rgb(44, 44, 44);
   --color-text-secondary-light: #707070;
-  --color-red: #f31313;
-  --color-red-link: #e90000;
+  --color-red: rgb(230, 20, 34);
   --color-footer-link: #2f3975;
 
   /* background colors */
   --bg-primary: #ffffff;
-  --bg-header: #151515;
   --bg-section: #edeef0;
   --bg-blog-card: #ffffff;
-  --bg-nav-link-active: rgba(255, 255, 255, 0.1);
 
   /* other */
   --box-shadow-color-blog-card: rgba(12, 12, 13, 0.1);
   --border-footer-color: rgba(128, 128, 128, 0.12);
-  --box-shadow-card-color: rgba(0, 0, 0, 0.07);
-  --box-shadow-blog-card: 0 -10px 20px -5px var(--box-shadow-card-color),
+  --box-shadow-card-color: rgba(0, 0, 0, 0.1);
+  --box-shadow-blog-card: 5px -7px 25px -5px var(--box-shadow-card-color),
     0 -1.2px 0 0 rgba(0, 0, 0, 0.01);
   --box-shadow-blog-card-hover: 0 0 25px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.01);
   --box-shadow-blog-card-active: 0 1px 12px var(--box-shadow-color-blog-card);
