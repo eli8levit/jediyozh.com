@@ -61,7 +61,7 @@
 
 .work-page article h2 {
   font-size: 30px;
-  font-weight: 800;
+  font-weight: 700;
   color: var(--color-text-primary);
 }
 
@@ -81,7 +81,7 @@
 @media (max-width: 768px) {
   .work-page article {
     grid-row: 2;
-    width: 84vw;
+    width: 86vw;
     height: 60vh;
     min-width: 250px;
     min-height: 360px;

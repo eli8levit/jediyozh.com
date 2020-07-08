@@ -26,7 +26,7 @@
 }
 
 .home-page__heading {
-  line-height: 1.15;
+  line-height: 1.1;
   color: var(--color-text-primary);
   font-size: calc(35px + 3vw);
   font-weight: 700;
@@ -35,18 +35,17 @@
 .home-page__sub-heading {
   display: inline-block;
   color: var(--color-text-primary);
-  line-height: 1.4;
-  font-size: calc(10px + 1.6vw);
-  font-weight: 600;
-  margin-bottom: 40px;
+  font-size: calc(10px + 1.5vw);
+  font-weight: 700;
+  margin-bottom: 45px;
 }
 
 .home-page__bio {
-  max-width: calc(420px + 21vw);
+  max-width: calc(430px + 21vw);
   color: var(--color-text-secondary);
-  font-size: calc(14px + 0.6vw);
+  font-size: calc(15px + 0.6vw);
   font-weight: 400;
-  letter-spacing: 0.2px;
+  line-height: 1.5;
 }
 
 .home-page__link {
@@ -80,11 +79,11 @@
 
 @media (max-width: 768px) {
   .home-page__container {
-    margin: 0 4vw;
+    margin: 0 5vw;
   }
 
   .home-page__heading {
-    font-size: 47px;
+    font-size: 50px;
   }
 
   .home-page__sub-heading {
@@ -93,11 +92,11 @@
   }
 
   .home-page__bio {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .home-page__logo {
-    width: 60px;
+    width: 55px;
   }
 
   .home-page__link {
