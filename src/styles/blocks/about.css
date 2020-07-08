@@ -7,7 +7,7 @@
 .about-page__heading-container {
   display: grid;
   grid-template-columns: 100%;
-  grid-gap: 80px;
+  grid-gap: 90px;
   max-width: 1100px;
   max-width: 740px;
 }
