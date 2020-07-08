@@ -37,7 +37,7 @@
   color: var(--color-text-primary);
   font-size: calc(10px + 1.5vw);
   font-weight: 700;
-  margin-bottom: 35px;
+  margin-bottom: 40px;
 }
 
 .home-page__bio {
