@@ -1,19 +1,18 @@
 .page-header {
   width: 100%;
-  grid-column: 1 / -1;
-  display: grid;
+  display: flex;
+  justify-content: space-between;
   padding: 0 1vw;
-  grid-template-columns: 1.9fr 0.1fr;
-  grid-column-gap: 10px;
   height: 45px;
+  overflow: auto;
   align-items: center;
-  background: var(--bg-header);
   transition: var(--theme-bg-transition);
 }
 
 .page-header__nav {
   height: 100%;
   overflow-x: scroll;
+  padding-right: 10px;
 }
 
 .page-header__list {
@@ -33,12 +32,9 @@
   text-decoration: none;
   cursor: pointer;
   padding: 7px 0;
-  margin: 0 3px;
+  margin: 0 15px;
   color: var(--color-text-header);
-  border-radius: var(--link-radius);
   transition: var(--theme-header-transition);
-  transition-property: color, background-color;
-  width: 90px;
   text-align: center;
   white-space: nowrap;
 }
@@ -53,7 +49,6 @@
 }
 
 .page-header__link[href]:hover {
-  background-color: var(--bg-nav-link-active);
   color: var(--color-text-header-active);
   transition: none;
 }
@@ -61,14 +56,14 @@
 .page-header__link:not([href]) {
   cursor: default;
   color: var(--color-text-header-active);
-  background-color: var(--bg-nav-link-active);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .page-header__tools {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  margin-left: auto;
 }
 
 .page-header__tools a {
@@ -86,7 +81,7 @@
   }
 
   .page-header__link {
-    font-size: 14px;
+    font-size: 15px;
     padding: 6px 8px;
     margin: 0 1px;
     width: unset;

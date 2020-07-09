@@ -1,29 +1,29 @@
 .about-page {
   grid-column: 1 / -1;
-  padding: 19vh calc(40px + 8vw) 120px;
+  padding: 10vh calc(40px + 8vw) 120px;
   margin: 0 auto;
 }
 
 .about-page__heading-container {
   display: grid;
   grid-template-columns: 100%;
-  grid-gap: 110px;
+  grid-gap: 90px;
   max-width: 1100px;
   max-width: 740px;
 }
 
 .about-page__heading {
   font-size: 59px;
-  font-weight: 800;
-  color: var(--color-text-secondary);
+  font-weight: 700;
+  line-height: 1;
+  color: var(--color-text-secondary-light);
   letter-spacing: -0.3px;
 }
 
 .about-page__text {
   font-size: calc(19px + 0.2vw);
   color: var(--color-text-primary);
-  font-weight: 600;
-  line-height: 1.7;
+  font-weight: 500;
 }
 
 .about-page picture {
