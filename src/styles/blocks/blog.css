@@ -99,7 +99,7 @@ article .blog-page__post-element:active {
   font-size: 17px;
   font-weight: 400;
   line-height: 1.4;
-  letter-spacing: -0.12px;
+  letter-spacing: -0.1px;
   color: var(--color-text-secondary);
 }
 
