@@ -11,11 +11,11 @@
   grid-gap: 0 30px;
   align-items: center;
   overflow-x: auto;
-  padding: 12vh 60px;
+  padding: 10vh 60px;
   background-color: var(--bg-section);
   transition: var(--theme-color-transition);
   transition-property: background-color;
-  margin: 30px 2vw;
+  margin: 20px 2vw;
 }
 
 .work-page section::after {
@@ -29,16 +29,16 @@
   width: 350px;
   height: 500px;
   list-style: none;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 20px;
+  grid-gap: 5px;
   align-items: center;
   background-color: var(--bg-blog-card);
   transition: var(--theme-color-transition);
   transition-property: background-color;
-  padding: 20px 30px;
+  padding: 5px 30px;
   animation-duration: 0.7s;
   animation-fill-mode: both;
   animation-timing-function: ease-in-out;
@@ -60,7 +60,7 @@
 }
 
 .work-page article h2 {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 700;
   color: var(--color-text-primary);
 }
@@ -69,6 +69,7 @@
   font-size: 18px;
   font-weight: 400;
   align-self: start;
+  line-height: 1.5;
   color: var(--color-text-secondary);
 }
 
@@ -76,35 +77,36 @@
   font-size: 17px;
   text-decoration: none;
   color: var(--color-footer-link);
+  letter-spacing: -0.15px;
 }
 
 @media (max-width: 768px) {
+  .work-page {
+    align-self: start;
+    padding: 20px 0;
+  }
+
   .work-page article {
     grid-row: 2;
-    width: 86vw;
-    height: 60vh;
-    min-width: 250px;
-    min-height: 360px;
-    max-width: 310px;
-    max-height: 500px;
+    width: clamp(250px, 82vw, 340px);
+    height: clamp(360px, 58vh, 500px);
     scroll-snap-align: center;
-    grid-gap: 10px;
   }
 
   .work-page article h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .work-page article p {
-    font-size: 17px;
-  }
-
-  .work-page article a {
     font-size: 16px;
   }
 
+  .work-page article a {
+    font-size: 15px;
+  }
+
   .work-page section {
-    padding: 30px 8.5vw;
+    padding: 20px 8.5vw;
     margin: 0;
     grid-gap: 0 40px;
     scroll-snap-type: x mandatory;
