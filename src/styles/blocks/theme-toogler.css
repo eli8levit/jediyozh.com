@@ -1,10 +1,10 @@
 .theme-toggler {
   display: flex;
   align-items: center;
-  padding: 6px 14px;
   border: none;
   background-color: transparent;
   cursor: pointer;
+  padding: 2px;
   border-radius: var(--link-radius);
   transition: background-color 0.1s ease-in;
 }
@@ -15,7 +15,7 @@
 }
 
 .theme-toggler:focus {
-  box-shadow: 0 0 0 2px var(--color-text-header-active);
+  box-shadow: 0 0 0 1px var(--color-text-header-active);
   outline: none;
 }
 
@@ -42,10 +42,6 @@
 }
 
 @media (max-width: 768px) {
-  .theme-toggler {
-    padding: 6px 10px;
-  }
-
   .theme-toggler:hover {
     transform: none;
   }
