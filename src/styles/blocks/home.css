@@ -28,8 +28,9 @@
 .home-page__heading {
   line-height: 1.1;
   color: var(--color-text-primary);
-  font-size: calc(35px + 3vw);
+  font-size: calc(33px + 3vw);
   font-weight: 700;
+  letter-spacing: -0.5px;
 }
 
 .home-page__sub-heading {
@@ -82,7 +83,7 @@
   }
 
   .home-page__heading {
-    font-size: 50px;
+    font-size: 47px;
   }
 
   .home-page__sub-heading {
@@ -96,6 +97,7 @@
 
   .home-page__logo {
     width: 55px;
+    margin-left: 5px;
   }
 
   .home-page__link {
