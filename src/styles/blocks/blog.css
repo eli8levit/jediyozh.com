@@ -14,6 +14,7 @@
   transition: var(--theme-color-transition);
   transition-property: background-color;
   margin: 30px 7vw;
+  border-radius: 10px;
 }
 
 .blog-page article {

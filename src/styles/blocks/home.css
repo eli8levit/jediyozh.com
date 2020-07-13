@@ -28,7 +28,7 @@
 .home-page__heading {
   line-height: 1.1;
   color: var(--color-text-primary);
-  font-size: calc(33px + 3vw);
+  font-size: clamp(50px, calc(33px + 3vw), 100px);
   font-weight: 700;
   letter-spacing: -0.5px;
 }
@@ -36,7 +36,7 @@
 .home-page__sub-heading {
   display: inline-block;
   color: var(--color-text-primary);
-  font-size: calc(10px + 1.5vw);
+  font-size: clamp(20px, calc(10px + 1.5vw), 45px);
   font-weight: 700;
   margin-bottom: 40px;
 }
@@ -44,7 +44,7 @@
 .home-page__bio {
   max-width: calc(430px + 21vw);
   color: var(--color-text-secondary);
-  font-size: calc(15px + 0.6vw);
+  font-size: clamp(16px, calc(15px + 0.6vw), 30px);
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: -0.25px;
