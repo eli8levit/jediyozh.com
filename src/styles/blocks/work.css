@@ -83,7 +83,6 @@
 
 @media (max-width: 768px) {
   .work-page {
-    align-self: start;
     padding: 20px 0;
   }
 
@@ -107,7 +106,8 @@
   }
 
   .work-page section {
-    padding: 20px 8.5vw;
+    padding: 40px 8.5vw;
+    border-radius: 15px;
     margin: 0;
     grid-gap: 0 40px;
     scroll-snap-type: x mandatory;
