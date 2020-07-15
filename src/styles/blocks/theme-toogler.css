@@ -1,11 +1,11 @@
 .theme-toggler {
   display: flex;
   align-items: center;
+  padding: 2px;
   border: none;
   background-color: transparent;
-  cursor: pointer;
-  padding: 2px;
   border-radius: var(--link-radius);
+  cursor: pointer;
   transition: background-color 0.1s ease-in;
 }
 
@@ -51,7 +51,7 @@
   }
 
   .theme-toggler__icon {
-    width: 18px;
     height: 18px;
+    width: 18px;
   }
 }

@@ -99,16 +99,16 @@
 .blog-page__card-heading {
   line-height: 1.2;
   opacity: 0.9;
-  color: var(--color-text-primary);
   letter-spacing: -0.08px;
+  color: var(--color-text-primary);
   font-size: 20px;
   font-weight: 600;
 }
 
 .blog-page__card-info {
   line-height: 1.45;
-  color: var(--color-text-secondary);
   letter-spacing: -0.1px;
+  color: var(--color-text-secondary);
   font-size: 17px;
   font-weight: 400;
 }
@@ -135,7 +135,7 @@
   }
 
   .blog-page__card {
-    width: clamp(200px, auto, 500px);
+    width: clamp(200px, 100%, 500px);
     grid-row-gap: 12px;
     padding: 30px;
     box-shadow: var(--box-shadow-card-mobile);
@@ -169,9 +169,9 @@
   }
 
   .blog-page__post-link:hover {
-    transform: unset;
     margin-bottom: 10px;
     padding: unset;
+    transform: unset;
     scale: unset;
   }
 

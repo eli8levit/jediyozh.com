@@ -1,28 +1,27 @@
 .about-page {
   grid-column: 1 / -1;
-  padding: 10vh calc(40px + 8vw) 120px;
   margin: 0 auto;
+  padding: 10vh calc(40px + 8vw) 120px;
 }
 
 .about-page__heading-container {
   display: grid;
   grid-template-columns: 100%;
   grid-gap: 90px;
-  max-width: 1100px;
   max-width: 740px;
 }
 
 .about-page__heading {
+  line-height: 1;
+  letter-spacing: -0.3px;
+  color: var(--color-text-secondary-light);
   font-size: 59px;
   font-weight: 700;
-  line-height: 1;
-  color: var(--color-text-secondary-light);
-  letter-spacing: -0.3px;
 }
 
 .about-page__text {
-  font-size: calc(19px + 0.2vw);
   color: var(--color-text-primary);
+  font-size: calc(19px + 0.2vw);
   font-weight: 500;
 }
 
@@ -37,7 +36,7 @@
   }
 
   .about-page__heading-container {
-    grid-gap: 60px 0;
+    grid-gap: 50px 0;
   }
 
   .about-page__photo {
@@ -55,6 +54,5 @@
 
   .about-page__bio-text {
     padding: 0;
-    grid-column: 1;
   }
 }
