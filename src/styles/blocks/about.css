@@ -27,7 +27,10 @@
 
 .about-page picture {
   margin: 0 auto;
-  border-radius: 3px;
+}
+
+.about-page__photo {
+  border-radius: 10px;
 }
 
 @media (max-width: 768px) {
