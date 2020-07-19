@@ -29,16 +29,18 @@
   line-height: 1.2;
   color: var(--color-text-primary);
   letter-spacing: -0.5px;
-  font-size: clamp(50px, calc(36px + 3vw), 100px);
+  font-size: clamp(50px, calc(34px + 3vw), 100px);
   font-weight: 700;
 }
 
 .home-page__sub-heading {
   display: inline-block;
-  margin-bottom: 45px;
+  margin-bottom: 50px;
   color: var(--color-text-primary);
-  font-size: clamp(20px, calc(15px + 1.5vw), 50px);
-  font-weight: 700;
+  letter-spacing: -0.4px;
+  word-spacing: 3px;
+  font-size: clamp(20px, calc(17px + 1.4vw), 50px);
+  font-weight: 600;
 }
 
 .home-page__bio {
@@ -46,7 +48,7 @@
   line-height: 1.5;
   letter-spacing: -0.3px;
   color: var(--color-text-secondary);
-  font-size: clamp(18px, calc(16px + 0.7vw), 40px);
+  font-size: clamp(18px, calc(15px + 0.7vw), 40px);
   font-weight: 400;
 }
 
