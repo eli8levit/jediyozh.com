@@ -48,7 +48,7 @@
   line-height: 1.5;
   letter-spacing: -0.3px;
   color: var(--color-text-secondary);
-  font-size: clamp(18px, calc(15px + 0.7vw), 40px);
+  font-size: clamp(18px, calc(16px + 0.7vw), 40px);
   font-weight: 400;
 }
 
