@@ -15,7 +15,7 @@
     "defaults"
   ],
   "devDependencies": {
-    "@11ty/eleventy": "^0.9.0",
+    "@11ty/eleventy": "^0.11.0",
     "node-w3c-validator": "^1.6.1",
     "parcel-bundler": "^1.12.4",
     "prettier": "^2.0.5",
