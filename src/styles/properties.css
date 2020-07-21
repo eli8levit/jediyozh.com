@@ -1,10 +1,10 @@
 :root {
   /* colors */
   --color-text-primary: #ffffff;
-  --color-red: rgb(233, 20, 34);
+  --color-red: #e91422;
   --color-text-header: #c2c2c2;
   --color-text-header-active: #ffffff;
-  --color-text-secondary: rgb(195, 195, 201);
+  --color-text-secondary: #c3c3c9;
   --color-text-secondary-light: #9b9b9b;
   --color-footer-link: #c3ccff;
 
@@ -32,12 +32,12 @@
 .light {
   /* colors */
   --color-paragraph: #000000;
-  --color-text-primary: rgb(26, 26, 29);
+  --color-text-primary: #1a1a1d;
   --color-text-header: #555555;
   --color-text-header-active: #000000;
-  --color-text-secondary: rgb(44, 44, 44);
+  --color-text-secondary: #2c2c2c;
   --color-text-secondary-light: #707070;
-  --color-red: rgb(230, 20, 34);
+  --color-red: #e61422;
   --color-footer-link: #2f3975;
 
   /* background colors */
