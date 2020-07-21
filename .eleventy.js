@@ -17,7 +17,6 @@ module.exports = function (config) {
       data: 'global',
     },
     dataTemplateEngine: 'njk',
-    markdownTemplateEngine: false,
     htmlTemplateEngine: 'njk',
     passthroughFileCopy: true,
     templateFormats: ['md', 'html', 'njk', 'jpg', 'png', 'svg'],

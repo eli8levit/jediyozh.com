@@ -77,8 +77,8 @@
 .work-page__card-link {
   font-size: 17px;
   text-decoration: none;
-  color: var(--color-footer-link);
   letter-spacing: -0.15px;
+  color: var(--color-footer-link);
 }
 
 @media (max-width: 768px) {
