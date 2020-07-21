@@ -86,6 +86,19 @@
     padding: 40px 0;
   }
 
+  .work-page__project-list {
+    grid-template-rows: max-content auto;
+    grid-gap: 0 40px;
+    margin: 0;
+    padding: 40px 8vw;
+    border-radius: 15px;
+    scroll-snap-type: x mandatory;
+  }
+
+  .work-page__project-list::after {
+    width: 5px;
+  }
+
   .work-page__card {
     grid-row: 2;
     height: clamp(360px, 59vh, 500px);
@@ -104,18 +117,5 @@
 
   .work-page__card-link {
     font-size: 15px;
-  }
-
-  .work-page__project-list {
-    grid-template-rows: max-content auto;
-    grid-gap: 0 40px;
-    margin: 0;
-    padding: 40px 8vw;
-    border-radius: 15px;
-    scroll-snap-type: x mandatory;
-  }
-
-  .work-page__project-list::after {
-    width: 5px;
   }
 }
