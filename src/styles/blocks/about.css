@@ -35,7 +35,7 @@
 
 @media (max-width: 768px) {
   .about-page {
-    padding: 9vh 6vw;
+    padding: 9vh 5vw;
   }
 
   .about-page__heading-container {
@@ -57,5 +57,9 @@
 
   .about-page__bio-text {
     padding: 0;
+  }
+
+  .about-page__photo {
+    border-radius: 14px;
   }
 }
