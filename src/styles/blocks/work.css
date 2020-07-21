@@ -83,22 +83,23 @@
 
 @media (max-width: 768px) {
   .work-page {
-    padding: 20px 0;
+    padding: 40px 0;
   }
 
   .work-page__card {
     grid-row: 2;
-    height: clamp(360px, 58vh, 500px);
-    width: clamp(250px, 82vw, 340px);
+    height: clamp(360px, 59vh, 500px);
+    width: clamp(250px, 84vw, 340px);
+    padding: 5px 35px;
     scroll-snap-align: center;
   }
 
   .work-page__card-title {
-    font-size: 20px;
+    font-size: 23px;
   }
 
   .work-page__card-info {
-    font-size: 16px;
+    font-size: 17px;
   }
 
   .work-page__card-link {
@@ -109,7 +110,7 @@
     grid-template-rows: max-content auto;
     grid-gap: 0 40px;
     margin: 0;
-    padding: 40px 8.5vw;
+    padding: 40px 8vw;
     border-radius: 15px;
     scroll-snap-type: x mandatory;
   }
