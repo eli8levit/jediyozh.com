@@ -1,4 +1,12 @@
 module.exports = function (config) {
+  config.addCollection('enPosts', function (collection) {
+    return collection.getFilteredByGlob('./src/posts/en/*.md');
+  });
+
+  config.addCollection('ruPosts', function (collection) {
+    return collection.getFilteredByGlob('./src/posts/ru/*.md');
+  });
+
   config.addPassthroughCopy('src/styles');
   config.addPassthroughCopy('src/assets');
   config.addPassthroughCopy('src/fonts');
