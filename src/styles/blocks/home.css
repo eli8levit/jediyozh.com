@@ -82,7 +82,7 @@
 
 @media (max-width: 768px) {
   .home-page__container {
-    margin: 0 5vw;
+    margin: 0 4.6vw;
   }
 
   .home-page__heading {
@@ -91,16 +91,16 @@
 
   .home-page__sub-heading {
     margin-bottom: 30px;
-    font-size: 25px;
+    font-size: 24px;
   }
 
   .home-page__bio {
-    font-size: 18px;
+    font-size: 19px;
   }
 
   .home-page__logo {
-    width: 55px;
-    margin-left: 5px;
+    margin-left: 3px;
+    width: 58px;
   }
 
   .home-page__link {
