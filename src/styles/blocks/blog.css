@@ -137,13 +137,13 @@
   .blog-page__card {
     width: clamp(200px, 100%, 500px);
     grid-row-gap: 12px;
-    padding: 30px;
+    padding: 25px;
     box-shadow: var(--box-shadow-card-mobile);
   }
 
   .blog-page__post-list {
     grid-template-columns: 1fr;
-    min-height: unset;
+    min-height: 70vh;
     margin: 0;
     padding: 30px 4vw;
     border-radius: 15px;
