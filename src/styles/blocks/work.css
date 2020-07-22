@@ -83,14 +83,16 @@
 
 @media (max-width: 768px) {
   .work-page {
-    padding: 40px 0;
+    padding: 20px 2vw;
   }
 
   .work-page__project-list {
     grid-template-rows: max-content auto;
     grid-gap: 0 40px;
+    align-items: start;
+    min-height: 80vh;
     margin: 0;
-    padding: 40px 8vw;
+    padding: 20px 7vw;
     border-radius: 15px;
     scroll-snap-type: x mandatory;
   }
@@ -102,8 +104,8 @@
   .work-page__card {
     grid-row: 2;
     height: clamp(360px, 59vh, 500px);
-    width: clamp(250px, 84vw, 340px);
-    padding: 5px 35px;
+    width: clamp(250px, 82vw, 340px);
+    padding: 5px 25px;
     scroll-snap-align: center;
   }
 
