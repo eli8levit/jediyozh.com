@@ -35,7 +35,7 @@
   width: 350px;
   padding: 5px 30px;
   box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
-  border-radius: 8px;
+  border-radius: 10px;
   background-color: var(--bg-blog-card);
   list-style: none;
   transition: var(--theme-color-transition);
@@ -83,17 +83,20 @@
 
 @media (max-width: 768px) {
   .work-page {
-    padding: 20px 2vw;
+    padding: 20px 3vw;
+    padding-right: 0;
   }
 
   .work-page__project-list {
     grid-template-rows: max-content auto;
     grid-gap: 0 40px;
     align-items: start;
-    min-height: 80vh;
-    margin: 0;
-    padding: 20px 7vw;
+    min-height: 75vh;
     border-radius: 15px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin: 0;
+    padding: 5vw;
     scroll-snap-type: x mandatory;
   }
 
@@ -103,8 +106,10 @@
 
   .work-page__card {
     grid-row: 2;
-    height: clamp(360px, 59vh, 500px);
-    width: clamp(250px, 82vw, 340px);
+    border-radius: 12px;
+    height: 100%;
+    width: 86vw;
+    max-width: 350px;
     padding: 5px 25px;
     scroll-snap-align: center;
   }
