@@ -1,0 +1,17 @@
+.post-page {
+  padding: 10vh 5vw;
+  border-radius: 10px;
+  background-color: var(--bg-section);
+  margin: 30px 7vw;
+  /* margin: 3vw; */
+}
+
+.post-page h1 {
+  margin-bottom: 40px;
+}
+
+.post-page p {
+  /* margin: 0 auto; */
+  width: clamp(400px, 45vw, 850px);
+  font-size: 19px;
+}

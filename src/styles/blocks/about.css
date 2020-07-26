@@ -1,7 +1,9 @@
 .about-page {
-  grid-column: 1 / -1;
-  margin: 0 auto;
-  padding: 10vh calc(40px + 8vw) 120px;
+  margin: 5vh auto;
+  padding: 10vh calc(40px + 8vw) 0;
+  /* border-radius: 10px; */
+  /* background-color: var(--bg-section); */
+  /* margin: 30px 7vw; */
 }
 
 .about-page__heading-container {
@@ -16,12 +18,12 @@
   letter-spacing: -0.3px;
   color: var(--color-text-secondary-light);
   font-size: 59px;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .about-page__text {
   color: var(--color-text-primary);
-  font-size: calc(19px + 0.2vw);
+  font-size: calc(18px + 0.2vw);
   font-weight: 500;
 }
 
@@ -31,6 +33,7 @@
 
 .about-page__photo {
   border-radius: 10px;
+  clip-path: circle(31.07% at 206px 176px);
 }
 
 @media (max-width: 768px) {

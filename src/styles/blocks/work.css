@@ -8,10 +8,10 @@
   display: grid;
   grid-auto-columns: max-content;
   grid-auto-flow: column;
-  grid-gap: 0 30px;
+  grid-gap: 0 25px;
   align-items: center;
   margin: 20px 2vw;
-  padding: 10vh 60px;
+  padding: 8vh 3vw;
   overflow-x: auto;
   background-color: var(--bg-section);
   border-radius: 10px;
@@ -31,8 +31,8 @@
   grid-template-columns: 1fr;
   grid-gap: 5px;
   align-items: center;
-  height: 500px;
-  width: 350px;
+  height: 470px;
+  width: 330px;
   padding: 5px 30px;
   box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
@@ -62,7 +62,7 @@
 
 .work-page__card-title {
   color: var(--color-text-primary);
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 700;
 }
 
@@ -70,7 +70,7 @@
   align-self: start;
   line-height: 1.5;
   color: var(--color-text-secondary);
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 400;
 }
 
