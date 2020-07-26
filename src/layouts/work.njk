@@ -13,12 +13,18 @@ translationKey: 'work'
   <main class="work-page">
     <section class="work-page__project-list">
       <h1 class="visually-hidden">Work</h1>
-      <article class="work-page__card">
-        <span class="work-page__card-logo">🦔</span>
-        <h2 class="work-page__card-title">Custom starter</h2>
-        <p class="work-page__card-info">In each project you start you need to create and install same files and modules as were in the previous one: configs, linters, dev packages. Maybe you have some saved gists so you go and copy them each time into new projects. It’s tiring and slow…</p>
-        <a class="work-page__card-link" href="https://github.com/jediyozh/custom-starter">See on Github</a>
-      </article>
+
+      {% for project in collections.projects %}
+
+        <article class="work-page__card">
+          <span class="work-page__card-logo">🦔</span>
+          <h2 class="work-page__card-title">{{ project.data[locale].title }}</h2>
+          <p class="work-page__card-info">{{ project.data[locale].info }}</p>
+          <a class="work-page__card-link" href="https://github.com/jediyozh/custom-starter">See on Github</a>
+        </article>
+
+      {% endfor %}
+
       <article class="work-page__card">🎖</article>
       <article class="work-page__card">🎧</article>
       <article class="work-page__card">🥎</article>
