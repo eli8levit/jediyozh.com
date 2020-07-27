@@ -15,7 +15,6 @@
 
 .about-page__heading {
   line-height: 1;
-  letter-spacing: -0.3px;
   color: var(--color-text-secondary-light);
   font-size: 59px;
   font-weight: 800;
@@ -33,12 +32,12 @@
 
 .about-page__photo {
   border-radius: 10px;
-  clip-path: circle(31.07% at 206px 176px);
+  clip-path: circle(31.07% at 50% 31%);
 }
 
 @media (max-width: 768px) {
   .about-page {
-    padding: 9vh 5vw;
+    padding: 5vh 5vw 0;
   }
 
   .about-page__heading-container {
