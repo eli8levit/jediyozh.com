@@ -1,9 +1,6 @@
 .about-page {
   margin: 5vh auto;
   padding: 10vh calc(40px + 8vw) 0;
-  /* border-radius: 10px; */
-  /* background-color: var(--bg-section); */
-  /* margin: 30px 7vw; */
 }
 
 .about-page__heading-container {
