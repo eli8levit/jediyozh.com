@@ -9,6 +9,7 @@
   grid-auto-rows: max-content;
   min-height: 1000px;
   justify-content: center;
+  min-width: 575px;
   width: max-content;
   margin: 30px auto;
   padding: 40px 5vw;
