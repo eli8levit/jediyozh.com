@@ -12,13 +12,13 @@
         </a>
       </li>
       <li class="page-header__list-item">
-        <a class="page-header__link" {% if page.url != blogUrl %} href="{{ blogUrl }}" {% endif %}>{{ site[locale].headerBlog }}</a>
+        <a class="page-header__link" {% if blogUrl not in page.url %} href="{{ blogUrl }}" {% endif %}>{{ site[locale].headerBlog }}</a>
       </li>
       <li class="page-header__list-item">
-        <a class="page-header__link" {% if page.url != workUrl %} href="{{ workUrl }}" {% endif %}>{{ site[locale].headerWork }}</a>
+        <a class="page-header__link" {% if workUrl not in page.url %} href="{{ workUrl }}" {% endif %}>{{ site[locale].headerWork }}</a>
       </li>
       <li class="page-header__list-item">
-        <a class="page-header__link" {% if page.url != aboutUrl %} href="{{ aboutUrl }}" {% endif %}>
+        <a class="page-header__link" {% if aboutUrl not in page.url %} href="{{ aboutUrl }}" {% endif %}>
           {{ site[locale].headerAboutMe }}
         </a>
       </li>

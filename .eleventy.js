@@ -7,6 +7,10 @@ module.exports = function (config) {
     return collection.getFilteredByGlob('./src/posts/ru/*.md');
   });
 
+  config.addCollection('projects', function (collection) {
+    return collection.getFilteredByGlob('./src/projects/*.md');
+  });
+
   config.addPassthroughCopy('src/styles');
   config.addPassthroughCopy('src/assets');
   config.addPassthroughCopy('src/fonts');

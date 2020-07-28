@@ -1,7 +1,6 @@
 .about-page {
-  grid-column: 1 / -1;
-  margin: 0 auto;
-  padding: 10vh calc(40px + 8vw) 120px;
+  margin: 5vh auto;
+  padding: 10vh calc(40px + 8vw) 0;
 }
 
 .about-page__heading-container {
@@ -13,15 +12,14 @@
 
 .about-page__heading {
   line-height: 1;
-  letter-spacing: -0.3px;
   color: var(--color-text-secondary-light);
   font-size: 59px;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .about-page__text {
   color: var(--color-text-primary);
-  font-size: calc(19px + 0.2vw);
+  font-size: calc(18px + 0.2vw);
   font-weight: 500;
 }
 
@@ -31,11 +29,12 @@
 
 .about-page__photo {
   border-radius: 10px;
+  clip-path: circle(31.07% at 50% 31%);
 }
 
 @media (max-width: 768px) {
   .about-page {
-    padding: 9vh 5vw;
+    padding: 5vh 5vw 0;
   }
 
   .about-page__heading-container {

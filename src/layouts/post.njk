@@ -1,6 +1,17 @@
+---
+translationKey: 'blog'
+---
+
 {% extends "./page.njk" %}
 
+{% set metaTitle = site[locale].aboutTitle %}
+
+{% block styling %}
+  {% include "../styles/blocks/post.css" %}
+{% endblock %}
+
 {% block content %}
-  <div>here is the blog</div>
-  {{ content | safe}}
+  <main class="post-page">
+    {{ content | safe}}
+  </main>
 {% endblock %}
