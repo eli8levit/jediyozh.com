@@ -9,8 +9,9 @@
   grid-auto-rows: max-content;
   min-height: 1000px;
   justify-content: center;
-  margin: 30px 7vw;
-  padding: 40px 60px;
+  width: max-content;
+  margin: 30px auto;
+  padding: 40px 5vw;
   background-color: var(--bg-section);
   border-radius: 10px;
   transition: var(--theme-color-transition);
