@@ -49,7 +49,7 @@
   --box-shadow-color-blog-card: rgba(12, 12, 13, 0.1);
   --border-footer-color: rgba(128, 128, 128, 0.12);
   --box-shadow-card-color: rgba(0, 0, 0, 0.1);
-  --box-shadow-blog-card: 5px -7px 25px -5px var(--box-shadow-card-color),
+  --box-shadow-blog-card: 5px -8px 20px -6px var(--box-shadow-card-color),
     0 -1.2px 0 0 rgba(0, 0, 0, 0.01);
   --box-shadow-blog-card-hover: 0 0 25px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.01);
   --box-shadow-blog-card-active: 0 1px 12px var(--box-shadow-color-blog-card);
