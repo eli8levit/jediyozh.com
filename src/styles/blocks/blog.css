@@ -7,12 +7,13 @@
   grid-template-columns: 100%;
   grid-auto-flow: row;
   grid-auto-rows: max-content;
-  min-height: 1000px;
+  /* min-height: 1000px; */
+  min-height: 80vh;
   justify-content: center;
-  min-width: 575px;
+  min-width: 540px;
   width: max-content;
-  margin: 30px auto;
-  padding: 40px 5vw;
+  margin: 10px auto;
+  padding: 20px 40px;
   background-color: var(--bg-section);
   border-radius: 10px;
   transition: var(--theme-color-transition);
@@ -196,8 +197,8 @@
   }
 }
 
-@media (min-height: 1200px) {
+/* @media (min-height: 1200px) {
   .blog-page__post-list {
     min-height: 80vh;
   }
-}
+} */
