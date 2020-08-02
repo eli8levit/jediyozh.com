@@ -4,31 +4,27 @@
 
 .blog-page__post-list {
   display: grid;
-  grid-template-columns: 100%;
-  grid-auto-flow: row;
-  grid-auto-rows: max-content;
-  justify-content: center;
+  grid-row-gap: 12px;
   min-height: 80vh;
   min-width: 540px;
   margin: 0 10vw;
-  padding: 20px 150px;
-  background-color: var(--bg-section);
-  border-radius: 10px;
+  padding: 35px 0;
+  background-image: linear-gradient(#f5f5f5, #eceef4);
+  border-radius: 12px;
   transition: var(--theme-color-transition);
-  transition-property: background-color;
+  transition-property: background-image;
 }
 
 .blog-page__post-link {
   position: relative;
   margin: 0 auto;
-  margin-top: -102px;
-  border-radius: 10px;
+  border-radius: 12px;
   text-decoration: none;
   transition: transform 0.47s ease-out, margin 0.28s ease-out;
-  animation-duration: 0.5s;
+  /* animation-duration: 0.5s;
   animation-fill-mode: both;
   animation-timing-function: ease-in-out;
-  animation-name: cardFolding;
+  animation-name: cardFolding; */
 }
 
 .blog-page__post-link:focus {
@@ -39,6 +35,7 @@
   box-shadow: none;
 }
 
+/*
 @keyframes cardFolding {
   0% {
     margin-top: -195px;
@@ -47,18 +44,7 @@
   100% {
     margin-top: -102px;
   }
-}
-
-.blog-page__post-link:first-of-type {
-  margin-top: 0;
-  animation: none;
-}
-
-.blog-page__post-link:hover {
-  margin-bottom: 140px;
-  transform: scale(1.03);
-  z-index: 10;
-}
+} */
 
 .blog-page__post-link:focus {
   outline: none;
@@ -69,12 +55,12 @@
   display: grid;
   grid-template-rows: 1fr auto auto;
   grid-template-columns: 100%;
-  grid-row-gap: 19px;
-  width: 480px;
-  padding: 35px 40px;
+  grid-row-gap: 15px;
+  width: 540px;
+  padding: 30px 35px;
   padding-bottom: 28px;
-  border-radius: 10px;
-  box-shadow: var(--box-shadow-blog-card);
+  border-radius: 12px;
+  box-shadow: 0 3px 16px 0 #0000000d;
   background-color: var(--bg-blog-card);
   color: var(--color-text-primary);
   transition: var(--theme-color-transition);
@@ -99,7 +85,7 @@
 }
 
 .blog-page__card-info {
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   line-height: 1.45;
   letter-spacing: -0.15px;
   color: var(--color-text-secondary);
