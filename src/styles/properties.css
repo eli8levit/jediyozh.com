@@ -9,9 +9,9 @@
   --color-footer-link: #c3ccff;
 
   /* background colors */
-  --bg-primary: #000000;
-  --bg-section: #111111;
-  --bg-blog-card: #1f2021;
+  --bg-primary: #040404;
+  --bg-section: linear-gradient(#09090a, #09090a);
+  --bg-blog-card: #141517;
 
   /* transitions */
   --theme-color-transition: color 0.3s ease-in-out;
@@ -21,9 +21,7 @@
   --link-radius: 4px;
   --box-shadow-color-blog-card: #020202;
   --border-footer-color: rgba(253, 253, 253, 0.14);
-  --box-shadow-card-color: rgba(0, 0, 0, 0.5);
-  --box-shadow-blog-card: 0 -1px 20px -5px var(--box-shadow-card-color),
-    0 -1px 0 0 rgba(0, 0, 0, 0.02);
+  --box-shadow-blog-card: 0 2px 10px 0 #00000048;
   --box-shadow-blog-card-hover: 0 0 20px 0 rgba(0, 0, 0, 0.4);
   --box-shadow-blog-card-active: 0 1px 12px var(--box-shadow-color-blog-card);
   --box-shadow-card-mobile: unset;
@@ -42,18 +40,15 @@
 
   /* background colors */
   --bg-primary: #ffffff;
-  --bg-section: #edeef0;
+  --bg-section: linear-gradient(#f5f5f5, #eceef4);
   --bg-blog-card: #ffffff;
 
   /* other */
   --box-shadow-color-blog-card: rgba(12, 12, 13, 0.1);
   --border-footer-color: rgba(128, 128, 128, 0.12);
-  --box-shadow-card-color: rgba(0, 0, 0, 0.1);
-  --box-shadow-blog-card: 5px -8px 20px -6px var(--box-shadow-card-color),
-    0 -1.2px 0 0 rgba(0, 0, 0, 0.01);
+  --box-shadow-blog-card: 0 2px 20px 0 #0000000f;
   --box-shadow-blog-card-hover: 0 0 25px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.01);
   --box-shadow-blog-card-active: 0 1px 12px var(--box-shadow-color-blog-card);
-  --box-shadow-card-mobile: 0 2px 8px 0 rgba(0, 0, 0, 0.08);
 }
 
 .light .theme-toggler__icon--sun {

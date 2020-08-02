@@ -8,15 +8,15 @@
   display: grid;
   grid-auto-columns: max-content;
   grid-auto-flow: column;
-  grid-gap: 0 25px;
+  grid-gap: 0 20px;
   align-items: center;
   margin: 20px 2vw;
-  padding: 10vh 2vw;
+  padding: 8vh 2vw;
   overflow-x: auto;
-  background-color: var(--bg-section);
+  background-image: var(--bg-section);
   border-radius: 10px;
   transition: var(--theme-color-transition);
-  transition-property: background-color;
+  transition-property: background-image;
 }
 
 .work-page__project-list::after {
@@ -31,10 +31,10 @@
   grid-template-columns: 1fr;
   grid-gap: 5px;
   align-items: center;
-  height: 450px;
-  width: 310px;
+  height: 440px;
+  width: 300px;
   padding: 5px 30px;
-  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--box-shadow-blog-card);
   border-radius: 10px;
   background-color: var(--bg-blog-card);
   list-style: none;
@@ -62,7 +62,7 @@
 
 .work-page__card-title {
   color: var(--color-text-primary);
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 700;
 }
 
@@ -70,12 +70,12 @@
   align-self: start;
   line-height: 1.5;
   color: var(--color-text-secondary);
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
 }
 
 .work-page__card-link {
-  font-size: 17px;
+  font-size: 14px;
   text-decoration: none;
   letter-spacing: -0.15px;
   color: var(--color-footer-link);

@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: calc(40px + 1vw);
+  height: calc(35px + 1vw);
   padding: 0 1vw;
   transition: var(--theme-bg-transition);
 }
@@ -26,7 +26,7 @@
 
 .page-header__link {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 8px;
   padding: 0 2px;
   color: var(--color-text-header);
   border-radius: var(--link-radius);
@@ -34,8 +34,8 @@
   white-space: nowrap;
   text-decoration: none;
   cursor: pointer;
-  font-size: calc(10px + 0.3vw);
-  font-weight: 500;
+  font-size: calc(11px + 0.2vw);
+  font-weight: 400;
   transition: var(--theme-header-transition);
 }
 

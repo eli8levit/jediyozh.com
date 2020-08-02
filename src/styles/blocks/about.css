@@ -12,15 +12,16 @@
 
 .about-page__heading {
   line-height: 1;
-  color: var(--color-text-secondary-light);
+  color: var(--color-text-primary);
+  letter-spacing: -0.5px;
   font-size: 59px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .about-page__text {
   color: var(--color-text-primary);
   font-size: calc(18px + 0.2vw);
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .about-page picture {
