@@ -1,6 +1,6 @@
 .about-page {
   margin: 5vh auto;
-  padding: 10vh calc(40px + 8vw) 0;
+  padding: 5vh calc(40px + 8vw) 0;
 }
 
 .about-page__heading-container {
@@ -11,11 +11,11 @@
 }
 
 .about-page__heading {
-  line-height: 1;
+  line-height: 1.1;
   color: var(--color-text-primary);
   letter-spacing: -0.5px;
   font-size: 59px;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .about-page__text {
