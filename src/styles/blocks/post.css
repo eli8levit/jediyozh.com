@@ -1,6 +1,5 @@
 .post-page {
-  padding: 10vh 5vw;
-  border-radius: 10px;
+  padding: 50px 0;
   margin: 0 auto;
 }
 
@@ -9,7 +8,6 @@
 }
 
 .post-page p {
-  width: clamp(400px, 45vw, 850px);
   font-size: 19px;
   margin-bottom: 15px;
 }
@@ -32,4 +30,15 @@
   background-color: var(--color-red);
   border-radius: 8px;
   color: white;
+}
+
+.post-page div {
+  margin: 0 6vw;
+  max-width: 750px;
+}
+
+.post-page img {
+  max-width: 100%;
+  margin-bottom: 70px;
+  border-radius: 15px;
 }
