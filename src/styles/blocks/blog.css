@@ -21,10 +21,6 @@
   border-radius: 12px;
   text-decoration: none;
   transition: transform 0.47s ease-out, margin 0.28s ease-out;
-  /* animation-duration: 0.5s;
-  animation-fill-mode: both;
-  animation-timing-function: ease-in-out;
-  animation-name: cardFolding; */
 }
 
 .blog-page__post-link:focus {
@@ -34,17 +30,6 @@
 .blog-page__post-link:active {
   box-shadow: none;
 }
-
-/*
-@keyframes cardFolding {
-  0% {
-    margin-top: -195px;
-  }
-
-  100% {
-    margin-top: -102px;
-  }
-} */
 
 .blog-page__post-link:focus {
   outline: none;
@@ -80,7 +65,7 @@
   line-height: 1.2;
   letter-spacing: -0.08px;
   color: var(--color-text-primary);
-  font-size: 19px;
+  font-size: calc(10px + 0.55vw);
   font-weight: 600;
 }
 
@@ -89,7 +74,7 @@
   line-height: 1.45;
   letter-spacing: -0.15px;
   color: var(--color-text-secondary);
-  font-size: 17px;
+  font-size: calc(10px + 0.4vw);
   font-weight: 400;
 }
 
@@ -116,6 +101,7 @@
 
   .blog-page__post-list {
     grid-template-columns: 1fr;
+    grid-row-gap: 12px;
     min-height: 80vh;
     min-width: unset;
     margin: 0;
@@ -148,19 +134,5 @@
   .blog-page__card-date,
   .blog-page__card-tag {
     font-size: 11px;
-  }
-
-  .blog-page__post-link {
-    transform: none;
-    margin-top: unset;
-    margin-bottom: 12px;
-    animation: none;
-  }
-
-  .blog-page__post-link:hover {
-    margin-bottom: 10px;
-    padding: unset;
-    transform: unset;
-    scale: unset;
   }
 }
