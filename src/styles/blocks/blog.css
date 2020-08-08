@@ -96,7 +96,7 @@
 
 @media (max-width: 768px) {
   .blog-page {
-    padding: 20px 3vw;
+    padding: 20px 2vw;
   }
 
   .blog-page__post-list {
@@ -105,7 +105,7 @@
     min-height: 80vh;
     min-width: unset;
     margin: 0;
-    padding: 3vw;
+    padding: 2.5vw;
     border-radius: 15px;
   }
 
@@ -113,7 +113,7 @@
     width: clamp(200px, 100%, 391px);
     grid-row-gap: 12px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 25px;
   }
 
   .blog-page__card:hover {
@@ -123,12 +123,12 @@
 
   .blog-page__card-heading {
     opacity: 1;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .blog-page__card-info {
     margin-bottom: 5px;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .blog-page__card-date,
