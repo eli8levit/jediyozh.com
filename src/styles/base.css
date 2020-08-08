@@ -42,6 +42,7 @@ h1,
 h2,
 p,
 span,
+time,
 a {
   transition: var(--theme-color-transition);
 }
