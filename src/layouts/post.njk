@@ -8,12 +8,15 @@
 
 {% block content %}
   <main class="post-page">
-    <div class="article">
-      <img src="{{ imagePath }}" width="950px" height="340px"/>
-      <h1>{{ title }}</h1>
-      <div class="meta">
-        <time>{{ time }}</time>
-        <span>#{{ tag }}</span>
+    <div class="post-page__article">
+      <figure class="post-page__photo-container">
+        <img class="post-page__photo" src="{{ imagePath }}" width="950px" height="340px"/>
+        <figcaption class="post-page__photo-description">{{ photoDescription }}</figcaption>
+      </figure>
+      <h1 class="post-page__title">{{ title }}</h1>
+      <div class="post-page__meta-data">
+        <time class="post-page__time">{{ time }}</time>
+        <span class="post-page__tag">#{{ tag }}</span>
       </div>
       {{ content | safe}}
     </div>

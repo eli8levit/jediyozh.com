@@ -1,75 +1,90 @@
-.post-page h1 {
-  margin-bottom: 20px;
-  font-size: 32px;
-  color: var(--color-text-primary);
+.post-page__article {
+  max-width: calc(750px + 12vw);
+  margin: 0 auto;
+  padding: 50px 8vw;
 }
 
-.post-page p {
-  font-size: 19px;
-  margin-bottom: 15px;
-  color: var(--color-text-primary);
-}
-
-.post-page .meta {
-  display: flex;
-  align-items: center;
-  font-weight: 500;
+.post-page__photo-container {
   margin-bottom: 60px;
 }
 
-.post-page time {
+.post-page__photo {
+  max-width: 100%;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.post-page__photo-description {
+  color: #585858;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.post-page__title {
+  margin-bottom: 20px;
+  color: var(--color-text-primary);
+  font-size: 32px;
+}
+
+.post-page__meta-data {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+  font-weight: 400;
+}
+
+.post-page__time {
   margin-right: 10px;
   color: var(--color-text-secondary);
   font-size: 18px;
 }
 
-.post-page span {
-  font-size: 15px;
+.post-page__tag {
   padding: 3px 8px;
   background-color: var(--color-red);
-  border-radius: 8px;
   color: white;
+  border-radius: 8px;
+  font-size: 15px;
 }
 
-.article {
-  max-width: 950px;
-  padding: 50px 8vw;
-  margin: 0 auto;
-}
-
-.post-page img {
-  max-width: 100%;
-  margin-bottom: 60px;
-  border-radius: 10px;
-  object-fit: cover;
+.post-page p {
+  margin-bottom: 15px;
+  color: var(--color-text-primary);
+  font-size: 19px;
 }
 
 @media (max-width: 768px) {
-  .post-page {
-    margin: auto;
-  }
-
-  .post-page img {
-    height: 190px;
+  .post-page__photo-container {
     margin-bottom: 40px;
   }
 
-  .post-page h1 {
-    font-size: 22px;
-    margin-bottom: 12px;
+  .post-page__photo {
+    height: 190px;
   }
 
-  .post-page time,
-  .post-page span {
+  .post-page__photo-description {
+    font-size: 12px;
+  }
+
+  .post-page__title {
+    margin-bottom: 12px;
+    font-size: 22px;
+  }
+
+  .post-page__time,
+  .post-page__tag {
     font-size: 14px;
   }
 
-  .article {
-    padding: 25px 5vw;
+  .post-page__meta-data {
+    margin-bottom: 40px;
   }
 
-  .post-page .meta {
-    margin-bottom: 40px;
+  .post-page__article {
+    padding: 25px 5vw;
   }
 
   .post-page p {
