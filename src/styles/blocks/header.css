@@ -2,16 +2,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
   height: calc(35px + 1vw);
+  width: 100%;
   padding: 0 1vw;
   transition: var(--theme-bg-transition);
 }
 
 .page-header__nav {
   height: 100%;
-  overflow-x: scroll;
   padding-right: 10px;
+  overflow-x: scroll;
 }
 
 .page-header__list {
@@ -73,8 +73,8 @@
   }
 
   .page-header__link {
-    margin: 0 6px;
     width: unset;
+    margin: 0 6px;
     font-size: 15px;
   }
 
