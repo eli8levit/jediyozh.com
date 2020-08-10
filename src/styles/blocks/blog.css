@@ -65,7 +65,7 @@
   line-height: 1.2;
   letter-spacing: -0.08px;
   color: var(--color-text-primary);
-  font-size: calc(10px + 0.55vw);
+  font-size: clamp(16px, calc(10px + 0.5vw), 20px);
   font-weight: 600;
 }
 

@@ -1,5 +1,5 @@
 .post-page__article {
-  max-width: calc(750px + 12vw);
+  max-width: calc(700px + 17vw);
   margin: 0 auto;
   padding: 50px 8vw;
 }
@@ -11,12 +11,12 @@
 .post-page__photo {
   max-width: 100%;
   margin-bottom: 12px;
-  border-radius: 10px;
+  border-radius: 15px;
   object-fit: cover;
 }
 
 .post-page__photo-description {
-  color: #585858;
+  color: var(--color-text-secondary-light);
   font-style: italic;
   font-size: 15px;
   font-weight: 200;
@@ -39,7 +39,7 @@
 .post-page__time {
   margin-right: 10px;
   color: var(--color-text-secondary);
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .post-page__tag {
@@ -53,7 +53,7 @@
 .post-page p {
   margin-bottom: 15px;
   color: var(--color-text-primary);
-  font-size: 19px;
+  font-size: 18px;
 }
 
 @media (max-width: 768px) {
