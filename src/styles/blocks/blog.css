@@ -7,7 +7,7 @@
   grid-row-gap: 15px;
   min-height: 80vh;
   min-width: 540px;
-  margin: 0 10vw;
+  margin: 0 12vw;
   padding: 35px 0;
   background-image: var(--bg-section);
   border-radius: 12px;
@@ -65,7 +65,7 @@
   line-height: 1.2;
   letter-spacing: -0.08px;
   color: var(--color-text-primary);
-  font-size: clamp(16px, calc(10px + 0.5vw), 20px);
+  font-size: clamp(16px, calc(12px + 0.4vw), 20px);
   font-weight: 600;
 }
 
@@ -105,7 +105,7 @@
     min-height: 80vh;
     min-width: unset;
     margin: 0;
-    padding: 2.5vw;
+    padding: 3.5vw;
     border-radius: 15px;
   }
 
@@ -113,7 +113,7 @@
     width: clamp(200px, 100%, 391px);
     grid-row-gap: 12px;
     margin: 0 auto;
-    padding: 25px;
+    padding: 20px;
   }
 
   .blog-page__card:hover {
@@ -123,12 +123,12 @@
 
   .blog-page__card-heading {
     opacity: 1;
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .blog-page__card-info {
     margin-bottom: 5px;
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .blog-page__card-date,

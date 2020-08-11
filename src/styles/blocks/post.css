@@ -62,7 +62,8 @@
   }
 
   .post-page__photo {
-    height: 190px;
+    height: 200px;
+    border-radius: 10px;
   }
 
   .post-page__photo-description {
