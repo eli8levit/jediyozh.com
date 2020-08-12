@@ -44,9 +44,9 @@
   --bg-blog-card: #ffffff;
 
   /* other */
-  --box-shadow-color-blog-card: rgba(12, 12, 13, 0.2);
+  --box-shadow-color-blog-card: rgba(12, 12, 13, 0.06);
   --border-footer-color: rgba(128, 128, 128, 0.12);
-  --box-shadow-blog-card: 0 2px 20px 0 #0000000f;
+  --box-shadow-blog-card: 0 2px 20px 0 var(--box-shadow-color-blog-card);
   --box-shadow-blog-card-hover: 0 3px 25px 0 #0000001c;
   --box-shadow-blog-card-active: 0 1px 12px var(--box-shadow-color-blog-card);
 }
