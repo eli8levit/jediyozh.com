@@ -53,7 +53,7 @@
 .post-page p {
   margin-bottom: 15px;
   color: var(--color-text-primary);
-  font-size: 18px;
+  font-size: clamp(16px, calc(10px + 0.6vw), 21px);
 }
 
 @media (max-width: 768px) {
