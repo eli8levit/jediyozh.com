@@ -10,8 +10,8 @@
 
   /* background colors */
   --bg-primary: #070707;
-  --bg-section: linear-gradient(#161719, #0f0f11);
-  --bg-blog-card: #1e2022;
+  --bg-section: #191a1b;
+  --bg-blog-card: #262728;
 
   /* transitions */
   --theme-color-transition: color 0.3s ease-in-out;
@@ -40,7 +40,7 @@
 
   /* background colors */
   --bg-primary: #ffffff;
-  --bg-section: linear-gradient(#f5f5f5, #eceef4);
+  --bg-section: #f1f1f1;
   --bg-blog-card: #ffffff;
 
   /* other */

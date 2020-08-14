@@ -1,12 +1,13 @@
 .blog-page__post-list {
   display: grid;
-  grid-row-gap: 15px;
-  min-height: 100%;
+  grid-row-gap: 18px;
   min-width: 540px;
+  margin: 30px 2vw;
   padding: 35px 0;
-  background-image: var(--bg-section);
+  background-color: var(--bg-section);
   transition: var(--theme-color-transition);
-  transition-property: background-image;
+  transition-property: background-color;
+  border-radius: 15px;
 }
 
 .blog-page__post-link {
@@ -94,8 +95,7 @@
     grid-row-gap: 12px;
     min-height: 80vh;
     min-width: unset;
-    margin: 0;
-    padding: 5vw;
+    padding: 3vw;
   }
 
   .blog-page__card {
