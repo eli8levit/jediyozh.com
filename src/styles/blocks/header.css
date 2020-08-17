@@ -26,7 +26,7 @@
 }
 
 .page-header__list-item {
-  margin: 0 10px;
+  margin: 0 14px;
 }
 
 .page-header__list-item:first-of-type {
@@ -42,7 +42,7 @@
   white-space: nowrap;
   text-decoration: none;
   cursor: pointer;
-  font-size: calc(10px + 0.25vw);
+  font-size: calc(10px + 0.3vw);
   letter-spacing: 0.2px;
   font-weight: 400;
   transition: var(--theme-header-transition);
