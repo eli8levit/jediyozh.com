@@ -11,6 +11,22 @@ module.exports = function (config) {
     return collection.getFilteredByGlob('./src/projects/*.md');
   });
 
+  config.addFilter('ruDate', (value) => {
+    if (!value) return '';
+    return value
+      .toLocaleString('ru-RU', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      })
+      .replace(' г.', '');
+  });
+
+  config.addFilter('isoDate', (value) => {
+    if (!value) return '';
+    return value.toISOString();
+  });
+
   config.addPassthroughCopy('src/styles');
   config.addPassthroughCopy('src/assets');
   config.addPassthroughCopy('src/fonts');

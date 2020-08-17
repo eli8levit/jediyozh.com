@@ -1,7 +1,7 @@
 ---
 title: Сделать сайт за один год
 info: Всего лишь год для того чтоб создать свой сайт
-date: 2020-08-17
+date: 2019-11-04
 imagePath: /assets/images/dead-sea-tree.jpeg
 tag: код
 photoDescription: Мертвое море. Сфотографировано мной
