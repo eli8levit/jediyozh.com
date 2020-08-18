@@ -21,9 +21,9 @@
   --link-radius: 4px;
   --box-shadow-color-blog-card: #020202;
   --border-footer-color: rgba(253, 253, 253, 0.14);
-  --box-shadow-blog-card: 0 2px 20px 0 #00000048;
-  --box-shadow-blog-card-hover: 0 0 20px 0 rgba(0, 0, 0, 0.4);
-  --box-shadow-blog-card-active: 0 1px 12px var(--box-shadow-color-blog-card);
+  --box-shadow-blog-card: 0 4px 15px 0 #00000048;
+  --box-shadow-blog-card-hover: 0 4px 15px 0 rgba(0, 0, 0, 0.5);
+  --box-shadow-blog-card-active: 0 1px 10px var(--box-shadow-color-blog-card);
   --box-shadow-card-mobile: unset;
 }
 

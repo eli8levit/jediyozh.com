@@ -26,7 +26,7 @@
 }
 
 .page-header__list-item {
-  margin: 0 14px;
+  margin: 0 10px;
 }
 
 .page-header__list-item:first-of-type {
@@ -42,7 +42,7 @@
   white-space: nowrap;
   text-decoration: none;
   cursor: pointer;
-  font-size: calc(10px + 0.3vw);
+  font-size: calc(10px + 0.28vw);
   letter-spacing: 0.2px;
   font-weight: 400;
   transition: var(--theme-header-transition);
@@ -65,14 +65,8 @@
 
 .page-header__link:not([href]) {
   color: var(--color-text-header-active);
-  text-decoration: underline;
-  text-decoration-color: var(--color-text-header-active);
-  text-decoration-style: solid;
-  text-decoration-skip-ink: auto;
-  text-decoration-thickness: 1.4px;
-  text-underline-offset: 6px;
   cursor: default;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .page-header__link--lang {
