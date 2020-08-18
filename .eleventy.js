@@ -11,10 +11,10 @@ module.exports = function (config) {
     return collection.getFilteredByGlob('./src/projects/*.md');
   });
 
-  config.addFilter('ruDate', (value) => {
+  config.addFilter('formatDate', (value, locale) => {
     if (!value) return '';
     return value
-      .toLocaleString('ru-RU', {
+      .toLocaleString(locale, {
         year: 'numeric',
         month: 'long',
         day: 'numeric',
