@@ -26,8 +26,8 @@ translationKey: 'blog'
               {{ post.data.info }}
             </p>
             <footer>
-              <span class="blog-page__card-date">19th April 2020</span>
-              <span class="blog-page__card-tag">#Life</span>
+              <time class="blog-page__card-date" datetime="{{ date | isoDate }}" itemprop="datePublished">{{ post.data.date | formatDate(locale) }}</time>
+              <span class="blog-page__card-tag">#{{ post.data.tag }}</span>
             </footer>
           </article>
         </a>

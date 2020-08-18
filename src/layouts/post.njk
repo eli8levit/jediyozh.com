@@ -15,7 +15,9 @@
       </figure>
       <h1 class="post-page__title">{{ title }}</h1>
       <div class="post-page__meta-data">
-        <time class="post-page__time" datetime="{{ date | isoDate }}" itemprop="datePublished">{{ date | formatDate(locale) }}</time>
+        <time class="post-page__time" datetime="{{ date | isoDate }}" itemprop="datePublished">
+          {{ date | formatDate(locale) }}
+        </time>
         <span class="post-page__tag">#{{ tag }}</span>
       </div>
       {{ content | safe}}
