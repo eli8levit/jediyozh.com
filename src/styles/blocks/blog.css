@@ -35,10 +35,9 @@
   display: grid;
   grid-template-rows: 1fr auto auto;
   grid-template-columns: 100%;
-  grid-row-gap: 17px;
+  grid-row-gap: 16px;
   width: clamp(300px, calc(300px + 15vw), 600px);
-  padding: 30px 35px;
-  padding-bottom: 28px;
+  padding: 30px 33px;
   border-radius: 12px;
   box-shadow: var(--box-shadow-blog-card);
   background-color: var(--bg-blog-card);
@@ -65,7 +64,7 @@
 }
 
 .blog-page__card-info {
-  margin-bottom: 12px;
+  margin-bottom: 13px;
   line-height: 1.45;
   letter-spacing: -0.15px;
   color: var(--color-text-secondary);
@@ -122,6 +121,6 @@
 
   .blog-page__card-date,
   .blog-page__card-tag {
-    font-size: 11px;
+    font-size: 13px;
   }
 }
