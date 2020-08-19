@@ -25,12 +25,7 @@
 }
 
 .about-page picture {
-  margin: 0 auto;
-}
-
-.about-page__photo {
-  border-radius: 10px;
-  clip-path: circle(31.07% at 50% 31%);
+  margin: 15px auto 150px;
 }
 
 @media (max-width: 768px) {
@@ -43,8 +38,8 @@
   }
 
   .about-page__photo {
-    height: 350px;
-    width: 262.5px;
+    height: 220px;
+    width: 220px;
   }
 
   .about-page__heading {
@@ -57,9 +52,5 @@
 
   .about-page__bio-text {
     padding: 0;
-  }
-
-  .about-page__photo {
-    border-radius: 14px;
   }
 }
