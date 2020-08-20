@@ -123,16 +123,16 @@
 
   .blog-page__card-heading {
     opacity: 1;
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .blog-page__card-info {
     margin-bottom: 5px;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .blog-page__card-date,
   .blog-page__card-tag {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
