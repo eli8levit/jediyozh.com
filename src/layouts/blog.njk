@@ -15,24 +15,31 @@ translationKey: 'blog'
       <h1 class="visually-hidden">Blog</h1>
 
       {% set posts = collections[locale + "Posts"] %}
-      {% for post in posts %}
 
-        <a class="blog-page__post-link" href="{{post.url}}">
-          <article class="blog-page__card">
-            <h2 class="blog-page__card-heading">
-              {{post.data.title}}
-            </h2>
-            <p class="blog-page__card-info">
-              {{ post.data.info }}
-            </p>
-            <footer>
-              <time class="blog-page__card-date" datetime="{{ date | isoDate }}" itemprop="datePublished">{{ post.data.date | formatDate(locale) }}</time>
-              <span class="blog-page__card-tag">#{{ post.data.tag }}</span>
-            </footer>
-          </article>
-        </a>
+      {% if posts | length %}
 
-      {% endfor %}
+        {% for post in posts %}
+
+          <a class="blog-page__post-link" href="{{post.url}}">
+            <article class="blog-page__card">
+              <h2 class="blog-page__card-heading">
+                {{post.data.title}}
+              </h2>
+              <p class="blog-page__card-info">
+                {{ post.data.info }}
+              </p>
+              <footer>
+                <time class="blog-page__card-date" datetime="{{ date | isoDate }}" itemprop="datePublished">{{ post.data.date | formatDate(locale) }}</time>
+                <span class="blog-page__card-tag">#{{ post.data.tag }}</span>
+              </footer>
+            </article>
+          </a>
+
+        {% endfor %}
+
+      {% else %}
+        <h2 class="blog-page__no-data-label">My first post is on his way 👨‍🍳</h2>
+      {% endif %}
 
     </section>
   </main>

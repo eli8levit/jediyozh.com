@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(40px + 1vw);
+  height: calc(35px + 1vw);
   padding: 0 2vw;
   transition: var(--theme-bg-transition);
   z-index: 100;
@@ -42,7 +42,7 @@
   white-space: nowrap;
   text-decoration: none;
   cursor: pointer;
-  font-size: calc(10px + 0.3vw);
+  font-size: clamp(14px, calc(10px + 0.3vw), 18px);
   font-weight: 400;
   transition: var(--theme-header-transition);
 }
