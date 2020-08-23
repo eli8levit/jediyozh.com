@@ -14,7 +14,7 @@
   padding: 8vh 2vw;
   overflow-x: auto;
   background-color: var(--bg-section);
-  border-radius: 10px;
+  border-radius: 15px;
   transition: var(--theme-color-transition);
   transition-property: background-color;
 }
@@ -35,7 +35,7 @@
   width: 310px;
   padding: 5px 30px;
   box-shadow: var(--box-shadow-blog-card);
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: var(--bg-blog-card);
   list-style: none;
   transition: var(--theme-color-transition);
@@ -70,7 +70,7 @@
   align-self: start;
   line-height: 1.5;
   color: var(--color-text-secondary);
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 400;
 }
 
