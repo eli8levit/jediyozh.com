@@ -45,7 +45,7 @@
   grid-template-rows: 1fr auto auto;
   grid-template-columns: 100%;
   grid-row-gap: 16px;
-  width: clamp(500px, calc(320px + 15.5vw), 600px);
+  width: clamp(500px, calc(320px + 15.5vw), 650px);
   padding: 30px 33px;
   border-radius: 15px;
   box-shadow: var(--box-shadow-blog-card);
@@ -66,7 +66,7 @@
 .blog-page__card-heading {
   line-height: 1.2;
   color: var(--color-text-primary);
-  font-size: clamp(19px, calc(15px + 0.3vw), 23px);
+  font-size: clamp(19px, calc(15px + 0.3vw), 22px);
   font-weight: 600;
 }
 
@@ -75,7 +75,7 @@
   line-height: 1.45;
   letter-spacing: -0.1px;
   color: var(--color-text-secondary);
-  font-size: clamp(17px, calc(12px + 0.33vw), 20px);
+  font-size: clamp(17px, calc(12px + 0.33vw), 19px);
   font-weight: 400;
 }
 
