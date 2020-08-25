@@ -42,7 +42,7 @@
   white-space: nowrap;
   text-decoration: none;
   cursor: pointer;
-  font-size: clamp(14px, calc(10px + 0.3vw), 18px);
+  font-size: clamp(14px, calc(10px + 0.25vw), 17px);
   font-weight: 400;
   transition: var(--theme-header-transition);
 }
