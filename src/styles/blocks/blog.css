@@ -1,6 +1,7 @@
 .blog-page__post-list {
   display: grid;
-  grid-row-gap: 17px;
+  grid-row-gap: 16px;
+  grid-auto-rows: max-content;
   min-width: 540px;
   min-height: calc(100% - 60px);
   padding: 30px 0;
@@ -66,7 +67,7 @@
 .blog-page__card-heading {
   line-height: 1.2;
   color: var(--color-text-primary);
-  font-size: clamp(18px, calc(15px + 0.23vw), 22px);
+  font-size: clamp(19px, calc(15px + 0.23vw), 22px);
   font-weight: 700;
 }
 
@@ -130,8 +131,11 @@
     font-size: 15px;
   }
 
-  .blog-page__card-date,
-  .blog-page__card-tag {
+  .blog-page__card-date {
     font-size: 13px;
+  }
+
+  .blog-page__card-tag {
+    font-size: 12px;
   }
 }
