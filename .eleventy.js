@@ -22,6 +22,10 @@ module.exports = function (config) {
       .replace(' г.', '');
   });
 
+  config.addFilter('reverseArticles', (articles) => {
+    return articles.reverse();
+  });
+
   config.addFilter('isoDate', (value) => {
     if (!value) return '';
     return value.toISOString();
