@@ -45,8 +45,8 @@
   display: grid;
   grid-template-rows: 1fr auto auto;
   grid-template-columns: 100%;
-  grid-row-gap: 17px;
-  width: clamp(500px, calc(330px + 17vw), 750px);
+  grid-row-gap: 19px;
+  width: clamp(500px, calc(340px + 17vw), 750px);
   padding: 30px 35px;
   border-radius: 15px;
   box-shadow: var(--box-shadow-blog-card);
@@ -67,7 +67,7 @@
 .blog-page__card-heading {
   line-height: 1.2;
   color: var(--color-text-primary);
-  font-size: clamp(18px, calc(15px + 0.23vw), 22px);
+  font-size: clamp(18px, calc(15px + 0.35vw), 22px);
   font-weight: 700;
 }
 
@@ -76,14 +76,14 @@
   line-height: 1.45;
   letter-spacing: -0.1px;
   color: var(--color-text-secondary);
-  font-size: clamp(17px, calc(12px + 0.31vw), 19px);
+  font-size: clamp(16px, calc(12px + 0.28vw), 19px);
   font-weight: 400;
 }
 
 .blog-page__card-date {
   margin-right: 8px;
   color: var(--color-text-secondary);
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
 }
 
