@@ -45,7 +45,7 @@
   /* other */
   --box-shadow-color-blog-card: rgba(12, 12, 13, 0.05);
   --border-footer-color: rgba(128, 128, 128, 0.12);
-  --box-shadow-blog-card: 0 2px 8px -1px var(--box-shadow-color-blog-card);
+  --box-shadow-blog-card: 0 2px 16px -1px var(--box-shadow-color-blog-card);
   --box-shadow-blog-card-hover: 0 3px 20px 0 #00000011;
 }
 

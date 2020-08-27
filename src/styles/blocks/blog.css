@@ -1,6 +1,6 @@
 .blog-page__post-list {
   display: grid;
-  grid-row-gap: 17px;
+  grid-row-gap: 23px;
   grid-auto-rows: max-content;
   min-width: 540px;
   min-height: calc(100% - 60px);
@@ -45,9 +45,9 @@
   display: grid;
   grid-template-rows: 1fr auto auto;
   grid-template-columns: 100%;
-  grid-row-gap: 17px;
+  grid-row-gap: 16px;
   width: clamp(500px, calc(340px + 17vw), 750px);
-  padding: 30px 35px;
+  padding: 40px 45px;
   border-radius: 15px;
   box-shadow: var(--box-shadow-blog-card);
   background-color: var(--bg-blog-card);
@@ -67,12 +67,12 @@
 .blog-page__card-heading {
   line-height: 1.2;
   color: var(--color-text-primary);
-  font-size: clamp(18px, calc(15px + 0.35vw), 22px);
+  font-size: clamp(19px, calc(15px + 0.35vw), 24px);
   font-weight: 700;
 }
 
 .blog-page__card-info {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   line-height: 1.45;
   letter-spacing: -0.1px;
   color: var(--color-text-secondary);
