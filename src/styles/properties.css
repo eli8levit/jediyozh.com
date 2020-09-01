@@ -10,8 +10,8 @@
 
   /* background colors */
   --bg-primary: #070707;
-  --bg-section: linear-gradient(80deg, #141414, #181818);
-  --bg-blog-card: #222222;
+  --bg-section: linear-gradient(130deg, #090909, #161616);
+  --bg-blog-card: #1b1b1b;
 
   /* transitions */
   --theme-color-transition: color 0.3s ease-in-out;
@@ -21,7 +21,7 @@
   --link-radius: 4px;
   --box-shadow-color-blog-card: #020202;
   --box-shadow-blog-card: 0 4px 18px 0 #00000048;
-  --box-shadow-blog-card-hover: 0 4px 15px 0 rgba(0, 0, 0, 0.5);
+  --box-shadow-blog-card-hover: 0 3px 25px 0 rgba(0, 0, 0, 1);
   --box-shadow-card-mobile: unset;
 }
 
@@ -38,7 +38,7 @@
 
   /* background colors */
   --bg-primary: #ffffff;
-  --bg-section: linear-gradient(80deg, #f3f3f3, #ebebeb);
+  --bg-section: linear-gradient(130deg, #f7f7f7, #ebebeb);
   --bg-blog-card: #ffffff;
 
   /* other */
