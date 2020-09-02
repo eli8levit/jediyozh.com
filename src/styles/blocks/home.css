@@ -39,7 +39,7 @@
   letter-spacing: -0.4px;
   word-spacing: 3px;
   font-size: clamp(20px, calc(10px + 1.25vw), 40px);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .home-page__bio {

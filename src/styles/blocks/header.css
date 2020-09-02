@@ -65,20 +65,19 @@
 .page-header__link:not([href]) {
   color: var(--color-text-header-active);
   cursor: default;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .page-header__link--lang {
   width: min-content;
   margin-right: 15px;
   margin-left: auto;
-  font-weight: 500;
 }
 
 @media (max-width: 768px) {
   .page-header {
     height: 50px;
-    padding-right: 2.5vw;
+    padding-right: 3vw;
   }
 
   .page-header__list-item {
