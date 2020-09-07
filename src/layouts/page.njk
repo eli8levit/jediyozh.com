@@ -15,12 +15,6 @@
     {% include '../styles/blocks/theme-toogler.css' %}
     {% endset %}
 
-    <style>
-      {{css | safe}}
-      {% block styling %}
-      {% endblock %}
-    </style>
-
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="description" content="eli levit, front-end developer blog."/>
 
@@ -51,6 +45,12 @@
     <script>
       {{ js | safe }}
     </script>
+
+    <style>
+      {{css | safe}}
+      {% block styling %}
+      {% endblock %}
+    </style>
 
     {% include 'header.njk' %}
     {% block content %}{% endblock %}
