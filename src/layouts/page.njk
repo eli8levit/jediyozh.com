@@ -15,12 +15,6 @@
     {% include '../styles/blocks/theme-toogler.css' %}
     {% endset %}
 
-    <style>
-      {{css | safe}}
-      {% block styling %}
-      {% endblock %}
-    </style>
-
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="description" content="eli levit, front-end developer blog."/>
 
@@ -32,6 +26,8 @@
     <meta property="og:type" content="website"/>
     <meta property="og:site_name" content="blog of eli levit"/>
 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"/>
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"/>
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"/>
@@ -41,15 +37,21 @@
     <meta name="theme-color" content="#ffffff"/>
   </head>
 
+  {% set js %}
+  {% include "../scripts/index.js" %}
+  {% endset %}
+
+  <script>
+    {{ js | safe }}
+  </script>
+
+  <style>
+    {{css | safe}}
+    {% block styling %}
+    {% endblock %}
+  </style>
+
   <body>
-    {% set js %}
-    {% include "../scripts/index.js" %}
-    {% endset %}
-
-    <script>
-      {{ js | safe }}
-    </script>
-
     {% include 'header.njk' %}
     {% block content %}{% endblock %}
     {% include 'footer.njk' %}

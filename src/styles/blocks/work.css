@@ -10,13 +10,11 @@
   grid-auto-flow: column;
   grid-gap: 0 20px;
   align-items: center;
-  margin: 20px 2vw;
-  padding: 50px 2vw;
+  margin: 20px 0;
+  padding: 70px 2vw;
   overflow-x: auto;
-  background-color: var(--bg-section);
-  border-radius: 15px;
+  background-image: var(--bg-section);
   transition: var(--theme-color-transition);
-  transition-property: background-color;
 }
 
 .work-page__project-list::after {
@@ -83,7 +81,7 @@
 
 @media (max-width: 768px) {
   .work-page {
-    padding: 20px 3vw;
+    padding: 20px 0;
     padding-right: 0;
   }
 
@@ -91,11 +89,10 @@
     grid-template-rows: max-content auto;
     grid-gap: 0 40px;
     align-items: start;
-    border-radius: 15px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     margin: 0;
-    padding: 3vh 5vw;
+    padding: 30px 5vw;
     scroll-snap-type: x mandatory;
   }
 

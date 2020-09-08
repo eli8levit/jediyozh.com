@@ -1,23 +1,19 @@
 .blog-page__post-list {
   display: grid;
-  grid-row-gap: 17px;
+  grid-row-gap: 19px;
   grid-auto-rows: max-content;
   min-width: 540px;
   min-height: calc(100% - 60px);
-  padding: 30px 0;
-  margin: 30px 2vw;
-  background-color: var(--bg-section);
+  padding: 40px 0;
+  margin: 20px 0;
+  background-image: var(--bg-section);
   transition: var(--theme-color-transition);
-  transition-property: background-color;
-  border-radius: 10px;
 }
 
 .blog-page__no-data-label {
-  align-self: center;
   color: var(--color-text-primary);
-  text-align: center;
   font-size: 35px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .blog-page__post-link {
@@ -45,9 +41,9 @@
   display: grid;
   grid-template-rows: 1fr auto auto;
   grid-template-columns: 100%;
-  grid-row-gap: 17px;
-  width: clamp(500px, calc(340px + 17vw), 750px);
-  padding: 30px 35px;
+  grid-row-gap: 16px;
+  width: clamp(500px, calc(340px + 17vw), 700px);
+  padding: 34px 45px;
   border-radius: 15px;
   box-shadow: var(--box-shadow-blog-card);
   background-color: var(--bg-blog-card);
@@ -72,37 +68,36 @@
 }
 
 .blog-page__card-info {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   line-height: 1.45;
   letter-spacing: -0.1px;
   color: var(--color-text-secondary);
-  font-size: clamp(16px, calc(12px + 0.28vw), 19px);
+  font-size: clamp(16px, calc(12px + 0.27vw), 18px);
   font-weight: 400;
 }
 
 .blog-page__card-date {
   margin-right: 8px;
-  color: var(--color-text-secondary);
-  font-weight: 500;
-  font-size: 16px;
+  color: var(--color-text-secondary-light);
+  font-weight: 400;
+  font-size: 15px;
 }
 
 .blog-page__card-tag {
-  padding: 3px 8px;
+  padding: 5px 12px;
   background-color: var(--color-red);
-  border-radius: 8px;
+  border-radius: 12px;
   color: white;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 @media (max-width: 768px) {
   .blog-page__post-list {
     grid-template-columns: 1fr;
-    grid-row-gap: 12px;
+    grid-row-gap: 14px;
     min-width: unset;
-    margin: 20px 2vw;
-    padding: 3vw;
+    padding: 16px 5vw;
   }
 
   .blog-page__post-link {
@@ -111,9 +106,9 @@
 
   .blog-page__card {
     width: 100%;
-    grid-row-gap: 12px;
+    grid-row-gap: 14px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 23px;
   }
 
   .blog-page__card:hover {
@@ -123,7 +118,8 @@
 
   .blog-page__card-heading {
     opacity: 1;
-    font-size: 17px;
+    font-size: 18px;
+    letter-spacing: -0.1px;
   }
 
   .blog-page__card-info {
@@ -137,5 +133,6 @@
 
   .blog-page__card-tag {
     font-size: 12px;
+    padding: 4px 10px;
   }
 }

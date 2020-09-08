@@ -4,15 +4,15 @@
 
   root.style.setProperty('--theme-color-transition', 'none');
 
-  const setDark = () => document.body.classList.remove('light');
-  const setLight = () => document.body.classList.add('light');
+  const setDark = () => root.classList.remove('light');
+  const setLight = () => root.classList.add('light');
 
   document.addEventListener('DOMContentLoaded', () => {
     const toggle = document.querySelector('.theme-toggler');
     toggle.addEventListener('click', function (e) {
       e.preventDefault();
 
-      if (document.body.classList.contains('light')) {
+      if (root.classList.contains('light')) {
         setDark();
         sessionStorage.setItem('theme', 'dark');
       } else {

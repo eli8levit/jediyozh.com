@@ -29,7 +29,6 @@
   line-height: 1.15;
   color: var(--color-text-primary);
   font-size: clamp(50px, calc(25px + 2.9vw), 80px);
-  letter-spacing: 1px;
   font-weight: 800;
 }
 
@@ -40,7 +39,7 @@
   letter-spacing: -0.4px;
   word-spacing: 3px;
   font-size: clamp(20px, calc(10px + 1.25vw), 40px);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .home-page__bio {
@@ -82,11 +81,11 @@
 
 @media (max-width: 768px) {
   .home-page__container {
-    margin: 0 4.6vw;
+    margin: 0 5vw;
   }
 
   .home-page__heading {
-    font-size: 47px;
+    font-size: 48px;
   }
 
   .home-page__sub-heading {
