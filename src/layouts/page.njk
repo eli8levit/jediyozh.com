@@ -37,21 +37,21 @@
     <meta name="theme-color" content="#ffffff"/>
   </head>
 
+  {% set js %}
+  {% include "../scripts/index.js" %}
+  {% endset %}
+
+  <script>
+    {{ js | safe }}
+  </script>
+
+  <style>
+    {{css | safe}}
+    {% block styling %}
+    {% endblock %}
+  </style>
+
   <body>
-    {% set js %}
-    {% include "../scripts/index.js" %}
-    {% endset %}
-
-    <script>
-      {{ js | safe }}
-    </script>
-
-    <style>
-      {{css | safe}}
-      {% block styling %}
-      {% endblock %}
-    </style>
-
     {% include 'header.njk' %}
     {% block content %}{% endblock %}
     {% include 'footer.njk' %}
