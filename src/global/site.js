@@ -15,7 +15,7 @@ module.exports = {
     aboutTitle: 'About me',
     profession: 'Front-end Developer',
     shortBio:
-      'I’m making accessible and fast web interfaces and applications. Love reading books, traveling, drinking wine and paying attention to common problems to make the world a little better place.',
+      'I make accessible and fast web interfaces and applications. Like to read books, travel, drink wine and pay attention to common problems to make the world a little better',
     moreAboutMe: 'More about me',
     headerHome: 'Home',
     headerBlog: 'Blog',
