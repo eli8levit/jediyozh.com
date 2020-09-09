@@ -1,36 +1,37 @@
 .about-page {
-  margin: 5vh auto;
-  padding: 5vh calc(40px + 8vw) 0;
+  margin: 20px auto;
+  padding: 80px calc(40px + 8vw) 120px;
 }
 
 .about-page__heading-container {
   display: grid;
   grid-template-columns: 100%;
-  grid-gap: 90px;
+  grid-gap: 70px;
   max-width: 740px;
 }
 
 .about-page__heading {
   line-height: 1.1;
   color: var(--color-text-primary);
-  letter-spacing: -0.5px;
+  letter-spacing: -0.7px;
   font-size: 59px;
   font-weight: 800;
 }
 
-.about-page__text {
+.about-page p {
   color: var(--color-text-primary);
   font-size: calc(18px + 0.2vw);
   font-weight: 400;
+  margin-bottom: 15px;
 }
 
 .about-page picture {
-  margin: 15px auto 150px;
+  margin: 15px auto;
 }
 
 @media (max-width: 768px) {
   .about-page {
-    padding: 5vh 5vw 0;
+    padding: 40px 5vw 80px;
   }
 
   .about-page__heading-container {
@@ -46,11 +47,7 @@
     font-size: 40px;
   }
 
-  .about-page__text {
+  .about-page p {
     font-size: 18px;
-  }
-
-  .about-page__bio-text {
-    padding: 0;
   }
 }
