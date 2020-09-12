@@ -66,6 +66,7 @@
 
 .home-page__link:focus {
   box-shadow: 0 0 0 1px var(--color-red);
+  outline: none;
 }
 
 .home-page__link:active {
@@ -97,8 +98,8 @@
   }
 
   .home-page__logo {
-    margin-left: 3px;
-    width: 59px;
+    margin-left: 2px;
+    width: 62px;
   }
 
   .home-page__link {
