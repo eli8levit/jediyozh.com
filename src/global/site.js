@@ -15,7 +15,7 @@ module.exports = {
     aboutTitle: 'About me',
     profession: 'Front-end Developer',
     shortBio:
-      'I make accessible and fast web interfaces and applications. Like to read books, travel, drink wine and pay attention to common problems to make the world a little better',
+      'I create accessible and fast web interfaces and applications. Here I <span>write</span> try to write technical articles and just thoughts. Like to run to good music, listen to podcasts, drink wine, read books or drink wine while reading books.',
     moreAboutMe: 'More about me',
     headerHome: 'Home',
     headerBlog: 'Blog',
@@ -29,7 +29,7 @@ module.exports = {
     aboutTitle: 'Обо мне',
     profession: 'Фронтенд Разработчик',
     shortBio:
-      'Я делаю доступные и быстрые веб интерфейсы и приложения. Люблю читать книги, путешествовать, пить вино и обращать внимание на общие проблемы, чтобы сделать мир немного лучше.',
+      'Я создаю доступные и быстрые веб интерфейсы и приложения. Здесь <span>пишу</span> пытаюсь писать технические статьи и просто мысли. Люблю бегать под хорошую музыку, слушать подкасты, пить вино, читать книги или пить вино, читая книги.',
     moreAboutMe: 'Больше обо мне',
     headerHome: 'Главная',
     headerBlog: 'Блог',

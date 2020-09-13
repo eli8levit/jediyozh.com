@@ -23,7 +23,7 @@ translationKey: 'home'
       </h1>
       <h2 class="home-page__sub-heading">{{ site[locale].profession }}</h2>
       <p class="home-page__bio">
-        {{ site[locale].shortBio }}
+        {{ site[locale].shortBio | safe }}
         <a class="home-page__link" href="/{{ locale }}/about/">{{ site[locale].moreAboutMe }}</a>
       </p>
     </section>

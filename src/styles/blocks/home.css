@@ -50,10 +50,15 @@
   font-weight: 400;
 }
 
+.home-page__bio span {
+  text-decoration: line-through;
+}
+
 .home-page__link {
   color: var(--color-red);
   border-radius: var(--link-radius);
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .home-page__link:hover {
