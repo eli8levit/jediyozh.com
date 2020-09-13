@@ -44,9 +44,9 @@
 .home-page__bio {
   max-width: calc(500px + 22vw);
   line-height: 1.5;
-  letter-spacing: -0.2px;
+  letter-spacing: -0.3px;
   color: var(--color-text-secondary);
-  font-size: clamp(18px, calc(17px + 0.5vw), 30px);
+  font-size: clamp(18px, calc(16px + 0.5vw), 30px);
   font-weight: 400;
 }
 
@@ -79,6 +79,7 @@
 }
 
 .home-page__logo {
+  max-width: 94px;
   margin-left: 5px;
   transition: var(--theme-color-transition);
   transition-property: fill;
