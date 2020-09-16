@@ -15,8 +15,8 @@ module.exports = {
     aboutTitle: 'About me',
     profession: 'Front-end Developer',
     shortBio:
-      'I create accessible and fast web interfaces and applications. Here I <span>write</span> try to write technical articles and just thoughts. Like to run to good music, listen to podcasts, drink wine, read books or drink wine while reading books.',
-    moreAboutMe: 'More about me',
+      'I am engaged in web development. The only programmer in Israel who knows CSS besides React and thinks about accessibility and performance. I can move my ears. I dream to do something useful',
+    moreAboutMe: 'More about me.',
     headerHome: 'Home',
     headerBlog: 'Blog',
     headerWork: 'Work',
@@ -29,7 +29,7 @@ module.exports = {
     aboutTitle: 'Обо мне',
     profession: 'Фронтенд Разработчик',
     shortBio:
-      'Я создаю доступные и быстрые веб интерфейсы и приложения. Здесь <span>пишу</span> пытаюсь писать технические статьи и просто мысли. Люблю бегать под хорошую музыку, слушать подкасты, пить вино, читать книги или пить вино, читая книги.',
+      'Занимаюсь веб-разработкой. Единственный программист в Израиле, который знает CSS помимо React и думает о доступности и производительности. Умею двигать ушами. Мечтаю сделать что-то полезное.',
     moreAboutMe: 'Больше обо мне',
     headerHome: 'Главная',
     headerBlog: 'Блог',
