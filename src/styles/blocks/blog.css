@@ -1,6 +1,6 @@
 .blog-page__post-list {
   display: grid;
-  grid-row-gap: 19px;
+  grid-row-gap: 21px;
   grid-auto-rows: max-content;
   min-width: 540px;
   min-height: calc(100% - 60px);
@@ -30,6 +30,7 @@
 
 .blog-page__post-link:active {
   box-shadow: none;
+  transform: scale(0.99);
 }
 
 .blog-page__post-link:focus {
