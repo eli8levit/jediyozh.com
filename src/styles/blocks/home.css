@@ -5,7 +5,7 @@
 }
 
 .home-page__container {
-  margin: 0 16vw;
+  margin: 0 15vw;
   margin-right: 19vw;
   animation-name: fadeZoom;
   animation-duration: 1.5s;
