@@ -44,7 +44,6 @@
 .home-page__bio {
   max-width: calc(500px + 22vw);
   line-height: 1.5;
-  /* letter-spacing: -0.2px; */
   color: var(--color-text-secondary);
   font-size: clamp(18px, calc(17px + 0.5vw), 28px);
   font-weight: 400;
