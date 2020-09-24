@@ -22,9 +22,9 @@ h2 {
 }
 
 .about-page h2 {
-  font-size: 27px;
   margin-top: 70px;
   margin-bottom: 15px;
+  font-size: 27px;
 }
 
 .about-page__heading {
@@ -36,10 +36,10 @@ h2 {
 }
 
 .about-page p {
+  margin-bottom: 15px;
   color: var(--color-text-primary);
   font-size: calc(18px + 0.2vw);
   font-weight: 400;
-  margin-bottom: 15px;
 }
 
 .about-page picture {
