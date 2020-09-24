@@ -11,11 +11,8 @@ translationKey: 'about'
 
 {% block content %}
   <main class="about-page">
-    <section class="about-page__heading-container">
-      <h1 class="about-page__heading">{{ heading }}</h1>
-      <div class="about-page__bio-text">
-        {{ content | safe }}
-      </div>
+    <section class="about-page__container">
+      {{ content | safe }}
       <picture>
         <source type="image/webp" srcset="/assets/images/me/me.webp"/>
         <img class="about-page__photo" src="/assets/images/me/me.png" height="300px" width="300px" alt="Me smiling and looking at the sky"/>
