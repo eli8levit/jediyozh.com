@@ -57,19 +57,29 @@ h2 {
   }
 
   .about-page__container {
-    grid-gap: 50px 0;
+    width: 100%;
+  }
+
+  .about-page h1 {
+    font-size: 40px;
+  }
+
+  .about-page h2 {
+    font-size: 23px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+
+  .about-page p {
+    font-size: 18px;
+  }
+
+  .about-page picture {
+    margin: 70px auto 0;
   }
 
   .about-page__photo {
     height: 220px;
     width: 220px;
-  }
-
-  .about-page__heading {
-    font-size: 40px;
-  }
-
-  .about-page p {
-    font-size: 18px;
   }
 }
