@@ -7,3 +7,27 @@
   overflow: hidden;
   white-space: nowrap;
 }
+
+.text-link {
+  color: var(--color-red);
+  border-radius: var(--link-radius);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.text-link:hover {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--color-red);
+  text-underline-offset: 5px;
+}
+
+.text-link:focus {
+  box-shadow: 0 0 0 1px var(--color-red);
+  outline: none;
+}
+
+.text-link:active {
+  transform: translateY(1px);
+}

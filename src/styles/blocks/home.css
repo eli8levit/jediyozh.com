@@ -53,30 +53,6 @@
   text-decoration: line-through;
 }
 
-.home-page__link {
-  color: var(--color-red);
-  border-radius: var(--link-radius);
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.home-page__link:hover {
-  text-decoration: underline;
-  text-decoration-style: dotted;
-  text-decoration-thickness: 2px;
-  text-decoration-color: var(--color-red);
-  text-underline-offset: 5px;
-}
-
-.home-page__link:focus {
-  box-shadow: 0 0 0 1px var(--color-red);
-  outline: none;
-}
-
-.home-page__link:active {
-  transform: translateY(1px);
-}
-
 .home-page__logo {
   max-width: 94px;
   margin-left: 5px;
