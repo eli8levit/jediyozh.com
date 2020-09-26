@@ -40,11 +40,11 @@
     {% include "../scripts/index.js" %}
     {% endset %}
 
-  </head>
+    <script>
+      {{ js | safe }}
+    </script>
 
-  <script>
-    {{ js | safe }}
-  </script>
+  </head>
 
   <style>
     {{css | safe}}
