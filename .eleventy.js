@@ -37,6 +37,7 @@ module.exports = function (config) {
   let markdownLibrary = markdownIt({
     html: true,
   }).use(markdownItAnchor, {
+    level: 2,
     slugify: () => 'section',
   });
   config.setLibrary('md', markdownLibrary);
