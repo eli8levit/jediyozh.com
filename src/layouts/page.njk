@@ -35,11 +35,12 @@
     <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#e61422"/>
     <meta name="msapplication-TileColor" content="#ffffff"/>
     <meta name="theme-color" content="#ffffff"/>
-  </head>
 
-  {% set js %}
-  {% include "../scripts/index.js" %}
-  {% endset %}
+    {% set js %}
+    {% include "../scripts/index.js" %}
+    {% endset %}
+
+  </head>
 
   <script>
     {{ js | safe }}
