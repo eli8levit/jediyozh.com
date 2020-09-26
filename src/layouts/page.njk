@@ -44,13 +44,13 @@
       {{ js | safe }}
     </script>
 
-  </head>
+    <style>
+      {{css | safe}}
+      {% block styling %}
+      {% endblock %}
+    </style>
 
-  <style>
-    {{css | safe}}
-    {% block styling %}
-    {% endblock %}
-  </style>
+  </head>
 
   <body>
     {% include 'header.njk' %}
