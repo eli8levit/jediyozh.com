@@ -1,3 +1,6 @@
+const markdownIt = require('markdown-it');
+const markdownItAnchor = require('markdown-it-anchor');
+
 module.exports = function (config) {
   config.addCollection('enPosts', function (collection) {
     return collection.getFilteredByGlob('./src/posts/en/*.md');
@@ -30,6 +33,14 @@ module.exports = function (config) {
     if (!value) return '';
     return value.toISOString();
   });
+
+  let markdownLibrary = markdownIt({
+    html: true,
+  }).use(markdownItAnchor, {
+    level: 2,
+    slugify: () => 'section',
+  });
+  config.setLibrary('md', markdownLibrary);
 
   config.addPassthroughCopy('src/styles');
   config.addPassthroughCopy('src/assets');
