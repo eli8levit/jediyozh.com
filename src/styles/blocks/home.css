@@ -45,7 +45,7 @@
   max-width: calc(500px + 22vw);
   line-height: 1.5;
   color: var(--color-text-secondary);
-  font-size: clamp(18px, calc(17px + 0.5vw), 28px);
+  font-size: clamp(18px, calc(17px + 0.5vw), 29px);
   font-weight: 400;
 }
 
