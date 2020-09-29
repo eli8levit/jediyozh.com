@@ -22,4 +22,4 @@ Besides to a high JS level on the most recent versions of ES, I focus on correct
 
 I am a perfectionist, quality, elegance and simplicity and speed of the code are critical to me.
 
-This site works on <a class="text-link" href="https://11ty.dev" target="_blank" rel="noopener noreferrer">11ty</a> static engine. I believe that React should only be where you really need it, not on every landing page.
+This site works on <a class="text-link" href="https://11ty.dev" target="_blank" rel="noopener noreferrer">11ty</a> static engine. I believe that React should be only where it should be, not on every landing page.
