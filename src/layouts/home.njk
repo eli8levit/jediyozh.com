@@ -3,7 +3,7 @@ translationKey: 'home'
 ---
 
 {% extends "./page.njk" %}
-{% set metaTitle = site[locale].homeTitle %}
+{% set metaTitle = site[locale].pageTitles.home %}
 
 {% block styling %}
   {% include "../styles/blocks/home.css" %}
@@ -13,7 +13,7 @@ translationKey: 'home'
   <main class="home-page">
     <section class="home-page__container">
       <h1 class="home-page__heading">
-        {{ site[locale].greeting }}
+        {{ site[locale].homePage.greeting }}
         <svg class="home-page__logo" width="calc(47px + 2vw)" viewbox="0 0 197 74">
           <defs>
             <radialgradient cx="50%" cy="111.686%" fx="50%" fy="111.686%" r="82.29%" gradienttransform="matrix(0 -1 .44436 0 .004 1.617)" id="a"><stop stop-color="#FFEBEB" offset="0%"/><stop stop-color="#E70000" offset="100%"/></radialgradient>
@@ -21,10 +21,10 @@ translationKey: 'home'
           <g fill="none" fill-rule="evenodd"><use fill="url(#a)" xlink:href="#b"/><use fill-opacity=".68" fill="url(#c)" xlink:href="#b"/></g>
         </svg>
       </h1>
-      <h2 class="home-page__sub-heading">{{ site[locale].profession }}</h2>
+      <h2 class="home-page__sub-heading">{{ site[locale].homePage.profession }}</h2>
       <p class="home-page__bio">
-        {{ site[locale].shortBio | safe }}
-        <a class="text-link" href="/{{ locale }}/about/">{{ site[locale].moreAboutMe }}</a>
+        {{ site[locale].homePage.shortBio }}
+        <a class="text-link" href="/{{ locale }}/about/">{{ site[locale].homePage.moreAboutMe }}</a>
       </p>
     </section>
   </main>

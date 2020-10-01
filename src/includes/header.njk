@@ -8,18 +8,18 @@
     <ul class="page-header__list">
       <li class="page-header__list-item">
         <a class="page-header__link" {% if homeUrl != page.url %} href="{{ homeUrl }}" {% endif %}>
-          {{ site[locale].headerHome }}
+          {{ site[locale].header.home }}
         </a>
       </li>
       <li class="page-header__list-item">
-        <a class="page-header__link" {% if blogUrl != page.url %} href="{{ blogUrl }}" {% endif %}>{{ site[locale].headerBlog }}</a>
+        <a class="page-header__link" {% if blogUrl != page.url %} href="{{ blogUrl }}" {% endif %}>{{ site[locale].header.blog }}</a>
       </li>
       <li class="page-header__list-item">
-        <a class="page-header__link" {% if workUrl != page.url %} href="{{ workUrl }}" {% endif %}>{{ site[locale].headerWork }}</a>
+        <a class="page-header__link" {% if workUrl != page.url %} href="{{ workUrl }}" {% endif %}>{{ site[locale].header.work }}</a>
       </li>
       <li class="page-header__list-item">
         <a class="page-header__link" {% if aboutUrl != page.url %} href="{{ aboutUrl }}" {% endif %}>
-          {{ site[locale].headerAboutMe }}
+          {{ site[locale].header.about }}
         </a>
       </li>
     </ul>
