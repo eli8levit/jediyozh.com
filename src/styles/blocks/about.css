@@ -25,7 +25,8 @@ h2 {
 .about-page h2 {
   margin-top: 60px;
   margin-bottom: 20px;
-  font-size: 27px;
+  color: var(--color-text-secondary);
+  font-size: 25px;
 }
 
 .about-page__heading {
