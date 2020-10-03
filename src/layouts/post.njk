@@ -1,6 +1,8 @@
-{% extends "./page.njk" %}
+---
+translationKey: 'blog'
+---
 
-{% set metaTitle = site[locale].pageTitles.blog %}
+{% extends "./page.njk" %}
 
 {% block styling %}
   {% include "../styles/blocks/post.css" %}

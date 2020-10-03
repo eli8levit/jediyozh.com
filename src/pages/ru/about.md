@@ -1,6 +1,7 @@
 ---
-permalink: /{{ locale }}/{{ paths.about }}/
+permalink: /{{ locale }}/{{ site.paths.about }}/
 layout: about.njk
+metaTitle: Обо мне. Эли Левит
 ---
 
 # Шалом, дружище и добро пожаловать ко мне в гости!
