@@ -10,12 +10,6 @@
   transition: var(--theme-color-transition);
 }
 
-.blog-page__no-data-label {
-  color: var(--color-text-primary);
-  font-size: 35px;
-  font-weight: 700;
-}
-
 .blog-page__post-link {
   position: relative;
   margin: 0 auto;
