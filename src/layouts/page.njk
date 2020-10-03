@@ -2,7 +2,13 @@
 <html lang="{{ locale }}" prefix="og:http://ogp.me/ns#">
   <head>
     <meta charset="utf-8"/>
-    <title>{{ site[locale].pageTitles[translationKey] }}</title>
+
+    {% set title = title %}
+    {% if title == undefined %}
+      {% set title = site[locale].pageTitles[translationKey] %}
+    {% endif %}
+
+    <title>{{ title }}</title>
 
     {% set css %}
     {% include '../styles/reset.css' %}
@@ -15,26 +21,26 @@
     {% include '../styles/blocks/theme-toogler.css' %}
     {% endset %}
 
-    {% set title = metaTitle %}
+    {% set socialTitle = metaTitle %}
     {% if metaTitle == undefined %}
-      {% set title = site[locale].defaultMeta.title %}
+      {% set socialTitle = site[locale].defaultMeta.title %}
     {% endif %}
 
-    {% set description = metaDescription %}
+    {% set socialDescription = metaDescription %}
     {% if metaDescription == undefined %}
-      {% set description = site[locale].defaultMeta.description %}
+      {% set socialDescription = site[locale].defaultMeta.description %}
     {% endif %}
 
     <!-- Primary Meta Tags -->
-    <meta name="title" content="{{ title }}">
-    <meta name="description" content="{{ description }}">
+    <meta name="title" content="{{ socialTitle }}">
+    <meta name="description" content="{{ socialDescription }}">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ 'https://dev.jediyozh.com/' + locale }}"/>
-    <meta property="og:title" content="{{ title }}">
-    <meta property="og:description" content="{{ description }}">
+    <meta property="og:title" content="{{ socialTitle }}">
+    <meta property="og:description" content="{{ socialDescription }}">
     <meta property="og:image" content="https://dev.jediyozh.com/social.png">
     <meta property="og:site_name" content="{{ site[locale].pageTitles.home }}"/>
     <meta property="og:locale" content="{{ site[locale].langCode }}"/>
@@ -42,8 +48,8 @@
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="{{ 'https://dev.jediyozh.com/' + locale }}">
-    <meta property="twitter:title" content="{{ title }}">
-    <meta property="twitter:description" content="{{ description }}">
+    <meta property="twitter:title" content="{{ socialTitle }}">
+    <meta property="twitter:description" content="{{ socialDescription }}">
     <meta property="twitter:image" content="https://dev.jediyozh.com/social.png">
 
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
