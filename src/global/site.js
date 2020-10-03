@@ -9,7 +9,14 @@ module.exports = {
       code: 'en',
     },
   ],
+  paths: {
+    home: '/',
+    about: 'about',
+    blog: 'blog',
+    work: 'work',
+  },
   en: {
+    langCode: 'en_US',
     pageTitles: {
       home: 'Eli Levit',
       blog: 'Blog of Eli',
@@ -22,6 +29,10 @@ module.exports = {
       work: 'Work',
       about: 'About',
     },
+    defaultMeta: {
+      title: 'Eli Levit. Front-end Developer',
+      description: 'I try to write tech articles and just thoughts. Love wine. Can move ears',
+    },
     homePage: {
       greeting: 'Eli Levit',
       profession: 'Front-end Developer',
@@ -32,6 +43,7 @@ module.exports = {
     footerCreatedWith: 'Created with',
   },
   ru: {
+    langCode: 'ru_RU',
     pageTitles: {
       home: 'Эли Левит',
       blog: 'Блог Эли',
@@ -43,6 +55,11 @@ module.exports = {
       blog: 'Блог',
       work: 'Проекты',
       about: 'Обо мне',
+    },
+    defaultMeta: {
+      title: 'Эли Левит. Фронтенд Разработчик',
+      description:
+        'Пытаюсь писать технические статьи и просто мысли. Люблю вино. Умею двигать ушами',
     },
     homePage: {
       greeting: 'Эли Левит',

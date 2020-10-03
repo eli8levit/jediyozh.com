@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="{{ locale }}" prefix="og: http://ogp.me/ns#">
+<html lang="{{ locale }}" prefix="og:http://ogp.me/ns#">
   <head>
     <meta charset="utf-8"/>
-    <title>{{ metaTitle }}</title>
+    <title>{{ site[locale].pageTitles[translationKey] }}</title>
 
     {% set css %}
     {% include '../styles/reset.css' %}
@@ -15,16 +15,36 @@
     {% include '../styles/blocks/theme-toogler.css' %}
     {% endset %}
 
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="description" content="eli levit, front-end developer blog."/>
+    {% set title = metaTitle %}
+    {% if metaTitle == undefined %}
+      {% set title = site[locale].defaultMeta.title %}
+    {% endif %}
 
-    <meta property="og:title" content="Writing about wine girls and planes"/>
-    <meta property="og:description" content="In the website you can find my projects teck and life posts and some info about me"/>
-    <meta property="og:url" content="https://dev.jediyozh.com/en"/>
-    <meta property="og:locale" content="en_US"/>
-    <meta property="og:image" content="https://dev.jediyozh.com/social.png"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:site_name" content="blog of eli levit"/>
+    {% set description = metaDescription %}
+    {% if metaDescription == undefined %}
+      {% set description = site[locale].defaultMeta.description %}
+    {% endif %}
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="{{ title }}">
+    <meta name="description" content="{{ description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ 'https://dev.jediyozh.com/' + locale }}"/>
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:image" content="https://dev.jediyozh.com/social.png">
+    <meta property="og:site_name" content="{{ site[locale].pageTitles.home }}"/>
+    <meta property="og:locale" content="{{ site[locale].langCode }}"/>
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ 'https://dev.jediyozh.com/' + locale }}">
+    <meta property="twitter:title" content="{{ title }}">
+    <meta property="twitter:description" content="{{ description }}">
+    <meta property="twitter:image" content="https://dev.jediyozh.com/social.png">
 
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
 

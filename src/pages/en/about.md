@@ -1,7 +1,7 @@
 ---
-permalink: /{{ locale }}/{{paths.about}}/
+permalink: /{{ locale }}/{{ site.paths.about }}/
 layout: about.njk
-heading: Shalom, buddy and welcome to visit me!
+metaTitle: About me. Eli Levit
 ---
 
 # Shalom, buddy and welcome to visit me!
