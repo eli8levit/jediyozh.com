@@ -38,7 +38,7 @@
   grid-template-columns: 100%;
   grid-row-gap: 16px;
   width: clamp(500px, calc(340px + 17vw), 700px);
-  padding: 35px 42px;
+  padding: 28px 38px;
   border-radius: 15px;
   box-shadow: var(--box-shadow-blog-card);
   background-color: var(--bg-blog-card);
@@ -67,7 +67,7 @@
   line-height: 1.45;
   letter-spacing: -0.1px;
   color: var(--color-text-secondary);
-  font-size: clamp(16px, calc(12px + 0.27vw), 18px);
+  font-size: clamp(16px, calc(12px + 0.3vw), 18px);
   font-weight: 400;
 }
 

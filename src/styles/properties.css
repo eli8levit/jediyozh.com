@@ -11,7 +11,7 @@
   /* background colors */
   --bg-primary: #070707;
   --bg-section: linear-gradient(130deg, #090909, #161616);
-  --bg-blog-card: #212121;
+  --bg-blog-card: #212223;
 
   /* transitions */
   --theme-color-transition: color 0.3s ease-in-out;
