@@ -29,7 +29,7 @@
   line-height: 1.15;
   color: var(--color-text-primary);
   font-size: clamp(50px, calc(25px + 2.9vw), 80px);
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .home-page__sub-heading {
