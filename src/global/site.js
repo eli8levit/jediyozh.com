@@ -19,9 +19,9 @@ module.exports = {
     langCode: 'en_US',
     pageTitles: {
       home: 'Eli Levit',
-      blog: 'Blog of Eli',
-      work: 'Work of Eli',
-      about: 'About Eli',
+      blog: 'Blog. Eli Levit',
+      work: 'Work. Eli Levit',
+      about: 'About Eli Levit',
     },
     header: {
       home: 'Home',
@@ -46,9 +46,9 @@ module.exports = {
     langCode: 'ru_RU',
     pageTitles: {
       home: 'Эли Левит',
-      blog: 'Блог Эли',
-      work: 'Проекты Эли',
-      about: 'Об Эли',
+      blog: 'Блог. Эли Левит',
+      work: 'Проекты. Эли Левит',
+      about: 'Об Эли Левите',
     },
     header: {
       home: 'Главная',

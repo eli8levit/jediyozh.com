@@ -4,7 +4,7 @@ metaTitle: Сделать сайт за один год
 metaDescription: Всего лишь год для того чтоб создать свой сайт и как при это этом нахрен совсем не афигеть
 info: Всего лишь год для того чтоб создать свой сайт и как при это этом нахрен совсем не афигеть
 date: 2020-08-01
-imagePath: /assets/images/dead-sea-tree.jpeg
+imagePath: /assets/images/dead-sea-tree.jpg
 tag: код
 photoDescription: Мертвое море. Сфотографировано мной
 ---

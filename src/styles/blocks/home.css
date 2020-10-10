@@ -28,8 +28,8 @@
 .home-page__heading {
   line-height: 1.15;
   color: var(--color-text-primary);
-  font-size: clamp(50px, calc(25px + 2.9vw), 80px);
-  font-weight: 800;
+  font-size: clamp(50px, calc(28px + 3vw), 90px);
+  font-weight: 700;
 }
 
 .home-page__sub-heading {
@@ -37,7 +37,7 @@
   margin-bottom: 45px;
   color: var(--color-text-primary);
   word-spacing: 3px;
-  font-size: clamp(20px, calc(10px + 1.25vw), 40px);
+  font-size: clamp(20px, calc(10px + 1.25vw), 38px);
   font-weight: 700;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .home-page__logo {
-  max-width: 94px;
+  max-width: 100px;
   margin-left: 5px;
   transition: var(--theme-color-transition);
   transition-property: fill;

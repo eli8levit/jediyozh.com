@@ -14,7 +14,7 @@ h2 {
   line-height: 1.1;
   color: var(--color-text-primary);
   letter-spacing: -0.7px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .about-page h1 {
@@ -34,7 +34,7 @@ h2 {
   color: var(--color-text-primary);
   letter-spacing: -0.7px;
   font-size: 59px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .about-page p {
