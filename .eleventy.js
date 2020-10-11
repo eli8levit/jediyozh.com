@@ -3,11 +3,11 @@ const markdownItAnchor = require('markdown-it-anchor');
 
 module.exports = function (config) {
   config.addCollection('enPosts', function (collection) {
-    return collection.getFilteredByGlob('./src/posts/en/*.md');
+    return collection.getFilteredByGlob('./src/posts/en/**/*.md');
   });
 
   config.addCollection('ruPosts', function (collection) {
-    return collection.getFilteredByGlob('./src/posts/ru/*.md');
+    return collection.getFilteredByGlob('./src/posts/ru/**/*.md');
   });
 
   config.addCollection('projects', function (collection) {
