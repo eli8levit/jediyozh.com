@@ -17,7 +17,7 @@ translationKey: 'blog'
 
       {% if posts | length %}
 
-        {% for post in posts | reverseArticles%}
+        {% for post in posts | reverseArticles %}
 
           <a class="blog-page__post-link" href="{{post.url}}">
             <article class="blog-page__card">
