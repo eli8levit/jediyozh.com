@@ -50,12 +50,6 @@
   font-size: 15px;
 }
 
-.post-page p {
-  margin-bottom: 15px;
-  color: var(--color-text-primary);
-  font-size: clamp(17px, calc(10px + 0.62vw), 21px);
-}
-
 @media (max-width: 768px) {
   .post-page__photo-container {
     margin-bottom: 40px;
@@ -86,9 +80,5 @@
 
   .post-page__article {
     padding: 25px 5vw;
-  }
-
-  .post-page p {
-    font-size: 18px;
   }
 }

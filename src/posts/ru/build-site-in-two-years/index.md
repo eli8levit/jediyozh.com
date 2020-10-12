@@ -4,12 +4,10 @@ metaTitle: Как сделать сайт почти за два года
 metaDescription: Всего лишь год для того чтоб создать свой сайт и как при это этом нахрен совсем не афигеть
 info: Всего лишь год для того чтоб создать свой сайт и как при это этом нахрен совсем не афигеть
 date: 2020-10-01
-imagePath: /assets/images/dead-sea-tree.jpg
+imagePath: /images/dead-sea-tree.jpg
 tag: код
 photoDescription: Мертвое море. Сфотографировано мной
 ---
-
-# Как сделать сайт почти за два года
 
 ## Предистория
 
@@ -19,29 +17,30 @@ photoDescription: Мертвое море. Сфотографировано мн
 
 Первую строчку кода я написал 31 января 2019. Это чуть больше полутора лет назад. Тогда мой дизайн сайта выглядел примерно так:
 
-<img src="images/1.jpg" alt="" />
+<img src="/images/{{ page.fileSlug }}/1.jpg" alt="" />
+
 После этого я понял, что мне надо изучить Sketch и сделать наикрутейший профессиональный дизайн, минимум как у [Рафа](https://rafa.design/) или [Роба Оэена](https://robbowen.digital/). Поэтому я долго и упорно начал стараться над первоначальным макетом (хотя было что-то обворожительное и в этом варианте). С тех пор дизайн менялся n раз. Вот очень краткая эволюция моделирования:
 
-<img src="images/2.jpg" alt="" />
-<img src="images/3.jpg" alt="" />
-<img src="images/4.jpg" alt="" />
-<img src="images/5.jpg" alt="" />
-<img src="images/6.jpg" alt="" />
-<img src="images/7.jpg" alt="" />
-<img src="images/8.jpg" alt="" />
-<img src="images/9.jpg" alt="" />
-<img src="images/10.jpg" alt="" />
-<img src="images/11.jpg" alt="" />
-<img src="images/12.jpg" alt="" />
-<img src="images/13.jpg" alt="" />
+<img src="/images/{{ page.fileSlug }}/2.jpg" alt="" />
+<img src="/images/{{ page.fileSlug }}/3.jpg" alt="" />
+<img src="/images/{{ page.fileSlug }}/4.jpg" alt="" />
+<img src="/images/{{ page.fileSlug }}/5.jpg" alt="" />
+<img src="/images/{{ page.fileSlug }}/6.jpg" alt="" />
+<img src="/images/{{ page.fileSlug }}/7.jpg" alt="" />
+<img src="/images/{{ page.fileSlug }}/8.jpg" alt="" />
+<img src="/images/{{ page.fileSlug }}/9.jpg" alt="" />
+<img src="/images/{{ page.fileSlug }}/10.jpg" alt="" />
+<img src="/images/{{ page.fileSlug }}/11.jpg" alt="" />
+<img src="/images/{{ page.fileSlug }}/12.jpg" alt="" />
+<img src="/images/{{ page.fileSlug }}/13.jpg" alt="" />
 
 Как можно легко догадаться мне нравиться космос, поэтому я хотел подчеркнуть это на сайте. Но в какой то момент мне все это надоело и я решил двигаться в сторону минимализма.
 
-<img src="images/14.jpg" alt="" />
-<img src="images/15.jpg" alt="" />
-<img src="images/16.jpg" alt="" />
-<img src="images/17.jpg" alt="" />
-<img src="images/18.jpg" alt="" />
+<img src="/images/{{ page.fileSlug }}/14.jpg" alt="" />
+<img src="/images/{{ page.fileSlug }}/15.jpg" alt="" />
+<img src="/images/{{ page.fileSlug }}/16.jpg" alt="" />
+<img src="/images/{{ page.fileSlug }}/17.jpg" alt="" />
+<img src="/images/{{ page.fileSlug }}/18.jpg" alt="" />
 
 Последнюю версию я забраковал, из-за сильной идентичностью с Apple и решил вернуться к текущему варианту. Я отобрал примеры с самыми существенными изменениями, между каждым из них было еще около 5 разных копий. Итого мой макет менялся больше 50 раз. А сейчас немного статистики:
 

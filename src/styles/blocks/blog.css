@@ -105,7 +105,7 @@
     width: 100%;
     grid-row-gap: 10px;
     margin: 0 auto;
-    padding: 19px;
+    padding: 17px 19px;
   }
 
   .blog-page__card:hover {
@@ -115,7 +115,7 @@
 
   .blog-page__card-heading {
     opacity: 1;
-    font-size: 18px;
+    font-size: 17px;
     letter-spacing: -0.1px;
   }
 

@@ -43,7 +43,7 @@ module.exports = function (config) {
   config.setLibrary('md', markdownLibrary);
 
   config.addPassthroughCopy('src/styles');
-  config.addPassthroughCopy('src/assets');
+  config.addPassthroughCopy('src/images');
   config.addPassthroughCopy('src/fonts');
   config.addPassthroughCopy('src/index.js');
   config.addPassthroughCopy('src/scripts');
@@ -62,6 +62,6 @@ module.exports = function (config) {
     dataTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
     passthroughFileCopy: true,
-    templateFormats: ['md', 'njk'],
+    templateFormats: ['md', 'njk', 'jpg'],
   };
 };

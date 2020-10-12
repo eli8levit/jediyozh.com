@@ -6,6 +6,7 @@ translationKey: 'blog'
 
 {% block styling %}
   {% include "../styles/blocks/post.css" %}
+  {% include "../styles/blocks/content.css" %}
 {% endblock %}
 
 {% block content %}
@@ -22,7 +23,9 @@ translationKey: 'blog'
         </time>
         <span class="post-page__tag">#{{ tag }}</span>
       </div>
-      {{ content | safe}}
+      <div class="post__content content">
+        {{ content | safe}}
+      </div>
     </div>
   </main>
 {% endblock %}
