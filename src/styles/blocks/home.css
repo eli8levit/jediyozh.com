@@ -28,7 +28,7 @@
 .home-page__heading {
   line-height: 1.15;
   color: var(--color-text-primary);
-  font-size: clamp(50px, calc(28px + 3vw), 90px);
+  font-size: clamp(50px, calc(28px + 3vw), 88px);
   font-weight: 700;
 }
 
@@ -37,7 +37,7 @@
   margin-bottom: 45px;
   color: var(--color-text-primary);
   word-spacing: 3px;
-  font-size: clamp(20px, calc(10px + 1.25vw), 38px);
+  font-size: clamp(20px, calc(10px + 1.25vw), 36px);
   font-weight: 700;
 }
 
