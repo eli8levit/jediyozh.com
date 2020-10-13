@@ -17,30 +17,30 @@ photoDescription: Мертвое море. Сфотографировано мн
 
 Первую строчку кода я написал 31 января 2019. Это чуть больше полутора лет назад. Тогда мой дизайн сайта выглядел примерно так:
 
-<img src="/images/{{ page.fileSlug }}/1.jpg" alt="" />
+<img src="/images/{{ page.fileSlug }}/1.jpg" loading="lazy" alt="" />
 
-После этого я понял, что мне надо изучить Sketch и сделать наикрутейший профессиональный дизайн, минимум как у [Рафа](https://rafa.design/) или [Роба Оэена](https://robbowen.digital/). Поэтому я долго и упорно начал стараться над первоначальным макетом (хотя было что-то обворожительное и в этом варианте). С тех пор дизайн менялся n раз. Вот очень краткая эволюция моделирования:
+После этого я понял, что мне надо изучить Sketch и сделать наикрутейший профессиональный дизайн, минимум как у <a class="text-link" href="https://rafa.design/" target="_blank" rel="noopener noreferrer">Рафа</a> или <a class="text-link" href="https://robbowen.digital/" target="_blank" rel="noopener noreferrer">Роба Оэена</a>. Поэтому я долго и упорно начал стараться над первоначальным макетом (хотя было что-то обворожительное и в этом варианте). С тех пор дизайн менялся n раз. Вот очень краткая эволюция моделирования:
 
-<img src="/images/{{ page.fileSlug }}/2.jpg" alt="" />
-<img src="/images/{{ page.fileSlug }}/3.jpg" alt="" />
-<img src="/images/{{ page.fileSlug }}/4.jpg" alt="" />
-<img src="/images/{{ page.fileSlug }}/5.jpg" alt="" />
-<img src="/images/{{ page.fileSlug }}/6.jpg" alt="" />
-<img src="/images/{{ page.fileSlug }}/7.jpg" alt="" />
-<img src="/images/{{ page.fileSlug }}/8.jpg" alt="" />
-<img src="/images/{{ page.fileSlug }}/9.jpg" alt="" />
-<img src="/images/{{ page.fileSlug }}/10.jpg" alt="" />
-<img src="/images/{{ page.fileSlug }}/11.jpg" alt="" />
-<img src="/images/{{ page.fileSlug }}/12.jpg" alt="" />
-<img src="/images/{{ page.fileSlug }}/13.jpg" alt="" />
+<img src="/images/{{ page.fileSlug }}/2.jpg" loading="lazy" alt="" />
+<img src="/images/{{ page.fileSlug }}/3.jpg" loading="lazy" alt="" />
+<img src="/images/{{ page.fileSlug }}/4.jpg" loading="lazy" alt="" />
+<img src="/images/{{ page.fileSlug }}/5.jpg" loading="lazy" alt="" />
+<img src="/images/{{ page.fileSlug }}/6.jpg" loading="lazy" alt="" />
+<img src="/images/{{ page.fileSlug }}/7.jpg" loading="lazy" alt="" />
+<img src="/images/{{ page.fileSlug }}/8.jpg" loading="lazy" alt="" />
+<img src="/images/{{ page.fileSlug }}/9.jpg" loading="lazy" alt="" />
+<img src="/images/{{ page.fileSlug }}/10.jpg" loading="lazy" alt="" />
+<img src="/images/{{ page.fileSlug }}/11.jpg" loading="lazy" alt="" />
+<img src="/images/{{ page.fileSlug }}/12.jpg" loading="lazy" alt="" />
+<img src="/images/{{ page.fileSlug }}/13.jpg" loading="lazy" alt="" />
 
 Как можно легко догадаться мне нравиться космос, поэтому я хотел подчеркнуть это на сайте. Но в какой то момент мне все это надоело и я решил двигаться в сторону минимализма.
 
-<img src="/images/{{ page.fileSlug }}/14.jpg" alt="" />
-<img src="/images/{{ page.fileSlug }}/15.jpg" alt="" />
-<img src="/images/{{ page.fileSlug }}/16.jpg" alt="" />
-<img src="/images/{{ page.fileSlug }}/17.jpg" alt="" />
-<img src="/images/{{ page.fileSlug }}/18.jpg" alt="" />
+<img src="/images/{{ page.fileSlug }}/14.jpg" loading="lazy" alt="" />
+<img src="/images/{{ page.fileSlug }}/15.jpg" loading="lazy" alt="" />
+<img src="/images/{{ page.fileSlug }}/16.jpg" loading="lazy" alt="" />
+<img src="/images/{{ page.fileSlug }}/17.jpg" loading="lazy" alt="" />
+<img src="/images/{{ page.fileSlug }}/18.jpg" loading="lazy" alt="" />
 
 Последнюю версию я забраковал, из-за сильной идентичностью с Apple и решил вернуться к текущему варианту. Я отобрал примеры с самыми существенными изменениями, между каждым из них было еще около 5 разных копий. Итого мой макет менялся больше 50 раз. А сейчас немного статистики:
 
