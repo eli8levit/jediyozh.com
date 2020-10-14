@@ -28,7 +28,7 @@
 .home-page__heading {
   line-height: 1.15;
   color: var(--color-text-primary);
-  font-size: clamp(50px, calc(28px + 3vw), 88px);
+  font-size: clamp(50px, calc(26px + 3vw), 88px);
   font-weight: 700;
 }
 
@@ -37,15 +37,15 @@
   margin-bottom: 45px;
   color: var(--color-text-primary);
   word-spacing: 3px;
-  font-size: clamp(20px, calc(10px + 1.25vw), 36px);
+  font-size: clamp(20px, calc(10px + 1.2vw), 36px);
   font-weight: 700;
 }
 
 .home-page__bio {
-  max-width: calc(500px + 22vw);
+  max-width: calc(500px + 20vw);
   line-height: 1.5;
   color: var(--color-text-secondary);
-  font-size: clamp(18px, calc(17px + 0.5vw), 29px);
+  font-size: clamp(18px, calc(16px + 0.5vw), 29px);
   font-weight: 400;
 }
 
