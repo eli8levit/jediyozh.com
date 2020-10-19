@@ -1,7 +1,6 @@
 ---
 permalink: /{{ locale }}/{{ site.paths.about }}/
 layout: about.njk
-metaTitle: About me. Eli Levit
 ---
 
 # Shalom, buddy and welcome to visit me!
