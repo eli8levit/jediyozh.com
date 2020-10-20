@@ -15,28 +15,9 @@ translationKey: 'blog'
 
       {% set posts = collections[locale + "Posts"] %}
 
-      {% if posts | length %}
-
-        {% for post in posts | reverseArticles %}
-
-          <a class="blog-page__post-link" href="{{post.url}}">
-            <article class="blog-page__card">
-              <h2 class="blog-page__card-heading">
-                {{post.data.title}}
-              </h2>
-              <p class="blog-page__card-info">
-                {{ post.data.info }}
-              </p>
-              <footer>
-                <time class="blog-page__card-date" datetime="{{ date | isoDate }}" itemprop="datePublished">{{ post.data.date | formatDate(locale) }}</time>
-                <span class="blog-page__card-tag">#{{ post.data.tag }}</span>
-              </footer>
-            </article>
-          </a>
-
-        {% endfor %}
-
-      {% endif %}
+      {% for post in posts | reverseArticles %}
+        {% include "post-card.njk" %}
+      {% endfor %}
 
     </section>
   </main>
