@@ -1,11 +1,11 @@
 .content > * {
-  margin-bottom: min(calc(16px + 2.4vh), 42px);
+  margin-bottom: min(calc(16px + 2.4vh), 50px);
 }
 
 .content > h2,
 .content > h3 {
   margin-bottom: min(calc(6px + 1.2vh), 21px);
-  color: var(--color-text-secondary);
+  color: var(--color-text-primary);
 }
 
 .content > h2 {
@@ -18,7 +18,8 @@
 
 .content > p,
 .content li {
-  color: var(--color-text-primary);
+  color: var(--color-text-secondary);
+  line-height: 1.65;
   font-size: clamp(17px, calc(10px + 0.6vw), 21px);
 }
 

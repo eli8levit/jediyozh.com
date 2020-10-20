@@ -1,0 +1,14 @@
+<a class="blog-page__post-link" {% if not post.disabled %} href="{{ post.url }}" {% endif %}>
+  <article class="blog-page__card">
+    <h2 class="blog-page__card-heading">
+      {{post.data.title}}
+    </h2>
+    <p class="blog-page__card-info">
+      {{ post.data.info }}
+    </p>
+    <footer>
+      <time class="blog-page__card-date" datetime="{{ date | isoDate }}" itemprop="datePublished">{{ post.data.date | formatDate(locale) }}</time>
+      <span class="blog-page__card-tag">#{{ post.data.tag }}</span>
+    </footer>
+  </article>
+</a>
