@@ -41,6 +41,7 @@ module.exports = {
       moreAboutMe: 'More about me',
     },
     footerCreatedWith: 'Created with',
+    inProcessLabel: 'In process...',
   },
   ru: {
     langCode: 'ru_RU',
@@ -69,5 +70,6 @@ module.exports = {
       moreAboutMe: 'Больше обо мне',
     },
     footerCreatedWith: 'Сделано с',
+    inProcessLabel: 'В процессе',
   },
 };
