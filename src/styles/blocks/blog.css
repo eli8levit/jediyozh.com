@@ -43,7 +43,7 @@
   grid-template-columns: 100%;
   grid-row-gap: 14px;
   width: clamp(500px, calc(340px + 17vw), 700px);
-  padding: 26px 35px;
+  padding: 26px 40px;
   border-radius: 15px;
   box-shadow: var(--box-shadow-blog-card);
   background-color: var(--bg-blog-card);

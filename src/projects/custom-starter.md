@@ -1,8 +1,8 @@
 ---
 en:
   title: custom-starter
-  info: 'In each project you need to create same config files or project structure. With CLI tool you simple create git repo with all boilerplate files and packages that you need and use it in any place!'
+  info: 'Instead of create same config files and packages in each project, just use this CLI tool to clone them from your custom repo!'
 ru:
   title: custom-starter
-  info: 'В каждом проекте '
+  info: 'Вместо того, чтобы использовать одни и те же конфиги и пакеты в каждом проекте, используй этот CLI, чтобы просто склонировать их с отдельного репозитория!'
 ---
