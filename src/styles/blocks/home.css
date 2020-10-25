@@ -77,11 +77,11 @@
   }
 
   .home-page__bio {
-    font-size: 19px;
+    font-size: 20px;
   }
 
   .home-page__logo {
-    margin-left: 2px;
+    margin-left: 0;
     width: 62px;
   }
 
