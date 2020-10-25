@@ -45,7 +45,7 @@
   max-width: calc(500px + 20vw);
   line-height: 1.5;
   color: var(--color-text-secondary);
-  font-size: clamp(18px, calc(16px + 0.5vw), 27px);
+  font-size: clamp(18px, calc(16px + 0.5vw), 28px);
   font-weight: 400;
 }
 
@@ -77,7 +77,7 @@
   }
 
   .home-page__bio {
-    font-size: 21px;
+    font-size: 19px;
   }
 
   .home-page__logo {

@@ -11,7 +11,7 @@
   /* background colors */
   --bg-primary: #070707;
   --bg-section: linear-gradient(130deg, #090909, #161616);
-  --bg-blog-card: #212223;
+  --bg-blog-card: #1d1d1ef2;
 
   /* transitions */
   --theme-color-transition: color 0.3s ease-in-out;
@@ -39,7 +39,7 @@
   /* background colors */
   --bg-primary: #ffffff;
   --bg-section: linear-gradient(130deg, #f7f7f7, #ebebeb);
-  --bg-blog-card: #ffffff;
+  --bg-blog-card: #ffffffe0;
 
   /* other */
   --box-shadow-color-blog-card: rgba(12, 12, 13, 0.05);
