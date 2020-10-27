@@ -3,7 +3,7 @@
 ![CSS](https://github.com/jediyozh/jediyozh.com/workflows/CSS/badge.svg)
 
 <div align="center">
-  <h1>Eli Levit's Personal Site</h1>
   <img src="/src/images/social.png" width="300px" alt="Red hedgehog" />
+  <h1>Eli Levit's Personal Site</h1>
 </div>
 <br/>
