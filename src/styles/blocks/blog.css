@@ -41,7 +41,7 @@
   display: grid;
   grid-template-rows: min-content auto auto;
   grid-template-columns: 100%;
-  grid-row-gap: 14px;
+  grid-row-gap: 12px;
   width: clamp(500px, calc(340px + 17vw), 700px);
   min-height: 170px;
   padding: 30px 38px;
@@ -73,7 +73,7 @@
   line-height: 1.45;
   letter-spacing: -0.1px;
   color: var(--color-text-secondary);
-  font-size: clamp(16px, calc(12px + 0.3vw), 18px);
+  font-size: clamp(16px, calc(11px + 0.3vw), 18px);
   font-weight: 400;
 }
 
