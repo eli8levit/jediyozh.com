@@ -100,3 +100,13 @@
     margin-left: auto;
   }
 }
+
+@media (max-width: 374px) {
+  .page-header__list-item {
+    margin: 0 5px;
+  }
+
+  .page-header__link {
+    font-size: 13px;
+  }
+}

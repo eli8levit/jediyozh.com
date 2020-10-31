@@ -88,3 +88,31 @@
     white-space: nowrap;
   }
 }
+
+@media (max-width: 374px) {
+  .home-page {
+    padding: 80px 0;
+  }
+
+  .home-page__heading {
+    font-size: 43px;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+
+  .home-page__heading span {
+    display: block;
+  }
+
+  .home-page__sub-heading {
+    font-size: 22px;
+  }
+
+  .home-page__bio {
+    font-size: 18px;
+  }
+
+  .home-page__logo {
+    width: 55px;
+  }
+}
