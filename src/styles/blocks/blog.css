@@ -112,7 +112,7 @@
     grid-row-gap: 13px;
     min-width: unset;
     min-height: 100%;
-    padding: 25px 4.5vw;
+    padding: 20px 4vw;
     margin: 0;
   }
 
@@ -122,9 +122,9 @@
 
   .blog-page__card {
     width: 100%;
-    grid-row-gap: 8px;
+    grid-row-gap: 7px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 23px;
   }
 
   .blog-page__card:hover {
@@ -134,8 +134,8 @@
 
   .blog-page__card-heading {
     opacity: 1;
-    font-size: 18px;
-    letter-spacing: -0.1px;
+    line-height: 1.3;
+    font-size: 19px;
   }
 
   .blog-page__card-info {
