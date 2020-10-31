@@ -12,7 +12,8 @@ translationKey: 'home'
   <main class="home-page">
     <section class="home-page__container">
       <h1 class="home-page__heading">
-        {{ site[locale].homePage.greeting }}
+        <span>{{ site[locale].homePage.firstName }}</span>
+        {{ site[locale].homePage.lastName }}
         <svg class="home-page__logo" width="calc(56px + 2.1vw)" viewbox="0 0 197 74">
           <defs>
             <radialgradient cx="50%" cy="111.686%" fx="50%" fy="111.686%" r="82.29%" gradienttransform="matrix(0 -1 .44436 0 .004 1.617)" id="a"><stop stop-color="#FFEBEB" offset="0%"/><stop stop-color="#E70000" offset="100%"/></radialgradient>

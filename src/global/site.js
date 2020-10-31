@@ -34,7 +34,8 @@ module.exports = {
       description: 'I try to write tech articles and just thoughts. Love wine. Can move ears',
     },
     homePage: {
-      greeting: 'Eli Levit',
+      firstName: 'Eli',
+      lastName: 'Levit',
       profession: 'Front-end Developer',
       shortBio:
         'The only programmer in Israel who knows CSS besides React and thinks about a11y and performance. I can move my ears. Dream to do something useful.',
@@ -64,10 +65,11 @@ module.exports = {
         'Пытаюсь писать технические статьи и просто мысли. Люблю вино. Умею двигать ушами',
     },
     homePage: {
-      greeting: 'Эли Левит',
+      firstName: 'Эли',
+      lastName: 'Левит',
       profession: 'Фронтенд Разработчик',
       shortBio:
-        'Единственный программист в Израиле, который знает CSS помимо React и думает о доступности и производительности. Умею двигать ушами. Мечтаю сделать что-то полезное.',
+        'Единственный программист в Израиле, который знает CSS помимо React и думает о доступности c производительностью. Умею двигать ушами. Мечтаю сделать что-то полезное.',
       moreAboutMe: 'Больше обо мне',
     },
     footerCreatedWith: 'Сделано с',
