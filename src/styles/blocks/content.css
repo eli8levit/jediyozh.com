@@ -1,5 +1,5 @@
 .content > * {
-  margin-bottom: min(calc(17px + 2.5vh), 50px);
+  margin-bottom: min(calc(16px + 2.5vh), 50px);
 }
 
 .content > h2,
