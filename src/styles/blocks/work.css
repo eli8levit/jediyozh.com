@@ -87,12 +87,12 @@
 
   .work-page__project-list {
     grid-template-rows: max-content auto;
-    grid-gap: 0 40px;
+    grid-gap: 0 25px;
     align-items: start;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     margin: 0;
-    padding: 30px 5vw;
+    padding: 40px 5vw;
     scroll-snap-type: x mandatory;
   }
 
@@ -103,9 +103,9 @@
   .work-page__card {
     grid-row: 2;
     border-radius: 12px;
-    height: 390px;
-    width: 270px;
-    padding: 5px 25px;
+    height: 370px;
+    width: 260px;
+    padding: 5px 20px;
     scroll-snap-align: center;
   }
 

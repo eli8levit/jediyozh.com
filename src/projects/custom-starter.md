@@ -1,8 +1,8 @@
 ---
 en:
   title: custom-starter
-  info: 'In each project you start you need to create and install same files and modules as were in the previous one: configs, linters, dev packages. Maybe you have some saved gists so you go and copy them each time into new projects. It’s tiring and slow…'
+  info: 'Instead of create same config files and packages in each project, just use this CLI tool to clone them from your custom repo!'
 ru:
   title: custom-starter
-  info: 'В каждом проекте тебе надо страдать то или иной фигней чтобы промутить все файлы и вообще быть нормыльным чуваком...'
+  info: 'Вместо того, чтобы использовать одни и те же конфиги и пакеты в каждом проекте, используй этот CLI, чтобы просто склонировать их с отдельного репозитория!'
 ---

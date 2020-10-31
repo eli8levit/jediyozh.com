@@ -1,25 +1,26 @@
 .content > * {
-  margin-bottom: min(calc(16px + 2.4vh), 42px);
+  margin-bottom: min(calc(16px + 2.5vh), 50px);
 }
 
 .content > h2,
 .content > h3 {
   margin-bottom: min(calc(6px + 1.2vh), 21px);
-  color: var(--color-text-secondary);
+  color: var(--color-text-primary);
 }
 
 .content > h2 {
-  font-size: clamp(21px, calc(15px + 0.6vw), 26px);
+  font-size: clamp(21px, calc(14px + 0.6vw), 26px);
 }
 
 .content > h3 {
-  font-size: clamp(18px, calc(12px + 0.6vw), 22px);
+  font-size: clamp(18px, calc(11px + 0.6vw), 22px);
 }
 
 .content > p,
 .content li {
-  color: var(--color-text-primary);
-  font-size: clamp(17px, calc(10px + 0.6vw), 21px);
+  color: var(--color-text-secondary);
+  line-height: 1.65;
+  font-size: clamp(17px, calc(11px + 0.55vw), 21px);
 }
 
 .content ul,
@@ -30,7 +31,7 @@
 
 .content ul > li,
 .content ol > li {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   padding-left: 10px;
 }
 

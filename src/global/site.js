@@ -37,10 +37,12 @@ module.exports = {
       greeting: 'Eli Levit',
       profession: 'Front-end Developer',
       shortBio:
-        'The only programmer in Israel who knows CSS besides React and thinks about accessibility and performance. I can move my ears. Dream to do something useful.',
+        'The only programmer in Israel who knows CSS besides React and thinks about a11y and performance. I can move my ears. Dream to do something useful.',
       moreAboutMe: 'More about me',
     },
     footerCreatedWith: 'Created with',
+    inProcessLabel: 'In process...',
+    seeOnGitHubLabel: 'View on GitHub',
   },
   ru: {
     langCode: 'ru_RU',
@@ -69,5 +71,7 @@ module.exports = {
       moreAboutMe: 'Больше обо мне',
     },
     footerCreatedWith: 'Сделано с',
+    inProcessLabel: 'В процессе',
+    seeOnGitHubLabel: 'Посмотреть на GitHub’e',
   },
 };

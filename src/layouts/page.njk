@@ -21,8 +21,8 @@
     {% include '../styles/blocks/theme-toogler.css' %}
     {% endset %}
 
-    {% set socialTitle = metaTitle %}
-    {% if metaTitle == undefined %}
+    {% set socialTitle = title %}
+    {% if socialTitle == undefined %}
       {% set socialTitle = site[locale].defaultMeta.title %}
     {% endif %}
 
