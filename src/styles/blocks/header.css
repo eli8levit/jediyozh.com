@@ -63,7 +63,7 @@
   transition: none;
 }
 
-.page-header__link:not([href]) {
+.page-header__link--active {
   color: var(--color-text-header-active);
   cursor: default;
   font-weight: 500;
