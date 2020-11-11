@@ -17,3 +17,8 @@
 [[redirects]]
   from = "/"
   to = "/en/"
+
+
+[[redirects]]
+  from = ""
+  to = "/en/"
