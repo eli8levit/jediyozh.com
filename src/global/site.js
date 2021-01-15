@@ -38,7 +38,7 @@ module.exports = {
       lastName: 'Levit',
       profession: 'Front-end Developer',
       shortBio:
-        'The only programmer in Israel who knows CSS besides React and thinks about a11y and performance. I can move my ears. Dream to do something useful.',
+        'One of few in Israel who knows CSS besides React and thinks about a11y and performance. I can move my ears. Dream to do something useful.',
       moreAboutMe: 'More about me',
     },
     footerCreatedWith: 'Created with',
@@ -69,7 +69,7 @@ module.exports = {
       lastName: 'Левит',
       profession: 'Фронтенд Разработчик',
       shortBio:
-        'Единственный программист в Израиле, который знает CSS помимо React и думает о доступности и скорости. Умею двигать ушами. Мечтаю сделать что-то полезное.',
+        'Один из немногих в Израиле, который знает CSS помимо React и думает о доступности и скорости. Умею двигать ушами. Мечтаю сделать что-то полезное.',
       moreAboutMe: 'Больше обо мне',
     },
     footerCreatedWith: 'Сделано с',
